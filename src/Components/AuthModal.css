@@ -9,37 +9,162 @@
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  padding-top: 30px;
 }
 
 .site-icon {
-  width: 50px
+  width: 50px;
+  margin-bottom: 1rem;
 }
 
 .auth-content {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  min-width: 300px;
-  max-width: 400px;
+  background-color: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  min-width: 320px;
+  max-width: 420px;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
 }
 
-.auth-content input,
-.auth-content select {
-  display: block;
-  width: 100%;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
+.auth-content h2 {
+  margin-bottom: 1.8rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #1a1a1a;
 }
 
-.auth-content button {
-  margin-top: 1rem;
-  width: 100%;
-  padding: 0.6rem;
-  background-color: #ff9900;
-  color: white;
-  border: none;
-  border-radius: 6px;
+/* Инпуты и селект */
+.auth-content input[type="text"],
+.auth-content input[type="password"],
+.auth-content input[type="email"]
+ {
+  width: 92%;
+  padding: 0.65rem 1rem;
+  margin-bottom: 1.1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  background-color: #fafafa;
   cursor: pointer;
+}
+.auth-content select{
+  width: 100%;
+  padding: 0.65rem 1rem;
+  margin-bottom: 1.1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+.auth-content input[type="text"]:focus,
+.auth-content input[type="password"]:focus,
+.auth-content select:focus {
+  border-color: #3f83f8;
+  box-shadow: 0 0 6px #3f83f8aa;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Красивый селект с кастомной стрелкой */
+.auth-content select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23666' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 16px;
+  padding-right: 2.5rem;
+}
+
+/* Кнопки */
+.auth-content button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.9rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(90deg, #f9a825, #ffb347);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-content button:hover {
+  background: linear-gradient(90deg, #ffb347, #f9a825);
+}
+
+/* Ошибки */
+.auth-content p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #d32f2f;
+  min-height: 1.2em;
+}
+
+/* Скрытый checkbox и стиль label для "Показать пароль" */
+.auth-content label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: -0.5rem;
+  margin-bottom: 1.1rem;
+  user-select: none;
+  gap: 8px;
+}
+
+.auth-content label input[type="checkbox"] {
+  /* Скрываем checkbox */
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Кастомный квадрат чекбокса */
+.auth-content label span.checkbox-custom {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2.5px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+/* Галочка */
+.auth-content label input[type="checkbox"]:checked + span.checkbox-custom {
+  background-color: #3f83f8;
+  border-color: #3f83f8;
+}
+
+.auth-content label input[type="checkbox"]:checked + span.checkbox-custom::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* Адаптив */
+@media (max-width: 480px) {
+  .auth-content {
+    min-width: 90vw;
+    padding: 2rem 1.2rem;
+  }
 }

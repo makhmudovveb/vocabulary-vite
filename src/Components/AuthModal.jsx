@@ -9,8 +9,6 @@ import "./AuthModal.css";
 
 const TEACHER_ACCOUNTS = {
   "bexzod.mahmudov@gmail.com": { fullName: "Bexzod Mahmudov", role: "teacher", password : "beka123"},
-  "nodira.karimova@gmail.com": { fullName: "Nodira Karimova", role: "teacher" },
-  "main.teacher@gmail.com": { fullName: "Main Teacher", role: "teacher" },
   "admin.mki@gmail.com": {
     fullName: "Admin MKI",
     role: "admin",
@@ -95,13 +93,13 @@ export default function AuthModal({ onAuthSuccess }) {
         />
 
         <select
+        disabledvalue={teacherSelect}
           value={teacherSelect}
           onChange={(e) => setTeacherSelect(e.target.value)}
         >
-          <option value="">-- Select your teacher --</option>
+          <option value="" disabled hidden>-- Select your teacher --</option>
           <option value="Bexzod Mahmudov">Bexzod Mahmudov</option>
-          <option value="Nodira Karimova">Nodira Karimova</option>
-          <option value="Main Teacher">Main Teacher</option>
+          
         </select>
 
         <input
