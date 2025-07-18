@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../Firebase/firebaseConfig";
 import AuthModal from "../Components/AuthModal";
-import "../styles/Landing.css";
+import "../Styles/Landing.css";
 import { BookOpen, Brain, Puzzle, Gamepad, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 
