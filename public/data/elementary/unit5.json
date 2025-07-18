@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "работа",
+      "en": "work",
+      "unit": 5,
+      "pron": "[wɜːk]",
+      "desc": "Activity involving mental or physical effort done to achieve a purpose.",
+      "example": "She goes to work every weekday."
+    },
+    {
+      "ru": "офис",
+      "en": "office",
+      "unit": 5,
+      "pron": "[ˈɒf.ɪs]",
+      "desc": "A room or building where people do business or professional activities.",
+      "example": "He works in a large office downtown."
+    },
+    {
+      "ru": "компьютер",
+      "en": "computer",
+      "unit": 5,
+      "pron": "[kəmˈpjuː.tər]",
+      "desc": "An electronic device for storing and processing data.",
+      "example": "She uses a computer for her design work."
+    },
+    {
+      "ru": "телефон",
+      "en": "phone",
+      "unit": 5,
+      "pron": "[fəʊn]",
+      "desc": "A device used for voice communication over long distances.",
+      "example": "He called his friend on the phone."
+    },
+    {
+      "ru": "интернет",
+      "en": "internet",
+      "unit": 5,
+      "pron": "[ˈɪn.tə.net]",
+      "desc": "A global network connecting millions of computers for communication and data sharing.",
+      "example": "I found the information on the internet."
+    },
+    {
+      "ru": "письмо",
+      "en": "letter",
+      "unit": 5,
+      "pron": "[ˈlet.ər]",
+      "desc": "A written message sent to someone, usually by mail.",
+      "example": "She wrote a letter to her grandmother."
+    },
+    {
+      "ru": "газета",
+      "en": "newspaper",
+      "unit": 5,
+      "pron": "[ˈnjuːzˌpeɪ.pər]",
+      "desc": "A printed publication with news, articles, and advertisements.",
+      "example": "He reads the newspaper every morning."
+    },
+    {
+      "ru": "магазин",
+      "en": "shop",
+      "unit": 5,
+      "pron": "[ʃɒp]",
+      "desc": "A place where goods are sold to customers.",
+      "example": "She went to the shop to buy groceries."
+    },
+    {
+      "ru": "парк",
+      "en": "park",
+      "unit": 5,
+      "pron": "[pɑːk]",
+      "desc": "A public green area for recreation and relaxation.",
+      "example": "They had a picnic in the park."
+    },
+    {
+      "ru": "театр",
+      "en": "theater",
+      "unit": 5,
+      "pron": "[ˈθɪə.tər]",
+      "desc": "A building where plays, movies, or performances are shown.",
+      "example": "We saw a great play at the theater."
+    }
+  ]
+  

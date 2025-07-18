@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "путешествия",
+    "en": "travel",
+    "unit": 9,
+    "pron": "[ˈtrævəl]",
+    "desc": "The act of going from one place to another.",
+    "example": "She loves to travel and explore new countries."
+  },
+  {
+    "ru": "туризм",
+    "en": "tourism",
+    "unit": 9,
+    "pron": "[ˈtʊərɪzəm]",
+    "desc": "The business of providing services to travelers.",
+    "example": "Tourism is an important industry in this region."
+  },
+  {
+    "ru": "отель",
+    "en": "hotel",
+    "unit": 9,
+    "pron": "[həʊˈtɛl]",
+    "desc": "A place where people stay when traveling.",
+    "example": "We booked a hotel near the beach."
+  },
+  {
+    "ru": "путеводитель",
+    "en": "guidebook",
+    "unit": 9,
+    "pron": "[ˈɡaɪdbʊk]",
+    "desc": "A book with information for travelers.",
+    "example": "The guidebook helped us find great places to eat."
+  },
+  {
+    "ru": "бронирование",
+    "en": "booking",
+    "unit": 9,
+    "pron": "[ˈbʊkɪŋ]",
+    "desc": "An arrangement to reserve a service, like a hotel or flight.",
+    "example": "We made a booking online for our trip."
+  },
+  {
+    "ru": "багаж",
+    "en": "luggage",
+    "unit": 9,
+    "pron": "[ˈlʌɡɪdʒ]",
+    "desc": "The bags and suitcases you take on a trip.",
+    "example": "He packed his luggage the night before the flight."
+  },
+  {
+    "ru": "паспорт",
+    "en": "passport",
+    "unit": 9,
+    "pron": "[ˈpɑːspɔːt]",
+    "desc": "An official document for international travel.",
+    "example": "Don't forget your passport when going abroad."
+  },
+  {
+    "ru": "аэропорт",
+    "en": "airport",
+    "unit": 9,
+    "pron": "[ˈɛəpɔːt]",
+    "desc": "A place where planes take off and land.",
+    "example": "We arrived at the airport two hours early."
+  },
+  {
+    "ru": "рейс",
+    "en": "flight",
+    "unit": 9,
+    "pron": "[flaɪt]",
+    "desc": "A journey by air.",
+    "example": "The flight to Paris was delayed."
+  },
+  {
+    "ru": "турист",
+    "en": "tourist",
+    "unit": 9,
+    "pron": "[ˈtʊərɪst]",
+    "desc": "A person who travels for pleasure.",
+    "example": "The city was full of tourists during the summer."
+  }
+]

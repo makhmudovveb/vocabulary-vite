@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "путешествия",
+      "en": "travel",
+      "unit": 5,
+      "pron": "[ˈtræv.əl]",
+      "desc": "The act of going from one place to another, usually over a distance.",
+      "example": "I love to travel and explore new cultures."
+    },
+    {
+      "ru": "туризм",
+      "en": "tourism",
+      "unit": 5,
+      "pron": "[ˈtʊə.rɪ.zəm]",
+      "desc": "The business or activity of traveling for pleasure.",
+      "example": "Tourism is an important part of the local economy."
+    },
+    {
+      "ru": "отель",
+      "en": "hotel",
+      "unit": 5,
+      "pron": "[həʊˈtel]",
+      "desc": "A place where people stay when traveling.",
+      "example": "We stayed in a cozy hotel by the sea."
+    },
+    {
+      "ru": "путеводитель",
+      "en": "guidebook",
+      "unit": 5,
+      "pron": "[ˈɡaɪd.bʊk]",
+      "desc": "A book of information about a place for tourists.",
+      "example": "He read the guidebook before visiting Rome."
+    },
+    {
+      "ru": "бронирование",
+      "en": "booking",
+      "unit": 5,
+      "pron": "[ˈbʊk.ɪŋ]",
+      "desc": "The act of arranging travel or accommodation in advance.",
+      "example": "I made the booking online last night."
+    },
+    {
+      "ru": "багаж",
+      "en": "luggage",
+      "unit": 5,
+      "pron": "[ˈlʌɡ.ɪdʒ]",
+      "desc": "Bags and suitcases you take on a trip.",
+      "example": "Her luggage was lost at the airport."
+    },
+    {
+      "ru": "паспорт",
+      "en": "passport",
+      "unit": 5,
+      "pron": "[ˈpɑːs.pɔːt]",
+      "desc": "An official document allowing a person to travel abroad.",
+      "example": "Don’t forget your passport before leaving!"
+    },
+    {
+      "ru": "аэропорт",
+      "en": "airport",
+      "unit": 5,
+      "pron": "[ˈeə.pɔːt]",
+      "desc": "A place where airplanes take off and land.",
+      "example": "They arrived at the airport two hours early."
+    },
+    {
+      "ru": "рейс",
+      "en": "flight",
+      "unit": 5,
+      "pron": "[flaɪt]",
+      "desc": "A journey made by air.",
+      "example": "Our flight to Paris was delayed."
+    },
+    {
+      "ru": "турист",
+      "en": "tourist",
+      "unit": 5,
+      "pron": "[ˈtʊə.rɪst]",
+      "desc": "A person who travels for pleasure.",
+      "example": "The city was full of tourists in the summer."
+    }
+  ]
+  

@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "город",
+    "en": "city",
+    "unit": 2,
+    "pron": "[ˈsɪti]",
+    "desc": "A large and permanent human settlement.",
+    "example": "New York is a very big city."
+  },
+  {
+    "ru": "посёлок",
+    "en": "town",
+    "unit": 2,
+    "pron": "[taʊn]",
+    "desc": "A human settlement smaller than a city.",
+    "example": "They moved to a small town in France."
+  },
+  {
+    "ru": "деревня",
+    "en": "village",
+    "unit": 2,
+    "pron": "[ˈvɪlɪdʒ]",
+    "desc": "A small group of houses in a country area.",
+    "example": "She was born in a quiet village."
+  },
+  {
+    "ru": "улица",
+    "en": "street",
+    "unit": 2,
+    "pron": "[striːt]",
+    "desc": "A public road in a city or town.",
+    "example": "The shop is across the street."
+  },
+  {
+    "ru": "площадь",
+    "en": "square",
+    "unit": 2,
+    "pron": "[skweə(r)]",
+    "desc": "An open area in a city, often where people gather.",
+    "example": "They met at the central square."
+  },
+  {
+    "ru": "парк",
+    "en": "park",
+    "unit": 2,
+    "pron": "[pɑːk]",
+    "desc": "A large green area in a city for recreation.",
+    "example": "Let's go for a walk in the park."
+  },
+  {
+    "ru": "сад",
+    "en": "garden",
+    "unit": 2,
+    "pron": "[ˈɡɑːdn]",
+    "desc": "A piece of land where flowers or vegetables grow.",
+    "example": "She has a beautiful flower garden."
+  },
+  {
+    "ru": "мост",
+    "en": "bridge",
+    "unit": 2,
+    "pron": "[brɪdʒ]",
+    "desc": "A structure built to cross a river or road.",
+    "example": "We walked over the bridge."
+  },
+  {
+    "ru": "здание",
+    "en": "building",
+    "unit": 2,
+    "pron": "[ˈbɪldɪŋ]",
+    "desc": "A structure with walls and a roof.",
+    "example": "The new building is very tall."
+  },
+  {
+    "ru": "магазин",
+    "en": "shop",
+    "unit": 2,
+    "pron": "[ʃɒp]",
+    "desc": "A place where you can buy goods.",
+    "example": "I need to go to the shop for milk."
+  }
+]

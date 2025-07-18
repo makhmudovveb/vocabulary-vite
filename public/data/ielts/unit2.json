@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "университет",
+      "en": "university",
+      "unit": 2,
+      "pron": "[ˌjuː.nɪˈvɜː.sə.ti]",
+      "desc": "An educational institution for higher learning after high school.",
+      "example": "She is studying biology at the university."
+    },
+    {
+      "ru": "курс",
+      "en": "course",
+      "unit": 2,
+      "pron": "[kɔːs]",
+      "desc": "A set of lessons on a particular subject.",
+      "example": "He enrolled in a programming course."
+    },
+    {
+      "ru": "преподаватель",
+      "en": "instructor",
+      "unit": 2,
+      "pron": "[ɪnˈstrʌk.tər]",
+      "desc": "A person who teaches something, especially in a college or training center.",
+      "example": "The instructor explained the topic clearly."
+    },
+    {
+      "ru": "студент",
+      "en": "student",
+      "unit": 2,
+      "pron": "[ˈstjuː.dənt]",
+      "desc": "A person who is studying at a school or college.",
+      "example": "The student asked a question during class."
+    },
+    {
+      "ru": "лекция",
+      "en": "lecture",
+      "unit": 2,
+      "pron": "[ˈlek.tʃər]",
+      "desc": "A formal talk given to teach a subject, often at university.",
+      "example": "We attended a lecture on world history."
+    },
+    {
+      "ru": "экзаменатор",
+      "en": "examiner",
+      "unit": 2,
+      "pron": "[ɪɡˈzæm.ɪ.nər]",
+      "desc": "A person who gives or grades an examination.",
+      "example": "The examiner asked very difficult questions."
+    },
+    {
+      "ru": "оценка",
+      "en": "grade",
+      "unit": 2,
+      "pron": "[ɡreɪd]",
+      "desc": "A mark given for academic work.",
+      "example": "He got a good grade on his essay."
+    },
+    {
+      "ru": "задание",
+      "en": "task",
+      "unit": 2,
+      "pron": "[tɑːsk]",
+      "desc": "A piece of work to be done, often as part of a job or course.",
+      "example": "Your task is to complete the worksheet."
+    },
+    {
+      "ru": "ответ",
+      "en": "answer",
+      "unit": 2,
+      "pron": "[ˈɑːn.sər]",
+      "desc": "A response to a question.",
+      "example": "She gave the correct answer to the question."
+    },
+    {
+      "ru": "вопрос",
+      "en": "question",
+      "unit": 2,
+      "pron": "[ˈkwes.tʃən]",
+      "desc": "A sentence or phrase used to find out information.",
+      "example": "He asked a difficult question during the lesson."
+    }
+  ]
+  

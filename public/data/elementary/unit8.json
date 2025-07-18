@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "цвет",
+      "en": "color",
+      "unit": 8,
+      "pron": "[ˈkʌl.ər]",
+      "desc": "The quality of an object with respect to light reflected by it, usually described as red, blue, etc.",
+      "example": "My favorite color is blue."
+    },
+    {
+      "ru": "красный",
+      "en": "red",
+      "unit": 8,
+      "pron": "[red]",
+      "desc": "A color at the end of the visible spectrum, resembling the color of blood.",
+      "example": "She wore a bright red dress."
+    },
+    {
+      "ru": "синий",
+      "en": "blue",
+      "unit": 8,
+      "pron": "[bluː]",
+      "desc": "A color between green and violet in the spectrum.",
+      "example": "The sky is blue today."
+    },
+    {
+      "ru": "зелёный",
+      "en": "green",
+      "unit": 8,
+      "pron": "[ɡriːn]",
+      "desc": "The color of grass and leaves.",
+      "example": "He painted the walls green."
+    },
+    {
+      "ru": "жёлтый",
+      "en": "yellow",
+      "unit": 8,
+      "pron": "[ˈjel.əʊ]",
+      "desc": "A bright color like that of the sun or lemons.",
+      "example": "She bought a yellow umbrella."
+    },
+    {
+      "ru": "чёрный",
+      "en": "black",
+      "unit": 8,
+      "pron": "[blæk]",
+      "desc": "The darkest color, resulting from the absence of light.",
+      "example": "He wore black shoes."
+    },
+    {
+      "ru": "белый",
+      "en": "white",
+      "unit": 8,
+      "pron": "[waɪt]",
+      "desc": "The color of snow or milk, opposite of black.",
+      "example": "The paper was plain white."
+    },
+    {
+      "ru": "оранжевый",
+      "en": "orange",
+      "unit": 8,
+      "pron": "[ˈɒr.ɪndʒ]",
+      "desc": "A color between red and yellow in the spectrum.",
+      "example": "The sunset turned the sky orange."
+    },
+    {
+      "ru": "фиолетовый",
+      "en": "purple",
+      "unit": 8,
+      "pron": "[ˈpɜː.pəl]",
+      "desc": "A color made by mixing red and blue.",
+      "example": "She wore a purple scarf."
+    },
+    {
+      "ru": "розовый",
+      "en": "pink",
+      "unit": 8,
+      "pron": "[pɪŋk]",
+      "desc": "A pale red color.",
+      "example": "The flowers were soft pink."
+    }
+  ]
+  

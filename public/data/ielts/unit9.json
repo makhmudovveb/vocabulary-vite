@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "общество",
+      "en": "society",
+      "unit": 9,
+      "pron": "[səˈsaɪ.ə.ti]",
+      "desc": "A group of people living together in an organized way.",
+      "example": "Education plays a key role in modern society."
+    },
+    {
+      "ru": "политика",
+      "en": "politics",
+      "unit": 9,
+      "pron": "[ˈpɒl.ə.tɪks]",
+      "desc": "Activities related to governing or influencing government policy.",
+      "example": "He is very interested in politics and current affairs."
+    },
+    {
+      "ru": "правительство",
+      "en": "government",
+      "unit": 9,
+      "pron": "[ˈɡʌv.ən.mənt]",
+      "desc": "The group of people with authority to govern a country.",
+      "example": "The government introduced a new law last week."
+    },
+    {
+      "ru": "закон",
+      "en": "law",
+      "unit": 9,
+      "pron": "[lɔː]",
+      "desc": "A system of rules created and enforced through social or governmental institutions.",
+      "example": "Everyone must obey the law."
+    },
+    {
+      "ru": "право",
+      "en": "rights",
+      "unit": 9,
+      "pron": "[raɪts]",
+      "desc": "Legal or moral entitlements to have or do something.",
+      "example": "Human rights are protected by international law."
+    },
+    {
+      "ru": "демократия",
+      "en": "democracy",
+      "unit": 9,
+      "pron": "[dɪˈmɒk.rə.si]",
+      "desc": "A system of government by the whole population, usually through elected representatives.",
+      "example": "In a democracy, citizens vote for their leaders."
+    },
+    {
+      "ru": "выборы",
+      "en": "elections",
+      "unit": 9,
+      "pron": "[ɪˈlek.ʃənz]",
+      "desc": "Processes in which people vote to choose leaders or decide issues.",
+      "example": "Presidential elections are held every four years."
+    },
+    {
+      "ru": "партия",
+      "en": "party",
+      "unit": 9,
+      "pron": "[ˈpɑː.ti]",
+      "desc": "A political organization with specific beliefs and goals.",
+      "example": "She is a member of a liberal party."
+    },
+    {
+      "ru": "депутат",
+      "en": "deputy",
+      "unit": 9,
+      "pron": "[ˈdep.jʊ.ti]",
+      "desc": "An elected representative in a legislative body.",
+      "example": "The deputy presented the bill to parliament."
+    },
+    {
+      "ru": "парламент",
+      "en": "parliament",
+      "unit": 9,
+      "pron": "[ˈpɑː.lɪ.mənt]",
+      "desc": "The highest legislative authority in a country.",
+      "example": "The law was debated in parliament."
+    }
+  ]
+  

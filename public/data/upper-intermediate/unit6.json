@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "образование",
+    "en": "education",
+    "unit": 6,
+    "pron": "[ˌɛdjuˈkeɪʃən]",
+    "desc": "The process of receiving or giving systematic instruction, especially at a school or university.",
+    "example": "Education is essential for personal and social development."
+  },
+  {
+    "ru": "университет",
+    "en": "university",
+    "unit": 6,
+    "pron": "[ˌjuːnɪˈvɜːsɪti]",
+    "desc": "An institution of higher education and research.",
+    "example": "She plans to study medicine at the university."
+  },
+  {
+    "ru": "курс",
+    "en": "course",
+    "unit": 6,
+    "pron": "[kɔːs]",
+    "desc": "A set of classes or a plan of study on a particular subject.",
+    "example": "I’m taking a course in digital marketing."
+  },
+  {
+    "ru": "лекция",
+    "en": "lecture",
+    "unit": 6,
+    "pron": "[ˈlɛktʃə]",
+    "desc": "An educational talk to an audience, especially students.",
+    "example": "The professor gave a lecture on ancient history."
+  },
+  {
+    "ru": "экзамен",
+    "en": "exam",
+    "unit": 6,
+    "pron": "[ɪɡˈzæm]",
+    "desc": "A formal test of a person's knowledge or proficiency in a subject.",
+    "example": "He studied all night for his math exam."
+  },
+  {
+    "ru": "стипендия",
+    "en": "scholarship",
+    "unit": 6,
+    "pron": "[ˈskɒləʃɪp]",
+    "desc": "A grant or payment made to support a student's education.",
+    "example": "She received a scholarship for academic excellence."
+  },
+  {
+    "ru": "исследование",
+    "en": "research",
+    "unit": 6,
+    "pron": "[rɪˈsɜːtʃ]",
+    "desc": "Systematic investigation into a subject to establish facts or principles.",
+    "example": "He is conducting research on renewable energy sources."
+  },
+  {
+    "ru": "учёный",
+    "en": "scientist",
+    "unit": 6,
+    "pron": "[ˈsaɪəntɪst]",
+    "desc": "A person who is studying or has expert knowledge in science.",
+    "example": "The scientist discovered a new species of plant."
+  },
+  {
+    "ru": "библиотека",
+    "en": "library",
+    "unit": 6,
+    "pron": "[ˈlaɪbrəri]",
+    "desc": "A place where books and other resources are kept for reading or borrowing.",
+    "example": "I spent the afternoon reading in the library."
+  },
+  {
+    "ru": "квалификация",
+    "en": "qualification",
+    "unit": 6,
+    "pron": "[ˌkwɒlɪfɪˈkeɪʃən]",
+    "desc": "A certificate or skill that makes someone suitable for a particular job or activity.",
+    "example": "You need a teaching qualification to work at that school."
+  }
+]

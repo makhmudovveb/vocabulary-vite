@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "техника",
+      "en": "technology",
+      "unit": 9,
+      "pron": "[tekˈnɒl.ə.dʒi]",
+      "desc": "The use of scientific knowledge for practical purposes.",
+      "example": "Modern technology changes our daily lives."
+    },
+    {
+      "ru": "машина",
+      "en": "machine",
+      "unit": 9,
+      "pron": "[məˈʃiːn]",
+      "desc": "A device with moving parts used to perform tasks.",
+      "example": "The washing machine is broken."
+    },
+    {
+      "ru": "двигатель",
+      "en": "engine",
+      "unit": 9,
+      "pron": "[ˈen.dʒɪn]",
+      "desc": "A machine that converts energy into motion.",
+      "example": "The car's engine is very powerful."
+    },
+    {
+      "ru": "электричество",
+      "en": "electricity",
+      "unit": 9,
+      "pron": "[ɪˌlek.trɪˈsɪt.i]",
+      "desc": "A form of energy used to power devices.",
+      "example": "The storm caused a loss of electricity."
+    },
+    {
+      "ru": "механизм",
+      "en": "mechanism",
+      "unit": 9,
+      "pron": "[ˈmek.ə.nɪ.zəm]",
+      "desc": "A system of parts working together in a machine.",
+      "example": "The clock has a complex mechanism inside."
+    },
+    {
+      "ru": "робот",
+      "en": "robot",
+      "unit": 9,
+      "pron": "[ˈrəʊ.bɒt]",
+      "desc": "A machine designed to do tasks automatically.",
+      "example": "Robots are used in factories to build cars."
+    },
+    {
+      "ru": "автоматизация",
+      "en": "automation",
+      "unit": 9,
+      "pron": "[ˌɔː.təˈmeɪ.ʃən]",
+      "desc": "The use of machines to do tasks without human help.",
+      "example": "Automation reduces the need for manual labor."
+    },
+    {
+      "ru": "программа",
+      "en": "software",
+      "unit": 9,
+      "pron": "[ˈsɒft.weər]",
+      "desc": "The programs and systems used by a computer.",
+      "example": "I installed new software on my laptop."
+    },
+    {
+      "ru": "устройство",
+      "en": "device",
+      "unit": 9,
+      "pron": "[dɪˈvaɪs]",
+      "desc": "An electronic machine or gadget with a function.",
+      "example": "This device can track your fitness activity."
+    },
+    {
+      "ru": "инновация",
+      "en": "innovation",
+      "unit": 9,
+      "pron": "[ˌɪn.əˈveɪ.ʃən]",
+      "desc": "A new idea or method to improve something.",
+      "example": "Innovation drives progress in industry."
+    }
+  ]
+  

@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "стратегия",
+    "en": "strategy",
+    "unit": 1,
+    "pron": "[ˈstrætədʒi]",
+    "desc": "A plan of action designed to achieve a long-term goal.",
+    "example": "The company changed its business strategy to improve sales."
+  },
+  {
+    "ru": "лидер",
+    "en": "leader",
+    "unit": 1,
+    "pron": "[ˈliːdə]",
+    "desc": "A person who guides or directs a group.",
+    "example": "She is a natural leader who inspires others."
+  },
+  {
+    "ru": "команда",
+    "en": "team",
+    "unit": 1,
+    "pron": "[tiːm]",
+    "desc": "A group of people working together to achieve a goal.",
+    "example": "Our team won the competition."
+  },
+  {
+    "ru": "менеджмент",
+    "en": "management",
+    "unit": 1,
+    "pron": "[ˈmænɪdʒmənt]",
+    "desc": "The process of dealing with or controlling things or people.",
+    "example": "Good management is key to a successful company."
+  },
+  {
+    "ru": "проект",
+    "en": "project",
+    "unit": 1,
+    "pron": "[ˈprɒdʒɛkt]",
+    "desc": "A planned piece of work with a specific goal and deadline.",
+    "example": "They completed the construction project on time."
+  },
+  {
+    "ru": "цель",
+    "en": "goal",
+    "unit": 1,
+    "pron": "[ɡəʊl]",
+    "desc": "An aim or desired result.",
+    "example": "Her goal is to become a successful entrepreneur."
+  },
+  {
+    "ru": "задача",
+    "en": "task",
+    "unit": 1,
+    "pron": "[tɑːsk]",
+    "desc": "A piece of work that needs to be done.",
+    "example": "He was assigned a difficult task."
+  },
+  {
+    "ru": "решение",
+    "en": "solution",
+    "unit": 1,
+    "pron": "[səˈluːʃən]",
+    "desc": "A way of solving a problem or dealing with a situation.",
+    "example": "They are looking for a solution to reduce costs."
+  },
+  {
+    "ru": "результат",
+    "en": "result",
+    "unit": 1,
+    "pron": "[rɪˈzʌlt]",
+    "desc": "The outcome of an action or event.",
+    "example": "The result of the test was positive."
+  },
+  {
+    "ru": "успех",
+    "en": "success",
+    "unit": 1,
+    "pron": "[səkˈsɛs]",
+    "desc": "The achievement of a goal or purpose.",
+    "example": "His success is due to hard work and determination."
+  }
+]

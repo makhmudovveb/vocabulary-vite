@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "кошка",
+      "en": "cat",
+      "unit": 2,
+      "pron": "[kæt]",
+      "desc": "A small domesticated carnivorous mammal with soft fur.",
+      "example": "The cat slept on the windowsill."
+    },
+    {
+      "ru": "рыба",
+      "en": "fish",
+      "unit": 2,
+      "pron": "[fɪʃ]",
+      "desc": "A limbless cold-blooded vertebrate animal with gills and fins living in water.",
+      "example": "He caught a big fish in the lake."
+    },
+    {
+      "ru": "птица",
+      "en": "bird",
+      "unit": 2,
+      "pron": "[bɜːd]",
+      "desc": "A warm-blooded egg-laying vertebrate with feathers and wings.",
+      "example": "A bird flew over the trees."
+    },
+    {
+      "ru": "лошадь",
+      "en": "horse",
+      "unit": 2,
+      "pron": "[hɔːs]",
+      "desc": "A large plant-eating domesticated mammal with solid hooves.",
+      "example": "She rode a horse across the field."
+    },
+    {
+      "ru": "река",
+      "en": "river",
+      "unit": 2,
+      "pron": "[ˈrɪv.ər]",
+      "desc": "A large natural stream of water flowing to the sea, a lake, or another river.",
+      "example": "They camped near the river."
+    },
+    {
+      "ru": "озеро",
+      "en": "lake",
+      "unit": 2,
+      "pron": "[leɪk]",
+      "desc": "A large area of water surrounded by land.",
+      "example": "The lake was calm and beautiful."
+    },
+    {
+      "ru": "море",
+      "en": "sea",
+      "unit": 2,
+      "pron": "[siː]",
+      "desc": "A large body of salt water that covers most of the Earth's surface.",
+      "example": "We swam in the warm sea."
+    },
+    {
+      "ru": "солнце",
+      "en": "sun",
+      "unit": 2,
+      "pron": "[sʌn]",
+      "desc": "The star at the center of our solar system that gives us light and heat.",
+      "example": "The sun is shining brightly today."
+    },
+    {
+      "ru": "луна",
+      "en": "moon",
+      "unit": 2,
+      "pron": "[muːn]",
+      "desc": "The natural satellite of the Earth, visible at night by reflected light from the sun.",
+      "example": "The moon was full last night."
+    },
+    {
+      "ru": "небо",
+      "en": "sky",
+      "unit": 2,
+      "pron": "[skaɪ]",
+      "desc": "The region of the atmosphere and outer space seen from the earth.",
+      "example": "Birds flew across the blue sky."
+    }
+  ]
+  

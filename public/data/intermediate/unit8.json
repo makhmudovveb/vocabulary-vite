@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "наука",
+      "en": "science",
+      "unit": 8,
+      "pron": "[ˈsaɪəns]",
+      "desc": "The study of the natural world through observation and experiments.",
+      "example": "Science helps us understand how the universe works."
+    },
+    {
+      "ru": "исследование",
+      "en": "research",
+      "unit": 8,
+      "pron": "[rɪˈsɜːtʃ]",
+      "desc": "A detailed study to discover new information.",
+      "example": "He is doing research on climate change."
+    },
+    {
+      "ru": "эксперимент",
+      "en": "experiment",
+      "unit": 8,
+      "pron": "[ɪkˈsper.ɪ.mənt]",
+      "desc": "A scientific test to learn how something works.",
+      "example": "The experiment proved the theory was correct."
+    },
+    {
+      "ru": "теория",
+      "en": "theory",
+      "unit": 8,
+      "pron": "[ˈθɪə.ri]",
+      "desc": "An idea that explains how something works, based on facts.",
+      "example": "The theory of evolution changed biology."
+    },
+    {
+      "ru": "гипотеза",
+      "en": "hypothesis",
+      "unit": 8,
+      "pron": "[haɪˈpɒθ.ə.sɪs]",
+      "desc": "A possible explanation that can be tested by experiments.",
+      "example": "They tested the hypothesis in the lab."
+    },
+    {
+      "ru": "данные",
+      "en": "data",
+      "unit": 8,
+      "pron": "[ˈdeɪ.tə]",
+      "desc": "Facts or information used for analysis.",
+      "example": "The scientist collected data for the study."
+    },
+    {
+      "ru": "анализ",
+      "en": "analysis",
+      "unit": 8,
+      "pron": "[əˈnæl.ə.sɪs]",
+      "desc": "The detailed study of something to understand it better.",
+      "example": "The analysis revealed important trends."
+    },
+    {
+      "ru": "результат",
+      "en": "result",
+      "unit": 8,
+      "pron": "[rɪˈzʌlt]",
+      "desc": "The outcome of an action or experiment.",
+      "example": "The results confirmed the scientist’s predictions."
+    },
+    {
+      "ru": "вывод",
+      "en": "conclusion",
+      "unit": 8,
+      "pron": "[kənˈkluː.ʒən]",
+      "desc": "A decision or opinion reached after thinking about facts.",
+      "example": "The conclusion of the study was surprising."
+    },
+    {
+      "ru": "публикация",
+      "en": "publication",
+      "unit": 8,
+      "pron": "[ˌpʌb.lɪˈkeɪ.ʃən]",
+      "desc": "A printed or online work that shares information or research.",
+      "example": "Her findings were included in a scientific publication."
+    }
+  ]
+  

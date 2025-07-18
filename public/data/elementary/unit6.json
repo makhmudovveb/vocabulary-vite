@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "семья",
+    "en": "family",
+    "unit": 6,
+    "pron": "[ˈfæm.əl.i]",
+    "desc": "A group of people related by blood, marriage, or adoption.",
+    "example": "She spent the weekend with her family."
+  },
+  {
+    "ru": "друг",
+    "en": "friend",
+    "unit": 6,
+    "pron": "[frend]",
+    "desc": "A person you know well and like.",
+    "example": "He is my best friend since childhood."
+  },
+  {
+    "ru": "любовь",
+    "en": "love",
+    "unit": 6,
+    "pron": "[lʌv]",
+    "desc": "A strong feeling of affection for someone or something.",
+    "example": "They shared a deep love for each other."
+  },
+  {
+    "ru": "праздник",
+    "en": "holiday",
+    "unit": 6,
+    "pron": "[ˈhɒl.ə.deɪ]",
+    "desc": "A special day of celebration or rest.",
+    "example": "Christmas is my favorite holiday."
+  },
+  {
+    "ru": "подарок",
+    "en": "gift",
+    "unit": 6,
+    "pron": "[ɡɪft]",
+    "desc": "Something given to someone without expecting payment.",
+    "example": "She received a beautiful gift for her birthday."
+  },
+  {
+    "ru": "музыка",
+    "en": "music",
+    "unit": 6,
+    "pron": "[ˈmjuː.zɪk]",
+    "desc": "A form of art using sound and rhythm.",
+    "example": "He listens to music every evening."
+  },
+  {
+    "ru": "кино",
+    "en": "movie",
+    "unit": 6,
+    "pron": "[ˈmuː.vi]",
+    "desc": "A story told through moving images shown on a screen.",
+    "example": "We watched a funny movie last night."
+  },
+  {
+    "ru": "спорт",
+    "en": "sport",
+    "unit": 6,
+    "pron": "[spɔːt]",
+    "desc": "A physical activity or game that involves competition.",
+    "example": "Football is the most popular sport in the world."
+  },
+  {
+    "ru": "игра",
+    "en": "game",
+    "unit": 6,
+    "pron": "[ɡeɪm]",
+    "desc": "An activity with rules played for fun or competition.",
+    "example": "They played a board game together."
+  },
+  {
+    "ru": "танец",
+    "en": "dance",
+    "unit": 6,
+    "pron": "[dɑːns]",
+    "desc": "A series of movements to music, often done for enjoyment or performance.",
+    "example": "She performed a traditional dance."
+  }
+]

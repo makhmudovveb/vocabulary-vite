@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "технологии",
+    "en": "technology",
+    "unit": 8,
+    "pron": "[tɛkˈnɒlədʒi]",
+    "desc": "The application of scientific knowledge for practical purposes.",
+    "example": "Modern technology makes communication faster and easier."
+  },
+  {
+    "ru": "инновация",
+    "en": "innovation",
+    "unit": 8,
+    "pron": "[ˌɪnəˈveɪʃən]",
+    "desc": "A new idea or method that improves something.",
+    "example": "Innovation drives progress in every industry."
+  },
+  {
+    "ru": "робототехника",
+    "en": "robotics",
+    "unit": 8,
+    "pron": "[rəʊˈbɒtɪks]",
+    "desc": "The branch of technology dealing with robots.",
+    "example": "Robotics is transforming the manufacturing industry."
+  },
+  {
+    "ru": "программирование",
+    "en": "programming",
+    "unit": 8,
+    "pron": "[ˈprəʊɡræmɪŋ]",
+    "desc": "The process of writing instructions for computers.",
+    "example": "He learned programming to build his own app."
+  },
+  {
+    "ru": "искусственный интеллект",
+    "en": "artificial intelligence",
+    "unit": 8,
+    "pron": "[ˌɑːtɪˈfɪʃəl ɪnˈtɛlɪdʒəns]",
+    "desc": "The simulation of human intelligence by machines.",
+    "example": "Artificial intelligence is used in voice assistants."
+  },
+  {
+    "ru": "данные",
+    "en": "data",
+    "unit": 8,
+    "pron": "[ˈdeɪtə]",
+    "desc": "Facts and statistics collected for analysis.",
+    "example": "The company stores customer data securely."
+  },
+  {
+    "ru": "компьютер",
+    "en": "computer",
+    "unit": 8,
+    "pron": "[kəmˈpjuːtə]",
+    "desc": "An electronic device for storing and processing data.",
+    "example": "She bought a new computer for online classes."
+  },
+  {
+    "ru": "сеть",
+    "en": "network",
+    "unit": 8,
+    "pron": "[ˈnɛtwɜːk]",
+    "desc": "A group of connected computers or systems.",
+    "example": "The office has a wireless network for employees."
+  },
+  {
+    "ru": "сервер",
+    "en": "server",
+    "unit": 8,
+    "pron": "[ˈsɜːvə]",
+    "desc": "A computer that provides data to other computers.",
+    "example": "The website crashed due to a server error."
+  },
+  {
+    "ru": "безопасность",
+    "en": "security",
+    "unit": 8,
+    "pron": "[sɪˈkjʊərɪti]",
+    "desc": "Protection from danger, loss, or crime.",
+    "example": "Cyber security is essential to protect data."
+  }
+]

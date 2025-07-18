@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "погода",
+    "en": "weather",
+    "unit": 4,
+    "pron": "[ˈwɛðə]",
+    "desc": "The state of the atmosphere at a particular place and time.",
+    "example": "The weather today is sunny and warm."
+  },
+  {
+    "ru": "дождь",
+    "en": "rain",
+    "unit": 4,
+    "pron": "[reɪn]",
+    "desc": "Water that falls from the sky in drops.",
+    "example": "It started to rain in the afternoon."
+  },
+  {
+    "ru": "снег",
+    "en": "snow",
+    "unit": 4,
+    "pron": "[snəʊ]",
+    "desc": "Frozen water that falls as white flakes from the sky.",
+    "example": "We had a lot of snow last winter."
+  },
+  {
+    "ru": "ветер",
+    "en": "wind",
+    "unit": 4,
+    "pron": "[wɪnd]",
+    "desc": "Air moving from one place to another.",
+    "example": "The wind blew the leaves off the trees."
+  },
+  {
+    "ru": "туман",
+    "en": "fog",
+    "unit": 4,
+    "pron": "[fɒɡ]",
+    "desc": "A thick cloud of tiny water droplets near the ground.",
+    "example": "The fog made it hard to see the road."
+  },
+  {
+    "ru": "жарко",
+    "en": "hot",
+    "unit": 4,
+    "pron": "[hɒt]",
+    "desc": "Having a high temperature.",
+    "example": "It's too hot to go outside."
+  },
+  {
+    "ru": "холодно",
+    "en": "cold",
+    "unit": 4,
+    "pron": "[kəʊld]",
+    "desc": "Having a low temperature.",
+    "example": "It gets very cold in the mountains."
+  },
+  {
+    "ru": "солнечно",
+    "en": "sunny",
+    "unit": 4,
+    "pron": "[ˈsʌni]",
+    "desc": "Bright with sunlight.",
+    "example": "It will be sunny tomorrow morning."
+  },
+  {
+    "ru": "облачно",
+    "en": "cloudy",
+    "unit": 4,
+    "pron": "[ˈklaʊdi]",
+    "desc": "Covered with clouds; not clear.",
+    "example": "It was cloudy all day long."
+  },
+  {
+    "ru": "гроза",
+    "en": "storm",
+    "unit": 4,
+    "pron": "[stɔːm]",
+    "desc": "A period of violent weather including wind, rain, or thunder.",
+    "example": "The storm damaged several houses."
+  }
+]

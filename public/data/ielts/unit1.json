@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "экзамен",
+      "en": "exam",
+      "unit": 1,
+      "pron": "[ɪɡˈzæm]",
+      "desc": "A formal test to assess someone's knowledge or ability.",
+      "example": "She studied hard for the final exam."
+    },
+    {
+      "ru": "оценка",
+      "en": "score",
+      "unit": 1,
+      "pron": "[skɔːr]",
+      "desc": "The number of points achieved in a test or game.",
+      "example": "He got a high score on the test."
+    },
+    {
+      "ru": "подготовка",
+      "en": "preparation",
+      "unit": 1,
+      "pron": "[ˌprep.ərˈeɪ.ʃən]",
+      "desc": "The process of getting ready for something.",
+      "example": "Her preparation for the exam took weeks."
+    },
+    {
+      "ru": "разговор",
+      "en": "conversation",
+      "unit": 1,
+      "pron": "[ˌkɒn.vəˈseɪ.ʃən]",
+      "desc": "A talk between two or more people.",
+      "example": "We had an interesting conversation about travel."
+    },
+    {
+      "ru": "аудирование",
+      "en": "listening",
+      "unit": 1,
+      "pron": "[ˈlɪs.ən.ɪŋ]",
+      "desc": "The act of paying attention to sound or speech.",
+      "example": "Listening is an important skill in language learning."
+    },
+    {
+      "ru": "чтение",
+      "en": "reading",
+      "unit": 1,
+      "pron": "[ˈriː.dɪŋ]",
+      "desc": "The activity of understanding written words.",
+      "example": "She enjoys reading books every evening."
+    },
+    {
+      "ru": "письмо",
+      "en": "writing",
+      "unit": 1,
+      "pron": "[ˈraɪ.tɪŋ]",
+      "desc": "The activity of forming letters and words on paper or screen.",
+      "example": "Writing essays helps improve your grammar."
+    },
+    {
+      "ru": "говорение",
+      "en": "speaking",
+      "unit": 1,
+      "pron": "[ˈspiː.kɪŋ]",
+      "desc": "The act of talking or expressing thoughts aloud.",
+      "example": "Speaking in English every day builds fluency."
+    },
+    {
+      "ru": "тест",
+      "en": "test",
+      "unit": 1,
+      "pron": "[test]",
+      "desc": "A short examination to measure knowledge or skills.",
+      "example": "We have a vocabulary test on Friday."
+    },
+    {
+      "ru": "результат",
+      "en": "result",
+      "unit": 1,
+      "pron": "[rɪˈzʌlt]",
+      "desc": "The outcome or consequence of an action or event.",
+      "example": "He was happy with his exam result."
+    }
+  ]
+  

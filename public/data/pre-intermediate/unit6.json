@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "спорт",
+    "en": "sport",
+    "unit": 6,
+    "pron": "[spɔːt]",
+    "desc": "Physical activities that involve skill and competition.",
+    "example": "Sport is important for a healthy lifestyle."
+  },
+  {
+    "ru": "футбол",
+    "en": "football",
+    "unit": 6,
+    "pron": "[ˈfʊtbɔːl]",
+    "desc": "A team game where players try to score goals with a ball.",
+    "example": "Football is the most popular sport in many countries."
+  },
+  {
+    "ru": "баскетбол",
+    "en": "basketball",
+    "unit": 6,
+    "pron": "[ˈbɑːskɪtbɔːl]",
+    "desc": "A game where two teams try to score by throwing a ball through a hoop.",
+    "example": "She plays basketball every weekend."
+  },
+  {
+    "ru": "теннис",
+    "en": "tennis",
+    "unit": 6,
+    "pron": "[ˈtɛnɪs]",
+    "desc": "A sport where players hit a ball over a net using rackets.",
+    "example": "Tennis matches can be very intense."
+  },
+  {
+    "ru": "плавание",
+    "en": "swimming",
+    "unit": 6,
+    "pron": "[ˈswɪmɪŋ]",
+    "desc": "The sport or activity of moving through water using your body.",
+    "example": "Swimming is a great full-body workout."
+  },
+  {
+    "ru": "бег",
+    "en": "running",
+    "unit": 6,
+    "pron": "[ˈrʌnɪŋ]",
+    "desc": "The activity of moving quickly on foot.",
+    "example": "Running helps improve heart health."
+  },
+  {
+    "ru": "велосипед",
+    "en": "cycling",
+    "unit": 6,
+    "pron": "[ˈsaɪklɪŋ]",
+    "desc": "The sport or activity of riding a bicycle.",
+    "example": "Cycling is both fun and environmentally friendly."
+  },
+  {
+    "ru": "тренировка",
+    "en": "training",
+    "unit": 6,
+    "pron": "[ˈtreɪnɪŋ]",
+    "desc": "The process of learning and practicing for a sport.",
+    "example": "He has training three times a week."
+  },
+  {
+    "ru": "турнир",
+    "en": "tournament",
+    "unit": 6,
+    "pron": "[ˈtʊənəmənt]",
+    "desc": "A series of games to find the best team or player.",
+    "example": "They won the national tennis tournament."
+  },
+  {
+    "ru": "чемпион",
+    "en": "champion",
+    "unit": 6,
+    "pron": "[ˈtʃæmpiən]",
+    "desc": "A person or team that wins a competition.",
+    "example": "He became the world champion in boxing."
+  }
+]

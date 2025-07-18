@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "книга",
+      "en": "book",
+      "unit": 3,
+      "pron": "[bʊk]",
+      "desc": "A set of written or printed pages bound together.",
+      "example": "She read a book before going to bed."
+    },
+    {
+      "ru": "ручка",
+      "en": "pen",
+      "unit": 3,
+      "pron": "[pen]",
+      "desc": "An instrument used for writing or drawing with ink.",
+      "example": "He signed the document with a pen."
+    },
+    {
+      "ru": "школа",
+      "en": "school",
+      "unit": 3,
+      "pron": "[skuːl]",
+      "desc": "A place where children go to learn.",
+      "example": "The children are at school until 3 PM."
+    },
+    {
+      "ru": "учитель",
+      "en": "teacher",
+      "unit": 3,
+      "pron": "[ˈtiː.tʃər]",
+      "desc": "A person who helps others learn new things.",
+      "example": "The teacher explained the math problem clearly."
+    },
+    {
+      "ru": "студент",
+      "en": "student",
+      "unit": 3,
+      "pron": "[ˈstjuː.dənt]",
+      "desc": "A person who is studying at a school or college.",
+      "example": "The student asked a question during the lecture."
+    },
+    {
+      "ru": "дверь",
+      "en": "door",
+      "unit": 3,
+      "pron": "[dɔːr]",
+      "desc": "A movable barrier used to open and close an entrance.",
+      "example": "She opened the door and walked in."
+    },
+    {
+      "ru": "окно",
+      "en": "window",
+      "unit": 3,
+      "pron": "[ˈwɪn.dəʊ]",
+      "desc": "An opening in the wall that lets in light and air.",
+      "example": "I looked out the window at the rain."
+    },
+    {
+      "ru": "город",
+      "en": "city",
+      "unit": 3,
+      "pron": "[ˈsɪt.i]",
+      "desc": "A large and important town.",
+      "example": "New York is a very big city."
+    },
+    {
+      "ru": "улица",
+      "en": "street",
+      "unit": 3,
+      "pron": "[striːt]",
+      "desc": "A public road in a city or town.",
+      "example": "They walked down the busy street."
+    },
+    {
+      "ru": "машина",
+      "en": "car",
+      "unit": 3,
+      "pron": "[kɑːr]",
+      "desc": "A road vehicle with an engine used for transportation.",
+      "example": "He drives a red car."
+    }
+  ]
+  

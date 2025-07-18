@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "путешествие",
+      "en": "travel",
+      "unit": 3,
+      "pron": "[ˈtræv.əl]",
+      "desc": "The act of going from one place to another, usually for pleasure or work.",
+      "example": "I love to travel to new countries."
+    },
+    {
+      "ru": "туризм",
+      "en": "tourism",
+      "unit": 3,
+      "pron": "[ˈtʊə.rɪ.zəm]",
+      "desc": "The business and activity of people visiting places for pleasure.",
+      "example": "Tourism is a major industry in Italy."
+    },
+    {
+      "ru": "отель",
+      "en": "hotel",
+      "unit": 3,
+      "pron": "[həʊˈtel]",
+      "desc": "A place that provides rooms and meals for travelers.",
+      "example": "We stayed in a five-star hotel in Dubai."
+    },
+    {
+      "ru": "регистрация",
+      "en": "check-in",
+      "unit": 3,
+      "pron": "[ˈtʃek.ɪn]",
+      "desc": "The act of reporting your arrival at a hotel or airport.",
+      "example": "We arrived early for check-in at the airport."
+    },
+    {
+      "ru": "багаж",
+      "en": "luggage",
+      "unit": 3,
+      "pron": "[ˈlʌɡ.ɪdʒ]",
+      "desc": "Bags and suitcases that you take with you when traveling.",
+      "example": "He packed his luggage the night before the trip."
+    },
+    {
+      "ru": "паспорт",
+      "en": "passport",
+      "unit": 3,
+      "pron": "[ˈpɑːs.pɔːt]",
+      "desc": "An official document for international travel and identification.",
+      "example": "Don't forget your passport when you travel abroad."
+    },
+    {
+      "ru": "рейс",
+      "en": "flight",
+      "unit": 3,
+      "pron": "[flaɪt]",
+      "desc": "A journey in an aircraft.",
+      "example": "Their flight was delayed by two hours."
+    },
+    {
+      "ru": "таможня",
+      "en": "customs",
+      "unit": 3,
+      "pron": "[ˈkʌs.təmz]",
+      "desc": "The place where your luggage is checked when you enter a country.",
+      "example": "We were stopped at customs for a routine check."
+    },
+    {
+      "ru": "пассажир",
+      "en": "passenger",
+      "unit": 3,
+      "pron": "[ˈpæs.ən.dʒər]",
+      "desc": "A person who is traveling in a vehicle but not driving it.",
+      "example": "The passenger showed her boarding pass."
+    },
+    {
+      "ru": "аэропорт",
+      "en": "airport",
+      "unit": 3,
+      "pron": "[ˈeə.pɔːt]",
+      "desc": "A place where airplanes take off and land.",
+      "example": "He arrived at the airport two hours before departure."
+    }
+  ]
+  

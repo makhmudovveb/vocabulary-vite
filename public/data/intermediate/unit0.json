@@ -1,0 +1,619 @@
+
+[
+  {
+    "ru": "Аквариум",
+    "en": "aquarium",
+    "unit": "intro",
+    "pron": "/əˈkweəriəm/",
+    "desc": "A place where fish and sea animals are kept for people to see.",
+    "example": "We visited a large aquarium to see sharks and dolphins."
+  },
+  {
+    "ru": "Замок",
+    "en": "castle",
+    "unit": "intro",
+    "pron": "/ˈkɑːsəl/",
+    "desc": "A large, strong building built in the past for protection.",
+    "example": "The castle was built in the 12th century."
+  },
+  {
+    "ru": "Собор",
+    "en": "cathedral",
+    "unit": "intro",
+    "pron": "/kəˈθiːdrəl/",
+    "desc": "A large and important church.",
+    "example": "The cathedral attracts many tourists every year."
+  },
+  {
+    "ru": "Церковь",
+    "en": "church",
+    "unit": "intro",
+    "pron": "/tʃɜːtʃ/",
+    "desc": "A building where Christians pray and worship.",
+    "example": "They go to church every Sunday."
+  },
+  {
+    "ru": "Гавань",
+    "en": "harbour",
+    "unit": "intro",
+    "pron": "/ˈhɑːbə(r)/",
+    "desc": "A place where boats and ships stay safe near land.",
+    "example": "Fishing boats were docked in the harbour."
+  },
+  {
+    "ru": "Рынок",
+    "en": "market",
+    "unit": "intro",
+    "pron": "/ˈmɑːkɪt/",
+    "desc": "A place where people buy and sell things.",
+    "example": "We bought fresh vegetables at the market."
+  },
+  {
+    "ru": "Памятник",
+    "en": "monument",
+    "unit": "intro",
+    "pron": "/ˈmɒnjumənt/",
+    "desc": "A statue or building made to remember an important event or person.",
+    "example": "They built a monument in memory of the soldiers."
+  },
+  {
+    "ru": "Мечеть",
+    "en": "mosque",
+    "unit": "intro",
+    "pron": "/mɒsk/",
+    "desc": "A building where Muslims pray and worship.",
+    "example": "The mosque was beautifully decorated for the holiday."
+  },
+  {
+    "ru": "Музей",
+    "en": "museum",
+    "unit": "intro",
+    "pron": "/mjuˈziːəm/",
+    "desc": "A place where historical or interesting things are shown.",
+    "example": "The museum has a collection of ancient tools."
+  },
+  {
+    "ru": "Национальный парк",
+    "en": "national park",
+    "unit": "intro",
+    "pron": "/ˌnæʃnəl ˈpɑːk/",
+    "desc": "A large area of land protected for nature and wildlife.",
+    "example": "We saw bears and deer in the national park."
+  },
+  {
+    "ru": "Старый город",
+    "en": "old town",
+    "unit": "intro",
+    "pron": "/əʊld taʊn/",
+    "desc": "The historic part of a city, usually with old buildings.",
+    "example": "We walked through the narrow streets of the old town."
+  },
+  {
+    "ru": "Оперный театр",
+    "en": "opera house",
+    "unit": "intro",
+    "pron": "/ˈɒprə haʊs/",
+    "desc": "A building for performances of opera and classical music.",
+    "example": "We bought tickets to see a concert at the opera house."
+  },
+  {
+    "ru": "Дворец",
+    "en": "palace",
+    "unit": "intro",
+    "pron": "/ˈpælɪs/",
+    "desc": "A very large, beautiful house for kings or queens.",
+    "example": "The queen lives in a beautiful palace."
+  },
+  {
+    "ru": "Парк",
+    "en": "park",
+    "unit": "intro",
+    "pron": "/pɑːk/",
+    "desc": "A green area with trees and space for people to relax.",
+    "example": "Children were playing in the park."
+  },
+  {
+    "ru": "Ресторан",
+    "en": "restaurant",
+    "unit": "intro",
+    "pron": "/ˈrest(ə)rɒnt/",
+    "desc": "A place where people eat meals that are prepared and served.",
+    "example": "We had dinner at an Italian restaurant."
+  },
+  {
+    "ru": "Руины",
+    "en": "ruins",
+    "unit": "intro",
+    "pron": "/ˈruːɪnz/",
+    "desc": "The remains of a destroyed building or structure.",
+    "example": "We explored the ruins of the old castle."
+  },
+  {
+    "ru": "Торговый район",
+    "en": "shopping district",
+    "unit": "intro",
+    "pron": "/ˈʃɒpɪŋ ˈdɪstrɪkt/",
+    "desc": "An area with many shops close together.",
+    "example": "This shopping district has many famous brand stores."
+  },
+  {
+    "ru": "Площадь",
+    "en": "square",
+    "unit": "intro",
+    "pron": "/skweə(r)/",
+    "desc": "A large open area in a town, often with buildings around it.",
+    "example": "The concert will be held in the main square."
+  },
+  {
+    "ru": "Статуя",
+    "en": "statue",
+    "unit": "intro",
+    "pron": "/ˈstætʃuː/",
+    "desc": "A figure made of stone, wood, or metal to look like a person or animal.",
+    "example": "There is a statue of a famous poet in the park."
+  },
+  {
+    "ru": "Театр",
+    "en": "theatre",
+    "unit": "intro",
+    "pron": "/ˈθɪətə(r)/",
+    "desc": "A place where plays or shows are performed.",
+    "example": "We watched a comedy at the theatre last night."
+  },
+  {
+    "ru": "Башня",
+    "en": "tower",
+    "unit": "intro",
+    "pron": "/ˈtaʊə(r)/",
+    "desc": "A tall, narrow building.",
+    "example": "The bell rang loudly from the tower."
+  },
+  {
+    "ru": "Парк дикой природы",
+    "en": "wildlife park",
+    "unit": "intro",
+    "pron": "/ˈwaɪldlaɪf pɑːk/",
+    "desc": "A place where wild animals live and can be seen safely.",
+    "example": "We saw lions and giraffes in the wildlife park."
+  },
+  {
+    "ru": "Зоопарк",
+    "en": "zoo",
+    "unit": "intro",
+    "pron": "/zuː/",
+    "desc": "A place where animals are kept for people to see.",
+    "example": "The zoo has a new panda exhibit."
+  },
+  {
+    "ru": "Сельская местность",
+    "en": "countryside",
+    "unit": "intro",
+    "pron": "/ˈkʌntrisaɪd/",
+    "desc": "Land with fields, forests, and farms, not in cities.",
+    "example": "I enjoy walking in the peaceful countryside."
+  },
+  {
+    "ru": "Пляж",
+    "en": "beach",
+    "unit": "intro",
+    "pron": "/biːtʃ/",
+    "desc": "A sandy or rocky area by the sea.",
+    "example": "We spent all day relaxing on the beach."
+  },
+  {
+    "ru": "Экскурсия",
+    "en": "excursion",
+    "unit": "intro",
+    "pron": "/ɪkˈskɜːʃn/",
+    "desc": "A short trip for fun or learning.",
+    "example": "We went on a school excursion to the museum."
+  },
+  {
+    "ru": "Каякинг",
+    "en": "kayaking",
+    "unit": "intro",
+    "pron": "/ˈkaɪækɪŋ/",
+    "desc": "The activity of paddling a small boat (kayak).",
+    "example": "They went kayaking on the river."
+  },
+  {
+    "ru": "Тематический парк",
+    "en": "theme park",
+    "unit": "intro",
+    "pron": "/ˈθiːm pɑːk/",
+    "desc": "A fun park with rides and attractions.",
+    "example": "The children were excited to visit the theme park."
+  },
+  {
+    "ru": "Спуск на верёвке",
+    "en": "abseiling",
+    "unit": "intro",
+    "pron": "/ˈæbseɪlɪŋ/",
+    "desc": "Going down a cliff or building with a rope.",
+    "example": "We tried abseiling during our adventure holiday."
+  },
+  {
+    "ru": "Прогулка на лодке",
+    "en": "boat trip",
+    "unit": "intro",
+    "pron": "/bəʊt trɪp/",
+    "desc": "A short journey on a boat.",
+    "example": "They took a boat trip along the coast."
+  },
+  {
+    "ru": "Настольные игры",
+    "en": "board games",
+    "unit": "intro",
+    "pron": "/bɔːd ɡeɪmz/",
+    "desc": "Games played on a board, like chess or Monopoly.",
+    "example": "We played board games all evening with friends."
+  },
+  {
+    "ru": "Сувениры",
+    "en": "souvenirs",
+    "unit": "intro",
+    "pron": "/ˌsuːvəˈnɪəz/",
+    "desc": "Small gifts or items bought to remember a place.",
+    "example": "She bought some souvenirs from Paris."
+  },
+  {
+    "ru": "Загар",
+    "en": "sunbathing",
+    "unit": "intro",
+    "pron": "/ˈsʌnbeɪðɪŋ/",
+    "desc": "Lying in the sun to get warm or tan.",
+    "example": "We spent the afternoon sunbathing on the beach."
+  },
+  {
+    "ru": "Чем занимаешься?",
+    "en": "what are you up to?",
+    "unit": "intro",
+    "pron": "/wɒt ə juː ʌp tuː/",
+    "desc": "What are you doing?",
+    "example": "Hey! What are you up to this weekend?"
+  },
+  {
+    "ru": "Заниматься чем-то",
+    "en": "to get up to something",
+    "unit": "intro",
+    "pron": "/tuː ɡet ʌp tuː ˈsʌmθɪŋ/",
+    "desc": "To be doing something, often something secret or naughty.",
+    "example": "The kids were getting up to something in the kitchen."
+  },
+  {
+    "ru": "Как дела?",
+    "en": "what’s up?",
+    "unit": "intro",
+    "pron": "/wɒts ʌp/",
+    "desc": "How are you? / What’s happening?",
+    "example": "Hey, what’s up? You look worried."
+  },
+  {
+    "ru": "Как идёт?",
+    "en": "how’s it going?",
+    "unit": "intro",
+    "pron": "/haʊz ɪt ˈɡəʊɪŋ/",
+    "desc": "How are you?",
+    "example": "Hi John! How’s it going?"
+  },
+  {
+    "ru": "Что нового?",
+    "en": "what’s popping?",
+    "unit": "intro",
+    "pron": "/wɒts ˈpɒpɪŋ/",
+    "desc": "A slang way to ask what’s happening.",
+    "example": "Yo, what’s popping?"
+  },
+  {
+    "ru": "Тусоваться / проводить время",
+    "en": "to hang out",
+    "unit": "intro",
+    "pron": "/tuː hæŋ aʊt/",
+    "desc": "To spend time relaxing with friends.",
+    "example": "They love to hang out at the mall after school."
+  },
+  {
+    "ru": "Нанимать / арендовать",
+    "en": "to hire",
+    "unit": "intro",
+    "pron": "/tuː ˈhaɪə(r)/",
+    "desc": "To pay someone for a job or to rent something.",
+    "example": "We hired a car for our trip."
+  },
+  {
+    "ru": "Ценный",
+    "en": "valuable",
+    "unit": "intro",
+    "pron": "/ˈvæljuəbl/",
+    "desc": "Worth a lot of money or important.",
+    "example": "Keep your valuable items in a safe place."
+  },
+  {
+    "ru": "Физкультура",
+    "en": "P.E.",
+    "unit": "intro",
+    "pron": "/ˌpiːˈiː/",
+    "desc": "Classes where students do sports and physical activities.",
+    "example": "P.E. is my favorite subject at school."
+  },
+  {
+    "ru": "Спортивная форма",
+    "en": "sports kit",
+    "unit": "intro",
+    "pron": "/spɔːts kɪt/",
+    "desc": "Clothes and equipment for playing sports.",
+    "example": "Don’t forget your sports kit for the match!"
+  },
+  {
+    "ru": "В хорошей форме",
+    "en": "fit",
+    "unit": "intro",
+    "pron": "/fɪt/",
+    "desc": "Healthy and strong.",
+    "example": "She runs every day to stay fit."
+  },
+  {
+    "ru": "Как жаль",
+    "en": "that's a shame",
+    "unit": "intro",
+    "pron": "/ðæts ə ʃeɪm/",
+    "desc": "Something unfortunate or disappointing.",
+    "example": "Oh, that’s a shame. I really wanted to go."
+  },
+  {
+    "ru": "Мне всё равно",
+    "en": "I don't mind",
+    "unit": "intro",
+    "pron": "/aɪ dəʊnt maɪnd/",
+    "desc": "I don't have a preference.",
+    "example": "Do you want tea or coffee? – I don’t mind."
+  },
+  {
+    "ru": "Повторять",
+    "en": "to revise",
+    "unit": "intro",
+    "pron": "/tuː rɪˈvaɪz/",
+    "desc": "To study again or review.",
+    "example": "You should revise before the exam."
+  },
+  {
+    "ru": "Организовать",
+    "en": "to arrange",
+    "unit": "intro",
+    "pron": "/tuː əˈreɪndʒ/",
+    "desc": "To organize or plan something.",
+    "example": "I’ll arrange a meeting for next week."
+  },
+  {
+    "ru": "Привычка",
+    "en": "habit",
+    "unit": "intro",
+    "pron": "/ˈhæbɪt/",
+    "desc": "Something you do regularly or automatically.",
+    "example": "Biting your nails is a bad habit."
+  },
+  {
+    "ru": "Рутина",
+    "en": "routine",
+    "unit": "intro",
+    "pron": "/ruːˈtiːn/",
+    "desc": "A regular way of doing things.",
+    "example": "My morning routine includes a run and a shower."
+  },
+  {
+    "ru": "Раздражающий",
+    "en": "annoying",
+    "unit": "intro",
+    "pron": "/əˈnɔɪɪŋ/",
+    "desc": "Something that bothers or irritates you.",
+    "example": "The noise from the street is really annoying."
+  },
+  {
+    "ru": "Поведение",
+    "en": "behaviour",
+    "unit": "intro",
+    "pron": "/bɪˈheɪvjə(r)/",
+    "desc": "The way someone acts.",
+    "example": "Her behaviour in class was excellent."
+  },
+  {
+    "ru": "Постоянный",
+    "en": "permanent",
+    "unit": "intro",
+    "pron": "/ˈpɜːmənənt/",
+    "desc": "Lasting for a long time or forever.",
+    "example": "He got a permanent job last year."
+  },
+  {
+    "ru": "Расписание",
+    "en": "schedule",
+    "unit": "intro",
+    "pron": "/ˈʃedjuːl/",
+    "desc": "A plan or list of things to be done.",
+    "example": "Check your schedule for today’s meetings."
+  },
+  {
+    "ru": "Одолжить",
+    "en": "to borrow",
+    "unit": "intro",
+    "pron": "/tuː ˈbɒrəʊ/",
+    "desc": "To take something for a short time with permission.",
+    "example": "Can I borrow your pen for a moment?"
+  },
+  {
+    "ru": "Прибыть",
+    "en": "to arrive",
+    "unit": "intro",
+    "pron": "/tuː əˈraɪv/",
+    "desc": "To reach a place.",
+    "example": "The train will arrive at 6 PM."
+  },
+  {
+    "ru": "Поторопись",
+    "en": "hurry up",
+    "unit": "intro",
+    "pron": "/ˈhʌri ʌp/",
+    "desc": "To do something quickly.",
+    "example": "Hurry up or we’ll be late!"
+  },
+  {
+    "ru": "Принадлежать",
+    "en": "to belong",
+    "unit": "intro",
+    "pron": "/tuː bɪˈlɒŋ/",
+    "desc": "To be the property of someone or something.",
+    "example": "This book belongs to my sister."
+  },
+  {
+    "ru": "Предпочитать",
+    "en": "to prefer",
+    "unit": "intro",
+    "pron": "/tuː prɪˈfɜː(r)/",
+    "desc": "To like one thing more than another.",
+    "example": "I prefer tea to coffee."
+  },
+  {
+    "ru": "Прерывать",
+    "en": "to interrupt",
+    "unit": "intro",
+    "pron": "/tuː ˌɪntəˈrʌpt/",
+    "desc": "To stop someone while they are speaking or doing something.",
+    "example": "Please don’t interrupt me while I’m speaking."
+  },
+  {
+    "ru": "Хотеть сделать что-то",
+    "en": "to fancy doing something",
+    "unit": "intro",
+    "pron": "/tuː ˈfænsi ˈduːɪŋ ˈsʌmθɪŋ/",
+    "desc": "To want to do something or feel like doing something.",
+    "example": "Do you fancy going to the cinema tonight?"
+  },
+  {
+    "ru": "Прогноз",
+    "en": "forecast",
+    "unit": "intro",
+    "pron": "/ˈfɔːkɑːst/",
+    "desc": "A prediction of future weather or events.",
+    "example": "The weather forecast says it will rain tomorrow."
+  },
+  {
+    "ru": "Исчерпанный",
+    "en": "exhausted",
+    "unit": "intro",
+    "pron": "/ɪɡˈzɔːstɪd/",
+    "desc": "Very tired.",
+    "example": "After a long day at work, I felt exhausted."
+  },
+  {
+    "ru": "Скрипка",
+    "en": "violin",
+    "unit": "intro",
+    "pron": "/ˌvaɪəˈlɪn/",
+    "desc": "A string instrument played with a bow.",
+    "example": "She plays the violin in the school orchestra."
+  },
+  {
+    "ru": "Бухгалтер",
+    "en": "accountant",
+    "unit": "intro",
+    "pron": "/əˈkaʊntənt/",
+    "desc": "A person who manages financial records and accounts.",
+    "example": "My uncle works as an accountant in a big company."
+  },
+  {
+    "ru": "Угадка",
+    "en": "a guess",
+    "unit": "intro",
+    "pron": "/ə ɡes/",
+    "desc": "An idea or answer you say without being sure.",
+    "example": "I don’t know the answer – it’s just a guess."
+  },
+  {
+    "ru": "Спелеология",
+    "en": "caving",
+    "unit": "intro",
+    "pron": "/ˈkeɪvɪŋ/",
+    "desc": "The activity of exploring caves.",
+    "example": "Caving can be dangerous without proper equipment."
+  },
+  {
+    "ru": "Нервничать",
+    "en": "nervous",
+    "unit": "intro",
+    "pron": "/ˈnɜːvəs/",
+    "desc": "Feeling anxious or worried.",
+    "example": "She was nervous before her interview."
+  },
+  {
+    "ru": "Глубокий",
+    "en": "deep",
+    "unit": "intro",
+    "pron": "/diːp/",
+    "desc": "Extending far down or inward.",
+    "example": "The lake is very deep in the middle."
+  },
+  {
+    "ru": "Очаровательный",
+    "en": "fascinating",
+    "unit": "intro",
+    "pron": "/ˈfæsɪneɪtɪŋ/",
+    "desc": "Very interesting or exciting.",
+    "example": "Space is a fascinating subject to study."
+  },
+  {
+    "ru": "Исследовать",
+    "en": "explore",
+    "unit": "intro",
+    "pron": "/ɪkˈsplɔː(r)/",
+    "desc": "To go and look for new places or things.",
+    "example": "They love to explore new cities when they travel."
+  },
+  {
+    "ru": "Открывать",
+    "en": "discover",
+    "unit": "intro",
+    "pron": "/dɪˈskʌvə(r)/",
+    "desc": "To find something for the first time.",
+    "example": "Scientists discovered a new species of fish."
+  },
+  {
+    "ru": "Экспедиция",
+    "en": "expedition",
+    "unit": "intro",
+    "pron": "/ˌekspəˈdɪʃn/",
+    "desc": "A journey or trip, usually for a specific purpose.",
+    "example": "They went on an expedition to the Arctic."
+  },
+  {
+    "ru": "Погружение",
+    "en": "dive",
+    "unit": "intro",
+    "pron": "/daɪv/",
+    "desc": "To jump or plunge into water.",
+    "example": "He took a dive into the swimming pool."
+  },
+  {
+    "ru": "Грязь",
+    "en": "mud",
+    "unit": "intro",
+    "pron": "/mʌd/",
+    "desc": "Soft, wet earth.",
+    "example": "The children played in the mud after the rain."
+  },
+  {
+    "ru": "Одолжить",
+    "en": "lend",
+    "unit": "intro",
+    "pron": "/lend/",
+    "desc": "To give something to someone for a short time.",
+    "example": "Can you lend me a pencil?"
+  },
+  {
+    "ru": "Ваучер",
+    "en": "voucher",
+    "unit": "intro",
+    "pron": "/ˈvaʊtʃə(r)/",
+    "desc": "A document that gives you a discount or free item.",
+    "example": "I have a voucher for a free meal at the café."
+  }
+]

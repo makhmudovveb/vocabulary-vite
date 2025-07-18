@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "культура",
+    "en": "culture",
+    "unit": 10,
+    "pron": "[ˈkʌltʃə]",
+    "desc": "The customs, arts, and social institutions of a group or society.",
+    "example": "She is interested in Japanese culture."
+  },
+  {
+    "ru": "музыка",
+    "en": "music",
+    "unit": 10,
+    "pron": "[ˈmjuːzɪk]",
+    "desc": "Vocal or instrumental sounds combined to produce harmony.",
+    "example": "He listens to classical music every evening."
+  },
+  {
+    "ru": "искусство",
+    "en": "art",
+    "unit": 10,
+    "pron": "[ɑːt]",
+    "desc": "Creative expression such as painting, drawing, or sculpture.",
+    "example": "Modern art can be difficult to understand."
+  },
+  {
+    "ru": "литература",
+    "en": "literature",
+    "unit": 10,
+    "pron": "[ˈlɪtərətʃə]",
+    "desc": "Written works, especially those considered of superior quality.",
+    "example": "She is studying English literature at university."
+  },
+  {
+    "ru": "театр",
+    "en": "theater",
+    "unit": 10,
+    "pron": "[ˈθɪətə]",
+    "desc": "A place where plays and performances are shown.",
+    "example": "We watched a play at the theater last night."
+  },
+  {
+    "ru": "кино",
+    "en": "movie",
+    "unit": 10,
+    "pron": "[ˈmuːvi]",
+    "desc": "A story told using moving images on a screen.",
+    "example": "That was the best movie I've seen this year."
+  },
+  {
+    "ru": "танец",
+    "en": "dance",
+    "unit": 10,
+    "pron": "[dɑːns]",
+    "desc": "A series of movements to music, often for entertainment.",
+    "example": "They performed a traditional folk dance."
+  },
+  {
+    "ru": "фестиваль",
+    "en": "festival",
+    "unit": 10,
+    "pron": "[ˈfɛstɪvəl]",
+    "desc": "A special event or celebration, often cultural or religious.",
+    "example": "The music festival attracts thousands of visitors."
+  },
+  {
+    "ru": "традиция",
+    "en": "tradition",
+    "unit": 10,
+    "pron": "[trəˈdɪʃən]",
+    "desc": "Beliefs or customs passed down through generations.",
+    "example": "Celebrating New Year is a family tradition."
+  },
+  {
+    "ru": "национальный",
+    "en": "national",
+    "unit": 10,
+    "pron": "[ˈnæʃənəl]",
+    "desc": "Relating to a nation or country.",
+    "example": "The national flag was raised during the ceremony."
+  }
+]

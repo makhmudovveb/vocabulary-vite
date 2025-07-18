@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "образование",
+      "en": "education",
+      "unit": 5,
+      "pron": "[ˌedʒ.uˈkeɪ.ʃən]",
+      "desc": "The process of gaining knowledge, skills, and development through learning.",
+      "example": "Education is essential for success."
+    },
+    {
+      "ru": "университет",
+      "en": "university",
+      "unit": 5,
+      "pron": "[ˌjuː.nɪˈvɜː.sə.ti]",
+      "desc": "An institution of higher learning offering degrees and research.",
+      "example": "She is studying medicine at the university."
+    },
+    {
+      "ru": "студент",
+      "en": "student",
+      "unit": 5,
+      "pron": "[ˈstjuː.dənt]",
+      "desc": "A person who is enrolled in a school, college, or university.",
+      "example": "The student passed the exam with high marks."
+    },
+    {
+      "ru": "курс",
+      "en": "course",
+      "unit": 5,
+      "pron": "[kɔːs]",
+      "desc": "A set of lessons or lectures on a subject.",
+      "example": "He is taking a course in graphic design."
+    },
+    {
+      "ru": "экзамен",
+      "en": "exam",
+      "unit": 5,
+      "pron": "[ɪɡˈzæm]",
+      "desc": "A formal test of a person's knowledge or skills.",
+      "example": "The final exam was very difficult."
+    },
+    {
+      "ru": "преподаватель",
+      "en": "teacher",
+      "unit": 5,
+      "pron": "[ˈtiː.tʃər]",
+      "desc": "A person who helps students to acquire knowledge.",
+      "example": "The teacher explained the grammar rules clearly."
+    },
+    {
+      "ru": "лекция",
+      "en": "lecture",
+      "unit": 5,
+      "pron": "[ˈlek.tʃər]",
+      "desc": "An educational talk given to an audience or class.",
+      "example": "He gave a lecture on world history."
+    },
+    {
+      "ru": "задание",
+      "en": "assignment",
+      "unit": 5,
+      "pron": "[əˈsaɪn.mənt]",
+      "desc": "A piece of work or task given to students.",
+      "example": "I need to finish my assignment by tomorrow."
+    },
+    {
+      "ru": "оценка",
+      "en": "grade",
+      "unit": 5,
+      "pron": "[ɡreɪd]",
+      "desc": "A mark or score showing a student’s performance.",
+      "example": "She received the highest grade in class."
+    },
+    {
+      "ru": "наука",
+      "en": "science",
+      "unit": 5,
+      "pron": "[ˈsaɪ.əns]",
+      "desc": "The study of the physical and natural world through observation and experiments.",
+      "example": "He is interested in space and science."
+    }
+  ]
+  

@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "наука",
+      "en": "science",
+      "unit": 10,
+      "pron": "[ˈsaɪ.əns]",
+      "desc": "The study of the natural world through observation and experiment.",
+      "example": "Science helps us understand how the world works."
+    },
+    {
+      "ru": "техника",
+      "en": "technology",
+      "unit": 10,
+      "pron": "[tekˈnɒl.ə.dʒi]",
+      "desc": "The application of scientific knowledge for practical purposes.",
+      "example": "Modern technology has changed the way we communicate."
+    },
+    {
+      "ru": "исследование",
+      "en": "research",
+      "unit": 10,
+      "pron": "[rɪˈsɜːtʃ]",
+      "desc": "The detailed study of a subject to discover new facts.",
+      "example": "She is doing research on climate change."
+    },
+    {
+      "ru": "эксперимент",
+      "en": "experiment",
+      "unit": 10,
+      "pron": "[ɪkˈsper.ɪ.mənt]",
+      "desc": "A test done to learn something or discover if an idea is true.",
+      "example": "The experiment proved the scientist’s theory."
+    },
+    {
+      "ru": "открытие",
+      "en": "discovery",
+      "unit": 10,
+      "pron": "[dɪˈskʌv.ər.i]",
+      "desc": "The act of finding or learning something for the first time.",
+      "example": "The discovery of penicillin saved many lives."
+    },
+    {
+      "ru": "теория",
+      "en": "theory",
+      "unit": 10,
+      "pron": "[ˈθɪə.ri]",
+      "desc": "An idea used to explain facts or events.",
+      "example": "Einstein developed the theory of relativity."
+    },
+    {
+      "ru": "данные",
+      "en": "data",
+      "unit": 10,
+      "pron": "[ˈdeɪ.tə]",
+      "desc": "Facts or information used for analysis.",
+      "example": "The data shows a sharp increase in temperature."
+    },
+    {
+      "ru": "анализ",
+      "en": "analysis",
+      "unit": 10,
+      "pron": "[əˈnæl.ə.sɪs]",
+      "desc": "Detailed examination of information to understand it better.",
+      "example": "The analysis revealed interesting patterns."
+    },
+    {
+      "ru": "публикация",
+      "en": "publication",
+      "unit": 10,
+      "pron": "[ˌpʌb.lɪˈkeɪ.ʃən]",
+      "desc": "A printed or digital work made available to the public.",
+      "example": "Her article was accepted for publication in a journal."
+    },
+    {
+      "ru": "гипотеза",
+      "en": "hypothesis",
+      "unit": 10,
+      "pron": "[haɪˈpɒθ.ə.sɪs]",
+      "desc": "A suggested explanation based on limited evidence.",
+      "example": "They tested the hypothesis through experiments."
+    }
+  ]
+  

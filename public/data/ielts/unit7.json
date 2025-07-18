@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "технологии",
+      "en": "technology",
+      "unit": 7,
+      "pron": "[tekˈnɒl.ə.dʒi]",
+      "desc": "The use of scientific knowledge for practical purposes.",
+      "example": "Technology is changing the way we live."
+    },
+    {
+      "ru": "компьютер",
+      "en": "computer",
+      "unit": 7,
+      "pron": "[kəmˈpjuː.tər]",
+      "desc": "An electronic machine for storing and processing data.",
+      "example": "He bought a new computer for work."
+    },
+    {
+      "ru": "интернет",
+      "en": "internet",
+      "unit": 7,
+      "pron": "[ˈɪn.tə.net]",
+      "desc": "A global network that connects computers around the world.",
+      "example": "I found the information on the internet."
+    },
+    {
+      "ru": "сайт",
+      "en": "website",
+      "unit": 7,
+      "pron": "[ˈweb.saɪt]",
+      "desc": "A set of related web pages under one domain name.",
+      "example": "The company launched a new website."
+    },
+    {
+      "ru": "программа",
+      "en": "software",
+      "unit": 7,
+      "pron": "[ˈsɒft.weər]",
+      "desc": "The programs and operating information used by a computer.",
+      "example": "You need to install antivirus software."
+    },
+    {
+      "ru": "мобильный",
+      "en": "mobile",
+      "unit": 7,
+      "pron": "[ˈməʊ.baɪl]",
+      "desc": "Relating to phones or devices that can be used while moving.",
+      "example": "She always carries her mobile phone."
+    },
+    {
+      "ru": "приложение",
+      "en": "application",
+      "unit": 7,
+      "pron": "[ˌæp.lɪˈkeɪ.ʃən]",
+      "desc": "A software program designed for a specific task or use.",
+      "example": "This application helps you learn English."
+    },
+    {
+      "ru": "социальный",
+      "en": "social",
+      "unit": 7,
+      "pron": "[ˈsəʊ.ʃəl]",
+      "desc": "Relating to activities that involve people interacting.",
+      "example": "Social networks are popular among teenagers."
+    },
+    {
+      "ru": "медиа",
+      "en": "media",
+      "unit": 7,
+      "pron": "[ˈmiː.di.ə]",
+      "desc": "Communication channels such as TV, internet, or newspapers.",
+      "example": "The news spread quickly through the media."
+    },
+    {
+      "ru": "блог",
+      "en": "blog",
+      "unit": 7,
+      "pron": "[blɒɡ]",
+      "desc": "A regularly updated website or page written by an individual.",
+      "example": "She writes a blog about traveling."
+    }
+  ]
+  
