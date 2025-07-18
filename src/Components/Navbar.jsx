@@ -44,7 +44,11 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <div className="logo" onClick={() => navigate("/")}>
-          📘 Vocabulary App
+        <img
+      src="/images/logoblack-removebg-preview.png"   // путь к твоему логотипу
+      alt="Logo"
+      className="nav-logo-img"
+    /> Vocabulary App
         </div>
 
         {/* Десктоп меню */}

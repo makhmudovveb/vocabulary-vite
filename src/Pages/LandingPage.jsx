@@ -33,11 +33,7 @@ export default function LandingPage() {
           <Brain size={48} />
           <h2>Cue Card</h2>
         </Link>
-        <div className="game-card coming-soon">
-          <Layers size={48} />
-          <h2>Practice Test</h2>
-          <span>Coming soon</span>
-        </div>
+
         <div className="game-card coming-soon">
           <Puzzle size={48} />
           <h2>Matching</h2>
@@ -46,6 +42,11 @@ export default function LandingPage() {
         <div className="game-card coming-soon">
           <Gamepad size={48} />
           <h2>Game</h2>
+          <span>Coming soon</span>
+        </div>
+        <div className="game-card coming-soon">
+          <Layers size={48} />
+          <h2>Practice Test</h2>
           <span>Coming soon</span>
         </div>
       </div>

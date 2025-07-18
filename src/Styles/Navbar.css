@@ -10,8 +10,14 @@
   top: 0;
   z-index: 1200;
 }
-
+.nav-logo-img {
+  width: 20px;
+  margin-right: 5px;
+}
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 1.3rem;
   font-weight: bold;
   cursor: pointer;

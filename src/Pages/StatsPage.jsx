@@ -119,7 +119,7 @@ const StatsPage = () => {
 
   return (
     <div className="stats-container">
-      <h1 className="stats-title">📊 Статистика</h1>
+      <h1 className="stats-title">📊 Statistics</h1>
 
       {userData.role === "admin" && (
         <button
@@ -132,7 +132,7 @@ const StatsPage = () => {
       )}
 
       {results.length === 0 ? (
-        <p className="no-data">Нет данных для отображения.</p>
+        <p className="no-data">There is no data to display.</p>
       ) : (
         <table className="stats-table">
           <thead>
@@ -144,7 +144,7 @@ const StatsPage = () => {
               <th>Incorrect</th>
               <th>Total</th>
               <th>Date</th>
-              {userData.role === "admin" && <th>Действия</th>}
+              {userData.role === "admin" && <th>Actions</th>}
             </tr>
           </thead>
           <tbody>

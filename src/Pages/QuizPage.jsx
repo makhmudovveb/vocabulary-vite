@@ -65,7 +65,7 @@ const QuizPage = () => {
   }, [level, unit]);
 
   const startQuiz = () => {
-    const shuffled = [...words].sort(() => 0.5 - Math.random()).slice(0, 3);
+    const shuffled = [...words].sort(() => 0.5 - Math.random()).slice(0, 30);
     setQuizWords(shuffled);
     setQuizStarted(true);
     setCurrentIndex(0);
