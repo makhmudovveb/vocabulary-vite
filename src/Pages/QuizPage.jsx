@@ -5,6 +5,7 @@ import { collection, addDoc, Timestamp } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import { db } from "../Firebase/firebaseConfig";
 import { Auth } from "../Context/AuthContext";
+import BackBtn from "../Components/BackBtn";
 
 const QuizPage = () => {
   const { currentUser, userData } = Auth(); 
@@ -159,6 +160,7 @@ const QuizPage = () => {
 
       {!quizStarted && !quizFinished && (
         <>
+        <BackBtn/>
           <div className="selector">
             <select disabledvalue={level}  value={level} onChange={(e) => setLevel(e.target.value)}>
               <option value="" disabled hidden>-- Select Level --</option>
