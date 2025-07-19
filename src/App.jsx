@@ -6,8 +6,21 @@ import Landing from "./Pages/LandingPage";
 import Quiz from "./Pages/QuizPage";
 import CueCard from "./Pages/CueCardPage";
 import StatsPage from "./Pages/StatsPage";
-
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    const disableInputHelpers = () => {
+      const inputs = document.querySelectorAll("input, textarea");
+      inputs.forEach((input) => {
+        input.setAttribute("autocomplete", "off");
+        input.setAttribute("autocorrect", "off");
+        input.setAttribute("autocapitalize", "off");
+        input.setAttribute("spellcheck", "false");
+      });
+    };
+
+    disableInputHelpers();
+  }, []);
   return (
     <Router>
       <Navbar />

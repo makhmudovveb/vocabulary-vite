@@ -44,11 +44,12 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <div className="logo" onClick={() => navigate("/")}>
-        <img
-      src="/images/logoblack-removebg-preview.png"   // путь к твоему логотипу
-      alt="Logo"
-      className="nav-logo-img"
-    /> Vocabulary App
+          <img
+            src="/images/logoblack-removebg-preview.png" // путь к твоему логотипу
+            alt="Logo"
+            className="nav-logo-img"
+          />{" "}
+          Vocabulary App
         </div>
 
         {/* Десктоп меню */}
@@ -80,7 +81,7 @@ export default function Navbar() {
       <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
         {window.innerWidth <= 400 && (
           <div className="sidebar-close-btn" onClick={closeSidebar}>
-            ✖
+          ⟵
           </div>
         )}
         <span className="user-name" style={{ marginBottom: "1rem" }}>
