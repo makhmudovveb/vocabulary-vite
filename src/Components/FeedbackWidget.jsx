@@ -87,6 +87,7 @@ const SendFeedback = () => {
                 borderRadius: "5px",
                 border: "1px solid #ccc",
                 resize: "none",
+                boxSizing :"border-box"
               }}
             />
             <button
