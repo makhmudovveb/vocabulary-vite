@@ -60,7 +60,7 @@ export default function Navbar() {
           <button className="nav-button" onClick={() => navigate("/stats")}>
             📊 Stats
           </button>
-          <button className="nav-button logout" onClick={handleLogout}>
+          <button className="nav-button nav_logout" onClick={handleLogout}>
             🔓 Log Out
           </button>
         </div>

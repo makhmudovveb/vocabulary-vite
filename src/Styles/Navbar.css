@@ -41,27 +41,22 @@
 }
 
 .nav-button {
-  background-color: #3f83f8;
+  background-color: #fff;
   border: none;
   padding: 6px 12px;
-  color: white;
+  color: #16386e;
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.95rem;
   transition: background-color 0.2s ease;
 }
 
-.nav-button:hover {
-  background-color: #2563eb;
+
+
+.nav_logout {
+  background-color: #f22222;
 }
 
-.logout {
-  background-color: #ff6b6b;
-}
-
-.logout:hover {
-  background-color: #e25555;
-}
 
 /* Гамбургер - по умолчанию скрыт */
 .hamburger {

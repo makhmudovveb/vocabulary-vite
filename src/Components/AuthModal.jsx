@@ -9,7 +9,7 @@ import "./AuthModal.css";
 
 const TEACHER_ACCOUNTS = {
   "bexzod.mahmudov@gmail.com": { fullName: "Bexzod Mahmudov", role: "teacher", password : "beka123"},
-  "admin.mki@gmail.com": {
+  "admin.mki@gmail.com": { 
     fullName: "Admin MKI",
     role: "admin",
     password: "adminkmi123"

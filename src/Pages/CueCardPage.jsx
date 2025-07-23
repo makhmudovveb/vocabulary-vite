@@ -41,8 +41,10 @@ const CueCardPage = () => {
   };
 
   return (
-    <div className="cuecards-container">
-      <BackBtn />
+<>
+<BackBtn />
+
+<div className="cuecards-container">
       <h1>Cue Cards</h1>
 
       <div className="selectors">
@@ -103,6 +105,7 @@ const CueCardPage = () => {
         </>
       )}
     </div>
+  </>
   );
 };
 

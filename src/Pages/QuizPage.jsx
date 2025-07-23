@@ -152,6 +152,10 @@ const QuizPage = () => {
   };
 
   return (
+<>
+<BackBtn/>
+
+
     <div className="quiz-container">
       <h1>Vocabulary Quiz</h1>
       {/* <div className="question-counter">
@@ -160,7 +164,6 @@ const QuizPage = () => {
 
       {!quizStarted && !quizFinished && (
         <>
-        <BackBtn/>
           <div className="selector">
             <select disabledvalue={level}  value={level} onChange={(e) => setLevel(e.target.value)}>
               <option value="" disabled hidden>-- Select Level --</option>
@@ -279,6 +282,7 @@ const QuizPage = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

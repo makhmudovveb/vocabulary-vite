@@ -1,0 +1,78 @@
+/* Общая кнопка-бейдж */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* Зелёная кнопка — Working */
+.status-working {
+  background-color: #c8ebd3;
+  color: #1a6333;
+}
+
+.status-working::before {
+  content: "✔️";
+}
+
+/* Бежевая кнопка — Coming Soon */
+.status-coming {
+  background-color: #fce9c7;
+  color: #7a5700;
+}
+
+.status-coming::before {
+  content: "⏳";
+}
+
+/* Красная кнопка с NEW */
+.status-new-feature {
+  color: #16386e;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.status-new-feature:hover {
+  transform: scale(1.03);
+  background: orange;
+}
+
+/* Синий бейдж "NEW" */
+.status-new-feature::after {
+  content: "NEW";
+  position: absolute;
+  top: -10px;
+  right: -21px;
+  background: #3f66ff;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: bold;
+  padding: 10px 25px;
+  transform: rotate(30deg);
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 89, 255, 0.5);
+}
+
+@keyframes pulseNew {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+.status-new-feature::after {
+  animation: pulseNew 1.8s infinite;
+}
