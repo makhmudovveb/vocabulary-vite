@@ -18,7 +18,7 @@ const SendFeedback = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:3001/feedback", {
+      const res = await axios.post("/api/feedback", {
         fullName: userData?.fullName || "Not specified",
         email: currentUser?.email || "Unknown",
         teacher: userData?.teacher || "Not selected",
