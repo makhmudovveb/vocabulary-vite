@@ -11,6 +11,7 @@ import FeedbackForm from "./Components/FeedbackWidget";
 import Footer from "./Components/Footer";
 import MatchingPage from "./Pages/MatchingPage";
 import IELTSPage from "./Pages/IeltsPage"; // 
+import SpellingGamePage from "./Pages/SpellingGamePage";
 import { useEffect } from "react";
 function App() {
   useEffect(() => {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/stats" element={<StatsPage />} />
         <Route path="/matching" element={<MatchingPage />} />
         <Route path="/ielts" element={<IELTSPage />} />
+        <Route path="/spelling-game" element={<SpellingGamePage />} />
       </Routes>
     </Router>
   );

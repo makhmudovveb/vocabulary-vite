@@ -159,13 +159,16 @@ const MatchingPage = () => {
 
   return (
     <>
+    <div className="test-mode-banner">
+Page works in TEST MODE
+    </div>
     <BackBtn />
     <div className="matching-wrapper">
       {!gameStarted ? (
         <div className="matching-setup">
           <h2>Matching Game</h2>
           <select onChange={(e) => setLevel(e.target.value)} value={level}>
-            <option value="">Select Level</option>
+            <option value="" disabled hidden>Select Level</option>
             {LEVELS.map((lvl) => (
               <option key={lvl} value={lvl}>
                 {lvl}

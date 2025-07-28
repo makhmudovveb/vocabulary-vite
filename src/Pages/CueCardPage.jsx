@@ -42,6 +42,9 @@ const CueCardPage = () => {
 
   return (
 <>
+<div className="test-mode-banner">
+Page works in TEST MODE
+    </div>
 <BackBtn />
 
 <div className="cuecards-container">

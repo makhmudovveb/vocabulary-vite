@@ -1,0 +1,208 @@
+/* Контейнер игры */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #16386e;
+}
+
+/* Игровое поле */
+.board {
+  position: relative;
+  width: 95vw;
+  max-width: 500px;
+  height: 550px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #e3f2fd, #ffffff);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid #cce4f6;
+}
+
+/* Стек платформ */
+.platform-stack {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+/* Ряды платформ */
+.platform-row {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* Платформа */
+.platform {
+  min-width: 120px;
+  max-width: 160px;
+  padding: 10px;
+  height: auto;
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: center;
+  text-transform: capitalize;
+}
+.platform:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.platform--correct {
+  background: #22c55e !important;
+}
+.platform--wrong {
+  background: #ef4444 !important;
+}
+.platform[disabled] {
+  cursor: default;
+  opacity: 0.8;
+}
+
+/* HUD */
+.hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background: #ffffffdd;
+  border-radius: 16px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  width: 95vw;
+  max-width: 480px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #1e3a5f;
+  border: 1px solid #b3d4fc;
+}
+
+/* Сердечки для жизней */
+.hud-lives {
+  display: flex;
+  gap: 6px;
+  position: relative;
+}
+.heart {
+  position: relative;
+}
+.heart-broken {
+  position: absolute;
+  top: -14px;
+  left: -6px;
+  font-size: 18px;
+  pointer-events: none;
+}
+.heart.inactive svg {
+  opacity: 0.2;
+}
+
+/* Таймер */
+.timer-game {
+  position: relative;
+  width: 100px;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.timer-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #2196f3, #03a9f4);
+  transition: width 1s linear;
+}
+
+/* Селект выбора уровня */
+.level-select {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.level-select select {
+  margin-top: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #90caf9;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Кнопки */
+.btn {
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.btn:disabled {
+  background: #b0c4de;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+  .platform {
+    width: 110px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .hud {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .board {
+    height: 500px;
+  }
+}
+
+
+
+.test-mode-banner {
+  background: repeating-linear-gradient(
+    45deg,
+    #ff9800,
+    #ff9800 10px,
+    #ffc107 10px,
+    #ffc107 20px
+  );
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  letter-spacing: 0.5px;
+}

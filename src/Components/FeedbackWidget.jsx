@@ -56,7 +56,7 @@ const SendFeedback = () => {
           boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
         }}
       >
-        <PenLine size={20} /> &nbsp; {showForm ? "Close" : "Send Feedback"}
+        <PenLine size={20} /> &nbsp; {showForm ? "Close" : ""}
       </button>
 
       {/* Feedback Form */}
