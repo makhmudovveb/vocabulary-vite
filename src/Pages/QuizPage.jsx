@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { db } from "../Firebase/firebaseConfig";
 import { Auth } from "../Context/AuthContext";
 import BackBtn from "../Components/BackBtn";
+import  ProgressBar  from "../Components/ProgressBar";
 
 const QuizPage = () => {
   const { currentUser, userData } = Auth(); 
@@ -214,7 +215,7 @@ const QuizPage = () => {
         <div className="quiz-modal">
           <div className="quiz-header">
             <div className="question-counter">
-              Question {currentIndex + 1} of {quizWords.length}
+            <ProgressBar current={currentIndex + 1} total={quizWords.length} />
             </div>
             <div className="timer">⏳ {timer}s</div>
           </div>

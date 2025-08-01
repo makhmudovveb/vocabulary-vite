@@ -10,9 +10,9 @@ const CueCardPage = () => {
   const [cardsData, setCardsData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const cardRef = useRef(); // 👈 создаём ref
-const handleCardClick = () => {
-  setIsFlipped(!isFlipped);
-};
+// const handleCardClick = () => {
+//   setIsFlipped(!isFlipped);
+// };
   const handleLoad = async () => {
     if (!level || !unit) {
       alert("Please select level and unit");
@@ -105,7 +105,6 @@ const handleCardClick = () => {
 
               <button
                 onClick={() => {
-                  console.log("Flip button clicked");
                   cardRef.current?.flipCard(); // ✅ вызываем метод через ref
                 }}
               >

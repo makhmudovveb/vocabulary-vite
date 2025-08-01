@@ -1,0 +1,29 @@
+.progress-container {
+  margin: 1rem 0;
+  width: 630px;
+}
+
+
+.progress-line {
+  height: 24px; /* Увеличиваем высоту для текста */
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: orange;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+  font-weight: bold;
+  mix-blend-mode: difference; /* Чтобы текст был виден на любом фоне */
+}

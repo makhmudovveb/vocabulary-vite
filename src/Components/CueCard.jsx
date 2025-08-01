@@ -14,11 +14,9 @@ const CueCard = forwardRef(({ data, index = 1, total = 1 }, ref) => {
 
   useImperativeHandle(ref, () => ({
     flipCard: () => {
-      console.log("flipCard called");
       setIsFlipped((prev) => !prev);
     },
     resetFlip: () => {
-      console.log("resetFlip called");
       setIsFlipped(false);
     }
   }));
@@ -30,7 +28,6 @@ const CueCard = forwardRef(({ data, index = 1, total = 1 }, ref) => {
   return (
     <div className="cuecard_wrapper">
       <div className={`cuecard_card ${isFlipped ? "flipped" : ""}`} onClick={handleCardClick}>
-        {console.log("CLASSNAME:", isFlipped ? "cuecard_card flipped" : "cuecard_card")}
         
         <div className="front">
           <div style={{ fontSize: "1.6em", fontWeight: "bold" }}>
