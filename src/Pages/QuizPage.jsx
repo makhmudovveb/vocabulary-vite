@@ -174,7 +174,7 @@ const QuizPage = () => {
               <option value="upper-intermediate">Upper-Intermediate</option>
               <option value="ielts">IELTS</option>
             </select>
-            <select  disabledvalue={level} value={unit} onChange={(e) => setUnit(e.target.value)}>
+            <select value={unit} onChange={(e) => setUnit(e.target.value)}>
               <option disabled hidden value="">-- Select Unit --</option>
               {[...Array(11).keys()].map((u) => (
                 <option key={u} value={u}>

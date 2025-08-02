@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import { auth, db } from "../Firebase/firebaseConfig";
 import {
   createUserWithEmailAndPassword,
@@ -23,6 +23,16 @@ export default function AuthModal({ onAuthSuccess }) {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [message, setMessage] = useState("");
+
+
+  useEffect(() => {
+    document.body.classList.add("modal-open");
+    return () => {
+      document.body.classList.remove("modal-open");
+    };
+  }, []);
+
+
 
   const handleRegister = async () => {
     if (!firstName || !lastName || !password || !teacherSelect) {

@@ -38,14 +38,14 @@ const MatchingPage = () => {
       const timer = setInterval(() => setTimeLeft((prev) => prev - 1), 1000);
       return () => clearInterval(timer);
     } else if (timeLeft === 0 && gameStarted) {
-      setError("Время вышло!");
+      setError("Time is up!");
       handleCheck();
     }
   }, [timeLeft, timerStarted]);
 
   const handleStart = async () => {
     if (!level || !unit) {
-      setError("Выберите уровень и юнит");
+      setError("Choose level and unit");
       return;
     }
     try {
@@ -101,7 +101,7 @@ const MatchingPage = () => {
 
   const handleCheck = () => {
     if (groups.length !== DEFAULT_WORD_LIMIT) {
-      setError("Создайте все пары перед проверкой.");
+      setError("Connect all pairs");
       return;
     }
     let correct = 0;
@@ -121,7 +121,7 @@ const MatchingPage = () => {
       const auth = getAuth();
       const user = auth.currentUser;
       if (!user) {
-        setError("Пользователь не авторизован.");
+        setError("User is not registered!");
         return;
       }
 
@@ -136,7 +136,7 @@ const MatchingPage = () => {
 
       navigate("/stats");
     } catch (err) {
-      setError("Ошибка при сохранении результата: " + err.message);
+      setError("Error during the save: " + err.message);
     }
   };
 
@@ -176,7 +176,7 @@ Page works in TEST MODE
             ))}
           </select>
           <select onChange={(e) => setUnit(e.target.value)} value={unit}>
-            <option value="">Select Unit</option>
+            <option disabled hidden value="">Select Unit</option>
             {UNITS.map((u) => (
               <option key={u} value={u}>
                 Unit {u}

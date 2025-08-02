@@ -40,7 +40,7 @@ export function Game() {
             </select>
           </label>
           <button onClick={start} className="btn" disabled={!isLevelSelected}>
-            Старт
+            Start
           </button>
         </div>
       </>
@@ -54,10 +54,10 @@ export function Game() {
         <div className="test-mode-banner">Page works in TEST MODE</div>
         <BackButton />
         <div className="game-container">
-          <h1>Игра окончена</h1>
-          <p>Ваш счёт: {score}</p>
-          <p>Рекорд: {bestScore}</p>
-          {isRecord && <p>🎉 Новый рекорд!</p>}
+          <h1>Game over</h1>
+          <p>Your score: {score}</p>
+          <p>Record: {bestScore}</p>
+          {isRecord && <p>🎉 New record!</p>}
           <button onClick={reset} className="btn">
             Сыграть ещё
           </button>
