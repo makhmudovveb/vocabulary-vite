@@ -19,7 +19,7 @@ const CueCard = forwardRef(({ data, index = 1, total = 1 }, ref) => {
     resetFlip: () => {
       setIsFlipped(false);
     }
-  }));
+ }));
 
   const handleCardClick = () => {
     setIsFlipped(!isFlipped);

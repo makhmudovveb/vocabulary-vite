@@ -19,18 +19,6 @@ export default function LandingPage() {
     return () => unsubscribe();
   }, []);
 
-  // ⏱️ Перезагрузка через 8 секунд, если модалка не исчезла
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      if (showAuthModal) {
-        console.warn("⏳ Авто-перезагрузка LandingPage после 8 секунд ожидания...");
-        window.location.reload();
-      }
-    }, 8000); // 8 секунд
-
-    return () => clearTimeout(timeout);
-  }, [showAuthModal]);
-
   return (
     <div className="landing-page">
       {showAuthModal && (
