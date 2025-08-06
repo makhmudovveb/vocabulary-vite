@@ -3,6 +3,8 @@ import CueCard from "../Components/CueCard";
 import "../../public/images/logo.ico";
 import "../Styles/CueCard.css";
 import BackBtn from "../Components/BackBtn";
+import Instructions from "../Components/instructions";
+
 
 const CueCardPage = () => {
   const [level, setLevel] = useState("");
@@ -52,6 +54,7 @@ const CueCardPage = () => {
     <>
       <div className="test-mode-banner">Page works in TEST MODE</div>
       <BackBtn />
+      <Instructions game={"cuecard"}/>
 
       <div className="cuecards-container">
         <h1>Cue Cards</h1>
@@ -65,14 +68,14 @@ const CueCardPage = () => {
             <option value="pre-intermediate">Pre-Intermediate</option>
             <option value="intermediate">Intermediate</option>
             <option value="upper-intermediate">Upper-Intermediate</option>
-            <option value="ielts">IELTS</option>
+            {/* <option value="ielts">IELTS</option> */}
           </select>
 
           <select value={unit} onChange={(e) => setUnit(e.target.value)}>
             <option value="" disabled hidden>
               -- Select unit --
             </option>
-            {[...Array(11).keys()].map((i) => (
+            {[...Array(10).keys()].map((i) => (
               <option key={i} value={i}>
                 {i === 0 ? "Introduction" : `Unit ${i}`}
               </option>

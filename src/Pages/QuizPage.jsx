@@ -6,10 +6,12 @@ import { useNavigate } from "react-router-dom";
 import { db } from "../Firebase/firebaseConfig";
 import { Auth } from "../Context/AuthContext";
 import BackBtn from "../Components/BackBtn";
-import  ProgressBar  from "../Components/ProgressBar";
+import ProgressBar from "../Components/ProgressBar";
+import Instructions from "../Components/instructions";
 
 const QuizPage = () => {
-  const { currentUser, userData } = Auth(); 
+  const [quizDirection, setQuizDirection] = useState("ru-to-en");
+  const { currentUser, userData } = Auth();
   const inputRef = useRef(null);
   const [skipEnabled, setSkipEnabled] = useState(false);
   const [level, setLevel] = useState("");
@@ -97,15 +99,17 @@ const QuizPage = () => {
     setButtonsDisabled(true);
 
     const currentWord = quizWords[currentIndex];
-    const isCorrect =
-      inputValue.trim().toLowerCase() === currentWord.en.trim().toLowerCase();
+    const correctAnswer =
+      quizDirection === "ru-to-en" ? currentWord.en : currentWord.ru;
 
+    const isCorrect =
+      inputValue.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
     if (isCorrect) {
       setCorrectCount((prev) => prev + 1);
       setFeedback("✅ Correct!");
     } else {
       setIncorrectCount((prev) => prev + 1);
-      setFeedback(`❌ Incorrect! Correct answer: ${currentWord.en}`);
+      setFeedback(`❌ Incorrect! Correct answer: ${correctAnswer}`);
     }
 
     setTimeout(goToNext, 1000);
@@ -116,7 +120,14 @@ const QuizPage = () => {
     setButtonsDisabled(true);
 
     setIncorrectCount((prev) => prev + 1);
-    setFeedback(`❌ Skipped! Correct answer: ${quizWords[currentIndex].en}`);
+    setFeedback(
+      `❌ Skipped! Correct answer: ${
+        quizDirection === "ru-to-en"
+          ? quizWords[currentIndex].en
+          : quizWords[currentIndex].ru
+      }`
+    );
+
     setTimeout(goToNext, 1000);
   };
 
@@ -129,21 +140,21 @@ const QuizPage = () => {
       alert("Данные пользователя ещё загружаются. Пожалуйста, подождите.");
       return;
     }
-  
+
     try {
       await addDoc(collection(db, "quizResults"), {
         uid: currentUser.uid,
         email: currentUser.email || "unknown",
-        userName: userData.fullName || "",   // <- теперь безопасно
+        userName: userData.fullName || "", // <- теперь безопасно
         correct: correctCount,
         incorrect: incorrectCount,
         total: quizWords.length,
         level,
         unit,
-        teacher: userData.teacher || "",  // или teacherSelect, как у тебя
+        teacher: userData.teacher || "", // или teacherSelect, как у тебя
         createdAt: Timestamp.now(),
       });
-  
+
       alert("📥 Результат сохранён!");
       navigate("/stats");
     } catch (err) {
@@ -153,136 +164,170 @@ const QuizPage = () => {
   };
 
   return (
-<>
-<BackBtn/>
+    <>
+      <div className="test-mode-banner">Page works in TEST MODE</div>
+      <BackBtn />
+      <Instructions game={"quiz"} />
 
-
-    <div className="quiz-container">
-      <h1>Vocabulary Quiz</h1>
-      {/* <div className="question-counter">
-        Question {currentIndex + 1} of {quizWords.length}
-      </div> */}
-
-      {!quizStarted && !quizFinished && (
-        <>
-          <div className="selector">
-            <select disabledvalue={level}  value={level} onChange={(e) => setLevel(e.target.value)}>
-              <option value="" disabled hidden>-- Select Level --</option>
-              <option value="elementary">Elementary</option>
-              <option value="pre-intermediate">Pre-Intermediate</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="upper-intermediate">Upper-Intermediate</option>
-              <option value="ielts">IELTS</option>
-            </select>
-            <select value={unit} onChange={(e) => setUnit(e.target.value)}>
-              <option disabled hidden value="">-- Select Unit --</option>
-              {[...Array(11).keys()].map((u) => (
-                <option key={u} value={u}>
-                  {u === 0 ? "Intro" : u}
+      <div className="quiz-container">
+        <h1>Vocabulary Quiz</h1>
+        {!quizStarted && !quizFinished && (
+          <>
+            <div className="selector">
+              <select
+                disabledvalue={level}
+                value={level}
+                onChange={(e) => setLevel(e.target.value)}
+              >
+                <option value="" disabled hidden>
+                  -- Select Level --
                 </option>
-              ))}
-            </select>
-            <button onClick={startQuiz} disabled={!level || !unit}>
-              Start Quiz
+                <option value="elementary">Elementary</option>
+                <option value="pre-intermediate">Pre-Intermediate</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="upper-intermediate">Upper-Intermediate</option>
+                {/* <option value="ielts">IELTS</option> */}
+              </select>
+              <select value={unit} onChange={(e) => setUnit(e.target.value)}>
+                <option disabled hidden value="">
+                  -- Select Unit --
+                </option>
+                {[...Array(10).keys()].map((u) => (
+                  <option key={u} value={u}>
+                    {u === 0 ? "Intro" : u}
+                  </option>
+                ))}
+              </select>
+              <button onClick={startQuiz} disabled={!level || !unit}>
+                Start Quiz
+              </button>
+            </div>
+            <button
+              className="direction-toggle"
+              onClick={() =>
+                setQuizDirection((prev) =>
+                  prev === "ru-to-en" ? "en-to-ru" : "ru-to-en"
+                )
+              }
+            >
+              Switch: {quizDirection === "ru-to-en" ? "RU → EN" : "EN → RU"}
             </button>
-          </div>
 
-          {words.length > 0 && (
-            <div className="word-table">
-              <h2>Words from selected Unit</h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Russian</th>
-                    <th>English</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {words.map((w, i) => (
-                    <tr key={i}>
-                      <td>{w.ru}</td>
-                      <td>{w.en}</td>
+            {words.length > 0 && (
+              <div className="word-table">
+                <h2>Words from selected Unit</h2>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Russian</th>
+                      <th>English</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {words.map((w, i) => (
+                      <tr key={i}>
+                        <td>{w.ru}</td>
+                        <td>{w.en}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </>
+        )}
+
+        {quizStarted && !quizFinished && (
+          <div className="quiz-modal">
+            <div className="quiz-header">
+              <div className="question-counter">
+                <div
+                  className="progress-fill"
+                  style={{
+                    width: `${Math.round(
+                      ((currentIndex + 1) / quizWords.length) * 100
+                    )}%`,
+                  }}
+                />
+                <span className="progress-text">
+                  {currentIndex + 1} / {quizWords.length}
+                </span>
+              </div>
+              <div className="timer">⏳ {timer}s</div>
             </div>
-          )}
-        </>
-      )}
-
-      {quizStarted && !quizFinished && (
-        <div className="quiz-modal">
-          <div className="quiz-header">
-            <div className="question-counter">
-            <ProgressBar current={currentIndex + 1} total={quizWords.length} />
+            <div className="word-display">
+              Translate:{" "}
+              <strong className="word_trn">
+                {quizDirection === "ru-to-en"
+                  ? quizWords[currentIndex].ru
+                  : quizWords[currentIndex].en}
+              </strong>
             </div>
-            <div className="timer">⏳ {timer}s</div>
-          </div>
-          <div className="word-display">
-            Translate:{" "}
-            <strong className="word_trn">{quizWords[currentIndex].ru}</strong>
-          </div>
-          <input
-            ref={inputRef}
-            type="text"
-            placeholder="Type the English word..."
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-            onKeyDown={(e) =>
-              e.key === "Enter" &&
-              inputValue.trim() &&
-              !buttonsDisabled &&
-              handleSubmit()
-            }
-          />
 
-          <div className="feedback">{feedback}</div>
-          <div className="actions">
-            <button
-              onClick={handleSubmit}
-              disabled={inputValue.trim().length === 0 || buttonsDisabled}
-            >
-              Submit
-            </button>
-            <button
-              onClick={handleSkip}
-              className="skip-btn"
-              disabled={!skipEnabled || buttonsDisabled}
-            >
-              Skip
-            </button>
-          </div>
-        </div>
-      )}
+            <input
+              ref={inputRef}
+              type="text"
+              placeholder={
+                quizDirection === "ru-to-en"
+                  ? "Type the English word..."
+                  : "Напиши по-русски..."
+              }
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              onKeyDown={(e) =>
+                e.key === "Enter" &&
+                inputValue.trim() &&
+                !buttonsDisabled &&
+                handleSubmit()
+              }
+            />
 
-      {quizFinished && (
-        <div className="result-modal">
-          <h2>Quiz Completed!</h2>
-          <p>✅ Correct: {correctCount}</p>
-          <p>❌ Incorrect: {incorrectCount}</p>
-          <div className="result-actions">
-            <button onClick={handleSaveResult}>Save Result</button>
-            <button
-              onClick={() => {
-                // Просто перезапуск квиза (уровень и юнит сохраняем)
-                setQuizFinished(false);
-                setQuizStarted(false);
-                setInputValue("");
-                setQuizWords([]);
-                setCurrentIndex(0);
-                setCorrectCount(0);
-                setIncorrectCount(0);
-                setFeedback("");
-                setTimer(20);
-              }}
-            >
-              Don't Save
-            </button>
+            <div className="feedback">{feedback}</div>
+            <div className="actions">
+              <button
+                onClick={handleSubmit}
+                disabled={inputValue.trim().length === 0 || buttonsDisabled}
+              >
+                Submit
+              </button>
+              <button
+                onClick={handleSkip}
+                className="skip-btn"
+                disabled={!skipEnabled || buttonsDisabled}
+              >
+                Skip
+              </button>
+            </div>
           </div>
-        </div>
-      )}
-    </div>
+        )}
+
+        {quizFinished && (
+          <div className="result-modal">
+            <h2>Quiz Completed!</h2>
+            <p>✅ Correct: {correctCount}</p>
+            <p>❌ Incorrect: {incorrectCount}</p>
+            <div className="result-actions">
+              <button onClick={handleSaveResult}>Save Result</button>
+              <button
+                onClick={() => {
+                  // Просто перезапуск квиза (уровень и юнит сохраняем)
+                  setQuizFinished(false);
+                  setQuizStarted(false);
+                  setInputValue("");
+                  setQuizWords([]);
+                  setCurrentIndex(0);
+                  setCorrectCount(0);
+                  setIncorrectCount(0);
+                  setFeedback("");
+                  setTimer(20);
+                }}
+              >
+                Don't Save
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
     </>
   );
 };

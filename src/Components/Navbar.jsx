@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { signOut, onAuthStateChanged } from "firebase/auth";
 import { auth } from "../Firebase/firebaseConfig";
 import "../Styles/Navbar.css";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -57,6 +58,7 @@ export default function Navbar() {
           <span className="user-name">
             Hello: <strong className="user-name-bold">{userName}</strong>
           </span>
+          <ThemeToggle/>
           <button className="nav-button" onClick={() => navigate("/stats")}>
             📊 Stats
           </button>

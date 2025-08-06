@@ -1,0 +1,17 @@
+/* theme.css */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #16386e;
+  --accent-color: #ff9800;
+  --navbar-color: #16386e;
+  --card-color: #f9f9f9;
+}
+
+.dark-theme {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #ff9800;
+  --navbar-color: #1e3a8a;
+  --card-color: #1f1f1f;
+}

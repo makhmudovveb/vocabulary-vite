@@ -1,15 +1,53 @@
 /* Контейнер игры */
 .game-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* justify-content: center; */
+  background-color: var(--card-color);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 20px;
-  min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #16386e;
+  max-width: 500px;
+  margin: 0 auto;
 }
+.game-container h1 {
+  color: var(--navbar-color);
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.game-container select {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.game-container select:focus {
+  border-color: var(--navbar-color);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.game-container button {
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.game-container button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Игровое поле */
 .board {
@@ -144,7 +182,7 @@
   border: 1px solid #90caf9;
   background-color: #fff;
   color: #333;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Кнопки */
@@ -160,10 +198,7 @@
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
 }
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
+
 .btn:disabled {
   background: #b0c4de;
   cursor: not-allowed;
@@ -186,8 +221,6 @@
   }
 }
 
-
-
 .test-mode-banner {
   background: repeating-linear-gradient(
     45deg,
@@ -203,6 +236,6 @@
   font-size: 16px;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   letter-spacing: 0.5px;
 }

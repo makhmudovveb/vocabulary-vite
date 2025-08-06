@@ -3,19 +3,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--navbar-color);
+  background-color: #16386e;
   color: white;
   padding: 12px 20px;
   position: sticky;
   top: 0;
   z-index: 1200;
 }
-
 .nav-logo-img {
   width: 20px;
   margin-right: 5px;
 }
-
 .logo {
   display: flex;
   align-items: center;
@@ -36,7 +34,6 @@
   font-weight: 500;
   margin-right: 10px;
   user-select: none;
-  color: white;
 }
 
 .user-name-bold {
@@ -44,20 +41,22 @@
 }
 
 .nav-button {
-  background-color: var(--bg-color);
+  background-color: #fff;
   border: none;
   padding: 6px 12px;
-  color: var(--text-color);
+  color: #16386e;
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.95rem;
   transition: background-color 0.2s ease;
 }
 
+
+
 .nav_logout {
   background-color: #f22222;
-  color: white;
 }
+
 
 /* Гамбургер - по умолчанию скрыт */
 .hamburger {
@@ -85,7 +84,7 @@
   left: -600px;
   width: 260px;
   height: 100%;
-  background-color: var(--navbar-color);
+  background-color: #16386e;
   padding: 20px;
   box-shadow: 2px 0 12px rgba(0, 0, 0, 0.3);
   display: flex;
@@ -109,6 +108,7 @@
   cursor: pointer;
 }
 
+/* Показываем гамбургер внутри сайдбара */
 .sidebar.open {
   left: 0;
 }
@@ -129,19 +129,24 @@
 }
 
 /* Адаптивность */
+
+/* Планшеты и мобильные (менее 768px) */
 @media (max-width: 768px) {
+  /* Скрываем основные действия в navbar */
   .nav-actions {
     display: none;
   }
 
+  /* Показываем гамбургер справа в navbar */
   .hamburger {
     display: flex;
   }
 }
 
+/* Очень маленькие экраны (<=400px) */
 @media (max-width: 400px) {
   .sidebar {
-    width: 80vw;
+    width: 80vw; /* 80% ширины экрана */
     padding: 16px;
   }
 

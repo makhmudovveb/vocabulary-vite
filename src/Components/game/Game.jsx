@@ -3,6 +3,7 @@ import { useGame } from "@context/GameContext";
 import { HUD } from "./HUD";
 import { PlatformStack } from "./PlatformStack";
 import BackButton from "../BackBtn";
+import Instructions from "../instructions";
 
 export function Game() {
   const { phase, start, reset, score, bestScore, level, setLevel } = useGame();
@@ -11,14 +12,15 @@ export function Game() {
     level === "elementary" ||
     level === "pre-intermediate" ||
     level === "intermediate" ||
-    level === "upper-intermediate" ||
-    level === "ielts";
+    level === "upper-intermediate";
+    // level === "ielts";
 
   if (phase === "menu") {
     return (
       <>
         <div className="test-mode-banner">Page works in TEST MODE</div>
         <BackButton />
+        <Instructions game={'spelling-game'}/>
         <div className="game-container">
           <h1>Spelling Run</h1>
           <label className="level-select">
@@ -36,7 +38,7 @@ export function Game() {
               <option value="pre-intermediate">Pre-Intermediate</option>
               <option value="intermediate">Intermediate</option>
               <option value="upper-intermediate">Upper-Intermediate</option>
-              <option value="ielts">IELTS</option>
+              {/* <option value="ielts">IELTS</option> */}
             </select>
           </label>
           <button onClick={start} className="btn" disabled={!isLevelSelected}>
