@@ -6,8 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { db } from "../Firebase/firebaseConfig";
 import { Auth } from "../Context/AuthContext";
 import BackBtn from "../Components/BackBtn";
-import ProgressBar from "../Components/ProgressBar";
-import Instructions from "../Components/instructions";
+import Instructions from '../Components/Instructions';
 
 const QuizPage = () => {
   const [quizDirection, setQuizDirection] = useState("ru-to-en");
