@@ -3,7 +3,7 @@ import { useGame } from "@context/GameContext";
 import { HUD } from "./HUD";
 import { PlatformStack } from "./PlatformStack";
 import BackButton from "../BackBtn";
-import Instructions from "../instruction";
+import Instructions from "../guide";
 
 export function Game() {
   const { phase, start, reset, score, bestScore, level, setLevel } = useGame();

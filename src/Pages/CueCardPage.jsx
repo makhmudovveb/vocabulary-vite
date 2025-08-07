@@ -3,7 +3,7 @@ import CueCard from "../Components/CueCard";
 import "../../public/images/logo.ico";
 import "../Styles/CueCard.css";
 import BackBtn from "../Components/BackBtn";
-import Instructions from "../Components/instruction";
+import Instructions from "../Components/guide";
 
 
 const CueCardPage = () => {
