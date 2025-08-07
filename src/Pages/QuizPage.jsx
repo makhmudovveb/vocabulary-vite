@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { db } from "../Firebase/firebaseConfig";
 import { Auth } from "../Context/AuthContext";
 import BackBtn from "../Components/BackBtn";
-import Instructions from '../Components/Instructions';
+import Instructions from '../Components/instructions';
 
 
 const QuizPage = () => {

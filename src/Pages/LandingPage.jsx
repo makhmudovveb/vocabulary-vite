@@ -28,11 +28,6 @@ export default function LandingPage() {
       <h1 className="landing-title">Welcome to Vocabulary Games!</h1>
 
       <div className="game-card-container">
-        {/* <Link to="/quiz" className="game-card coming-soon ">
-          <Info size={48} />
-          <h2>Instructions</h2>
-        </Link> */}
-
         <Link to="/quiz" className="game-card active ">
           <BookOpen size={48} />
           <h2>Quiz</h2>
