@@ -6,8 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { db } from "../Firebase/firebaseConfig";
 import { Auth } from "../Context/AuthContext";
 import BackBtn from "../Components/BackBtn";
-import Instructions from '../Components/guide';
-
+import Guide from '../Components/guide';
 
 const QuizPage = () => {
   const [quizDirection, setQuizDirection] = useState("ru-to-en");
@@ -167,7 +166,7 @@ const QuizPage = () => {
     <>
       <div className="test-mode-banner">Page works in TEST MODE</div>
       <BackBtn />
-      <Instructions game={"quiz"} />
+      <Guide game={"quiz"} />
 
       <div className="quiz-container">
         <h1>Vocabulary Quiz</h1>

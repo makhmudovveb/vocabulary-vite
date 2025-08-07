@@ -1,6 +1,6 @@
 // src/components/Instructions.jsx
 import React, { useState, useEffect, useRef } from "react";
-import instructionsData from ".instructions.json";
+import instructionsData from "./instructions.json";
 import "../Styles/instructions.css";
 
 const Instructions = ({ game }) => {

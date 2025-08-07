@@ -3,7 +3,7 @@ import CueCard from "../Components/CueCard";
 import "../../public/images/logo.ico";
 import "../Styles/CueCard.css";
 import BackBtn from "../Components/BackBtn";
-import Instructions from "../Components/guide";
+import Guide from '../Components/guide';
 
 
 const CueCardPage = () => {
@@ -54,7 +54,7 @@ const CueCardPage = () => {
     <>
       <div className="test-mode-banner">Page works in TEST MODE</div>
       <BackBtn />
-      <Instructions game={"cuecard"}/>
+      <Guide game={"cuecard"}/>
 
       <div className="cuecards-container">
         <h1>Cue Cards</h1>

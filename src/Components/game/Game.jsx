@@ -3,7 +3,7 @@ import { useGame } from "@context/GameContext";
 import { HUD } from "./HUD";
 import { PlatformStack } from "./PlatformStack";
 import BackButton from "../BackBtn";
-import Instructions from "../guide";
+import Guide from '../guide';
 
 export function Game() {
   const { phase, start, reset, score, bestScore, level, setLevel } = useGame();
@@ -20,7 +20,7 @@ export function Game() {
       <>
         <div className="test-mode-banner">Page works in TEST MODE</div>
         <BackButton />
-        <Instructions game={'spelling-game'}/>
+        <Guide game={'spelling-game'}/>
         <div className="game-container">
           <h1>Spelling Run</h1>
           <label className="level-select">

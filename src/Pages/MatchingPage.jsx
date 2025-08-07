@@ -6,7 +6,7 @@ import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../Firebase/firebaseConfig";
 import "../Styles/Matching.css";
 import BackBtn from "../Components/BackBtn";
-import Instructions from "../Components/guide";
+import Guide from '../Components/guide';
 
 const LEVELS = [
   "elementary",
@@ -35,22 +35,10 @@ const MatchingPage = () => {
   const [error, setError] = useState("");
   const [checked, setChecked] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
-  // const [timeLeft, setTimeLeft] = useState(DEFAULT_TIME);
-  // const [timerStarted, setTimerStarted] = useState(false);
   const [allWords, setAllWords] = useState([]); // все слова из файла
   const [usedKeys, setUsedKeys] = useState([]); // какие слова уже были
 
   const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   if (timerStarted && timeLeft > 0) {
-  //     const timer = setInterval(() => setTimeLeft((prev) => prev - 1), 1000);
-  //     return () => clearInterval(timer);
-  //   } else if (timeLeft === 0 && gameStarted) {
-  //     setError("Time is up!");
-  //     handleCheck();
-  //   }
-  // }, [timeLeft, timerStarted]);
 
   const handleStart = async () => {
     if (!level || !unit) {
@@ -79,12 +67,10 @@ const MatchingPage = () => {
         shuffle(selected.map((w) => ({ value: w.desc, key: w.en })))
       );
       setGameStarted(true);
-      // setTimerStarted(true);
       setSelected({ ru: null, en: null, desc: null });
       setGroups([]);
       setChecked(false);
       setCorrectCount(0);
-      // setTimeLeft(DEFAULT_TIME);
     } catch (err) {
       setError("Не удалось загрузить данные.");
     }
@@ -108,8 +94,6 @@ const MatchingPage = () => {
     setChecked(false);
     setSelected({ ru: null, en: null, desc: null });
     setError("");
-    // setTimeLeft(DEFAULT_TIME);
-    // setTimerStarted(true);
   };
 
   useEffect(() => {
@@ -133,7 +117,6 @@ const MatchingPage = () => {
   }, [selected]);
 
   const handleClick = (type, item) => {
-    // if (checked || timeLeft === 0) return; // блокировка после проверки или истечения времени
     if (selected[type]?.value === item.value) {
       setSelected((prev) => ({ ...prev, [type]: null }));
     } else {
@@ -157,7 +140,6 @@ const MatchingPage = () => {
 
     setCorrectCount(correct);
     setChecked(true);
-    // setTimerStarted(false);
     setError("");
   };
 
@@ -197,8 +179,6 @@ const MatchingPage = () => {
     setGameStarted(false);
     setChecked(false);
     setCorrectCount(0);
-    // setTimeLeft(DEFAULT_TIME);
-    // setTimerStarted(false);
     setError("");
   };
 
@@ -206,7 +186,7 @@ const MatchingPage = () => {
     <>
       <div className="test-mode-banner">Page works in TEST MODE</div>
       <BackBtn />
-      <Instructions game={"matching"} />
+      <Guide game={"matching"} />
 
       <div className="matching-wrapper">
         {!gameStarted ? (
