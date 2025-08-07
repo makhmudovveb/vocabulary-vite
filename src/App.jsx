@@ -30,7 +30,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <FeedbackForm />
+      {/* <FeedbackForm /> */}
       <Routes>
         <Route
           path="/"
