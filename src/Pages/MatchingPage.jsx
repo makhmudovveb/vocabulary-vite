@@ -6,7 +6,7 @@ import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../Firebase/firebaseConfig";
 import "../Styles/Matching.css";
 import BackBtn from "../Components/BackBtn";
-import Instructions from "../Components/instructions";
+import Instructions from "../Components/ins";
 
 const LEVELS = [
   "elementary",
