@@ -8,6 +8,7 @@ import { Auth } from "../Context/AuthContext";
 import BackBtn from "../Components/BackBtn";
 import Instructions from '../Components/Instructions';
 
+
 const QuizPage = () => {
   const [quizDirection, setQuizDirection] = useState("ru-to-en");
   const { currentUser, userData } = Auth();
