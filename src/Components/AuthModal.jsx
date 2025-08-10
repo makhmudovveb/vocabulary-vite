@@ -111,6 +111,8 @@ export default function AuthModal({ onAuthSuccess }) {
         >
           <option value="" disabled hidden>-- Select your teacher --</option>
           <option value="Bexzod Mahmudov">Bexzod Mahmudov</option>
+          <option value="Miss Ozoda">Miss Ozoda</option>
+          <option value="Miss Ziyoda">Miss Ziyoda</option>
           
         </select>
 
