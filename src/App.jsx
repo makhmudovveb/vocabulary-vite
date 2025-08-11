@@ -1,21 +1,19 @@
-// src/App.jsx
-
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Landing from "./Pages/LandingPage";
 import Quiz from "./Pages/QuizPage";
 import CueCard from "./Pages/CueCardPage";
 import StatsPage from "./Pages/StatsPage";
-import FeedbackForm from "./Components/FeedbackWidget";
 import Footer from "./Components/Footer";
 import MatchingPage from "./Pages/MatchingPage";
-import IELTSPage from "./Pages/IeltsPage"; // 
+import IELTSPage from "./Pages/IeltsPage";
 import SpellingGamePage from "./Pages/SpellingGamePage";
-import { useEffect } from "react";
+
 function App() {
   useEffect(() => {
     const disableFeatures = (el) => {
+      if (!el) return; // защита от undefined
       el.setAttribute("autoComplete", "off");
       el.setAttribute("autoCorrect", "off");
       el.setAttribute("autoCapitalize", "off");
@@ -28,12 +26,22 @@ function App() {
       el.style.userSelect = "none";
     };
 
-    disableInputHelpers();
+    // Применяем ко всем текущим инпутам и textarea
+    const inputs = document.querySelectorAll("input, textarea");
+    inputs.forEach(disableFeatures);
+
+    // Чтобы срабатывало на новых полях (React-роуты, динамический рендеринг)
+    const observer = new MutationObserver(() => {
+      document.querySelectorAll("input, textarea").forEach(disableFeatures);
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
   }, []);
+
   return (
     <Router>
       <Navbar />
-      {/* <FeedbackForm /> */}
       <Routes>
         <Route
           path="/"
