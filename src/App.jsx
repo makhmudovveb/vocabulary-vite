@@ -15,14 +15,17 @@ import SpellingGamePage from "./Pages/SpellingGamePage";
 import { useEffect } from "react";
 function App() {
   useEffect(() => {
-    const disableInputHelpers = () => {
-      const inputs = document.querySelectorAll("input, textarea");
-      inputs.forEach((input) => {
-        input.setAttribute("autocomplete", "off");
-        input.setAttribute("autocorrect", "off");
-        input.setAttribute("autocapitalize", "off");
-        input.setAttribute("spellcheck", "false");
-      });
+    const disableFeatures = (el) => {
+      el.setAttribute("autoComplete", "off");
+      el.setAttribute("autoCorrect", "off");
+      el.setAttribute("autoCapitalize", "off");
+      el.setAttribute("spellCheck", "false");
+
+      el.addEventListener("copy", (e) => e.preventDefault());
+      el.addEventListener("paste", (e) => e.preventDefault());
+      el.addEventListener("cut", (e) => e.preventDefault());
+      el.addEventListener("contextmenu", (e) => e.preventDefault());
+      el.style.userSelect = "none";
     };
 
     disableInputHelpers();

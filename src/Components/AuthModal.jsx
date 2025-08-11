@@ -11,7 +11,7 @@ const TEACHER_ACCOUNTS = {
   "bexzod.mahmudov@gmail.com": { fullName: "Bexzod Mahmudov", role: "teacher", password : "beka123"},
   "miss.ziyoda@gmail.com": { fullName: "Miss Ziyoda", role: "teacher", password : "miss_ziyoda"},
   "miss.ozoda@gmail.com": { fullName: "Miss Ozoda", role: "teacher", password : "miss_ozoda"},
-  "admin.mki@gmail.com": { 
+  "mki.school@gmail.com": { 
     fullName: "Mki School",
     role: "admin",
     password: "mkischool"
