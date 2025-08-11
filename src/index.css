@@ -2,3 +2,15 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+/* Запрет выделения текста и появления стандартного меню на мобильных */
+input, textarea, * {
+  -webkit-user-select: none; /* Safari, iOS */
+  -webkit-touch-callout: none; /* Запрещает меню "Копировать/Вставить" */
+  user-select: none;
+}
+
+/* Разрешаем ввод текста, но без T9 и автозамен */
+input, textarea {
+  -webkit-user-select: text; /* Разрешаем выделять внутри */
+  -webkit-touch-callout: none; /* Меню на долгий тап отключено */
+}

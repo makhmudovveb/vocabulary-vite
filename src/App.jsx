@@ -9,7 +9,7 @@ import Footer from "./Components/Footer";
 import MatchingPage from "./Pages/MatchingPage";
 import IELTSPage from "./Pages/IeltsPage";
 import SpellingGamePage from "./Pages/SpellingGamePage";
-import 'App.css'
+import './index.css'
 
 function App() {
   useEffect(() => {
