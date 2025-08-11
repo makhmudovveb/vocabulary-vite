@@ -35,10 +35,7 @@ const Instructions = ({ game }) => {
 
   return (
     <div className="instruction-container">
-      <button className="instruction-toggle" onClick={toggleInstructions}>
-        i
-      </button>
-      <div className={`instruction-panel ${visible ? "show" : ""}`}>
+      <div className="instruction-panel">
         <p>{text}</p>
       </div>
     </div>

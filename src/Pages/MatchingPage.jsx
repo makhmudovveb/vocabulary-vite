@@ -14,7 +14,7 @@ const LEVELS = [
   "intermediate",
   "upper-intermediate",
 ];
-const UNITS = ["Introduction", ...Array.from({ length: 9 }, (_, i) => i + 1)];
+const UNITS = ["Intro", ...Array.from({ length: 9 }, (_, i) => i + 1)];
 
 const DEFAULT_WORD_LIMIT = 5;
 // const DEFAULT_TIME = 60;
@@ -48,7 +48,7 @@ const MatchingPage = () => {
     try {
       setError("");
       const filePath =
-        unit === "Introduction"
+        unit === "Intro"
           ? `/data/${level}/unit0.json`
           : `/data/${level}/unit${unit}.json`;
 
@@ -184,8 +184,7 @@ const MatchingPage = () => {
 
   return (
     <>
-      <div className="test-mode-banner">Page works in TEST MODE</div>
-      <BackBtn />
+      {/* <div className="test-mode-banner">Page works in TEST MODE</div> */}
       <Guide game={"matching"} />
 
       <div className="matching-wrapper">
@@ -208,7 +207,7 @@ const MatchingPage = () => {
               </option>
               {UNITS.map((u) => (
                 <option key={u} value={u}>
-                  {u === "Introduction" ? "Introduction" : `Unit ${u}`}
+                  {u === "Intro" ? "Intro" : ` ${u}`}
                 </option>
               ))}
             </select>
@@ -304,6 +303,9 @@ const MatchingPage = () => {
             </div>
           </div>
         )}
+      </div>
+      <div className="backbtn">
+      <BackBtn />
       </div>
     </>
   );

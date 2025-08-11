@@ -2,8 +2,8 @@ import React, { useState, useRef } from "react";
 import CueCard from "../Components/CueCard";
 import "../../public/images/logo.ico";
 import "../Styles/CueCard.css";
-import BackBtn from "../Components/BackBtn";
 import Guide from '../Components/guide';
+import BackButton from "../Components/BackBtn";
 
 
 const CueCardPage = () => {
@@ -52,8 +52,7 @@ const CueCardPage = () => {
 
   return (
     <>
-      <div className="test-mode-banner">Page works in TEST MODE</div>
-      <BackBtn />
+      {/* <div className="test-mode-banner">Page works in TEST MODE</div> */}
       <Guide game={"cuecard"}/>
 
       <div className="cuecards-container">
@@ -72,12 +71,12 @@ const CueCardPage = () => {
           </select>
 
           <select value={unit} onChange={(e) => setUnit(e.target.value)}>
-            <option value="" disabled hidden>
+            <option  disabled hidden>
               -- Select unit --
             </option>
             {[...Array(10).keys()].map((i) => (
               <option key={i} value={i}>
-                {i === 0 ? "Introduction" : `Unit ${i}`}
+                {i === 0 ? "Intro" : ` ${i}`}
               </option>
             ))}
           </select>
@@ -126,6 +125,10 @@ const CueCardPage = () => {
           </>
         )}
       </div>
+      <div className="backbtn">
+        <BackButton />
+</div>
+
     </>
   );
 };

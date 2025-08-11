@@ -13,14 +13,13 @@ export function Game() {
     level === "pre-intermediate" ||
     level === "intermediate" ||
     level === "upper-intermediate";
-    // level === "ielts";
+  // level === "ielts";
 
   if (phase === "menu") {
     return (
       <>
-        <div className="test-mode-banner">Page works in TEST MODE</div>
-        <BackButton />
-        <Guide game={'spelling-game'}/>
+        {/* <div className="test-mode-banner">Page works in TEST MODE</div> */}
+        <Guide game={'spelling-game'} />
         <div className="game-container">
           <h1>Spelling Run</h1>
           <label className="level-select">
@@ -45,6 +44,9 @@ export function Game() {
             Start
           </button>
         </div>
+        <div className="backbtn">
+          <BackButton />
+        </div>
       </>
     );
   }
@@ -53,8 +55,7 @@ export function Game() {
     const isRecord = score >= bestScore;
     return (
       <>
-        <div className="test-mode-banner">Page works in TEST MODE</div>
-        <BackButton />
+        {/* <div className="test-mode-banner">Page works in TEST MODE</div> */}
         <div className="game-container">
           <h1>Game over</h1>
           <p>Your score: {score}</p>
@@ -64,18 +65,24 @@ export function Game() {
             Сыграть ещё
           </button>
         </div>
+        <div className="backbtn">
+          <BackButton />
+        </div>
       </>
     );
   }
 
   return (
     <>
-      <div className="test-mode-banner">Page works in TEST MODE</div>
+      {/* <div className="test-mode-banner">Page works in TEST MODE</div> */}
       <div className="game-container">
         <HUD />
         <div className="board">
           <PlatformStack />
         </div>
+      </div>
+      <div className="backbtn">
+        <BackButton />
       </div>
     </>
   );

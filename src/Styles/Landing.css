@@ -112,3 +112,33 @@ body::before {
 .new-badge:hover {
   transform: rotate(0deg) scale(1.05);
 }
+
+/* === Баннер режима теста === */
+.test-mode-banner {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--accent-color),
+    var(--accent-color) 10px,
+    #ffc107 10px,
+    #ffc107 20px
+  );
+  position: fixed;
+  top: 57px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius:8px ;
+}
+
+@media (max-width: 768px){
+body {
+  min-height: none;
+}  
+}

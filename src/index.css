@@ -12,3 +12,10 @@ input, textarea {
   autocapitalize: off;
   spellcheck: false;
 }
+select {
+  text-transform: capitalize;
+}
+.backbtn {
+  display: flex;
+  justify-content: center;
+}

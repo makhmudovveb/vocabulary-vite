@@ -212,30 +212,17 @@
     height: 50px;
     font-size: 18px;
   }
+  .platform-stack {
+    width: 90%;
+  }
   .hud {
     flex-direction: column;
     gap: 8px;
+   width: 90%;
+
   }
   .board {
     height: 500px;
   }
 }
 
-.test-mode-banner {
-  background: repeating-linear-gradient(
-    45deg,
-    #ff9800,
-    #ff9800 10px,
-    #ffc107 10px,
-    #ffc107 20px
-  );
-  color: white;
-  font-weight: 600;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 16px;
-  width: 100%;
-  z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  letter-spacing: 0.5px;
-}

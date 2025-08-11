@@ -164,8 +164,7 @@ const QuizPage = () => {
 
   return (
     <>
-      <div className="test-mode-banner">Page works in TEST MODE</div>
-      <BackBtn />
+      {/* <div className="test-mode-banner">Page works in TEST MODE</div> */}
       <Guide game={"quiz"} />
 
       <div className="quiz-container">
@@ -326,6 +325,10 @@ const QuizPage = () => {
             </div>
           </div>
         )}
+      </div>
+      <div className="backbtn">
+      <BackBtn />
+
       </div>
     </>
   );
