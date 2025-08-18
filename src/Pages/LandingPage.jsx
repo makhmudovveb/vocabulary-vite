@@ -24,7 +24,7 @@ export default function LandingPage() {
       {showAuthModal && (
         <AuthModal onAuthSuccess={() => setShowAuthModal(false)} />
       )}
-      <div className="test-mode-banner">Page works in TEST MODE</div>
+      <div className="test-mode-banner">Web-page works in TEST MODE</div>
 
       <h1 className="landing-title">Welcome to Vocabulary Games!</h1>
 

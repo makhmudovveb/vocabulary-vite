@@ -155,23 +155,30 @@
   background: #e65a00;
 }
 
-
-
 /* === Адаптивность === */
 @media (max-width: 768px) {
-  .card-wrapper {
+  /* .card-wrapper {
     height: 300px;
-  }
+  } */
 
   .cuecard_card {
     width: 400px;
     height: 350px;
+    display: flex;
+    justify-content: center;
   }
 
   .cuecard_card .front,
   .cuecard_card .back {
+    width: 120%;
+    height: 100%;
     font-size: 1.4em;
     padding: 20px;
+    margin: 0 auto;
+    display: flex;              /* добавляем */
+    justify-content: center;    /* горизонтально */
+    align-items: center;        /* вертикально */
+    text-align: center;  
   }
 
   .cuecard_card .back {

@@ -1,4 +1,3 @@
-
 /* Main container styles */
 .matching-wrapper {
     max-width: 1200px;
@@ -82,6 +81,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-bottom: 30px;
+    
 }
 
 .columns > div {
@@ -218,12 +218,28 @@
 .back-btn:hover {
     background-color: #e2e8f0;
     color: #1e293b;
-}
+}       
 
-/* Responsive design */
+/* Responsive design — начиная с 768px и ниже */
 @media (max-width: 768px) {
+    /* Группы (колонки) складываем в одну — как на макете для маленьких экранов */
     .columns {
         grid-template-columns: 1fr;
+    }
+
+    /* Внутри каждой группы карточки превращаем в сетку,
+       количество столбцов растёт с шириной экрана */
+    .columns > div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 12px;
+    }
+
+    /* Чуть уменьшим карточки на мелких экранах */
+    .card {
+        padding: 14px;
+        min-height: 52px;
+        font-size: 14px;
     }
 
     .matching-game {
@@ -240,21 +256,23 @@
     }
 }
 
+/* Телефоны — ровно 2 столбика карточек */
+@media (max-width: 480px) {
+    .columns > div {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 /* Animation for correct matches */
 @keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 grey;
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(5, 150, 105, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(5, 150, 105, 0);
-    }
+    0% { box-shadow: 0 0 0 0 grey; }
+    70% { box-shadow: 0 0 0 10px rgba(5, 150, 105, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(5, 150, 105, 0); }
 }
 
 .card.used {
     animation: pulse 1.5s infinite;
 }
+
 
 

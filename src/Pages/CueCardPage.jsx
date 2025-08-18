@@ -11,10 +11,7 @@ const CueCardPage = () => {
   const [unit, setUnit] = useState("");
   const [cardsData, setCardsData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const cardRef = useRef(); // 👈 создаём ref
-// const handleCardClick = () => {
-//   setIsFlipped(!isFlipped);
-// };
+  const cardRef = useRef();
   const handleLoad = async () => {
     if (!level || !unit) {
       alert("Please select level and unit");
@@ -53,7 +50,7 @@ const CueCardPage = () => {
   return (
     <>
       {/* <div className="test-mode-banner">Page works in TEST MODE</div> */}
-      <Guide game={"cuecard"}/>
+      <Guide game={"cuecard"} />
 
       <div className="cuecards-container">
         <h1>Cue Cards</h1>
@@ -71,7 +68,7 @@ const CueCardPage = () => {
           </select>
 
           <select value={unit} onChange={(e) => setUnit(e.target.value)}>
-            <option  disabled hidden>
+            <option value="" disabled hidden>
               -- Select unit --
             </option>
             {[...Array(10).keys()].map((i) => (
@@ -127,7 +124,7 @@ const CueCardPage = () => {
       </div>
       <div className="backbtn">
         <BackButton />
-</div>
+      </div>
 
     </>
   );

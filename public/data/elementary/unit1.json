@@ -1,21 +1,5 @@
 [
   {
-    "ru": "Argentina",
-    "en": "argentina",
-    "unit": "intro",
-    "pron": "/ˌɑːdʒənˈtiːnə/",
-    "desc": "A country in South America.",
-    "example": "Argentina is known for tango music and dance."
-  },
-  {
-    "ru": "Австралия",
-    "en": "australia",
-    "unit": "intro",
-    "pron": "/ɒˈstreɪlɪə/",
-    "desc": "A country and continent surrounded by the Indian and Pacific oceans.",
-    "example": "Australia is home to kangaroos."
-  },
-  {
     "ru": "мусорное ведро",
     "en": "bin",
     "unit": "intro",

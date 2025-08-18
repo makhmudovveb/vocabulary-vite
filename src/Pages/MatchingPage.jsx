@@ -221,7 +221,7 @@ const MatchingPage = () => {
             {/* <div className="timer">Time left: {timeLeft}s</div> */}
             <div className="columns">
               <div>
-                <h3>Russian</h3>
+                <h3 className="title_of_word">Russian</h3>
                 {ruWords.map((item, idx) => (
                   <div
                     key={item.value + idx}
@@ -241,7 +241,7 @@ const MatchingPage = () => {
                 ))}
               </div>
               <div>
-                <h3>English</h3>
+                <h3 className="title_of_word">English</h3>
                 {enWords.map((item, idx) => (
                   <div
                     key={item.value + idx}
@@ -261,7 +261,7 @@ const MatchingPage = () => {
                 ))}
               </div>
               <div>
-                <h3>Description</h3>
+                <h3 className="title_of_word">Description</h3>
                 {descWords.map((item, idx) => (
                   <div
                     key={item.value + idx}

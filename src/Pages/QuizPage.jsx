@@ -68,7 +68,7 @@ const QuizPage = () => {
   }, [level, unit]);
 
   const startQuiz = () => {
-    const shuffled = [...words].sort(() => 0.5 - Math.random()).slice(0, 30);
+    const shuffled = [...words].sort(() => 0.5 - Math.random()).slice(0, 20);
     setQuizWords(shuffled);
     setQuizStarted(true);
     setCurrentIndex(0);
@@ -78,6 +78,13 @@ const QuizPage = () => {
     setInputValue("");
     setFeedback("");
     setTimer(20);
+  };
+  const toggleDirection = () => {
+    setQuizDirection((prev) => {
+      if (prev === "ru-to-en") return "en-to-ru";
+      if (prev === "en-to-ru") return "desc-to-en";
+      return "ru-to-en"; // замыкаем цикл
+    });
   };
 
   const goToNext = () => {
@@ -99,7 +106,12 @@ const QuizPage = () => {
 
     const currentWord = quizWords[currentIndex];
     const correctAnswer =
-      quizDirection === "ru-to-en" ? currentWord.en : currentWord.ru;
+      quizDirection === "ru-to-en"
+        ? currentWord.en
+        : quizDirection === "en-to-ru"
+          ? currentWord.ru
+          : currentWord.en; // для desc-to-en
+
 
     const isCorrect =
       inputValue.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
@@ -120,10 +132,9 @@ const QuizPage = () => {
 
     setIncorrectCount((prev) => prev + 1);
     setFeedback(
-      `❌ Skipped! Correct answer: ${
-        quizDirection === "ru-to-en"
-          ? quizWords[currentIndex].en
-          : quizWords[currentIndex].ru
+      `❌ Skipped! Correct answer: ${quizDirection === "ru-to-en"
+        ? quizWords[currentIndex].en
+        : quizWords[currentIndex].ru
       }`
     );
 
@@ -200,16 +211,21 @@ const QuizPage = () => {
                 Start Quiz
               </button>
             </div>
+
             <button
               className="direction-toggle"
-              onClick={() =>
-                setQuizDirection((prev) =>
-                  prev === "ru-to-en" ? "en-to-ru" : "ru-to-en"
-                )
-              }
+              onClick={toggleDirection}
             >
-              Switch: {quizDirection === "ru-to-en" ? "RU → EN" : "EN → RU"}
+              Switch:{" "}
+              {quizDirection === "ru-to-en"
+                ? "RU → EN"
+                : quizDirection === "en-to-ru"
+                  ? "EN → RU"
+                  : "DESC → EN"}
             </button>
+
+
+
 
             {words.length > 0 && (
               <div className="word-table">
@@ -254,13 +270,14 @@ const QuizPage = () => {
               <div className="timer">⏳ {timer}s</div>
             </div>
             <div className="word-display">
-              Translate:{" "}
+             {" "}
               <strong className="word_trn">
-                {quizDirection === "ru-to-en"
-                  ? quizWords[currentIndex].ru
-                  : quizWords[currentIndex].en}
+                {quizDirection === "ru-to-en" && quizWords[currentIndex].ru}
+                {quizDirection === "en-to-ru" && quizWords[currentIndex].en}
+                {quizDirection === "desc-to-en" && quizWords[currentIndex].desc}
               </strong>
             </div>
+
 
             <input
               ref={inputRef}
@@ -327,7 +344,7 @@ const QuizPage = () => {
         )}
       </div>
       <div className="backbtn">
-      <BackBtn />
+        <BackBtn />
 
       </div>
     </>
