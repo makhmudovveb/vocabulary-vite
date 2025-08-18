@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter  as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Landing from "./Pages/LandingPage";
 import Quiz from "./Pages/QuizPage";
@@ -40,7 +40,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route
@@ -59,7 +59,7 @@ function App() {
         <Route path="/ielts" element={<IELTSPage />} />
         <Route path="/spelling-game" element={<SpellingGamePage />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
