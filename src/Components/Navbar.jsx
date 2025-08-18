@@ -107,9 +107,9 @@ export default function Navbar() {
         >
           🔓 Log Out
         </button>
-        <button className="nav-button">
+        
         <ThemeToggle/>
-        </button>
+        
       </div>
 
       {/* Фон-затемнение */}

@@ -20,68 +20,38 @@ const StatsPage = () => {
 
   useEffect(() => {
     if (!currentUser || !userData) return;
-
+  
     const fetchStats = async () => {
       setLoading(true);
       try {
-        // ====== QuizResults ======
-        let quizQuery;
-        if (userData.role === "admin") {
-          quizQuery = query(collection(db, "quizResults"));
-        } else if (userData.role === "teacher") {
-          quizQuery = query(
-            collection(db, "quizResults"),
-            where("teacher", "==", userData.fullName)
-          );
-        } else {
-          quizQuery = query(
-            collection(db, "quizResults"),
-            where("uid", "==", currentUser.uid)
-          );
-        }
-
-        // ====== MatchingResults ======
-        let matchingQuery;
-        if (userData.role === "admin") {
-          matchingQuery = query(collection(db, "matchingResults"));
-        } else if (userData.role === "teacher") {
-          matchingQuery = query(
-            collection(db, "matchingResults"),
-            where("teacher", "==", userData.fullName)
-          );
-        } else {
-          matchingQuery = query(
-            collection(db, "matchingResults"),
-            where("uid", "==", currentUser.uid)
-          );
-        }
-
-        // Получаем данные
+        const quizQuery =
+          userData.role === "admin"
+            ? query(collection(db, "quizResults"))
+            : userData.role === "teacher"
+            ? query(collection(db, "quizResults"), where("teacher", "==", userData.fullName))
+            : query(collection(db, "quizResults"), where("uid", "==", currentUser.uid));
+  
+        const matchingQuery =
+          userData.role === "admin"
+            ? query(collection(db, "matchingResults"))
+            : userData.role === "teacher"
+            ? query(collection(db, "matchingResults"), where("teacher", "==", userData.fullName))
+            : query(collection(db, "matchingResults"), where("uid", "==", currentUser.uid));
+  
         const [quizSnap, matchingSnap] = await Promise.all([
           getDocs(quizQuery),
           getDocs(matchingQuery),
         ]);
-
-        const quizData = quizSnap.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-        }));
-
-        const matchingData = matchingSnap.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-        }));
-
-        // Сортировка по дате
+  
+        const quizData = quizSnap.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+        const matchingData = matchingSnap.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+  
         setQuizResults(
-          quizData.sort(
-            (a, b) => (b.createdAt?.seconds || 0) - (a.createdAt?.seconds || 0)
-          )
+          quizData.sort((a, b) => (b.createdAt?.seconds || 0) - (a.createdAt?.seconds || 0))
         );
+  
         setMatchingResults(
-          matchingData.sort(
-            (a, b) => (b.createdAt?.seconds || 0) - (a.createdAt?.seconds || 0)
-          )
+          matchingData.sort((a, b) => (b.createdAt?.seconds || 0) - (a.createdAt?.seconds || 0))
         );
       } catch (err) {
         console.error("Ошибка при получении статистики:", err);
@@ -89,20 +59,21 @@ const StatsPage = () => {
         setLoading(false);
       }
     };
-
+  
     fetchStats();
   }, [currentUser, userData]);
 
   const handleDeleteAll = async () => {
-    if (!window.confirm("Вы уверены, что хотите удалить ВСЮ статистику?"))
-      return;
+    if (!window.confirm("Вы уверены, что хотите удалить ВСЮ статистику?")) return;
     setDeleting(true);
     try {
       const snapshot = await getDocs(collection(db, "quizResults"));
       const batch = writeBatch(db);
+
       snapshot.docs.forEach((docSnap) => {
         batch.delete(doc(db, "quizResults", docSnap.id));
       });
+
       await batch.commit();
       alert("Вся статистика удалена.");
       setQuizResults([]);
@@ -126,10 +97,12 @@ const StatsPage = () => {
         setDeleting(false);
         return;
       }
+
       const batch = writeBatch(db);
       snapshot.docs.forEach((docSnap) => {
         batch.delete(doc(db, "quizResults", docSnap.id));
       });
+
       await batch.commit();
       alert("Статистика пользователя удалена.");
       setQuizResults((prev) => prev.filter((r) => r.uid !== uid));
@@ -219,39 +192,39 @@ const StatsPage = () => {
 
       {/* ======= MATCHING GAME ======= */}
       <h2 className="stats-subtitle">🎯 Matching Game</h2>
-      {matchingResults.length === 0 ? (
-        <p className="no-data">Нет данных по Matching.</p>
-      ) : (
-        <table className="stats-table">
-          <thead>
-            <tr>
-              {userData.role !== "student" && <th>Имя</th>}
-              <th>Level</th>
-              <th>Unit</th>
-              <th>Correct</th>
-              <th>Incorrect</th>
-              <th>Total</th>
-              <th>Date</th>
-            </tr>
-          </thead>
-          <tbody>
-            {matchingResults.map((res) => {
-              const incorrect = res.total - res.correctCount;
-              return (
-                <tr key={res.id}>
-                  {userData.role !== "student" && <td>{res.userName || res.email || "—"}</td>}
-                  <td>{res.level}</td>
-                  <td>{res.unit}</td>
-                  <td className="correct">{res.correctCount}</td>
-                  <td className="incorrect">{incorrect}</td>
-                  <td>{res.total}</td>
-                  <td>{res.createdAt?.toDate().toLocaleString("ru-RU")}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      )}
+{matchingResults.length === 0 ? (
+  <p className="no-data">Нет данных по Matching.</p>
+) : (
+  <table className="stats-table">
+    <thead>
+      <tr>
+        {userData.role !== "student" && <th>Имя</th>}
+        <th>Level</th>
+        <th>Unit</th>
+        <th>Correct</th>
+        <th>Incorrect</th>
+        <th>Total</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {matchingResults.map((res) => {
+        const incorrect = res.total - res.correctCount;
+        return (
+          <tr key={res.id}>
+            {userData.role !== "student" && <td>{res.userName || res.email || "—"}</td>}
+            <td>{res.level}</td>
+            <td>{res.unit}</td>
+            <td className="correct">{res.correctCount}</td>
+            <td className="incorrect">{incorrect}</td>
+            <td>{res.total}</td>
+            <td>{res.createdAt?.toDate().toLocaleString("ru-RU")}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+)}
     </div>
   );
 };
