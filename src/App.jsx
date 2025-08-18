@@ -10,7 +10,6 @@ import MatchingPage from "./Pages/MatchingPage";
 import IELTSPage from "./Pages/IeltsPage";
 import SpellingGamePage from "./Pages/SpellingGamePage";
 import './index.css'
-import { Analytics } from "@vercel/analytics/next"
 function App() {
   useEffect(() => {
     const disableFeatures = (el) => {
