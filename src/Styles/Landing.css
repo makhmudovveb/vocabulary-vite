@@ -30,7 +30,7 @@ body::before {
   align-items: center;
   padding: 80px 20px 40px;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Заголовок */
@@ -137,8 +137,8 @@ body::before {
   border-bottom-left-radius:8px ;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 body {
-  min-height: none;
+  min-height: 200vh;
 }  
-}
+} */
