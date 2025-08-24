@@ -1,10 +1,4 @@
-import React, {
-  createContext,
-  useContext,
-  useReducer,
-  useEffect,
-  useCallback,
-} from "react";
+import React, { createContext, useContext, useReducer, useEffect, useCallback } from "react";
 import { generateWordOptions, loadWords, uid } from "./utils";
 
 const GameContext = createContext(null);
@@ -18,6 +12,8 @@ const initialState = {
   words: [],
   level: "",
   timer: 5,
+  maxTime: 5,
+  difficulty: "hard",
   lifeLost: false,
 };
 
@@ -46,8 +42,17 @@ function reducer(state, action) {
         phase: lives <= 0 ? "gameOver" : state.phase,
       };
     }
+
     case "SET_LEVEL":
       return { ...state, level: action.payload };
+
+    case "SET_DIFFICULTY": {
+      let maxTime;
+      if (action.payload === "easy") maxTime = 9;
+      if (action.payload === "medium") maxTime = 7;
+      if (action.payload === "hard") maxTime = 5;
+      return { ...state, difficulty: action.payload, maxTime, timer: maxTime };
+    }
 
     case "SET_WORDS":
       return { ...state, words: action.payload };
@@ -63,7 +68,7 @@ function reducer(state, action) {
         score: 0,
         lives: 3,
         platformRows: first ? [first] : [],
-        timer: 5,
+        timer: state.maxTime,
         lifeLost: false,
       };
     }
@@ -78,7 +83,7 @@ function reducer(state, action) {
       return { ...state, timer: state.timer - 1 };
 
     case "RESET_TIMER":
-      return { ...state, timer: 5 };
+      return { ...state, timer: state.maxTime };
 
     case "CHOOSE": {
       const { rowId, optionIndex } = action.payload;
@@ -95,12 +100,7 @@ function reducer(state, action) {
         const newScore = state.score + 1;
         const newBest = Math.max(state.bestScore, newScore);
         localStorage.setItem("spelling_best_score", String(newBest));
-        return {
-          ...state,
-          platformRows: updated,
-          score: newScore,
-          bestScore: newBest,
-        };
+        return { ...state, platformRows: updated, score: newScore, bestScore: newBest };
       } else {
         const lives = state.lives - 1;
         return {
@@ -133,13 +133,13 @@ export function GameProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const setLevel = (level) => dispatch({ type: "SET_LEVEL", payload: level });
+  const setDifficulty = (difficulty) => dispatch({ type: "SET_DIFFICULTY", payload: difficulty });
 
   const loadLevelWords = useCallback(async (level) => {
     const words = await loadWords(level);
     dispatch({ type: "SET_WORDS", payload: words });
   }, []);
 
-  // загрузка bestScore при инициализации
   useEffect(() => {
     const best = parseInt(localStorage.getItem("spelling_best_score")) || 0;
     dispatch({ type: "LOAD_BEST", payload: best });
@@ -152,29 +152,35 @@ export function GameProvider({ children }) {
   }, [state.level, loadLevelWords]);
 
   const reset = useCallback(() => dispatch({ type: "RESET" }), []);
-
   const choose = useCallback((rowId, optionIndex) => {
     dispatch({ type: "CHOOSE", payload: { rowId, optionIndex } });
   }, []);
 
-  // Таймер + спавн строк
+  // Таймер + спавн новой строки **только после завершения предыдущей**
   useEffect(() => {
     if (state.phase !== "playing") return;
-    const interval = setInterval(() => {
-      if (state.timer <= 1) {
-        // Проверяем, есть ли нерешённая строка (пользователь не выбрал вариант)
-        const lastRow = state.platformRows[state.platformRows.length - 1];
-        if (lastRow && !lastRow.resolved) {
-          dispatch({ type: "MISS" });
-        }
-        dispatch({ type: "SPAWN_ROW" });
-        dispatch({ type: "RESET_TIMER" });
-      } else {
-        dispatch({ type: "TICK" });
-      }
-    }, 1000);
+    if (state.platformRows.length === 0) return;
+
+    const spawnNextRow = () => {
+      const lastRow = state.platformRows[state.platformRows.length - 1];
+      if (lastRow && !lastRow.resolved) dispatch({ type: "MISS" });
+
+      dispatch({ type: "SPAWN_ROW" });
+      dispatch({ type: "RESET_TIMER" });
+    };
+
+    const interval = setInterval(spawnNextRow, state.maxTime * 1000);
     return () => clearInterval(interval);
-  }, [state.phase, state.timer, state.platformRows]);
+  }, [state.phase, state.platformRows, state.maxTime]);
+
+  // Отдельный интервал для отображения таймера прогресс-бара
+  useEffect(() => {
+    if (state.phase !== "playing") return;
+    const tickInterval = setInterval(() => {
+      if (state.timer > 0) dispatch({ type: "TICK" });
+    }, 1000);
+    return () => clearInterval(tickInterval);
+  }, [state.phase, state.timer]);
 
   return (
     <GameContext.Provider
@@ -184,6 +190,7 @@ export function GameProvider({ children }) {
         reset,
         choose,
         setLevel,
+        setDifficulty,
         dispatch,
       }}
     >

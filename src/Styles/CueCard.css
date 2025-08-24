@@ -158,7 +158,6 @@
 
 /* === Адаптивность === */
 
-
 @media (max-width: 768px) {
   .cuecards-container {
     max-width: 95%;
@@ -203,7 +202,7 @@
     /* margin-top: 60px; */
   }
   .total_words {
-    margin-top:100px ;
+    margin-top: 150px;
   }
 
   .card-nav button {
@@ -228,6 +227,9 @@
 
   .cuecards-container h1 {
     font-size: 20px;
+  }
+  .total_words {
+    margin-top: 150px;
   }
 
   .card-wrapper {

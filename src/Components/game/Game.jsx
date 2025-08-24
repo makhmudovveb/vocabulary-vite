@@ -4,6 +4,7 @@ import { HUD } from "./HUD";
 import { PlatformStack } from "./PlatformStack";
 import BackButton from "../BackBtn";
 import Guide from '../guide';
+import DifficultySelect from './DifficultySelect'
 
 export function Game() {
   const { phase, start, reset, score, bestScore, level, setLevel } = useGame();
@@ -40,6 +41,7 @@ export function Game() {
               {/* <option value="ielts">IELTS</option> */}
             </select>
           </label>
+          <DifficultySelect/>
           <button onClick={start} className="btn" disabled={!isLevelSelected}>
             Start
           </button>

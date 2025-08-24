@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
 
 export function HUD() {
-  const { score, bestScore, lives, lifeLost, dispatch, timer } = useGame();
+  const { score, bestScore, lives, lifeLost, dispatch, timer, maxTime  } = useGame();
 
   useEffect(() => {
     if (lifeLost) {
@@ -56,10 +56,7 @@ export function HUD() {
       </div>
 
       <div className="timer-game">
-        <div
-          className="timer-bar"
-          style={{ width: `${(timer / 5) * 100}%` }}
-        />
+        <div className="timer-bar" style={{ width: `${(timer / maxTime) * 100}%` }} />
       </div>
     </div>
   );
