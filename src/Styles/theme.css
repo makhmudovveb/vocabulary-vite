@@ -6,9 +6,13 @@
   --accent-color: #ff9800;
   --navbar-color: #16386e;
   --card-color: #f9f9f9;
+  --footer-text: black;
+  --footer-color: white;
 }
 
 .dark-theme {
+  --footer-text: white;
+  --footer-color: grey;
   --bg-color: #121212;
   --text-color: #e0e0e0;
   --accent-color: #ff9800;

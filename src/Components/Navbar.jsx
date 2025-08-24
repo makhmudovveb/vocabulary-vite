@@ -50,7 +50,7 @@ export default function Navbar() {
             alt="Logo"
             className="nav-logo-img"
           />{" "}
-          Vocabulary App
+         MKI school
         </div>
 
         {/* Десктоп меню */}

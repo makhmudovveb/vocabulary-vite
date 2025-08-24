@@ -9,7 +9,6 @@ import BackBtn from '../Components/BackBtn'
 export default function IELTSPage() {
   return (
     <>
-    <BackBtn/>
     <div className="landing-page">
       <h1 className="landing-title">IELTS Preparation</h1>
 
@@ -26,6 +25,7 @@ export default function IELTSPage() {
 
         </Link>
       </div>
+    <BackBtn/>
     </div>
     </>
   );

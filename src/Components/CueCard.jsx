@@ -60,7 +60,7 @@ const CueCard = forwardRef(({ data, index = 1, total = 1 }, ref) => {
         </div>
       </div>
       {index > 0 && total > 0 && (
-        <div style={{color :'grey', fontSize: '25px', marginTop : '10px'}}>
+        <div className="total_words" style={{color :'grey', fontSize: '25px'}}>
           Word {index} of {total}
         </div>
       )}

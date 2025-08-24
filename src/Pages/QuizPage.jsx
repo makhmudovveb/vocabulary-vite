@@ -221,7 +221,7 @@ const QuizPage = () => {
                 ? "RU → EN"
                 : quizDirection === "en-to-ru"
                   ? "EN → RU"
-                  : "DESC → EN"}
+                  : "EN → EN"}
             </button>
 
 
