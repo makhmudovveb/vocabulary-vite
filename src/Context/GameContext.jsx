@@ -13,7 +13,7 @@ const initialState = {
   level: "",
   timer: 5,
   maxTime: 5,
-  difficulty: "hard",
+  difficulty: "medium",
   lifeLost: false,
 };
 
