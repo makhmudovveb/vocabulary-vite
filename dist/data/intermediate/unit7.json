@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "общество",
+      "en": "society",
+      "unit": 7,
+      "pron": "[səˈsaɪ.ə.ti]",
+      "desc": "A group of people living together in an organized community.",
+      "example": "Education plays a vital role in modern society."
+    },
+    {
+      "ru": "культура",
+      "en": "culture",
+      "unit": 7,
+      "pron": "[ˈkʌl.tʃər]",
+      "desc": "The customs, arts, and achievements of a particular nation or group.",
+      "example": "Japanese culture is rich and diverse."
+    },
+    {
+      "ru": "традиция",
+      "en": "tradition",
+      "unit": 7,
+      "pron": "[trəˈdɪʃ.ən]",
+      "desc": "A belief or custom passed down through generations.",
+      "example": "It's a family tradition to have dinner together on Sundays."
+    },
+    {
+      "ru": "религия",
+      "en": "religion",
+      "unit": 7,
+      "pron": "[rɪˈlɪdʒ.ən]",
+      "desc": "A system of beliefs about the meaning of life and worship of a god or gods.",
+      "example": "Freedom of religion is protected by law."
+    },
+    {
+      "ru": "политика",
+      "en": "politics",
+      "unit": 7,
+      "pron": "[ˈpɒl.ɪ.tɪks]",
+      "desc": "The activities related to governing a country or area.",
+      "example": "He is interested in politics and wants to become a mayor."
+    },
+    {
+      "ru": "экономика",
+      "en": "economy",
+      "unit": 7,
+      "pron": "[ɪˈkɒn.ə.mi]",
+      "desc": "The system of how money and resources are used in a country.",
+      "example": "The global economy is recovering after the crisis."
+    },
+    {
+      "ru": "право",
+      "en": "law",
+      "unit": 7,
+      "pron": "[lɔː]",
+      "desc": "A system of rules made by a government.",
+      "example": "Everyone must obey the law."
+    },
+    {
+      "ru": "суд",
+      "en": "court",
+      "unit": 7,
+      "pron": "[kɔːt]",
+      "desc": "A place where legal cases are judged.",
+      "example": "The case went to court last week."
+    },
+    {
+      "ru": "закон",
+      "en": "legislation",
+      "unit": 7,
+      "pron": "[ˌledʒ.ɪˈsleɪ.ʃən]",
+      "desc": "Laws considered together or the process of making laws.",
+      "example": "New legislation was passed to protect the environment."
+    },
+    {
+      "ru": "правительство",
+      "en": "government",
+      "unit": 7,
+      "pron": "[ˈɡʌv.ən.mənt]",
+      "desc": "The group of people who control a country.",
+      "example": "The government announced new policies on education."
+    }
+  ]
+  

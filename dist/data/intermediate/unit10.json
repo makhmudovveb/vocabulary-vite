@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "экономика",
+      "en": "economy",
+      "unit": 10,
+      "pron": "[ɪˈkɒn.ə.mi]",
+      "desc": "The system of how money, goods, and services are produced and used.",
+      "example": "The global economy is recovering slowly."
+    },
+    {
+      "ru": "рынок",
+      "en": "market",
+      "unit": 10,
+      "pron": "[ˈmɑː.kɪt]",
+      "desc": "A place or system for buying and selling goods or services.",
+      "example": "He sells vegetables at the local market."
+    },
+    {
+      "ru": "бизнес",
+      "en": "business",
+      "unit": 10,
+      "pron": "[ˈbɪz.nɪs]",
+      "desc": "The activity of making, buying, or selling goods or services.",
+      "example": "She owns a small business."
+    },
+    {
+      "ru": "финансы",
+      "en": "finance",
+      "unit": 10,
+      "pron": "[ˈfaɪ.næns]",
+      "desc": "The management of money, especially by governments or businesses.",
+      "example": "He works in international finance."
+    },
+    {
+      "ru": "инвестиции",
+      "en": "investment",
+      "unit": 10,
+      "pron": "[ɪnˈvest.mənt]",
+      "desc": "The act of putting money into something to make a profit.",
+      "example": "Real estate is a common type of investment."
+    },
+    {
+      "ru": "прибыль",
+      "en": "profit",
+      "unit": 10,
+      "pron": "[ˈprɒf.ɪt]",
+      "desc": "The money a business earns after costs are paid.",
+      "example": "Their profit grew by 20% last year."
+    },
+    {
+      "ru": "убыток",
+      "en": "loss",
+      "unit": 10,
+      "pron": "[lɒs]",
+      "desc": "When a business spends more money than it earns.",
+      "example": "The company reported a loss this quarter."
+    },
+    {
+      "ru": "налог",
+      "en": "tax",
+      "unit": 10,
+      "pron": "[tæks]",
+      "desc": "Money paid to the government from income or sales.",
+      "example": "You must pay income tax every year."
+    },
+    {
+      "ru": "банк",
+      "en": "bank",
+      "unit": 10,
+      "pron": "[bæŋk]",
+      "desc": "An institution that manages money, loans, and savings.",
+      "example": "She keeps her money in a local bank."
+    },
+    {
+      "ru": "счет",
+      "en": "account",
+      "unit": 10,
+      "pron": "[əˈkaʊnt]",
+      "desc": "A record of financial transactions held at a bank.",
+      "example": "I opened a new savings account yesterday."
+    }
+  ]
+  

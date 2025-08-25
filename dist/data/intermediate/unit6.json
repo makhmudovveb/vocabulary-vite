@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "здоровье",
+      "en": "health",
+      "unit": 6,
+      "pron": "[helθ]",
+      "desc": "The condition of a person's body or mind.",
+      "example": "Regular exercise is good for your health."
+    },
+    {
+      "ru": "медицина",
+      "en": "medicine",
+      "unit": 6,
+      "pron": "[ˈmed.ɪ.sən]",
+      "desc": "The science of treating illness and injuries.",
+      "example": "She is studying medicine at university."
+    },
+    {
+      "ru": "больница",
+      "en": "hospital",
+      "unit": 6,
+      "pron": "[ˈhɒs.pɪ.təl]",
+      "desc": "A place where sick or injured people receive medical care.",
+      "example": "He was taken to the hospital after the accident."
+    },
+    {
+      "ru": "лечение",
+      "en": "treatment",
+      "unit": 6,
+      "pron": "[ˈtriːt.mənt]",
+      "desc": "The care given to a patient for an illness or injury.",
+      "example": "The doctor recommended a new treatment."
+    },
+    {
+      "ru": "пациент",
+      "en": "patient",
+      "unit": 6,
+      "pron": "[ˈpeɪ.ʃənt]",
+      "desc": "A person receiving medical care.",
+      "example": "The patient is recovering well after surgery."
+    },
+    {
+      "ru": "симптом",
+      "en": "symptom",
+      "unit": 6,
+      "pron": "[ˈsɪmp.təm]",
+      "desc": "A sign that someone is ill.",
+      "example": "Coughing is a common symptom of a cold."
+    },
+    {
+      "ru": "диагноз",
+      "en": "diagnosis",
+      "unit": 6,
+      "pron": "[ˌdaɪ.əɡˈnəʊ.sɪs]",
+      "desc": "The identification of an illness.",
+      "example": "She received a diagnosis of asthma."
+    },
+    {
+      "ru": "операция",
+      "en": "surgery",
+      "unit": 6,
+      "pron": "[ˈsɜː.dʒər.i]",
+      "desc": "A medical procedure involving an incision.",
+      "example": "The patient needs heart surgery."
+    },
+    {
+      "ru": "реабилитация",
+      "en": "rehabilitation",
+      "unit": 6,
+      "pron": "[ˌriː.hə.bɪ.lɪˈteɪ.ʃən]",
+      "desc": "The process of recovery after illness or injury.",
+      "example": "He went through rehabilitation after the accident."
+    },
+    {
+      "ru": "врач",
+      "en": "doctor",
+      "unit": 6,
+      "pron": "[ˈdɒk.tər]",
+      "desc": "A person qualified to treat people who are ill.",
+      "example": "She made an appointment with the doctor."
+    }
+  ]
+  

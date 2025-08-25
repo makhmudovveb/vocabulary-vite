@@ -1,0 +1,874 @@
+[
+  {
+    "ru": "Очевидно",
+    "en": "apparently",
+    "unit": "2",
+    "pron": "/əˈpærəntli/",
+    "desc": "As far as one knows.",
+    "example": "Apparently, he didn’t get the message."
+  },
+  {
+    "ru": "Балет",
+    "en": "ballet",
+    "unit": "2",
+    "pron": "/ˈbæleɪ/",
+    "desc": "A dance with precise, graceful movements.",
+    "example": "She has been learning ballet since she was five."
+  },
+  {
+    "ru": "Бальные танцы",
+    "en": "ballroom dancing",
+    "unit": "2",
+    "pron": "/ˈbɔːlruːm ˈdɑːnsɪŋ/",
+    "desc": "Formal paired dancing with set steps.",
+    "example": "They took lessons in ballroom dancing for their wedding."
+  },
+  {
+    "ru": "Bmx (велоспорт)",
+    "en": "bmxing",
+    "unit": "2",
+    "pron": "/ˌbiː.emˈeks.ɪŋ/",
+    "desc": "Sport of performing tricks on a small bicycle.",
+    "example": "He loves BMXing at the local skate park."
+  },
+  {
+    "ru": "Кемпинг",
+    "en": "camping",
+    "unit": "2",
+    "pron": "/ˈkæmpɪŋ/",
+    "desc": "Staying outdoors in a tent or shelter.",
+    "example": "We went camping in the mountains last summer."
+  },
+  {
+    "ru": "Драма",
+    "en": "drama",
+    "unit": "2",
+    "pron": "/ˈdrɑːmə/",
+    "desc": "A play or the art of performing plays.",
+    "example": "The school drama club is putting on a new play."
+  },
+  {
+    "ru": "Сотрудник",
+    "en": "employee",
+    "unit": "2",
+    "pron": "/ɪmˈplɔɪiː/",
+    "desc": "A person working for payment.",
+    "example": "The company hired 10 new employees."
+  },
+  {
+    "ru": "Работодатель",
+    "en": "employer",
+    "unit": "2",
+    "pron": "/ɪmˈplɔɪər/",
+    "desc": "A person or company that hires workers.",
+    "example": "Her employer offered her a promotion."
+  },
+  {
+    "ru": "Цифры, данные",
+    "en": "figures",
+    "unit": "2",
+    "pron": "/ˈfɪɡjəz/",
+    "desc": "Numbers or statistical data.",
+    "example": "The sales figures improved last month."
+  },
+  {
+    "ru": "Гимнастика",
+    "en": "gymnastics",
+    "unit": "2",
+    "pron": "/dʒɪmˈnæstɪks/",
+    "desc": "Sport of exercises for flexibility and strength.",
+    "example": "She practices gymnastics five times a week."
+  },
+  {
+    "ru": "Памятные вещи",
+    "en": "memorabilia",
+    "unit": "2",
+    "pron": "/ˌmemərəˈbɪliə/",
+    "desc": "Objects kept for historical or sentimental value.",
+    "example": "The museum displays football memorabilia from the 1960s."
+  },
+  {
+    "ru": "Роман",
+    "en": "novel",
+    "unit": "2",
+    "pron": "/ˈnɒvəl/",
+    "desc": "A long fictional story.",
+    "example": "This novel tells the story of a young hero in wartime."
+  },
+  {
+    "ru": "Катание на роликовых коньках",
+    "en": "rollerblading",
+    "unit": "2",
+    "pron": "/ˈrəʊləbleɪdɪŋ/",
+    "desc": "Moving on inline skates.",
+    "example": "We spent the afternoon rollerblading around the park."
+  },
+  {
+    "ru": "Марки",
+    "en": "stamps",
+    "unit": "2",
+    "pron": "/stæmps/",
+    "desc": "Small labels on mail for postage.",
+    "example": "He collects stamps from different countries."
+  },
+  {
+    "ru": "Угрожать",
+    "en": "threaten",
+    "unit": "2",
+    "pron": "/ˈθretən/",
+    "desc": "To express intent to harm.",
+    "example": "The dark clouds threatened rain."
+  },
+  {
+    "ru": "Тусоваться",
+    "en": "to hang out",
+    "unit": "2",
+    "pron": "/hæŋ aʊt/",
+    "desc": "To spend time socially.",
+    "example": "We usually hang out at the café after school."
+  },
+  {
+    "ru": "Приобретать",
+    "en": "to purchase",
+    "unit": "2",
+    "pron": "/ˈpɜːtʃəs/",
+    "desc": "To buy something.",
+    "example": "I need to purchase a new laptop."
+  },
+  {
+    "ru": "Видеоблогинг",
+    "en": "vlogging",
+    "unit": "2",
+    "pron": "/ˈvlɒɡɪŋ/",
+    "desc": "Creating and sharing video blogs.",
+    "example": "She started vlogging about her travels."
+  },
+  {
+    "ru": "Гири, штанги",
+    "en": "weights",
+    "unit": "2",
+    "pron": "/weɪts/",
+    "desc": "Heavy objects for exercise.",
+    "example": "He lifts weights at the gym every morning."
+  },
+  {
+    "ru": "Очень разочаровывающе",
+    "en": "a real let-down",
+    "unit": "2",
+    "pron": "/ə ˈrɪəl ˈletdaʊn/",
+    "desc": "Something disappointing.",
+    "example": "The ending of the film was a real let-down."
+  },
+  {
+    "ru": "Избегать",
+    "en": "avoid",
+    "unit": "2",
+    "pron": "/əˈvɔɪd/",
+    "desc": "To stay away from something.",
+    "example": "You should avoid eating too much sugar."
+  },
+  {
+    "ru": "Карри",
+    "en": "curry",
+    "unit": "2",
+    "pron": "/ˈkʌri/",
+    "desc": "A spicy dish with meat or vegetables in sauce.",
+    "example": "I love eating spicy chicken curry."
+  },
+  {
+    "ru": "Без глютена",
+    "en": "gluten-free",
+    "unit": "2",
+    "pron": "/ˌɡluːtnˈfriː/",
+    "desc": "Without gluten, a protein in wheat.",
+    "example": "She only eats gluten-free bread."
+  },
+  {
+    "ru": "Непереносимый",
+    "en": "intolerant",
+    "unit": "2",
+    "pron": "/ɪnˈtɒlərənt/",
+    "desc": "Unable to digest certain foods.",
+    "example": "He's lactose intolerant."
+  },
+  {
+    "ru": "Лактоза",
+    "en": "lactose",
+    "unit": "2",
+    "pron": "/ˈlæktəʊs/",
+    "desc": "A sugar found in milk.",
+    "example": "Some people cannot digest lactose."
+  },
+  {
+    "ru": "Лазанья",
+    "en": "lasagne",
+    "unit": "2",
+    "pron": "/ləˈzænjə/",
+    "desc": "A layered pasta dish with sauce and cheese.",
+    "example": "We had homemade lasagne for dinner."
+  },
+  {
+    "ru": "С низким содержанием жира",
+    "en": "low-fat",
+    "unit": "2",
+    "pron": "/ˌləʊˈfæt/",
+    "desc": "Containing little fat.",
+    "example": "I prefer low-fat yogurt."
+  },
+  {
+    "ru": "Мисо-суп",
+    "en": "miso soup",
+    "unit": "2",
+    "pron": "/ˈmiːsəʊ suːp/",
+    "desc": "A Japanese soup made from miso paste.",
+    "example": "He ordered miso soup with his sushi."
+  },
+  {
+    "ru": "Мусс",
+    "en": "mousse",
+    "unit": "2",
+    "pron": "/muːs/",
+    "desc": "A light, creamy dessert.",
+    "example": "Chocolate mousse is my favorite dessert."
+  },
+  {
+    "ru": "Потрясающе",
+    "en": "out of this world",
+    "unit": "2",
+    "pron": "/aʊt əv ðɪs wɜːld/",
+    "desc": "Extremely good.",
+    "example": "The cake was out of this world!"
+  },
+  {
+    "ru": "Паэлья",
+    "en": "paella",
+    "unit": "2",
+    "pron": "/paɪˈel.jə/",
+    "desc": "A Spanish rice dish with seafood or meat.",
+    "example": "We tried delicious seafood paella in Spain."
+  },
+  {
+    "ru": "Арахис",
+    "en": "peanut",
+    "unit": "2",
+    "pron": "/ˈpiːnʌt/",
+    "desc": "A small, edible nut.",
+    "example": "He's allergic to peanuts."
+  },
+  {
+    "ru": "Пирог",
+    "en": "pie",
+    "unit": "2",
+    "pron": "/paɪ/",
+    "desc": "A baked dish with a crust and filling.",
+    "example": "She made an apple pie for dessert."
+  },
+  {
+    "ru": "Свинина",
+    "en": "pork",
+    "unit": "2",
+    "pron": "/pɔːk/",
+    "desc": "Meat from a pig.",
+    "example": "They served roast pork with potatoes."
+  },
+  {
+    "ru": "Креветки",
+    "en": "prawns",
+    "unit": "2",
+    "pron": "/prɔːnz/",
+    "desc": "Large shrimp.",
+    "example": "I ordered a prawn salad."
+  },
+  {
+    "ru": "Довольно средний",
+    "en": "pretty average",
+    "unit": "2",
+    "pron": "/ˈprɪti ˈævərɪdʒ/",
+    "desc": "Neither good nor bad.",
+    "example": "The movie was pretty average."
+  },
+  {
+    "ru": "Пудинг",
+    "en": "pudding",
+    "unit": "2",
+    "pron": "/ˈpʊdɪŋ/",
+    "desc": "A soft, sweet dessert.",
+    "example": "We had chocolate pudding after dinner."
+  },
+  {
+    "ru": "Ризотто",
+    "en": "risotto",
+    "unit": "2",
+    "pron": "/rɪˈzɒtəʊ/",
+    "desc": "A creamy rice dish.",
+    "example": "He cooked mushroom risotto for lunch."
+  },
+  {
+    "ru": "Салат",
+    "en": "salad",
+    "unit": "2",
+    "pron": "/ˈsæləd/",
+    "desc": "A cold dish of vegetables or fruits.",
+    "example": "She had a chicken salad for lunch."
+  },
+  {
+    "ru": "Перекус",
+    "en": "snack",
+    "unit": "2",
+    "pron": "/snæk/",
+    "desc": "A small amount of food between meals.",
+    "example": "He grabbed a quick snack between classes."
+  },
+  {
+    "ru": "Рагу",
+    "en": "stew",
+    "unit": "2",
+    "pron": "/stjuː/",
+    "desc": "A slow-cooked dish with meat and vegetables.",
+    "example": "Beef stew is perfect for cold evenings."
+  },
+  {
+    "ru": "Жаркое в воке",
+    "en": "stir-fry",
+    "unit": "2",
+    "pron": "/ˈstɜː fraɪ/",
+    "desc": "Food quickly fried with little oil while stirring.",
+    "example": "We had chicken stir-fry for dinner."
+  },
+  {
+    "ru": "Тако",
+    "en": "tacos",
+    "unit": "2",
+    "pron": "/ˈtækəʊz/",
+    "desc": "Mexican dish with a folded tortilla and filling.",
+    "example": "He loves eating spicy beef tacos."
+  },
+  {
+    "ru": "Вкусный",
+    "en": "tasty",
+    "unit": "2",
+    "pron": "/ˈteɪsti/",
+    "desc": "Having a good flavor.",
+    "example": "The soup was really tasty."
+  },
+  {
+    "ru": "Соответствует стандарту",
+    "en": "up to standard",
+    "unit": "2",
+    "pron": "/ʌp tuː ˈstændəd/",
+    "desc": "Meeting expectations.",
+    "example": "The service wasn’t up to standard."
+  },
+  {
+    "ru": "Пшеница",
+    "en": "wheat",
+    "unit": "2",
+    "pron": "/wiːt/",
+    "desc": "A grain used to make flour.",
+    "example": "Wheat is used to make bread and pasta."
+  },
+  {
+    "ru": "Реклама",
+    "en": "adverts",
+    "unit": "2",
+    "pron": "/ˈædvɜːts/",
+    "desc": "Advertisements.",
+    "example": "There are too many adverts on TV these days."
+  },
+  {
+    "ru": "Переулок",
+    "en": "alley",
+    "unit": "2",
+    "pron": "/ˈæli/",
+    "desc": "A narrow street or passage.",
+    "example": "The cat disappeared down a dark alley."
+  },
+  {
+    "ru": "Обновление",
+    "en": "an update",
+    "unit": "2",
+    "pron": "/ʌpˈdeɪt/",
+    "desc": "A new version or improvement.",
+    "example": "The app needs a new update to work."
+  },
+  {
+    "ru": "Привлекать",
+    "en": "attract",
+    "unit": "2",
+    "pron": "/əˈtrækt/",
+    "desc": "To draw attention or interest.",
+    "example": "The show attracts large audiences."
+  },
+  {
+    "ru": "Появляться",
+    "en": "emerge",
+    "unit": "2",
+    "pron": "/ɪˈmɜːdʒ/",
+    "desc": "To come into view or existence.",
+    "example": "New ideas emerged during the discussion."
+  },
+  {
+    "ru": "Пустой",
+    "en": "empty",
+    "unit": "2",
+    "pron": "/ˈɛmpti/",
+    "desc": "Containing nothing.",
+    "example": "The bottle was empty."
+  },
+  {
+    "ru": "Прожекторы",
+    "en": "flood lights",
+    "unit": "2",
+    "pron": "/flʌd laɪts/",
+    "desc": "Bright lights used to illuminate large areas.",
+    "example": "Flood lights lit up the entire stadium."
+  },
+  {
+    "ru": "Футбольное поле",
+    "en": "football pitch",
+    "unit": "2",
+    "pron": "/ˈfʊtbɔːl pɪtʃ/",
+    "desc": "A field for playing football.",
+    "example": "The football pitch was muddy after the rain."
+  },
+  {
+    "ru": "Дефис",
+    "en": "hyphen",
+    "unit": "2",
+    "pron": "/ˈhaɪfən/",
+    "desc": "A punctuation mark (-).",
+    "example": "Use a hyphen in compound adjectives."
+  },
+  {
+    "ru": "Нетерпеливый",
+    "en": "impatient",
+    "unit": "2",
+    "pron": "/ɪmˈpeɪʃnt/",
+    "desc": "Not willing to wait.",
+    "example": "He was too impatient to wait in line."
+  },
+  {
+    "ru": "Ждать с нетерпением",
+    "en": "look forward to something",
+    "unit": "2",
+    "pron": "/lʊk ˈfɔːwəd tuː ˈsʌmθɪŋ/",
+    "desc": "To eagerly anticipate something.",
+    "example": "I look forward to seeing you soon."
+  },
+  {
+    "ru": "Главная дорога",
+    "en": "main road",
+    "unit": "2",
+    "pron": "/meɪn rəʊd/",
+    "desc": "A major public road.",
+    "example": "The main road was closed for construction."
+  },
+  {
+    "ru": "Горный хребет",
+    "en": "mountain range",
+    "unit": "2",
+    "pron": "/ˈmaʊntən reɪndʒ/",
+    "desc": "A series of connected mountains.",
+    "example": "The Alps are a famous mountain range."
+  },
+  {
+    "ru": "Уведомление",
+    "en": "notice",
+    "unit": "2",
+    "pron": "/ˈnəʊtɪs/",
+    "desc": "A sign or written announcement.",
+    "example": "There was a notice on the door."
+  },
+  {
+    "ru": "Пост",
+    "en": "post",
+    "unit": "2",
+    "pron": "/pəʊst/",
+    "desc": "A piece of mail or an online message.",
+    "example": "He shared a funny post on Instagram."
+  },
+  {
+    "ru": "Напоминать",
+    "en": "remind",
+    "unit": "2",
+    "pron": "/rɪˈmaɪnd/",
+    "desc": "To make someone remember something.",
+    "example": "Please remind me to call her tomorrow."
+  },
+  {
+    "ru": "Ремонтировать",
+    "en": "repair",
+    "unit": "2",
+    "pron": "/rɪˈpeə(r)/",
+    "desc": "To fix something broken.",
+    "example": "They repaired the roof after the storm."
+  },
+  {
+    "ru": "Обзор",
+    "en": "review",
+    "unit": "2",
+    "pron": "/rɪˈvjuː/",
+    "desc": "An evaluation or assessment.",
+    "example": "I read a review before buying the laptop."
+  },
+  {
+    "ru": "Кольцо, звонок",
+    "en": "ring",
+    "unit": "2",
+    "pron": "/rɪŋ/",
+    "desc": "A circular band or a phone call.",
+    "example": "He gave her a diamond ring."
+  },
+  {
+    "ru": "Каток",
+    "en": "rink",
+    "unit": "2",
+    "pron": "/rɪŋk/",
+    "desc": "A surface for skating.",
+    "example": "We went ice skating at the local rink."
+  },
+  {
+    "ru": "Страховочная сеть",
+    "en": "safety net",
+    "unit": "2",
+    "pron": "/ˈseɪfti net/",
+    "desc": "A structure to prevent injury or loss.",
+    "example": "The acrobats performed above a safety net."
+  },
+  {
+    "ru": "Научная фантастика",
+    "en": "science fiction",
+    "unit": "2",
+    "pron": "/ˌsaɪəns ˈfɪkʃən/",
+    "desc": "A genre of speculative fiction.",
+    "example": "He writes science fiction novels."
+  },
+  {
+    "ru": "Морское побережье",
+    "en": "sea shore",
+    "unit": "2",
+    "pron": "/ˈsiː ʃɔː/",
+    "desc": "The land along the edge of the sea.",
+    "example": "We walked along the sea shore at sunset."
+  },
+  {
+    "ru": "С подогревом от солнца",
+    "en": "solar-heated",
+    "unit": "2",
+    "pron": "/ˈsəʊlə ˈhiːtɪd/",
+    "desc": "Heated by solar energy.",
+    "example": "The solar-heated pool was warm even at night."
+  },
+  {
+    "ru": "Звуконепроницаемый",
+    "en": "soundproof",
+    "unit": "2",
+    "pron": "/ˈsaʊndpruːf/",
+    "desc": "Designed to block out sound.",
+    "example": "We stayed in a soundproof hotel room."
+  },
+  {
+    "ru": "Современный",
+    "en": "state-of-the-art",
+    "unit": "2",
+    "pron": "/ˌsteɪt əv ði ˈɑːt/",
+    "desc": "The latest and most advanced.",
+    "example": "This is a state-of-the-art fitness center."
+  },
+  {
+    "ru": "Теннисный корт",
+    "en": "tennis court",
+    "unit": "2",
+    "pron": "/ˈtenɪs kɔːt/",
+    "desc": "A court for playing tennis.",
+    "example": "They built a new tennis court in the park."
+  },
+  {
+    "ru": "Высотное здание",
+    "en": "tower block",
+    "unit": "2",
+    "pron": "/ˈtaʊə blɒk/",
+    "desc": "A tall residential or office building.",
+    "example": "He lives in a tower block near the station."
+  },
+  {
+    "ru": "Хорошо оснащённый",
+    "en": "well-equipped",
+    "unit": "2",
+    "pron": "/ˌwel ɪˈkwɪpt/",
+    "desc": "Having all necessary equipment.",
+    "example": "The kitchen is well-equipped for cooking."
+  },
+  {
+    "ru": "Через",
+    "en": "across",
+    "unit": "2",
+    "pron": "/əˈkrɒs/",
+    "desc": "From one side to the other.",
+    "example": "We walked across the bridge."
+  },
+  {
+    "ru": "Вызывающий привыкание",
+    "en": "addictive",
+    "unit": "2",
+    "pron": "/əˈdɪktɪv/",
+    "desc": "Something you can’t stop doing or using.",
+    "example": "This game is really addictive!"
+  },
+  {
+    "ru": "Смелый",
+    "en": "adventurous",
+    "unit": "2",
+    "pron": "/ədˈventʃərəs/",
+    "desc": "Willing to take risks or try new things.",
+    "example": "She's very adventurous and loves trying new sports."
+  },
+  {
+    "ru": "Цель",
+    "en": "aim",
+    "unit": "2",
+    "pron": "/eɪm/",
+    "desc": "A goal or purpose.",
+    "example": "His aim is to become a doctor."
+  },
+  {
+    "ru": "Все это время",
+    "en": "all along",
+    "unit": "2",
+    "pron": "/ɔːl əˈlɒŋ/",
+    "desc": "From the beginning.",
+    "example": "She knew the truth all along."
+  },
+  {
+    "ru": "Повсюду",
+    "en": "all over",
+    "unit": "2",
+    "pron": "/ɔːl ˈəʊvə(r)/",
+    "desc": "Everywhere.",
+    "example": "There was sand all over the floor."
+  },
+  {
+    "ru": "Стремиться",
+    "en": "aspire",
+    "unit": "2",
+    "pron": "/əˈspaɪə(r)/",
+    "desc": "To want to achieve something.",
+    "example": "She aspires to become a famous singer."
+  },
+  {
+    "ru": "Ниже",
+    "en": "below",
+    "unit": "2",
+    "pron": "/bɪˈləʊ/",
+    "desc": "Lower than something.",
+    "example": "The temperature dropped below zero."
+  },
+  {
+    "ru": "Рядом",
+    "en": "beside",
+    "unit": "2",
+    "pron": "/bɪˈsaɪd/",
+    "desc": "Next to something.",
+    "example": "She sat beside her friend during the movie."
+  },
+  {
+    "ru": "Около",
+    "en": "by",
+    "unit": "2",
+    "pron": "/baɪ/",
+    "desc": "Near or through something.",
+    "example": "They live by the river."
+  },
+  {
+    "ru": "Бесчисленный",
+    "en": "countless",
+    "unit": "2",
+    "pron": "/ˈkaʊntləs/",
+    "desc": "Too many to count.",
+    "example": "He has made countless mistakes."
+  },
+  {
+    "ru": "Сообщество, находящееся в неблагоприятном положении",
+    "en": "disadvantaged community",
+    "unit": "2",
+    "pron": "/ˌdɪsədˈvɑːntɪdʒd kəˈmjuːnəti/",
+    "desc": "A group of people with fewer resources or opportunities.",
+    "example": "The charity helps children in disadvantaged communities."
+  },
+  {
+    "ru": "Поощрять",
+    "en": "encourage",
+    "unit": "2",
+    "pron": "/ɪnˈkʌrɪdʒ/",
+    "desc": "To give support or confidence.",
+    "example": "My parents always encouraged me to study hard."
+  },
+  {
+    "ru": "Изнурительный",
+    "en": "exhausting",
+    "unit": "2",
+    "pron": "/ɪɡˈzɔːstɪŋ/",
+    "desc": "Very tiring.",
+    "example": "Climbing the mountain was exhausting."
+  },
+  {
+    "ru": "Фактический",
+    "en": "factual",
+    "unit": "2",
+    "pron": "/ˈfæktʃuəl/",
+    "desc": "Based on facts.",
+    "example": "She gave a factual account of the event."
+  },
+  {
+    "ru": "Выяснить",
+    "en": "find out",
+    "unit": "2",
+    "pron": "/faɪnd aʊt/",
+    "desc": "To discover information.",
+    "example": "I need to find out what time the train arrives."
+  },
+  {
+    "ru": "Охотиться",
+    "en": "hunt",
+    "unit": "2",
+    "pron": "/hʌnt/",
+    "desc": "To search for something.",
+    "example": "They hunted deer in the forest."
+  },
+  {
+    "ru": "Я терпеть не могу",
+    "en": "I can't stand",
+    "unit": "2",
+    "pron": "/aɪ kɑːnt stænd/",
+    "desc": "Something I strongly dislike.",
+    "example": "I can't stand loud music."
+  },
+  {
+    "ru": "Я не против",
+    "en": "I don't mind",
+    "unit": "2",
+    "pron": "/aɪ dəʊnt maɪnd/",
+    "desc": "Something I am okay with.",
+    "example": "I don't mind walking instead of driving."
+  },
+  {
+    "ru": "Я бы предпочёл",
+    "en": "I would rather",
+    "unit": "2",
+    "pron": "/aɪ wʊd ˈrɑːðə(r)/",
+    "desc": "Something I prefer.",
+    "example": "I would rather stay at home tonight."
+  },
+  {
+    "ru": "Намерение",
+    "en": "intention",
+    "unit": "2",
+    "pron": "/ɪnˈtenʃn/",
+    "desc": "A plan or purpose.",
+    "example": "It was not my intention to hurt anyone."
+  },
+  {
+    "ru": "Это мне нравится",
+    "en": "it appeals to me",
+    "unit": "2",
+    "pron": "/ɪt əˈpiːlz tu miː/",
+    "desc": "Something I like.",
+    "example": "The idea of traveling the world appeals to me."
+  },
+  {
+    "ru": "Первоначально",
+    "en": "originally",
+    "unit": "2",
+    "pron": "/əˈrɪdʒənəli/",
+    "desc": "At first.",
+    "example": "The house was originally built in 1920."
+  },
+  {
+    "ru": "Подходящий",
+    "en": "suitable",
+    "unit": "2",
+    "pron": "/ˈsuːtəbl/",
+    "desc": "Right or appropriate.",
+    "example": "This movie is not suitable for children."
+  },
+  {
+    "ru": "Длительный",
+    "en": "time-consuming",
+    "unit": "2",
+    "pron": "/ˈtaɪm kənsjuːmɪŋ/",
+    "desc": "Something that takes a lot of time.",
+    "example": "Cooking a full meal can be time-consuming."
+  },
+  {
+    "ru": "Быть вовлечённым во что-то",
+    "en": "to be into something",
+    "unit": "2",
+    "pron": "/tə bi ˈɪntu ˈsʌmθɪŋ/",
+    "desc": "To like or be interested in something.",
+    "example": "He's really into photography."
+  },
+  {
+    "ru": "Сокровище",
+    "en": "treasure",
+    "unit": "2",
+    "pron": "/ˈtreʒə(r)/",
+    "desc": "Something very valuable.",
+    "example": "The pirates buried their treasure on the island."
+  },
+  {
+    "ru": "Предупреждать",
+    "en": "warn",
+    "unit": "2",
+    "pron": "/wɔːn/",
+    "desc": "To tell someone about a danger or problem.",
+    "example": "She warned him not to touch the hot stove."
+  },
+  {
+    "ru": "Бодибординг",
+    "en": "bodyboarding",
+    "unit": "2",
+    "pron": "/ˈbɒdibɔːdɪŋ/",
+    "desc": "Riding waves on a small board while lying down.",
+    "example": "He learned bodyboarding during his trip to Hawaii."
+  },
+  {
+    "ru": "Полёты на дельтаплане",
+    "en": "hang-gliding",
+    "unit": "2",
+    "pron": "/ˈhæŋ ˌɡlaɪdɪŋ/",
+    "desc": "Flying through the air using a lightweight, non-motorized glider.",
+    "example": "Hang-gliding offers amazing views of the mountains."
+  },
+  {
+    "ru": "Картинг",
+    "en": "karting",
+    "unit": "2",
+    "pron": "/ˈkɑːtɪŋ/",
+    "desc": "Racing in small, low-to-the-ground vehicles.",
+    "example": "Karting is a fun and competitive sport for all ages."
+  },
+  {
+    "ru": "Паркур",
+    "en": "parkour",
+    "unit": "2",
+    "pron": "/ˈpɑːkʊə(r)/",
+    "desc": "Moving quickly through obstacles by running, jumping, and climbing.",
+    "example": "Parkour requires agility and strength."
+  },
+  {
+    "ru": "Школьный хор",
+    "en": "school choir",
+    "unit": "2",
+    "pron": "/skuːl kwaɪə(r)/",
+    "desc": "A group of students who sing together at school.",
+    "example": "She joined the school choir in fifth grade."
+  },
+  {
+    "ru": "Основанный на стимулах",
+    "en": "stimulus-based",
+    "unit": "2",
+    "pron": "/ˈstɪmjələs beɪst/",
+    "desc": "Something influenced or triggered by a stimulus (e.g., a question, image, or situation).",
+    "example": "The students responded to a stimulus-based task in the exam."
+  }
+]

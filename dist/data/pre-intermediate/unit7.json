@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "эмоции",
+    "en": "emotions",
+    "unit": 7,
+    "pron": "[ɪˈməʊʃənz]",
+    "desc": "Feelings such as happiness, anger, or fear.",
+    "example": "It's important to express your emotions."
+  },
+  {
+    "ru": "радость",
+    "en": "joy",
+    "unit": 7,
+    "pron": "[dʒɔɪ]",
+    "desc": "A feeling of great happiness.",
+    "example": "She felt pure joy when she saw her baby."
+  },
+  {
+    "ru": "печаль",
+    "en": "sadness",
+    "unit": 7,
+    "pron": "[ˈsædnəs]",
+    "desc": "A feeling of being unhappy or sorrowful.",
+    "example": "There was sadness in his eyes after the loss."
+  },
+  {
+    "ru": "страх",
+    "en": "fear",
+    "unit": 7,
+    "pron": "[fɪə]",
+    "desc": "An unpleasant emotion caused by danger or threat.",
+    "example": "He had a fear of flying."
+  },
+  {
+    "ru": "гнев",
+    "en": "anger",
+    "unit": 7,
+    "pron": "[ˈæŋɡə]",
+    "desc": "A strong feeling of displeasure or hostility.",
+    "example": "Her voice was filled with anger."
+  },
+  {
+    "ru": "любовь",
+    "en": "love",
+    "unit": 7,
+    "pron": "[lʌv]",
+    "desc": "A strong feeling of affection.",
+    "example": "They have been in love for years."
+  },
+  {
+    "ru": "надежда",
+    "en": "hope",
+    "unit": 7,
+    "pron": "[həʊp]",
+    "desc": "A feeling of expectation and desire for a certain thing to happen.",
+    "example": "She never lost hope during hard times."
+  },
+  {
+    "ru": "удивление",
+    "en": "surprise",
+    "unit": 7,
+    "pron": "[səˈpraɪz]",
+    "desc": "A feeling of shock or amazement.",
+    "example": "He had a look of surprise on his face."
+  },
+  {
+    "ru": "стыд",
+    "en": "shame",
+    "unit": 7,
+    "pron": "[ʃeɪm]",
+    "desc": "A painful feeling of guilt or embarrassment.",
+    "example": "He felt shame for what he had done."
+  },
+  {
+    "ru": "гордость",
+    "en": "pride",
+    "unit": 7,
+    "pron": "[praɪd]",
+    "desc": "A feeling of deep satisfaction from achievements.",
+    "example": "She took great pride in her work."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "здоровье",
+    "en": "health",
+    "unit": 5,
+    "pron": "[hɛlθ]",
+    "desc": "The condition of a person's body or mind.",
+    "example": "Regular exercise is good for your health."
+  },
+  {
+    "ru": "врач",
+    "en": "doctor",
+    "unit": 5,
+    "pron": "[ˈdɒktə]",
+    "desc": "A person trained to treat people who are ill.",
+    "example": "I visited the doctor for a check-up."
+  },
+  {
+    "ru": "больница",
+    "en": "hospital",
+    "unit": 5,
+    "pron": "[ˈhɒspɪtl]",
+    "desc": "A place where sick or injured people receive medical treatment.",
+    "example": "She stayed in the hospital for three days."
+  },
+  {
+    "ru": "лекарство",
+    "en": "medicine",
+    "unit": 5,
+    "pron": "[ˈmɛdsən]",
+    "desc": "A substance used to treat illness or pain.",
+    "example": "Take this medicine twice a day."
+  },
+  {
+    "ru": "симптом",
+    "en": "symptom",
+    "unit": 5,
+    "pron": "[ˈsɪmptəm]",
+    "desc": "A sign that shows someone is ill.",
+    "example": "A headache can be a symptom of stress."
+  },
+  {
+    "ru": "болезнь",
+    "en": "disease",
+    "unit": 5,
+    "pron": "[dɪˈziːz]",
+    "desc": "A condition that causes the body to not function normally.",
+    "example": "The disease spreads through the air."
+  },
+  {
+    "ru": "терапия",
+    "en": "therapy",
+    "unit": 5,
+    "pron": "[ˈθɛrəpi]",
+    "desc": "Treatment to help a patient feel better or recover.",
+    "example": "She is undergoing physical therapy."
+  },
+  {
+    "ru": "анализ",
+    "en": "test",
+    "unit": 5,
+    "pron": "[tɛst]",
+    "desc": "A medical examination to find out what is wrong.",
+    "example": "The doctor ordered a blood test."
+  },
+  {
+    "ru": "операция",
+    "en": "surgery",
+    "unit": 5,
+    "pron": "[ˈsɜːdʒəri]",
+    "desc": "A medical procedure involving cutting the body.",
+    "example": "He had heart surgery last year."
+  },
+  {
+    "ru": "рецепт",
+    "en": "prescription",
+    "unit": 5,
+    "pron": "[prɪˈskrɪpʃən]",
+    "desc": "A written order from a doctor for medicine.",
+    "example": "The pharmacist filled my prescription."
+  }
+]

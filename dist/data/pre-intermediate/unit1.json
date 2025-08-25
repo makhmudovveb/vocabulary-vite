@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "река",
+    "en": "river",
+    "unit": 1,
+    "pron": "ˈrɪvər",
+    "desc": "A large natural stream of water flowing to the sea, a lake, or another river.",
+    "example": "The river flows through the valley."
+  },
+  {
+    "ru": "море",
+    "en": "sea",
+    "unit": 1,
+    "pron": "siː",
+    "desc": "A large body of salt water that is partly or fully enclosed by land.",
+    "example": "We swam in the warm sea."
+  },
+  {
+    "ru": "озеро",
+    "en": "lake",
+    "unit": 1,
+    "pron": "leɪk",
+    "desc": "A large area of water surrounded by land.",
+    "example": "They camped near the lake."
+  },
+  {
+    "ru": "гора",
+    "en": "mountain",
+    "unit": 1,
+    "pron": "ˈmaʊntən",
+    "desc": "A very high, large natural elevation of the earth's surface.",
+    "example": "We climbed a tall mountain."
+  },
+  {
+    "ru": "лес",
+    "en": "forest",
+    "unit": 1,
+    "pron": "ˈfɒrɪst",
+    "desc": "A large area covered chiefly with trees and undergrowth.",
+    "example": "Animals live in the forest."
+  },
+  {
+    "ru": "пустыня",
+    "en": "desert",
+    "unit": 1,
+    "pron": "ˈdezərt",
+    "desc": "A barren area of land with little rainfall and sparse vegetation.",
+    "example": "Camels live in the desert."
+  },
+  {
+    "ru": "долина",
+    "en": "valley",
+    "unit": 1,
+    "pron": "ˈvæli",
+    "desc": "A low area of land between hills or mountains, typically with a river running through it.",
+    "example": "The village is in a valley."
+  },
+  {
+    "ru": "пещера",
+    "en": "cave",
+    "unit": 1,
+    "pron": "keɪv",
+    "desc": "A large underground chamber in a hillside or cliff.",
+    "example": "Bears sleep in caves."
+  },
+  {
+    "ru": "водопад",
+    "en": "waterfall",
+    "unit": 1,
+    "pron": "ˈwɔːtərfɔːl",
+    "desc": "A flow of water falling from a height.",
+    "example": "We visited a beautiful waterfall."
+  },
+  {
+    "ru": "остров",
+    "en": "island",
+    "unit": 1,
+    "pron": "ˈaɪlənd",
+    "desc": "A piece of land surrounded by water.",
+    "example": "They lived on a tropical island."
+  }
+]

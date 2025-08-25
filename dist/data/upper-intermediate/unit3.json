@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "экономика",
+    "en": "economy",
+    "unit": 3,
+    "pron": "[ɪˈkɒnəmi]",
+    "desc": "The system of how money is made and used within a country or region.",
+    "example": "The global economy is recovering after the crisis."
+  },
+  {
+    "ru": "рынок",
+    "en": "market",
+    "unit": 3,
+    "pron": "[ˈmɑːkɪt]",
+    "desc": "A place or system where goods and services are bought and sold.",
+    "example": "They introduced a new product to the market."
+  },
+  {
+    "ru": "финансы",
+    "en": "finance",
+    "unit": 3,
+    "pron": "[ˈfaɪnæns]",
+    "desc": "The management of money, especially by governments or large organizations.",
+    "example": "She works in international finance."
+  },
+  {
+    "ru": "инвестиции",
+    "en": "investment",
+    "unit": 3,
+    "pron": "[ɪnˈvɛstmənt]",
+    "desc": "The act of putting money into something to earn a profit.",
+    "example": "They made a large investment in real estate."
+  },
+  {
+    "ru": "прибыль",
+    "en": "profit",
+    "unit": 3,
+    "pron": "[ˈprɒfɪt]",
+    "desc": "The money a business earns after expenses.",
+    "example": "The company made a huge profit last quarter."
+  },
+  {
+    "ru": "убыток",
+    "en": "loss",
+    "unit": 3,
+    "pron": "[lɒs]",
+    "desc": "When a business spends more money than it earns.",
+    "example": "They suffered a financial loss during the pandemic."
+  },
+  {
+    "ru": "налог",
+    "en": "tax",
+    "unit": 3,
+    "pron": "[tæks]",
+    "desc": "Money that people and businesses must pay to the government.",
+    "example": "The government raised the income tax rate."
+  },
+  {
+    "ru": "бюджет",
+    "en": "budget",
+    "unit": 3,
+    "pron": "[ˈbʌdʒɪt]",
+    "desc": "A plan for how money will be earned and spent.",
+    "example": "We need to stay within our monthly budget."
+  },
+  {
+    "ru": "банк",
+    "en": "bank",
+    "unit": 3,
+    "pron": "[bæŋk]",
+    "desc": "A financial institution where people keep and borrow money.",
+    "example": "She opened a savings account at the local bank."
+  },
+  {
+    "ru": "счет",
+    "en": "account",
+    "unit": 3,
+    "pron": "[əˈkaʊnt]",
+    "desc": "A record of money kept in a bank or financial organization.",
+    "example": "He transferred money to his checking account."
+  }
+]

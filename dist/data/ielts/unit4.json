@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "здоровье",
+      "en": "health",
+      "unit": 4,
+      "pron": "[helθ]",
+      "desc": "The condition of a person's body or mind.",
+      "example": "Regular exercise is good for your health."
+    },
+    {
+      "ru": "болезнь",
+      "en": "illness",
+      "unit": 4,
+      "pron": "[ˈɪl.nəs]",
+      "desc": "A condition of being unwell or sick.",
+      "example": "She missed work due to illness."
+    },
+    {
+      "ru": "лечение",
+      "en": "treatment",
+      "unit": 4,
+      "pron": "[ˈtriːt.mənt]",
+      "desc": "Medical care given to a patient for an illness or injury.",
+      "example": "He is receiving treatment for his condition."
+    },
+    {
+      "ru": "врач",
+      "en": "doctor",
+      "unit": 4,
+      "pron": "[ˈdɒk.tər]",
+      "desc": "A person qualified to treat people who are ill.",
+      "example": "I have an appointment with the doctor tomorrow."
+    },
+    {
+      "ru": "пациент",
+      "en": "patient",
+      "unit": 4,
+      "pron": "[ˈpeɪ.ʃənt]",
+      "desc": "A person receiving medical treatment.",
+      "example": "The patient is recovering well after surgery."
+    },
+    {
+      "ru": "симптом",
+      "en": "symptom",
+      "unit": 4,
+      "pron": "[ˈsɪmp.təm]",
+      "desc": "A sign of illness or injury.",
+      "example": "Fever is a common symptom of infection."
+    },
+    {
+      "ru": "диагноз",
+      "en": "diagnosis",
+      "unit": 4,
+      "pron": "[ˌdaɪ.əɡˈnəʊ.sɪs]",
+      "desc": "The identification of an illness after examination.",
+      "example": "The doctor gave a diagnosis after several tests."
+    },
+    {
+      "ru": "операция",
+      "en": "surgery",
+      "unit": 4,
+      "pron": "[ˈsɜː.dʒər.i]",
+      "desc": "A medical procedure involving cutting into the body.",
+      "example": "She had surgery to remove her appendix."
+    },
+    {
+      "ru": "рецепт",
+      "en": "prescription",
+      "unit": 4,
+      "pron": "[prɪˈskrɪp.ʃən]",
+      "desc": "A written order from a doctor for medicine.",
+      "example": "I went to the pharmacy to fill my prescription."
+    },
+    {
+      "ru": "аптека",
+      "en": "pharmacy",
+      "unit": 4,
+      "pron": "[ˈfɑː.mə.si]",
+      "desc": "A place where medicines are prepared and sold.",
+      "example": "You can buy painkillers at the pharmacy."
+    }
+  ]
+  

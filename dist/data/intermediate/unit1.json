@@ -1,0 +1,1194 @@
+[
+  {
+    "ru": "Существо",
+    "en": "creature",
+    "unit": "1",
+    "pron": "/ˈkriːtʃər/",
+    "desc": "Any living being, like an animal or person.",
+    "example": "The forest is full of strange creatures."
+  },
+  {
+    "ru": "Взрослый",
+    "en": "adult",
+    "unit": "1",
+    "pron": "/ˈædʌlt/",
+    "desc": "A fully grown person or animal.",
+    "example": "Children must be accompanied by an adult."
+  },
+  {
+    "ru": "Столетний человек",
+    "en": "centenarian",
+    "unit": "1",
+    "pron": "/ˌsentəˈneəriən/",
+    "desc": "A person who is 100 years old or older.",
+    "example": "The centenarian shared stories from her childhood."
+  },
+  {
+    "ru": "Младенец",
+    "en": "infant",
+    "unit": "1",
+    "pron": "/ˈɪnfənt/",
+    "desc": "A very young baby.",
+    "example": "The infant slept peacefully in the crib."
+  },
+  {
+    "ru": "Ребёнок",
+    "en": "toddler",
+    "unit": "1",
+    "pron": "/ˈtɒdlər/",
+    "desc": "A young child learning to walk.",
+    "example": "The toddler took her first steps today."
+  },
+  {
+    "ru": "Пожилой",
+    "en": "elderly",
+    "unit": "1",
+    "pron": "/ˈeldəli/",
+    "desc": "Old or aging, usually about people.",
+    "example": "The bus has special seats for elderly passengers."
+  },
+  {
+    "ru": "Подросток",
+    "en": "teen",
+    "unit": "1",
+    "pron": "/tiːn/",
+    "desc": "A young person aged between 13 and 19.",
+    "example": "Teens often enjoy listening to music and hanging out with friends."
+  },
+  {
+    "ru": "Быть воспитанным кем-то",
+    "en": "to be brought up by",
+    "unit": "1",
+    "pron": "/tuː biː brɔːt ʌp baɪ/",
+    "desc": "To be raised or taken care of by someone.",
+    "example": "He was brought up by his grandparents."
+  },
+  {
+    "ru": "Эмигрировать",
+    "en": "to emigrate",
+    "unit": "1",
+    "pron": "/ˈemɪɡreɪt/",
+    "desc": "To leave your country to live in another.",
+    "example": "Many people emigrated from Europe in the 19th century."
+  },
+  {
+    "ru": "Иммигрировать",
+    "en": "to immigrate",
+    "unit": "1",
+    "pron": "/ˈɪmɪɡreɪt/",
+    "desc": "To come to a new country to live there.",
+    "example": "They immigrated to Canada for better opportunities."
+  },
+  {
+    "ru": "Развестись",
+    "en": "to get divorced",
+    "unit": "1",
+    "pron": "/tuː ɡet dɪˈvɔːst/",
+    "desc": "To legally end a marriage.",
+    "example": "They decided to get divorced after five years of marriage."
+  },
+  {
+    "ru": "Обручиться",
+    "en": "to get engaged",
+    "unit": "1",
+    "pron": "/tuː ɡet ɪnˈɡeɪdʒd/",
+    "desc": "To promise to marry someone.",
+    "example": "They got engaged on their holiday in Paris."
+  },
+  {
+    "ru": "Жениться / выйти замуж",
+    "en": "to get married",
+    "unit": "1",
+    "pron": "/tuː ɡet ˈmærid/",
+    "desc": "To become husband and wife.",
+    "example": "They got married in a beautiful garden ceremony."
+  },
+  {
+    "ru": "Унаследовать",
+    "en": "to inherit",
+    "unit": "1",
+    "pron": "/tuː ɪnˈherɪt/",
+    "desc": "To receive money or property from someone after they die.",
+    "example": "She inherited her grandmother’s house."
+  },
+  {
+    "ru": "Скончаться",
+    "en": "to pass away",
+    "unit": "1",
+    "pron": "/tuː pɑːs əˈweɪ/",
+    "desc": "A polite way to say someone has died.",
+    "example": "Her uncle passed away last year."
+  },
+  {
+    "ru": "Выйти на пенсию",
+    "en": "to retire",
+    "unit": "1",
+    "pron": "/tuː rɪˈtaɪə(r)/",
+    "desc": "To stop working, usually because of age.",
+    "example": "My father plans to retire at 65."
+  },
+  {
+    "ru": "Осесть / устроиться",
+    "en": "to settle down",
+    "unit": "1",
+    "pron": "/tuː ˈsetl daʊn/",
+    "desc": "To start living a stable and calm life.",
+    "example": "They moved to the countryside to settle down."
+  },
+  {
+    "ru": "Расстаться",
+    "en": "to split up",
+    "unit": "1",
+    "pron": "/tuː splɪt ʌp/",
+    "desc": "To end a relationship or partnership.",
+    "example": "The band split up after ten years."
+  },
+  {
+    "ru": "Разойтись",
+    "en": "to break up",
+    "unit": "1",
+    "pron": "/tuː breɪk ʌp/",
+    "desc": "To end a romantic relationship.",
+    "example": "They broke up after a big argument."
+  },
+  {
+    "ru": "Закон",
+    "en": "law",
+    "unit": "1",
+    "pron": "/lɔː/",
+    "desc": "Rules made by the government to keep order.",
+    "example": "Everyone must follow the law."
+  },
+  {
+    "ru": "Владеть",
+    "en": "to own",
+    "unit": "1",
+    "pron": "/tuː əʊn/",
+    "desc": "To have something as your property.",
+    "example": "They own a house by the lake."
+  },
+  {
+    "ru": "Влюбиться",
+    "en": "fall in love",
+    "unit": "1",
+    "pron": "/fɔːl ɪn lʌv/",
+    "desc": "To start loving someone deeply.",
+    "example": "They fell in love at university."
+  },
+  {
+    "ru": "Взрослеть",
+    "en": "grow up",
+    "unit": "1",
+    "pron": "/ɡrəʊ ʌp/",
+    "desc": "To become an adult or mature.",
+    "example": "He wants to be a pilot when he grows up."
+  },
+  {
+    "ru": "Поколение",
+    "en": "generation",
+    "unit": "1",
+    "pron": "/ˌdʒenəˈreɪʃn/",
+    "desc": "A group of people born around the same time.",
+    "example": "Each generation has different values."
+  },
+  {
+    "ru": "В конце концов",
+    "en": "eventually",
+    "unit": "1",
+    "pron": "/ɪˈventʃuəli/",
+    "desc": "Finally, after some time or effort.",
+    "example": "He eventually finished writing the book."
+  },
+  {
+    "ru": "Предки",
+    "en": "ancestors",
+    "unit": "1",
+    "pron": "/ˈænsestəz/",
+    "desc": "Family members from a long time ago.",
+    "example": "Our ancestors came from this village."
+  },
+  {
+    "ru": "Обслуживать (в магазине)",
+    "en": "to serve (in a shop)",
+    "unit": "1",
+    "pron": "/tuː sɜːv/",
+    "desc": "Help customers in a shop by providing goods or services.",
+    "example": "He served customers at the bakery."
+  },
+  {
+    "ru": "Потомки",
+    "en": "descendants",
+    "unit": "1",
+    "pron": "/dɪˈsendənts/",
+    "desc": "Family members who come after you, like children or grandchildren.",
+    "example": "She wants to leave a legacy for her descendants."
+  },
+  {
+    "ru": "Последовательность",
+    "en": "sequence",
+    "unit": "1",
+    "pron": "/ˈsiːkwəns/",
+    "desc": "A series of things in a specific order.",
+    "example": "The movie had a confusing sequence of events."
+  },
+  {
+    "ru": "Событие",
+    "en": "event",
+    "unit": "1",
+    "pron": "/ɪˈvent/",
+    "desc": "Something that happens, often important or unusual.",
+    "example": "The concert was the biggest event of the year."
+  },
+  {
+    "ru": "Сцена",
+    "en": "scene",
+    "unit": "1",
+    "pron": "/siːn/",
+    "desc": "A part of a play, movie, or story.",
+    "example": "The final scene was very emotional."
+  },
+  {
+    "ru": "Перебивать",
+    "en": "interrupt",
+    "unit": "1",
+    "pron": "/ˌɪntəˈrʌpt/",
+    "desc": "To stop someone while they are speaking or doing something.",
+    "example": "Please don’t interrupt when I’m speaking."
+  },
+  {
+    "ru": "Почтовый работник",
+    "en": "postal worker",
+    "unit": "1",
+    "pron": "/ˈpəʊstl ˈwɜːkə(r)/",
+    "desc": "A person who delivers or processes mail.",
+    "example": "The postal worker brought the package this morning."
+  },
+  {
+    "ru": "Светить",
+    "en": "shine",
+    "unit": "1",
+    "pron": "/ʃaɪn/",
+    "desc": "To give off light or make something bright.",
+    "example": "The sun was shining brightly."
+  },
+  {
+    "ru": "Увеличивать",
+    "en": "increase",
+    "unit": "1",
+    "pron": "/ɪnˈkriːs/",
+    "desc": "To make something larger in amount, size, or number.",
+    "example": "They want to increase the number of staff."
+  },
+  {
+    "ru": "Уменьшать",
+    "en": "decrease",
+    "unit": "1",
+    "pron": "/dɪˈkriːs/",
+    "desc": "To make something smaller in amount, size, or number.",
+    "example": "The price decreased after the holiday season."
+  },
+  {
+    "ru": "Приём пищи",
+    "en": "meal",
+    "unit": "1",
+    "pron": "/miːl/",
+    "desc": "Food that is eaten at a specific time of the day.",
+    "example": "Dinner is the main meal of the day for many people."
+  },
+  {
+    "ru": "Почти",
+    "en": "almost",
+    "unit": "1",
+    "pron": "/ˈɔːlməʊst/",
+    "desc": "Nearly, but not completely.",
+    "example": "I almost missed the train this morning."
+  },
+  {
+    "ru": "Исчезать",
+    "en": "disappear",
+    "unit": "1",
+    "pron": "/ˌdɪsəˈpɪə(r)/",
+    "desc": "To stop being visible or to go away.",
+    "example": "The magician made the rabbit disappear."
+  },
+  {
+    "ru": "Обвинять",
+    "en": "blame",
+    "unit": "1",
+    "pron": "/bleɪm/",
+    "desc": "To say that someone is responsible for something bad.",
+    "example": "Don't blame me if you’re late!"
+  },
+  {
+    "ru": "Зависимый",
+    "en": "addicted",
+    "unit": "1",
+    "pron": "/əˈdɪktɪd/",
+    "desc": "Unable to stop doing or using something harmful.",
+    "example": "He’s addicted to video games."
+  },
+  {
+    "ru": "Таблетка, планшет",
+    "en": "tablet",
+    "unit": "1",
+    "pron": "/ˈtæblət/",
+    "desc": "A small, flat pill or an electronic device.",
+    "example": "She took a tablet for her headache."
+  },
+  {
+    "ru": "Споры",
+    "en": "arguments",
+    "unit": "1",
+    "pron": "/ˈɑːɡjumənts/",
+    "desc": "Discussions or disagreements, often heated.",
+    "example": "They often have arguments about money."
+  },
+  {
+    "ru": "Устройство",
+    "en": "device",
+    "unit": "1",
+    "pron": "/dɪˈvaɪs/",
+    "desc": "A machine or tool made for a specific purpose.",
+    "example": "This device helps measure heart rate."
+  },
+  {
+    "ru": "Доступ",
+    "en": "access",
+    "unit": "1",
+    "pron": "/ˈækses/",
+    "desc": "The ability to use or enter something.",
+    "example": "You need a password to access the system."
+  },
+  {
+    "ru": "Теория",
+    "en": "theory",
+    "unit": "1",
+    "pron": "/ˈθɪəri/",
+    "desc": "An idea or explanation based on study or thought.",
+    "example": "The theory was tested in many experiments."
+  },
+  {
+    "ru": "Общаться",
+    "en": "to chat",
+    "unit": "1",
+    "pron": "/tuː tʃæt/",
+    "desc": "To talk informally with someone.",
+    "example": "Let’s chat over coffee later."
+  },
+  {
+    "ru": "Руководить",
+    "en": "to lead",
+    "unit": "1",
+    "pron": "/tuː liːd/",
+    "desc": "To guide or be in charge of something.",
+    "example": "She will lead the project team."
+  },
+  {
+    "ru": "Обвиняющий",
+    "en": "accusing",
+    "unit": "1",
+    "pron": "/əˈkjuːzɪŋ/",
+    "desc": "Saying that someone has done something wrong.",
+    "example": "He gave her an accusing look."
+  },
+  {
+    "ru": "Агрессивный",
+    "en": "aggressive",
+    "unit": "1",
+    "pron": "/əˈɡresɪv/",
+    "desc": "Acting in a way that may hurt or upset others.",
+    "example": "The dog became aggressive when provoked."
+  },
+  {
+    "ru": "Высокомерный",
+    "en": "arrogant",
+    "unit": "1",
+    "pron": "/ˈærəɡənt/",
+    "desc": "Thinking you are better than others.",
+    "example": "He sounded arrogant during the interview."
+  },
+  {
+    "ru": "Озлобленный",
+    "en": "bitter",
+    "unit": "1",
+    "pron": "/ˈbɪtə(r)/",
+    "desc": "Feeling angry or hurt for a long time.",
+    "example": "She felt bitter about the unfair decision."
+  },
+  {
+    "ru": "Спокойный",
+    "en": "calm",
+    "unit": "1",
+    "pron": "/kɑːm/",
+    "desc": "Peaceful and not easily upset.",
+    "example": "He stayed calm during the emergency."
+  },
+  {
+    "ru": "Лестный",
+    "en": "complimentary",
+    "unit": "1",
+    "pron": "/ˌkɒmplɪˈmentəri/",
+    "desc": "Saying nice things about someone.",
+    "example": "She was very complimentary about your work."
+  },
+  {
+    "ru": "Благодарный",
+    "en": "grateful",
+    "unit": "1",
+    "pron": "/ˈɡreɪtfl/",
+    "desc": "Feeling or showing thankfulness.",
+    "example": "I’m grateful for your help."
+  },
+  {
+    "ru": "Несчастный",
+    "en": "miserable",
+    "unit": "1",
+    "pron": "/ˈmɪzrəbl/",
+    "desc": "Unhappy or in a very bad state.",
+    "example": "He looked miserable after the breakup."
+  },
+  {
+    "ru": "Ностальгический",
+    "en": "nostalgic",
+    "unit": "1",
+    "pron": "/nɒˈstældʒɪk/",
+    "desc": "Feeling a longing for the past.",
+    "example": "The song made her feel nostalgic."
+  },
+  {
+    "ru": "Оптимистичный",
+    "en": "optimistic",
+    "unit": "1",
+    "pron": "/ˌɒptɪˈmɪstɪk/",
+    "desc": "Expecting the best possible outcome.",
+    "example": "She’s optimistic about her exam results."
+  },
+  {
+    "ru": "Пессимистичный",
+    "en": "pessimistic",
+    "unit": "1",
+    "pron": "/ˌpesɪˈmɪstɪk/",
+    "desc": "Expecting the worst possible outcome.",
+    "example": "He’s too pessimistic about the future."
+  },
+  {
+    "ru": "Саркастический",
+    "en": "sarcastic",
+    "unit": "1",
+    "pron": "/sɑːˈkæstɪk/",
+    "desc": "Using irony to mock or convey contempt.",
+    "example": "She made a sarcastic comment about his cooking."
+  },
+  {
+    "ru": "Сочувствующий",
+    "en": "sympathetic",
+    "unit": "1",
+    "pron": "/ˌsɪmpəˈθetɪk/",
+    "desc": "Showing compassion or understanding towards others.",
+    "example": "She was very sympathetic when I lost my job."
+  },
+  {
+    "ru": "Срочный",
+    "en": "urgent",
+    "unit": "1",
+    "pron": "/ˈɜːdʒənt/",
+    "desc": "Requiring immediate action or attention.",
+    "example": "This is an urgent matter that needs solving today."
+  },
+  {
+    "ru": "Предупреждение",
+    "en": "warning",
+    "unit": "1",
+    "pron": "/ˈwɔːnɪŋ/",
+    "desc": "A statement or event that serves to alert about potential danger or harm.",
+    "example": "They gave a warning about the storm."
+  },
+  {
+    "ru": "Совет",
+    "en": "advice",
+    "unit": "1",
+    "pron": "/ədˈvaɪs/",
+    "desc": "Guidance or recommendations given to someone.",
+    "example": "He gave me some good advice about studying."
+  },
+  {
+    "ru": "Убеждать",
+    "en": "persuade",
+    "unit": "1",
+    "pron": "/pəˈsweɪd/",
+    "desc": "To influence someone to believe or do something.",
+    "example": "I persuaded her to come to the party."
+  },
+  {
+    "ru": "Посещать",
+    "en": "attend",
+    "unit": "1",
+    "pron": "/əˈtend/",
+    "desc": "To be present at an event or activity.",
+    "example": "Over 100 people attended the meeting."
+  },
+  {
+    "ru": "Встреча (выпускников)",
+    "en": "reunion",
+    "unit": "1",
+    "pron": "/riːˈjuːniən/",
+    "desc": "A gathering of people who have not seen each other for a long time.",
+    "example": "We had a class reunion after 10 years."
+  },
+  {
+    "ru": "Закрывать",
+    "en": "to shut",
+    "unit": "1",
+    "pron": "/ʃʌt/",
+    "desc": "To close something forcefully or securely.",
+    "example": "Please shut the door behind you."
+  },
+  {
+    "ru": "Хвалить",
+    "en": "praise",
+    "unit": "1",
+    "pron": "/preɪz/",
+    "desc": "To express approval or admiration for someone or something.",
+    "example": "The teacher praised the students for their work."
+  },
+  {
+    "ru": "Предотвращать",
+    "en": "prevent",
+    "unit": "1",
+    "pron": "/prɪˈvent/",
+    "desc": "To stop something from happening or occurring.",
+    "example": "Washing hands can prevent illness."
+  },
+  {
+    "ru": "Тратить много времени на что-то",
+    "en": "to spend ages doing something",
+    "unit": "1",
+    "pron": "/tuː spend ˈeɪdʒɪz ˈduːɪŋ ˌsʌmθɪŋ/",
+    "desc": "To spend a long time doing something.",
+    "example": "She spent ages getting ready for the party."
+  },
+  {
+    "ru": "Ошибка",
+    "en": "fault",
+    "unit": "1",
+    "pron": "/fɔːlt/",
+    "desc": "A mistake or responsibility for something bad.",
+    "example": "It was my fault we were late."
+  },
+  {
+    "ru": "Непослушный",
+    "en": "naughty",
+    "unit": "1",
+    "pron": "/ˈnɔːti/",
+    "desc": "Behaving badly or not following rules.",
+    "example": "The naughty child refused to do his homework."
+  },
+  {
+    "ru": "Перерасти что-то",
+    "en": "to grow out of something",
+    "unit": "1",
+    "pron": "/tuː ɡrəʊ aʊt ɒv ˈsʌmθɪŋ/",
+    "desc": "To stop doing something as you get older.",
+    "example": "She grew out of her fear of the dark."
+  },
+  {
+    "ru": "Очень редко",
+    "en": "hardly ever",
+    "unit": "1",
+    "pron": "/ˈhɑːdli ˈevə/",
+    "desc": "Very rarely.",
+    "example": "I hardly ever eat fast food."
+  },
+  {
+    "ru": "Учреждение",
+    "en": "facility",
+    "unit": "1",
+    "pron": "/fəˈsɪləti/",
+    "desc": "A place or equipment for a particular activity.",
+    "example": "The sports facility is open 24 hours."
+  },
+  {
+    "ru": "Хорошо ладить с кем-то",
+    "en": "to get on well with someone",
+    "unit": "1",
+    "pron": "/tuː ɡet ɒn wel wɪð ˈsʌmwʌn/",
+    "desc": "To have a good relationship with someone.",
+    "example": "She gets on well with her classmates."
+  },
+  {
+    "ru": "Спортивный костюм",
+    "en": "tracksuit",
+    "unit": "1",
+    "pron": "/ˈtræksuːt/",
+    "desc": "A set of clothing, typically for sports or exercise.",
+    "example": "He wore a blue tracksuit to the gym."
+  },
+  {
+    "ru": "Горные лыжи",
+    "en": "skiing",
+    "unit": "1",
+    "pron": "/ˈskiːɪŋ/",
+    "desc": "A winter sport involving sliding down snow-covered slopes on skis.",
+    "example": "They went skiing in the Alps."
+  },
+  {
+    "ru": "Необычный",
+    "en": "unusual",
+    "unit": "1",
+    "pron": "/ʌnˈjuːʒuəl/",
+    "desc": "Uncommon or out of the ordinary.",
+    "example": "It’s unusual to see snow in April here."
+  },
+  {
+    "ru": "Определенно",
+    "en": "certainly",
+    "unit": "1",
+    "pron": "/ˈsɜːtnli/",
+    "desc": "Without a doubt, in a clear and obvious way.",
+    "example": "She will certainly pass the test."
+  },
+  {
+    "ru": "Соответствовать ожиданиям",
+    "en": "live up to",
+    "unit": "1",
+    "pron": "/lɪv ʌp tuː/",
+    "desc": "To meet or exceed expectations.",
+    "example": "The movie didn’t live up to my expectations."
+  },
+  {
+    "ru": "Назад",
+    "en": "backwards",
+    "unit": "1",
+    "pron": "/ˈbækwədz/",
+    "desc": "In the direction opposite to where you are facing.",
+    "example": "He fell backwards off the chair."
+  },
+  {
+    "ru": "Внешность",
+    "en": "appearance",
+    "unit": "1",
+    "pron": "/əˈpɪərəns/",
+    "desc": "The way someone or something looks.",
+    "example": "Her appearance changed a lot after college."
+  },
+  {
+    "ru": "Покидать, оставлять",
+    "en": "walk out on",
+    "unit": "1",
+    "pron": "/wɔːk aʊt ɒn/",
+    "desc": "To leave someone, especially in a relationship.",
+    "example": "He walked out on his family."
+  },
+  {
+    "ru": "Дом престарелых",
+    "en": "nursing home",
+    "unit": "1",
+    "pron": "/ˈnɜːsɪŋ həʊm/",
+    "desc": "A place where elderly people are cared for.",
+    "example": "She moved into a nursing home last year."
+  },
+  {
+    "ru": "Соответствовать, ладить",
+    "en": "fit in with",
+    "unit": "1",
+    "pron": "/fɪt ɪn wɪð/",
+    "desc": "To be compatible or in agreement with.",
+    "example": "He doesn’t fit in with the new team."
+  },
+  {
+    "ru": "Жители",
+    "en": "residents",
+    "unit": "1",
+    "pron": "/ˈrezɪdənts/",
+    "desc": "People who live in a particular place or community.",
+    "example": "The residents of the town are very friendly."
+  },
+  {
+    "ru": "Ладить с кем-то",
+    "en": "get on with",
+    "unit": "1",
+    "pron": "/ɡet ɒn wɪð/",
+    "desc": "To have a good relationship with someone.",
+    "example": "He gets on with his boss really well."
+  },
+  {
+    "ru": "Несмотря на",
+    "en": "despite",
+    "unit": "1",
+    "pron": "/dɪˈspaɪt/",
+    "desc": "In spite of something.",
+    "example": "Despite the rain, we went hiking."
+  },
+  {
+    "ru": "Потерять контакт",
+    "en": "to lose touch",
+    "unit": "1",
+    "pron": "/tuː luːz tʌtʃ/",
+    "desc": "To lose contact with someone.",
+    "example": "We lost touch after school."
+  },
+  {
+    "ru": "Поддерживать связь",
+    "en": "keep in touch",
+    "unit": "1",
+    "pron": "/kiːp ɪn tʌtʃ/",
+    "desc": "To maintain contact with someone.",
+    "example": "I try to keep in touch with old friends."
+  },
+  {
+    "ru": "Записаться на",
+    "en": "sign up for",
+    "unit": "1",
+    "pron": "/saɪn ʌp fɔː/",
+    "desc": "To register or enroll for something.",
+    "example": "I signed up for a language course."
+  },
+  {
+    "ru": "Наверстать упущенное",
+    "en": "catch up with",
+    "unit": "1",
+    "pron": "/kætʃ ʌp wɪð/",
+    "desc": "To meet or talk to someone after a long time.",
+    "example": "Let’s catch up with each other soon."
+  },
+  {
+    "ru": "Довести до конца",
+    "en": "go through with",
+    "unit": "1",
+    "pron": "/ɡəʊ θruː wɪð/",
+    "desc": "To carry out a plan or promise.",
+    "example": "He went through with the plan despite doubts."
+  },
+  {
+    "ru": "Терпеть",
+    "en": "put up with",
+    "unit": "1",
+    "pron": "/pʊt ʌp wɪð/",
+    "desc": "To tolerate or endure something unpleasant.",
+    "example": "I can't put up with this noise anymore."
+  },
+  {
+    "ru": "Закончиться, исчерпать",
+    "en": "run out of",
+    "unit": "1",
+    "pron": "/rʌn aʊt ɒv/",
+    "desc": "To no longer have something.",
+    "example": "We ran out of milk this morning."
+  },
+  {
+    "ru": "Бросать",
+    "en": "to abandon",
+    "unit": "1",
+    "pron": "/tuː əˈbændən/",
+    "desc": "To leave someone or something behind.",
+    "example": "The soldier abandoned his post."
+  },
+  {
+    "ru": "Поставлять",
+    "en": "supply",
+    "unit": "1",
+    "pron": "/səˈplaɪ/",
+    "desc": "To provide or make available.",
+    "example": "They supply water to the whole region."
+  },
+  {
+    "ru": "Достигать",
+    "en": "to reach",
+    "unit": "1",
+    "pron": "/tuː riːtʃ/",
+    "desc": "To arrive at a particular point or place.",
+    "example": "We reached the mountain peak at noon."
+  },
+  {
+    "ru": "Терпеть, выносить",
+    "en": "to tolerate",
+    "unit": "1",
+    "pron": "/ˈtɒləreɪt/",
+    "desc": "To endure or accept something, even if unpleasant.",
+    "example": "She can’t tolerate loud noises."
+  },
+  {
+    "ru": "Искать информацию",
+    "en": "look up",
+    "unit": "1",
+    "pron": "/lʊk ʌp/",
+    "desc": "To search for information.",
+    "example": "I looked up the word in the dictionary."
+  },
+  {
+    "ru": "Восхищаться",
+    "en": "look up to",
+    "unit": "1",
+    "pron": "/lʊk ʌp tuː/",
+    "desc": "To respect or admire someone.",
+    "example": "He looks up to his older brother."
+  },
+  {
+    "ru": "Сбежать",
+    "en": "get away",
+    "unit": "1",
+    "pron": "/ɡet əˈweɪ/",
+    "desc": "To escape from a place or situation.",
+    "example": "The thief got away before the police arrived."
+  },
+  {
+    "ru": "Сойти с рук",
+    "en": "get away with",
+    "unit": "1",
+    "pron": "/ɡet əˈweɪ wɪð/",
+    "desc": "To escape without being caught.",
+    "example": "He cheated on the test and got away with it."
+  },
+  {
+    "ru": "Выдумать",
+    "en": "make up",
+    "unit": "1",
+    "pron": "/meɪk ʌp/",
+    "desc": "To invent a story or excuse.",
+    "example": "She made up an excuse for being late."
+  },
+  {
+    "ru": "Компенсировать",
+    "en": "make up for",
+    "unit": "1",
+    "pron": "/meɪk ʌp fɔː/",
+    "desc": "To compensate for something lost or missed.",
+    "example": "He made up for being late by helping clean up."
+  },
+  {
+    "ru": "Вставать",
+    "en": "get up",
+    "unit": "1",
+    "pron": "/ɡet ʌp/",
+    "desc": "To rise from a lying or sitting position.",
+    "example": "I usually get up at 7 a.m."
+  },
+  {
+    "ru": "Заниматься чем-то",
+    "en": "get up to",
+    "unit": "1",
+    "pron": "/ɡet ʌp tuː/",
+    "desc": "To engage in an activity or behavior, often secretive or mischievous.",
+    "example": "What did you get up to last weekend?"
+  },
+  {
+    "ru": "Войти",
+    "en": "go in",
+    "unit": "1",
+    "pron": "/ɡəʊ ɪn/",
+    "desc": "To enter a place.",
+    "example": "She went in and closed the door behind her."
+  },
+  {
+    "ru": "Заниматься чем-то серьезно",
+    "en": "go in for",
+    "unit": "1",
+    "pron": "/ɡəʊ ɪn fɔː/",
+    "desc": "To participate in a particular activity.",
+    "example": "He goes in for swimming competitions."
+  },
+  {
+    "ru": "Вернуться",
+    "en": "go back",
+    "unit": "1",
+    "pron": "/ɡəʊ bæk/",
+    "desc": "To return to a previous place.",
+    "example": "She went back to her hometown after many years."
+  },
+  {
+    "ru": "Нарушить обещание",
+    "en": "go back on",
+    "unit": "1",
+    "pron": "/ɡəʊ bæk ɒn/",
+    "desc": "To fail to keep a promise or agreement.",
+    "example": "Don’t go back on your word."
+  },
+  {
+    "ru": "Разочарование",
+    "en": "disappointment",
+    "unit": "1",
+    "pron": "/ˌdɪsəˈpɔɪntmənt/",
+    "desc": "A feeling of unhappiness or dissatisfaction.",
+    "example": "Failing the test was a big disappointment."
+  },
+  {
+    "ru": "Восхищаться",
+    "en": "admire",
+    "unit": "1",
+    "pron": "/ədˈmaɪə(r)/",
+    "desc": "To respect or hold someone in high regard.",
+    "example": "I admire her dedication and hard work."
+  },
+  {
+    "ru": "Трилогия",
+    "en": "trilogy",
+    "unit": "1",
+    "pron": "/ˈtrɪlədʒi/",
+    "desc": "A set of three related works, often books or movies.",
+    "example": "I watched the entire trilogy over the weekend."
+  },
+  {
+    "ru": "Состояние",
+    "en": "fortune",
+    "unit": "1",
+    "pron": "/ˈfɔːtʃuːn/",
+    "desc": "A large amount of wealth.",
+    "example": "She inherited a fortune from her uncle."
+  },
+  {
+    "ru": "Грабитель",
+    "en": "burglar",
+    "unit": "1",
+    "pron": "/ˈbɜːɡlə(r)/",
+    "desc": "A person who commits theft, often in a home or building.",
+    "example": "The burglar broke in through the window."
+  },
+  {
+    "ru": "Боевые искусства",
+    "en": "martial arts",
+    "unit": "1",
+    "pron": "/ˌmɑːʃl ˈɑːts/",
+    "desc": "A system of self-defense or combat techniques.",
+    "example": "He has practiced martial arts since he was a child."
+  },
+  {
+    "ru": "Справляться",
+    "en": "manage to",
+    "unit": "1",
+    "pron": "/ˈmænɪdʒ tuː/",
+    "desc": "To be able to do something.",
+    "example": "I managed to finish all my homework on time."
+  },
+  {
+    "ru": "Случайно встретить",
+    "en": "come across",
+    "unit": "1",
+    "pron": "/kʌm əˈkrɒs/",
+    "desc": "To meet or find something unexpectedly.",
+    "example": "I came across an old photo album in the attic."
+  },
+  {
+    "ru": "Разделяющийся",
+    "en": "separable",
+    "unit": "1",
+    "pron": "/ˈsepərəbl/",
+    "desc": "Able to be separated.",
+    "example": "The two parts are easily separable."
+  },
+  {
+    "ru": "Неразделимый",
+    "en": "inseparable",
+    "unit": "1",
+    "pron": "/ɪnˈsepərəbl/",
+    "desc": "Unable to be separated.",
+    "example": "The twins were inseparable as children."
+  },
+  {
+    "ru": "Ограбление",
+    "en": "robbery",
+    "unit": "1",
+    "pron": "/ˈrɒbəri/",
+    "desc": "A crime of stealing from a place, especially by force.",
+    "example": "There was a robbery at the bank last night."
+  },
+  {
+    "ru": "Грубый",
+    "en": "rude",
+    "unit": "1",
+    "pron": "/ruːd/",
+    "desc": "Impolite or disrespectful behavior.",
+    "example": "It’s rude to interrupt someone while they’re speaking."
+  },
+  {
+    "ru": "Подростковый возраст",
+    "en": "adolescence",
+    "unit": "1",
+    "pron": "/ˌædəˈlesəns/",
+    "desc": "A period of life between childhood and adulthood when a person undergoes physical and emotional changes.",
+    "example": "Adolescence is often a challenging time."
+  },
+  {
+    "ru": "Подросток",
+    "en": "adolescent",
+    "unit": "1",
+    "pron": "/ˌædəˈlesənt/",
+    "desc": "A person in the period of adolescence.",
+    "example": "The school has a program to support adolescents."
+  },
+  {
+    "ru": "Справляться с",
+    "en": "to deal with",
+    "unit": "1",
+    "pron": "/tuː diːl wɪð/",
+    "desc": "To manage or handle a situation or problem.",
+    "example": "She knows how to deal with stress."
+  },
+  {
+    "ru": "Быстрый",
+    "en": "rapid",
+    "unit": "1",
+    "pron": "/ˈræpɪd/",
+    "desc": "Happening very quickly or at a high speed.",
+    "example": "There was a rapid change in temperature."
+  },
+  {
+    "ru": "Зависимый",
+    "en": "dependent",
+    "unit": "1",
+    "pron": "/dɪˈpendənt/",
+    "desc": "Relying on others for support or resources.",
+    "example": "He is still financially dependent on his parents."
+  },
+  {
+    "ru": "Свобода",
+    "en": "freedom",
+    "unit": "1",
+    "pron": "/ˈfriːdəm/",
+    "desc": "The state of being free to make choices or decisions.",
+    "example": "They fought for their freedom."
+  },
+  {
+    "ru": "Конфиденциальность",
+    "en": "privacy",
+    "unit": "1",
+    "pron": "/ˈprɪvəsi/",
+    "desc": "The right to keep personal information private.",
+    "example": "I need some privacy to make a call."
+  },
+  {
+    "ru": "Ненавидеть кого-то",
+    "en": "to resent someone",
+    "unit": "1",
+    "pron": "/tuː rɪˈzent ˈsʌmwʌn/",
+    "desc": "To feel angry or bitter towards someone because of something they did.",
+    "example": "He resents his boss for not giving him a raise."
+  },
+  {
+    "ru": "Шансы",
+    "en": "odds",
+    "unit": "1",
+    "pron": "/ɒdz/",
+    "desc": "The likelihood or chance of something happening.",
+    "example": "The odds of winning the lottery are low."
+  },
+  {
+    "ru": "Потеря",
+    "en": "loss",
+    "unit": "1",
+    "pron": "/lɒs/",
+    "desc": "The process of losing something.",
+    "example": "She felt deep sorrow over the loss of her dog."
+  },
+  {
+    "ru": "Отвергать",
+    "en": "reject",
+    "unit": "1",
+    "pron": "/rɪˈdʒekt/",
+    "desc": "To refuse to accept or consider something or someone.",
+    "example": "He rejected the job offer."
+  },
+  {
+    "ru": "Вести себя",
+    "en": "behave",
+    "unit": "1",
+    "pron": "/bɪˈheɪv/",
+    "desc": "To act in a certain way, especially in a particular situation.",
+    "example": "Children should behave in class."
+  },
+  {
+    "ru": "Ответственно",
+    "en": "responsibly",
+    "unit": "1",
+    "pron": "/rɪˈspɒnsəbli/",
+    "desc": "In a way that shows responsibility or accountability.",
+    "example": "She spends her money responsibly."
+  },
+  {
+    "ru": "Озабоченность",
+    "en": "concern",
+    "unit": "1",
+    "pron": "/kənˈsɜːn/",
+    "desc": "A feeling of worry or interest about something.",
+    "example": "There is growing concern about climate change."
+  },
+  {
+    "ru": "Раздражение",
+    "en": "irritation",
+    "unit": "1",
+    "pron": "/ˌɪrɪˈteɪʃən/",
+    "desc": "A feeling of anger or displeasure.",
+    "example": "Her constant talking was a source of irritation."
+  },
+  {
+    "ru": "Недоверчивый",
+    "en": "distrustful",
+    "unit": "1",
+    "pron": "/dɪsˈtrʌstfəl/",
+    "desc": "Having a lack of trust or belief in someone or something.",
+    "example": "He was distrustful of their intentions."
+  },
+  {
+    "ru": "Быть в хороших/плохих отношениях с кем-то",
+    "en": "to be on good/bad terms with someone",
+    "unit": "1",
+    "pron": "/tuː bi ɒn ɡʊd/bæd tɜːmz wɪð ˈsʌmwʌn/",
+    "desc": "To have a good or bad relationship with someone.",
+    "example": "She’s on good terms with her neighbors."
+  },
+  {
+    "ru": "Границы",
+    "en": "boundaries",
+    "unit": "1",
+    "pron": "/ˈbaʊndəriz/",
+    "desc": "Limits or rules that are set for behavior or actions.",
+    "example": "Setting clear boundaries is important in relationships."
+  },
+  {
+    "ru": "Неудобство",
+    "en": "nuisance",
+    "unit": "1",
+    "pron": "/ˈnjuːsns/",
+    "desc": "A person or thing that causes inconvenience or annoyance.",
+    "example": "That noisy dog is a real nuisance."
+  },
+  {
+    "ru": "Усилие",
+    "en": "effort",
+    "unit": "1",
+    "pron": "/ˈefət/",
+    "desc": "The physical or mental energy needed to do something.",
+    "example": "You need to make more effort in your studies."
+  },
+  {
+    "ru": "Склонен к",
+    "en": "tend to",
+    "unit": "1",
+    "pron": "/tend tuː/",
+    "desc": "To have a natural tendency or habit of doing something.",
+    "example": "She tends to be late for meetings."
+  },
+  {
+    "ru": "Дневник",
+    "en": "diary",
+    "unit": "1",
+    "pron": "/ˈdaɪəri/",
+    "desc": "A personal record of thoughts or events, usually kept private.",
+    "example": "He writes in his diary every night."
+  },
+  {
+    "ru": "В настоящее время",
+    "en": "currently",
+    "unit": "1",
+    "pron": "/ˈkʌrəntli/",
+    "desc": "At the present moment.",
+    "example": "She is currently studying in London."
+  },
+  {
+    "ru": "Слава",
+    "en": "fame",
+    "unit": "1",
+    "pron": "/feɪm/",
+    "desc": "The state of being well-known or recognized by many people.",
+    "example": "The actor rose to fame after his first movie."
+  }
+]

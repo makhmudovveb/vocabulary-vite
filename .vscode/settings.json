@@ -1,0 +1,14 @@
+[
+  {
+    "terminal.integrated.cursorStyle": "line",         // Курсор-черта, как в обычном редакторе
+  "terminal.integrated.cursorBlinking": true         // Мигание курсора
+},
+  {
+    "javascript.validate.enable": false,
+    "eslint.validate": ["javascript"],
+    "files.associations": {
+      "*.js": "javascript"
+    }
+  }
+  
+]

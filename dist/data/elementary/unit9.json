@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "погода",
+      "en": "weather",
+      "unit": 9,
+      "pron": "[ˈweð.ər]",
+      "desc": "The state of the atmosphere at a particular time and place.",
+      "example": "The weather today is sunny and warm."
+    },
+    {
+      "ru": "дождь",
+      "en": "rain",
+      "unit": 9,
+      "pron": "[reɪn]",
+      "desc": "Water that falls from the sky in drops.",
+      "example": "We stayed inside because of the rain."
+    },
+    {
+      "ru": "снег",
+      "en": "snow",
+      "unit": 9,
+      "pron": "[snəʊ]",
+      "desc": "Soft white frozen water that falls from the sky.",
+      "example": "The children played in the snow."
+    },
+    {
+      "ru": "ветер",
+      "en": "wind",
+      "unit": 9,
+      "pron": "[wɪnd]",
+      "desc": "Air that moves across the surface of the Earth.",
+      "example": "The wind blew strongly all day."
+    },
+    {
+      "ru": "солнечно",
+      "en": "sunny",
+      "unit": 9,
+      "pron": "[ˈsʌn.i]",
+      "desc": "Bright with sunlight.",
+      "example": "It was a sunny afternoon in the park."
+    },
+    {
+      "ru": "облачно",
+      "en": "cloudy",
+      "unit": 9,
+      "pron": "[ˈklaʊ.di]",
+      "desc": "Covered with clouds.",
+      "example": "It’s too cloudy to see the sun."
+    },
+    {
+      "ru": "гроза",
+      "en": "storm",
+      "unit": 9,
+      "pron": "[stɔːm]",
+      "desc": "A violent weather condition with wind, rain, or snow.",
+      "example": "A strong storm hit the city last night."
+    },
+    {
+      "ru": "туман",
+      "en": "fog",
+      "unit": 9,
+      "pron": "[fɒɡ]",
+      "desc": "A thick cloud of tiny water droplets near the ground.",
+      "example": "The fog made it hard to see the road."
+    },
+    {
+      "ru": "холодно",
+      "en": "cold",
+      "unit": 9,
+      "pron": "[kəʊld]",
+      "desc": "Having a low temperature, especially when compared to the human body.",
+      "example": "It’s very cold outside today."
+    },
+    {
+      "ru": "жарко",
+      "en": "hot",
+      "unit": 9,
+      "pron": "[hɒt]",
+      "desc": "Having a high temperature.",
+      "example": "It gets very hot in summer here."
+    }
+  ]
+  

@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "культура",
+    "en": "culture",
+    "unit": 5,
+    "pron": "[ˈkʌltʃə]",
+    "desc": "The customs, arts, social institutions, and achievements of a particular nation or people.",
+    "example": "Japanese culture is known for its rich traditions and art forms."
+  },
+  {
+    "ru": "искусство",
+    "en": "art",
+    "unit": 5,
+    "pron": "[ɑːt]",
+    "desc": "Creative expression through painting, music, literature, or performance.",
+    "example": "The museum features modern and classical art."
+  },
+  {
+    "ru": "литература",
+    "en": "literature",
+    "unit": 5,
+    "pron": "[ˈlɪtərətʃə]",
+    "desc": "Written works, especially those considered of superior or lasting artistic value.",
+    "example": "Shakespeare is one of the greatest figures in English literature."
+  },
+  {
+    "ru": "музыка",
+    "en": "music",
+    "unit": 5,
+    "pron": "[ˈmjuːzɪk]",
+    "desc": "The art of combining sounds to produce beauty of form and expression.",
+    "example": "She listens to classical music every evening."
+  },
+  {
+    "ru": "театр",
+    "en": "theater",
+    "unit": 5,
+    "pron": "[ˈθɪətə]",
+    "desc": "A place or form of art where plays or performances are shown.",
+    "example": "We went to the theater to see a new comedy."
+  },
+  {
+    "ru": "кино",
+    "en": "movie",
+    "unit": 5,
+    "pron": "[ˈmuːvi]",
+    "desc": "A motion picture or film shown in cinemas or on TV.",
+    "example": "That movie won several international awards."
+  },
+  {
+    "ru": "фестиваль",
+    "en": "festival",
+    "unit": 5,
+    "pron": "[ˈfɛstəvəl]",
+    "desc": "An organized series of events celebrating music, film, or culture.",
+    "example": "The city hosts an annual jazz festival."
+  },
+  {
+    "ru": "традиция",
+    "en": "tradition",
+    "unit": 5,
+    "pron": "[trəˈdɪʃən]",
+    "desc": "A custom or belief passed down through generations.",
+    "example": "It's a family tradition to gather every New Year’s Eve."
+  },
+  {
+    "ru": "национальный",
+    "en": "national",
+    "unit": 5,
+    "pron": "[ˈnæʃənəl]",
+    "desc": "Relating to a nation or country as a whole.",
+    "example": "The national flag is raised on special occasions."
+  },
+  {
+    "ru": "праздник",
+    "en": "holiday",
+    "unit": 5,
+    "pron": "[ˈhɒlədeɪ]",
+    "desc": "A special day of celebration or rest from work.",
+    "example": "Christmas is a popular holiday in many countries."
+  }
+]

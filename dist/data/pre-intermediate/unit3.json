@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "работа",
+    "en": "work",
+    "unit": 3,
+    "pron": "[wɜːk]",
+    "desc": "Effort or activity directed toward producing or accomplishing something.",
+    "example": "She goes to work every day at 9 AM."
+  },
+  {
+    "ru": "офис",
+    "en": "office",
+    "unit": 3,
+    "pron": "[ˈɒfɪs]",
+    "desc": "A room or building where people work, especially at desks.",
+    "example": "His office is on the third floor."
+  },
+  {
+    "ru": "компьютер",
+    "en": "computer",
+    "unit": 3,
+    "pron": "[kəmˈpjuːtə]",
+    "desc": "An electronic device for storing and processing data.",
+    "example": "I use a computer to write emails and create documents."
+  },
+  {
+    "ru": "интернет",
+    "en": "internet",
+    "unit": 3,
+    "pron": "[ˈɪntənet]",
+    "desc": "A global network that connects computers around the world.",
+    "example": "He found the recipe on the internet."
+  },
+  {
+    "ru": "телефон",
+    "en": "phone",
+    "unit": 3,
+    "pron": "[fəʊn]",
+    "desc": "A device used for talking to people over long distances.",
+    "example": "She called her friend on the phone."
+  },
+  {
+    "ru": "письмо",
+    "en": "letter",
+    "unit": 3,
+    "pron": "[ˈletə]",
+    "desc": "A written or printed message addressed to someone.",
+    "example": "He sent a letter to his grandparents."
+  },
+  {
+    "ru": "проект",
+    "en": "project",
+    "unit": 3,
+    "pron": "[ˈprɒdʒekt]",
+    "desc": "A planned piece of work with a specific goal.",
+    "example": "They worked together on a school project."
+  },
+  {
+    "ru": "встреча",
+    "en": "meeting",
+    "unit": 3,
+    "pron": "[ˈmiːtɪŋ]",
+    "desc": "An event where people come together to discuss things.",
+    "example": "The manager held a meeting with the team."
+  },
+  {
+    "ru": "команда",
+    "en": "team",
+    "unit": 3,
+    "pron": "[tiːm]",
+    "desc": "A group of people working together toward a common goal.",
+    "example": "Our team won the competition."
+  },
+  {
+    "ru": "документ",
+    "en": "document",
+    "unit": 3,
+    "pron": "[ˈdɒkjʊmənt]",
+    "desc": "A piece of written, printed, or electronic matter that provides information.",
+    "example": "Please send me the document by email."
+  }
+]

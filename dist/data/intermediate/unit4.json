@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "технологии",
+      "en": "technology",
+      "unit": 4,
+      "pron": "[tekˈnɒl.ə.dʒi]",
+      "desc": "The use of scientific knowledge for practical purposes.",
+      "example": "Modern technology has changed the way we live."
+    },
+    {
+      "ru": "инновация",
+      "en": "innovation",
+      "unit": 4,
+      "pron": "[ˌɪn.əˈveɪ.ʃən]",
+      "desc": "A new idea or method that brings improvement.",
+      "example": "The company is known for its innovation in design."
+    },
+    {
+      "ru": "робототехника",
+      "en": "robotics",
+      "unit": 4,
+      "pron": "[rəʊˈbɒ.tɪks]",
+      "desc": "The science of designing and operating robots.",
+      "example": "Robotics is used in many manufacturing processes."
+    },
+    {
+      "ru": "программирование",
+      "en": "programming",
+      "unit": 4,
+      "pron": "[ˈprəʊ.ɡræm.ɪŋ]",
+      "desc": "The process of writing instructions for computers.",
+      "example": "She is learning programming in Python."
+    },
+    {
+      "ru": "искусственный интеллект",
+      "en": "artificial intelligence",
+      "unit": 4,
+      "pron": "[ˌɑː.tɪˈfɪʃ.əl ɪnˈtel.ɪ.dʒəns]",
+      "desc": "The ability of machines to perform tasks that require human intelligence.",
+      "example": "Artificial intelligence is used in self-driving cars."
+    },
+    {
+      "ru": "данные",
+      "en": "data",
+      "unit": 4,
+      "pron": "[ˈdeɪ.tə]",
+      "desc": "Facts and statistics collected for reference or analysis.",
+      "example": "The research is based on real-time data."
+    },
+    {
+      "ru": "компьютер",
+      "en": "computer",
+      "unit": 4,
+      "pron": "[kəmˈpjuː.tər]",
+      "desc": "An electronic device for storing and processing data.",
+      "example": "He works on his computer every day."
+    },
+    {
+      "ru": "сеть",
+      "en": "network",
+      "unit": 4,
+      "pron": "[ˈnet.wɜːk]",
+      "desc": "A group of connected computers or devices.",
+      "example": "All the office computers are on the same network."
+    },
+    {
+      "ru": "сервер",
+      "en": "server",
+      "unit": 4,
+      "pron": "[ˈsɜː.vər]",
+      "desc": "A powerful computer that provides services to other computers.",
+      "example": "The website is hosted on a secure server."
+    },
+    {
+      "ru": "безопасность",
+      "en": "security",
+      "unit": 4,
+      "pron": "[sɪˈkjʊə.rə.ti]",
+      "desc": "Measures taken to protect systems from threats or attacks.",
+      "example": "Cybersecurity is a top priority for the company."
+    }
+  ]
+  

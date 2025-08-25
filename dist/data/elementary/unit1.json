@@ -1,0 +1,442 @@
+[
+  {
+    "ru": "мусорное ведро",
+    "en": "bin",
+    "unit": "intro",
+    "pron": "/bɪn/",
+    "desc": "A container for waste.",
+    "example": "Please throw the trash into the bin."
+  },
+  {
+    "ru": "доска",
+    "en": "blackboard",
+    "unit": "intro",
+    "pron": "/ˈblækbɔːd/",
+    "desc": "A dark surface used in classrooms for writing with chalk.",
+    "example": "The teacher wrote the topic on the blackboard."
+  },
+  {
+    "ru": "Бразилия",
+    "en": "brazil",
+    "unit": "intro",
+    "pron": "/brəˈzɪl/",
+    "desc": "A country in South America.",
+    "example": "Brazil is famous for its football players."
+  },
+  {
+    "ru": "калькулятор",
+    "en": "calculator",
+    "unit": "intro",
+    "pron": "/ˈkælkjuleɪtə/",
+    "desc": "A small electronic device used for mathematical calculations.",
+    "example": "He used a calculator to solve the math problem."
+  },
+  {
+    "ru": "Канада",
+    "en": "canada",
+    "unit": "intro",
+    "pron": "/ˈkænədə/",
+    "desc": "A country in North America.",
+    "example": "Canada has beautiful natural landscapes."
+  },
+  {
+    "ru": "стул",
+    "en": "chair",
+    "unit": "intro",
+    "pron": "/tʃeə/",
+    "desc": "A piece of furniture for sitting.",
+    "example": "He sat on the chair near the window."
+  },
+  {
+    "ru": "Китай",
+    "en": "china",
+    "unit": "intro",
+    "pron": "/ˈtʃaɪnə/",
+    "desc": "A country in East Asia.",
+    "example": "China has a long and rich history."
+  },
+  {
+    "ru": "кларнет",
+    "en": "clarinet",
+    "unit": "intro",
+    "pron": "/ˌklærəˈnet/",
+    "desc": "A woodwind instrument.",
+    "example": "She plays the clarinet in the school band."
+  },
+  {
+    "ru": "компьютер",
+    "en": "computer",
+    "unit": "intro",
+    "pron": "/kəmˈpjuːtə/",
+    "desc": "An electronic machine that processes information.",
+    "example": "The computer is working perfectly now."
+  },
+  {
+    "ru": "Хорватия",
+    "en": "croatia",
+    "unit": "intro",
+    "pron": "/krəʊˈeɪʃə/",
+    "desc": "A country in the Balkans.",
+    "example": "Croatia is a country in the Balkans."
+  },
+  {
+    "ru": "шкаф",
+    "en": "cupboard",
+    "unit": "intro",
+    "pron": "/ˈkʌbəd/",
+    "desc": "A piece of furniture for storing items.",
+    "example": "There's plenty of food in the cupboards."
+  },
+  {
+    "ru": "танцевать",
+    "en": "dance",
+    "unit": "intro",
+    "pron": "/dɑːns/",
+    "desc": "To move rhythmically to music.",
+    "example": "They danced to popular Polish folk songs."
+  },
+  {
+    "ru": "парта",
+    "en": "desk",
+    "unit": "intro",
+    "pron": "/desk/",
+    "desc": "A piece of furniture with a flat top for writing or working.",
+    "example": "I spend all day sitting at a desk."
+  },
+  {
+    "ru": "барабаны",
+    "en": "drums",
+    "unit": "intro",
+    "pron": "/drʌmz/",
+    "desc": "A percussion instrument sounded by being struck.",
+    "example": "I used to play drums in a band."
+  },
+  {
+    "ru": "Египет",
+    "en": "egypt",
+    "unit": "intro",
+    "pron": "/ˈiːdʒɪpt/",
+    "desc": "A country linking northeast Africa with the Middle East.",
+    "example": "She is studying the history of Egypt at university."
+  },
+  {
+    "ru": "ластик",
+    "en": "eraser",
+    "unit": "intro",
+    "pron": "/ɪˈreɪzə/",
+    "desc": "A small piece of rubber used to remove pencil marks.",
+    "example": "I use an eraser to correct my mistakes."
+  },
+  {
+    "ru": "тетрадь",
+    "en": "exercise book",
+    "unit": "intro",
+    "pron": "/ˈeksəsaɪz bʊk/",
+    "desc": "A notebook used by students for writing.",
+    "example": "My exercise book was left at home."
+  },
+  {
+    "ru": "флейта",
+    "en": "flute",
+    "unit": "intro",
+    "pron": "/fluːt/",
+    "desc": "A wind instrument made from a tube with holes.",
+    "example": "I play the flute."
+  },
+  {
+    "ru": "Франция",
+    "en": "france",
+    "unit": "intro",
+    "pron": "/frɑːns/",
+    "desc": "A country in Western Europe.",
+    "example": "France is known for its rich history."
+  },
+  {
+    "ru": "Германия",
+    "en": "germany",
+    "unit": "intro",
+    "pron": "/ˈdʒɜːməni/",
+    "desc": "A country in Central Europe.",
+    "example": "She went to Germany at my suggestion."
+  },
+  {
+    "ru": "Греция",
+    "en": "greece",
+    "unit": "intro",
+    "pron": "/ɡriːs/",
+    "desc": "A country in southeastern Europe.",
+    "example": "I spent last holiday in Greece."
+  },
+  {
+    "ru": "гитара",
+    "en": "guitar",
+    "unit": "intro",
+    "pron": "/ɡɪˈtɑː/",
+    "desc": "A stringed instrument played by plucking.",
+    "example": "She plays guitar in a band."
+  },
+  {
+    "ru": "Венгрия",
+    "en": "hungary",
+    "unit": "intro",
+    "pron": "/ˈhʌŋɡəri/",
+    "desc": "A landlocked country in Central Europe.",
+    "example": "Fruit soup is from Hungary."
+  },
+  {
+    "ru": "Индия",
+    "en": "india",
+    "unit": "intro",
+    "pron": "/ˈɪndiə/",
+    "desc": "A country in South Asia.",
+    "example": "Many people in northern India speak Hindi."
+  },
+  {
+    "ru": "интерактивная доска",
+    "en": "interactive whiteboard",
+    "unit": "intro",
+    "pron": "/ˌɪntərˈæktɪv ˈwaɪtbɔːd/",
+    "desc": "A large interactive display used in classrooms.",
+    "example": "The teacher drew a vertical line on the interactive whiteboard."
+  },
+  {
+    "ru": "Италия",
+    "en": "italy",
+    "unit": "intro",
+    "pron": "/ˈɪtəli/",
+    "desc": "A European country with a long Mediterranean coastline.",
+    "example": "Her childhood was spent in Italy."
+  },
+  {
+    "ru": "Япония",
+    "en": "japan",
+    "unit": "intro",
+    "pron": "/dʒəˈpæn/",
+    "desc": "An island country in East Asia.",
+    "example": "He paid a visit to Japan last year."
+  },
+  {
+    "ru": "клавиатура",
+    "en": "keyboard",
+    "unit": "intro",
+    "pron": "/ˈkiːbɔːd/",
+    "desc": "A panel of keys for typing on a computer.",
+    "example": "She used a virtual keyboard on the touch screen."
+  },
+  {
+    "ru": "Мексика",
+    "en": "mexico",
+    "unit": "intro",
+    "pron": "/ˈmeksɪkəʊ/",
+    "desc": "A country in North America.",
+    "example": "The US and Mexico went to war in 1846."
+  },
+  {
+    "ru": "ручка",
+    "en": "pen",
+    "unit": "intro",
+    "pron": "/pen/",
+    "desc": "An instrument for writing with ink.",
+    "example": "This pen won't write."
+  },
+  {
+    "ru": "карандаш",
+    "en": "pencil",
+    "unit": "intro",
+    "pron": "/ˈpensl/",
+    "desc": "An instrument for writing or drawing.",
+    "example": "She picked up a colored pencil to draw a picture."
+  },
+  {
+    "ru": "пенал",
+    "en": "pencil case",
+    "unit": "intro",
+    "pron": "/ˈpensl keɪs/",
+    "desc": "A container for pencils and other stationery.",
+    "example": "I bought a new pencil case."
+  },
+  {
+    "ru": "точилка",
+    "en": "pencil sharpener",
+    "unit": "intro",
+    "pron": "/ˈpensl ʃɑːpnə/",
+    "desc": "A device for sharpening pencils.",
+    "example": "I need to sharpen my pencil."
+  },
+  {
+    "ru": "пианино",
+    "en": "piano",
+    "unit": "intro",
+    "pron": "/ˈpjɑːnəʊ/",
+    "desc": "A large keyboard musical instrument.",
+    "example": "The piano keys are black and white."
+  },
+  {
+    "ru": "играть",
+    "en": "play",
+    "unit": "intro",
+    "pron": "/pleɪ/",
+    "desc": "To take part in a game or sport.",
+    "example": "I usually play chess with my brother."
+  },
+  {
+    "ru": "Польша",
+    "en": "poland",
+    "unit": "intro",
+    "pron": "/ˈpəʊlənd/",
+    "desc": "A country in Central Europe.",
+    "example": "Poland is known for its beautiful old cities."
+  },
+  {
+    "ru": "ездить",
+    "en": "ride",
+    "unit": "intro",
+    "pron": "/raɪd/",
+    "desc": "To sit on and control the movement of a bicycle, horse, etc.",
+    "example": "I ride a bike to school every day."
+  },
+  {
+    "ru": "линейка",
+    "en": "ruler",
+    "unit": "intro",
+    "pron": "/ˈruːlə/",
+    "desc": "A straight-edged tool for drawing lines.",
+    "example": "The ruler helped her draw a straight line."
+  },
+  {
+    "ru": "Россия",
+    "en": "russia",
+    "unit": "intro",
+    "pron": "/ˈrʌʃə/",
+    "desc": "The largest country in the world.",
+    "example": "Russia is the largest country in the world."
+  },
+  {
+    "ru": "саксофон",
+    "en": "saxophone",
+    "unit": "intro",
+    "pron": "/ˈsæksəfəʊn/",
+    "desc": "A member of the woodwind family of instruments.",
+    "example": "The man is playing a saxophone."
+  },
+  {
+    "ru": "школьный рюкзак",
+    "en": "schoolbag",
+    "unit": "intro",
+    "pron": "/ˈskuːl bæɡ/",
+    "desc": "A bag for carrying school supplies.",
+    "example": "I have a book in my school bag."
+  },
+  {
+    "ru": "полка",
+    "en": "shelf",
+    "unit": "intro",
+    "pron": "/ʃelf/",
+    "desc": "A flat length of wood or metal for storing items.",
+    "example": "I put my books on the shelf."
+  },
+  {
+    "ru": "петь",
+    "en": "sing",
+    "unit": "intro",
+    "pron": "/sɪŋ/",
+    "desc": "To make musical sounds with the voice.",
+    "example": "We sang songs to pass the time."
+  },
+  {
+    "ru": "кататься на коньках",
+    "en": "skate",
+    "unit": "intro",
+    "pron": "/skeɪt/",
+    "desc": "To move on ice or roller skates.",
+    "example": "Let's go skating tomorrow."
+  },
+  {
+    "ru": "скейтборд",
+    "en": "skateboard",
+    "unit": "intro",
+    "pron": "/ˈskeɪtbɔːd/",
+    "desc": "A short narrow board with wheels.",
+    "example": "Have you ever skateboarded before?"
+  },
+  {
+    "ru": "кататься на лыжах",
+    "en": "ski",
+    "unit": "intro",
+    "pron": "/skiː/",
+    "desc": "To move over snow using skis.",
+    "example": "We ski in the winter."
+  },
+  {
+    "ru": "Испания",
+    "en": "spain",
+    "unit": "intro",
+    "pron": "/speɪn/",
+    "desc": "A country on the Iberian Peninsula.",
+    "example": "I have never been to Spain."
+  },
+  {
+    "ru": "говорить",
+    "en": "speak",
+    "unit": "intro",
+    "pron": "/spiːk/",
+    "desc": "To use words to express thoughts.",
+    "example": "My mother spoke Russian."
+  },
+  {
+    "ru": "плавать",
+    "en": "swim",
+    "unit": "intro",
+    "pron": "/swɪm/",
+    "desc": "To move through water by moving the body.",
+    "example": "We always went swimming together."
+  },
+  {
+    "ru": "Великобритания",
+    "en": "the uk",
+    "unit": "intro",
+    "pron": "/ðə ˌjuː ˈkeɪ/",
+    "desc": "The United Kingdom of Great Britain and Northern Ireland.",
+    "example": "UK is famous for Big Ben."
+  },
+  {
+    "ru": "США",
+    "en": "the usa",
+    "unit": "intro",
+    "pron": "/ðə ˌjuː es ˈeɪ/",
+    "desc": "The United States of America.",
+    "example": "The USA celebrates Independence Day on July 4th."
+  },
+  {
+    "ru": "труба",
+    "en": "trumpet",
+    "unit": "intro",
+    "pron": "/ˈtrʌmpɪt/",
+    "desc": "A brass musical instrument.",
+    "example": "He is a jazz trumpet player."
+  },
+  {
+    "ru": "Турция",
+    "en": "turkey",
+    "unit": "intro",
+    "pron": "/ˈtɜːki/",
+    "desc": "A country straddling Eastern Europe and Western Asia.",
+    "example": "Many people visit Turkey for its beautiful beaches."
+  },
+  {
+    "ru": "Украина",
+    "en": "ukraine",
+    "unit": "intro",
+    "pron": "/juːˈkreɪn/",
+    "desc": "A country in Eastern Europe.",
+    "example": "Ukraine is a country in Eastern Europe."
+  },
+  {
+    "ru": "скрипка",
+    "en": "violin",
+    "unit": "intro",
+    "pron": "/ˌvaɪəˈlɪn/",
+    "desc": "A string instrument played with a bow.",
+    "example": "She practises the violin every day."
+  }
+]

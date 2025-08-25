@@ -1,0 +1,1082 @@
+[
+  {
+    "ru": "Способность",
+    "en": "ability",
+    "unit": "3",
+    "pron": "/əˈbɪləti/",
+    "desc": "The power or skill to do something.",
+    "example": "She has the ability to solve complex problems."
+  },
+  {
+    "ru": "Несчастный случай",
+    "en": "accident",
+    "unit": "3",
+    "pron": "/ˈæksɪdənt/",
+    "desc": "An unexpected event that causes harm or damage.",
+    "example": "He broke his leg in a car accident."
+  },
+  {
+    "ru": "Подростковый возраст",
+    "en": "adolescence",
+    "unit": "3",
+    "pron": "/ˌædəˈlesns/",
+    "desc": "The period between childhood and adulthood.",
+    "example": "Adolescence is a time of emotional and physical changes."
+  },
+  {
+    "ru": "Подросток",
+    "en": "adolescent",
+    "unit": "3",
+    "pron": "/ˌædəˈlesnt/",
+    "desc": "A young person going through adolescence.",
+    "example": "Adolescents often seek independence from their parents."
+  },
+  {
+    "ru": "Испуганный",
+    "en": "afraid",
+    "unit": "3",
+    "pron": "/əˈfreɪd/",
+    "desc": "Feeling fear or worry.",
+    "example": "She was afraid of the dark."
+  },
+  {
+    "ru": "Бдительный",
+    "en": "alert",
+    "unit": "3",
+    "pron": "/əˈlɜːrt/",
+    "desc": "Quick to notice and respond to danger or problems.",
+    "example": "The guard stayed alert throughout the night."
+  },
+  {
+    "ru": "Гнев",
+    "en": "anger",
+    "unit": "3",
+    "pron": "/ˈæŋɡər/",
+    "desc": "A strong feeling of displeasure or hostility.",
+    "example": "He couldn’t control his anger during the argument."
+  },
+  {
+    "ru": "Лодыжка",
+    "en": "ankle",
+    "unit": "3",
+    "pron": "/ˈæŋkl/",
+    "desc": "The joint between the foot and the leg.",
+    "example": "She twisted her ankle while running."
+  },
+  {
+    "ru": "Антибиотики",
+    "en": "antibiotics",
+    "unit": "3",
+    "pron": "/ˌæntibaɪˈɒtɪks/",
+    "desc": "Drugs used to treat bacterial infections.",
+    "example": "The doctor prescribed antibiotics for the infection."
+  },
+  {
+    "ru": "Тревога",
+    "en": "anxiety",
+    "unit": "3",
+    "pron": "/æŋˈzaɪəti/",
+    "desc": "A feeling of worry or nervousness.",
+    "example": "She felt anxiety before the exam."
+  },
+  {
+    "ru": "Тревожный",
+    "en": "anxious",
+    "unit": "3",
+    "pron": "/ˈæŋkʃəs/",
+    "desc": "Feeling worried or uneasy.",
+    "example": "He was anxious about the job interview."
+  },
+  {
+    "ru": "Пристыжённый",
+    "en": "ashamed",
+    "unit": "3",
+    "pron": "/əˈʃeɪmd/",
+    "desc": "Feeling guilty or embarrassed about something wrong.",
+    "example": "She was ashamed of lying to her friend."
+  },
+  {
+    "ru": "Атмосферное давление",
+    "en": "atmospheric pressure",
+    "unit": "3",
+    "pron": "/ˌætməsˈferɪk ˈpreʃər/",
+    "desc": "The pressure exerted by the weight of the atmosphere.",
+    "example": "Changes in atmospheric pressure can affect the weather."
+  },
+  {
+    "ru": "Бинт / повязка",
+    "en": "bandage",
+    "unit": "3",
+    "pron": "/ˈbændɪdʒ/",
+    "desc": "A strip of cloth used to cover a wound or injury.",
+    "example": "The nurse wrapped a bandage around his arm."
+  },
+  {
+    "ru": "Удариться головой",
+    "en": "bang your head",
+    "unit": "3",
+    "pron": "/bæŋ jɔːr hed/",
+    "desc": "To hit your head against something.",
+    "example": "He banged his head on the cupboard door."
+  },
+  {
+    "ru": "Обезвоживаться",
+    "en": "become dehydrated",
+    "unit": "3",
+    "pron": "/dɪˈhaɪdreɪtɪd/",
+    "desc": "To lose too much water from your body.",
+    "example": "After running in the sun, he became dehydrated."
+  },
+  {
+    "ru": "Кровь",
+    "en": "blood",
+    "unit": "3",
+    "pron": "/blʌd/",
+    "desc": "The red liquid that flows in your body.",
+    "example": "Blood carries oxygen to the organs."
+  },
+  {
+    "ru": "Кровеносные сосуды",
+    "en": "blood vessels",
+    "unit": "3",
+    "pron": "/ˈblʌd ˌveslz/",
+    "desc": "Tubes in the body that carry blood.",
+    "example": "Blood vessels can become blocked by fat."
+  },
+  {
+    "ru": "Кость",
+    "en": "bone",
+    "unit": "3",
+    "pron": "/bəʊn/",
+    "desc": "The hard part inside the body that forms the skeleton.",
+    "example": "She broke a bone in her arm."
+  },
+  {
+    "ru": "Нижняя часть",
+    "en": "bottom",
+    "unit": "3",
+    "pron": "/ˈbɒtəm/",
+    "desc": "The lowest part of something.",
+    "example": "The keys were at the bottom of her bag."
+  },
+  {
+    "ru": "Антибиотики",
+    "en": "antibiotics",
+    "unit": "3",
+    "pron": "/ˌæntibaɪˈɒtɪks/",
+    "desc": "Medicines used to treat bacterial infections.",
+    "example": "The doctor prescribed antibiotics for the infection."
+  },
+  {
+    "ru": "Тревога",
+    "en": "anxiety",
+    "unit": "3",
+    "pron": "/æŋˈzaɪəti/",
+    "desc": "A feeling of worry or nervousness.",
+    "example": "He felt anxiety before the exam."
+  },
+  {
+    "ru": "Тревожный",
+    "en": "anxious",
+    "unit": "3",
+    "pron": "/ˈæŋkʃəs/",
+    "desc": "Feeling worried or nervous.",
+    "example": "She was anxious about the results."
+  },
+  {
+    "ru": "Пристыжённый",
+    "en": "ashamed",
+    "unit": "3",
+    "pron": "/əˈʃeɪmd/",
+    "desc": "Feeling guilty or embarrassed about something wrong.",
+    "example": "He felt ashamed after lying to his friend."
+  },
+  {
+    "ru": "Атмосферное давление",
+    "en": "atmospheric pressure",
+    "unit": "3",
+    "pron": "/ˌætməsˈferɪk ˈpreʃər/",
+    "desc": "The pressure exerted by the weight of the atmosphere.",
+    "example": "Atmospheric pressure decreases with altitude."
+  },
+  {
+    "ru": "Бинт / повязка",
+    "en": "bandage",
+    "unit": "3",
+    "pron": "/ˈbændɪdʒ/",
+    "desc": "A strip of material used to cover a wound.",
+    "example": "He wrapped a bandage around his arm."
+  },
+  {
+    "ru": "Удариться головой",
+    "en": "bang your head",
+    "unit": "3",
+    "pron": "/bæŋ jɔː hed/",
+    "desc": "To hit your head against something.",
+    "example": "I banged my head on the cupboard door."
+  },
+  {
+    "ru": "Обезвоживаться",
+    "en": "become dehydrated",
+    "unit": "3",
+    "pron": "/dɪˈhaɪdreɪtɪd/",
+    "desc": "To lose too much water from your body.",
+    "example": "It's easy to become dehydrated in the desert."
+  },
+  {
+    "ru": "Кровь",
+    "en": "blood",
+    "unit": "3",
+    "pron": "/blʌd/",
+    "desc": "The red fluid that circulates in the body.",
+    "example": "Blood carries oxygen to the organs."
+  },
+  {
+    "ru": "Кровеносные сосуды",
+    "en": "blood vessels",
+    "unit": "3",
+    "pron": "/ˈblʌd ˌveslz/",
+    "desc": "Tubes that carry blood through the body.",
+    "example": "Blood vessels expand during exercise."
+  },
+  {
+    "ru": "Кость",
+    "en": "bone",
+    "unit": "3",
+    "pron": "/bəʊn/",
+    "desc": "The hard parts that make up the skeleton.",
+    "example": "He broke a bone in his arm."
+  },
+  {
+    "ru": "Нижняя часть",
+    "en": "bottom",
+    "unit": "3",
+    "pron": "/ˈbɒtəm/",
+    "desc": "The lowest part of something.",
+    "example": "The book was at the bottom of the bag."
+  },
+  {
+    "ru": "Мозг",
+    "en": "brain",
+    "unit": "3",
+    "pron": "/breɪn/",
+    "desc": "The organ that controls thoughts and body functions.",
+    "example": "The brain needs oxygen to function."
+  },
+  {
+    "ru": "Сломать кость",
+    "en": "break a bone",
+    "unit": "3",
+    "pron": "/breɪk ə bəʊn/",
+    "desc": "To fracture a bone in your body.",
+    "example": "She fell and broke a bone in her wrist."
+  },
+  {
+    "ru": "Сильно ушибиться",
+    "en": "bruise yourself badly",
+    "unit": "3",
+    "pron": "/bruːz jɔːˈself ˈbædli/",
+    "desc": "To injure your body and cause dark skin marks.",
+    "example": "He bruised himself badly during the match."
+  },
+  {
+    "ru": "Обжечься",
+    "en": "burn yourself",
+    "unit": "3",
+    "pron": "/bɜːn jɔːˈself/",
+    "desc": "To damage your skin with something hot.",
+    "example": "Be careful not to burn yourself with the kettle."
+  },
+  {
+    "ru": "Икра (ноги)",
+    "en": "calf",
+    "unit": "3",
+    "pron": "/kɑːf/",
+    "desc": "The back part of the lower leg.",
+    "example": "My calves hurt after running."
+  },
+  {
+    "ru": "Рак",
+    "en": "cancer",
+    "unit": "3",
+    "pron": "/ˈkænsər/",
+    "desc": "A serious disease caused by cells growing uncontrollably.",
+    "example": "He is receiving treatment for lung cancer."
+  },
+  {
+    "ru": "Щека",
+    "en": "cheek",
+    "unit": "3",
+    "pron": "/tʃiːk/",
+    "desc": "The side of the face below the eye.",
+    "example": "She kissed him on the cheek."
+  },
+  {
+    "ru": "Грудь",
+    "en": "chest",
+    "unit": "3",
+    "pron": "/tʃest/",
+    "desc": "The front upper part of the body between the neck and stomach.",
+    "example": "He had pain in his chest."
+  },
+  {
+    "ru": "Подбородок",
+    "en": "chin",
+    "unit": "3",
+    "pron": "/tʃɪn/",
+    "desc": "The lower part of the face below the mouth.",
+    "example": "He stroked his chin while thinking."
+  },
+  {
+    "ru": "Хорошо справляться",
+    "en": "cope well",
+    "unit": "3",
+    "pron": "/kəʊp wel/",
+    "desc": "To manage or deal with something successfully.",
+    "example": "She coped well with the stressful situation."
+  },
+  {
+    "ru": "Космонавты",
+    "en": "cosmonauts",
+    "unit": "3",
+    "pron": "/ˈkɒzmənɔːts/",
+    "desc": "Russian astronauts who travel into space.",
+    "example": "The cosmonauts trained for months before the mission."
+  },
+  {
+    "ru": "Крем",
+    "en": "cream",
+    "unit": "3",
+    "pron": "/kriːm/",
+    "desc": "A thick substance used for healing or moisturizing.",
+    "example": "Apply this cream to the burn twice a day."
+  },
+  {
+    "ru": "Сердитый",
+    "en": "cross",
+    "unit": "3",
+    "pron": "/krɒs/",
+    "desc": "Slightly angry or annoyed.",
+    "example": "She was cross because he forgot her birthday."
+  },
+  {
+    "ru": "Сильно порезаться",
+    "en": "cut yourself badly",
+    "unit": "3",
+    "pron": "/kʌt jɔːˈself ˈbædli/",
+    "desc": "To injure yourself deeply with a sharp object.",
+    "example": "He cut himself badly while slicing vegetables."
+  },
+  {
+    "ru": "Рассвет",
+    "en": "dawn",
+    "unit": "3",
+    "pron": "/dɔːn/",
+    "desc": "The first light of the day; sunrise.",
+    "example": "They left the house at dawn."
+  },
+  {
+    "ru": "Подавленный",
+    "en": "depressed",
+    "unit": "3",
+    "pron": "/dɪˈprest/",
+    "desc": "Feeling extremely sad and hopeless.",
+    "example": "He felt depressed after losing his job."
+  },
+  {
+    "ru": "Депрессия",
+    "en": "depression",
+    "unit": "3",
+    "pron": "/dɪˈpreʃn/",
+    "desc": "A mental condition marked by deep sadness.",
+    "example": "She was diagnosed with clinical depression."
+  },
+  {
+    "ru": "Пустыня",
+    "en": "desert",
+    "unit": "3",
+    "pron": "/ˈdezət/",
+    "desc": "A dry, sandy area with little rain or vegetation.",
+    "example": "The Sahara is the largest hot desert in the world."
+  },
+  {
+    "ru": "Переваривать",
+    "en": "digest",
+    "unit": "3",
+    "pron": "/daɪˈdʒest/",
+    "desc": "To break down food in the stomach.",
+    "example": "It takes time to digest a heavy meal."
+  },
+  {
+    "ru": "Испытывающий отвращение",
+    "en": "disgusted",
+    "unit": "3",
+    "pron": "/dɪsˈɡʌstɪd/",
+    "desc": "Feeling strong dislike or disapproval.",
+    "example": "She was disgusted by the mess in the kitchen."
+  },
+  {
+    "ru": "Далёкое будущее",
+    "en": "distant future",
+    "unit": "3",
+    "pron": "/ˈdɪstənt ˈfjuːtʃər/",
+    "desc": "A time far ahead from now.",
+    "example": "Space tourism may be common in the distant future."
+  },
+  {
+    "ru": "Донор",
+    "en": "donor",
+    "unit": "3",
+    "pron": "/ˈdəʊnər/",
+    "desc": "Someone who gives blood, organs, or money.",
+    "example": "He became a blood donor at 18."
+  },
+  {
+    "ru": "Перевязочный материал / повязка",
+    "en": "dressing",
+    "unit": "3",
+    "pron": "/ˈdresɪŋ/",
+    "desc": "A protective cover placed over a wound.",
+    "example": "The nurse changed the dressing on his leg."
+  },
+  {
+    "ru": "Закат",
+    "en": "dusk",
+    "unit": "3",
+    "pron": "/dʌsk/",
+    "desc": "The time just before night when the light fades.",
+    "example": "They returned home at dusk."
+  },
+  {
+    "ru": "Локоть",
+    "en": "elbow",
+    "unit": "3",
+    "pron": "/ˈelbəʊ/",
+    "desc": "The joint between your upper and lower arm.",
+    "example": "He leaned on his elbow while reading."
+  },
+  {
+    "ru": "Испускать / излучать",
+    "en": "emit",
+    "unit": "3",
+    "pron": "/ɪˈmɪt/",
+    "desc": "To release or send out something, like light or gas.",
+    "example": "The machine emits a high-pitched sound."
+  },
+  {
+    "ru": "Завистливый",
+    "en": "envious",
+    "unit": "3",
+    "pron": "/ˈenviəs/",
+    "desc": "Wanting what someone else has.",
+    "example": "He was envious of her success."
+  },
+  {
+    "ru": "Зависть",
+    "en": "envy",
+    "unit": "3",
+    "pron": "/ˈenvi/",
+    "desc": "A feeling of wanting what someone else has.",
+    "example": "Her talent was the envy of the entire class."
+  },
+  {
+    "ru": "Оборудование",
+    "en": "equipment",
+    "unit": "3",
+    "pron": "/ɪˈkwɪpmənt/",
+    "desc": "The necessary tools or gear for a specific purpose.",
+    "example": "The gym has all the latest equipment."
+  },
+  {
+    "ru": "Бровь",
+    "en": "eyebrow",
+    "unit": "3",
+    "pron": "/ˈaɪbraʊ/",
+    "desc": "The line of hair above the eye.",
+    "example": "She raised her eyebrow in surprise."
+  },
+  {
+    "ru": "Веко",
+    "en": "eyelid",
+    "unit": "3",
+    "pron": "/ˈaɪlɪd/",
+    "desc": "The fold of skin that covers the eye.",
+    "example": "His eyelids felt heavy from lack of sleep."
+  },
+  {
+    "ru": "Страх",
+    "en": "fear",
+    "unit": "3",
+    "pron": "/fɪər/",
+    "desc": "An unpleasant emotion caused by danger or threat.",
+    "example": "He has a fear of heights."
+  },
+  {
+    "ru": "Лихорадка / жар",
+    "en": "fever",
+    "unit": "3",
+    "pron": "/ˈfiːvər/",
+    "desc": "A high body temperature caused by illness.",
+    "example": "She stayed in bed with a high fever."
+  },
+  {
+    "ru": "Лоб",
+    "en": "forehead",
+    "unit": "3",
+    "pron": "/ˈfɔːhed/",
+    "desc": "The flat part of the face above the eyes.",
+    "example": "He wiped sweat from his forehead."
+  },
+  {
+    "ru": "Хрупкий",
+    "en": "fragile",
+    "unit": "3",
+    "pron": "/ˈfrædʒaɪl/",
+    "desc": "Easily broken or damaged.",
+    "example": "Be careful — that vase is fragile."
+  },
+  {
+    "ru": "Обморожение",
+    "en": "frostbite",
+    "unit": "3",
+    "pron": "/ˈfrɒstbaɪt/",
+    "desc": "Injury caused by freezing of the skin or tissue.",
+    "example": "He got frostbite from climbing without gloves."
+  },
+  {
+    "ru": "Сильно кровоточить из носа",
+    "en": "have a bad nosebleed",
+    "unit": "3",
+    "pron": "/hæv ə bæd ˈnəʊzˌbliːd/",
+    "desc": "To lose a lot of blood from the nose.",
+    "example": "She had a bad nosebleed during class."
+  },
+  {
+    "ru": "Иметь фингал",
+    "en": "have a black eye",
+    "unit": "3",
+    "pron": "/hæv ə blæk aɪ/",
+    "desc": "A bruise around the eye, usually from injury.",
+    "example": "He had a black eye after the fight."
+  },
+  {
+    "ru": "Сердце",
+    "en": "heart",
+    "unit": "3",
+    "pron": "/hɑːt/",
+    "desc": "The organ that pumps blood in the body.",
+    "example": "Exercise helps keep your heart healthy."
+  },
+  {
+    "ru": "Болезнь сердца",
+    "en": "heart disease",
+    "unit": "3",
+    "pron": "/hɑːt dɪˈziːz/",
+    "desc": "Medical conditions affecting the heart.",
+    "example": "Smoking increases the risk of heart disease."
+  },
+  {
+    "ru": "Пятка",
+    "en": "heel",
+    "unit": "3",
+    "pron": "/hiːl/",
+    "desc": "The back part of the foot below the ankle.",
+    "example": "The shoes hurt my heel."
+  },
+  {
+    "ru": "Большая высота",
+    "en": "high altitude",
+    "unit": "3",
+    "pron": "/haɪ ˈæltɪtjuːd/",
+    "desc": "An elevated location far above sea level.",
+    "example": "Breathing is harder at high altitudes."
+  },
+  {
+    "ru": "Бедро",
+    "en": "hip",
+    "unit": "3",
+    "pron": "/hɪp/",
+    "desc": "The part of the body where the leg joins the torso.",
+    "example": "She fell and injured her hip."
+  },
+  {
+    "ru": "Надежда",
+    "en": "hope",
+    "unit": "3",
+    "pron": "/həʊp/",
+    "desc": "A feeling of expectation for something good.",
+    "example": "We never lost hope during the rescue."
+  },
+  {
+    "ru": "Конечности человека",
+    "en": "human limbs",
+    "unit": "3",
+    "pron": "/ˈhjuːmən lɪmz/",
+    "desc": "The arms and legs of a person.",
+    "example": "Robots can now imitate human limbs."
+  },
+  {
+    "ru": "Ткань человека",
+    "en": "human tissue",
+    "unit": "3",
+    "pron": "/ˈhjuːmən ˈtɪʃuː/",
+    "desc": "Material that makes up the human body.",
+    "example": "Scientists grew human tissue in the lab."
+  },
+  {
+    "ru": "Влажность",
+    "en": "humidity",
+    "unit": "3",
+    "pron": "/hjuːˈmɪdəti/",
+    "desc": "The amount of moisture in the air.",
+    "example": "The humidity made it hard to breathe."
+  },
+  {
+    "ru": "Кишечник",
+    "en": "intestine",
+    "unit": "3",
+    "pron": "/ɪnˈtestɪn/",
+    "desc": "The long tube in the body that processes food.",
+    "example": "The small intestine absorbs nutrients."
+  },
+  {
+    "ru": "Челюсть",
+    "en": "jaw",
+    "unit": "3",
+    "pron": "/dʒɔː/",
+    "desc": "The bone structure that forms the mouth and holds the teeth.",
+    "example": "He broke his jaw in the accident."
+  },
+  {
+    "ru": "Почка",
+    "en": "kidney",
+    "unit": "3",
+    "pron": "/ˈkɪdni/",
+    "desc": "An organ that filters waste from the blood.",
+    "example": "The patient had a kidney transplant."
+  },
+  {
+    "ru": "Колено",
+    "en": "knee",
+    "unit": "3",
+    "pron": "/niː/",
+    "desc": "The joint between the thigh and lower leg.",
+    "example": "She injured her knee while running."
+  },
+  {
+    "ru": "Продолжительность жизни",
+    "en": "lifespan",
+    "unit": "3",
+    "pron": "/ˈlaɪfspæn/",
+    "desc": "The length of time someone lives.",
+    "example": "The average human lifespan is increasing."
+  },
+  {
+    "ru": "Губа",
+    "en": "lip",
+    "unit": "3",
+    "pron": "/lɪp/",
+    "desc": "The soft edges of the mouth.",
+    "example": "He bit his lip nervously."
+  },
+  {
+    "ru": "Ящерица",
+    "en": "lizard",
+    "unit": "3",
+    "pron": "/ˈlɪzəd/",
+    "desc": "A small reptile with scales and a long tail.",
+    "example": "A lizard darted across the rock."
+  },
+  {
+    "ru": "Лёгкое",
+    "en": "lung",
+    "unit": "3",
+    "pron": "/lʌŋ/",
+    "desc": "An organ used for breathing.",
+    "example": "Smoking damages your lungs."
+  },
+  {
+    "ru": "Медицина",
+    "en": "medicine",
+    "unit": "3",
+    "pron": "/ˈmedɪsən/",
+    "desc": "The science of treating illness.",
+    "example": "She studies medicine at university."
+  },
+  {
+    "ru": "Мелатонин",
+    "en": "melatonin",
+    "unit": "3",
+    "pron": "/ˌmeləˈtəʊnɪn/",
+    "desc": "A hormone that regulates sleep.",
+    "example": "Melatonin helps you fall asleep."
+  },
+  {
+    "ru": "Мышца",
+    "en": "muscle",
+    "unit": "3",
+    "pron": "/ˈmʌsl/",
+    "desc": "Tissue in the body that helps you move.",
+    "example": "You need strong muscles to lift weights."
+  },
+  {
+    "ru": "Ноготь",
+    "en": "nail",
+    "unit": "3",
+    "pron": "/neɪl/",
+    "desc": "The hard covering at the end of a finger or toe.",
+    "example": "She painted her nails red."
+  },
+  {
+    "ru": "Нано-чип",
+    "en": "nano-chip",
+    "unit": "3",
+    "pron": "/ˈnænəʊ tʃɪp/",
+    "desc": "An extremely small microchip used in advanced technology.",
+    "example": "The doctor implanted a nano-chip to monitor health."
+  },
+  {
+    "ru": "Ноздря",
+    "en": "nostril",
+    "unit": "3",
+    "pron": "/ˈnɒstrəl/",
+    "desc": "One of the two openings of the nose.",
+    "example": "He pinched his nostrils to stop the bleeding."
+  },
+  {
+    "ru": "Кислород",
+    "en": "oxygen",
+    "unit": "3",
+    "pron": "/ˈɒksɪdʒən/",
+    "desc": "A gas essential for breathing.",
+    "example": "Plants release oxygen during photosynthesis."
+  },
+  {
+    "ru": "Обезболивающие",
+    "en": "painkillers",
+    "unit": "3",
+    "pron": "/ˈpeɪnkɪləz/",
+    "desc": "Medicine used to reduce or stop pain.",
+    "example": "He took painkillers for his headache."
+  },
+  {
+    "ru": "Скончаться",
+    "en": "pass away",
+    "unit": "3",
+    "pron": "/pɑːs əˈweɪ/",
+    "desc": "A polite way of saying someone has died.",
+    "example": "Her grandfather passed away peacefully."
+  },
+  {
+    "ru": "Потерять сознание",
+    "en": "pass out",
+    "unit": "3",
+    "pron": "/pɑːs aʊt/",
+    "desc": "To lose consciousness.",
+    "example": "He passed out from the heat."
+  },
+  {
+    "ru": "Предсказание",
+    "en": "prediction",
+    "unit": "3",
+    "pron": "/prɪˈdɪkʃən/",
+    "desc": "A statement about what will happen in the future.",
+    "example": "The weather prediction was accurate."
+  },
+  {
+    "ru": "Предотвращать",
+    "en": "prevent",
+    "unit": "3",
+    "pron": "/prɪˈvent/",
+    "desc": "To stop something from happening.",
+    "example": "Exercise helps prevent disease."
+  },
+  {
+    "ru": "Гордость",
+    "en": "pride",
+    "unit": "3",
+    "pron": "/praɪd/",
+    "desc": "A feeling of satisfaction about achievements.",
+    "example": "She felt pride in her work."
+  },
+  {
+    "ru": "Предложить",
+    "en": "propose",
+    "unit": "3",
+    "pron": "/prəˈpəʊz/",
+    "desc": "To suggest an idea or plan for consideration.",
+    "example": "He proposed a new solution to the problem."
+  },
+  {
+    "ru": "Гордый",
+    "en": "proud",
+    "unit": "3",
+    "pron": "/praʊd/",
+    "desc": "Feeling deep satisfaction because of achievements.",
+    "example": "She was proud of her son's success."
+  },
+  {
+    "ru": "Революционизировать",
+    "en": "revolutionise",
+    "unit": "3",
+    "pron": "/ˌrevəˈluːʃənaɪz/",
+    "desc": "To completely change something, especially by improving it.",
+    "example": "Technology has revolutionised communication."
+  },
+  {
+    "ru": "Ребро",
+    "en": "rib",
+    "unit": "3",
+    "pron": "/rɪb/",
+    "desc": "One of the curved bones surrounding the chest.",
+    "example": "He cracked a rib while playing football."
+  },
+  {
+    "ru": "Саламандра",
+    "en": "salamander",
+    "unit": "3",
+    "pron": "/ˈsæləmændə(r)/",
+    "desc": "An amphibian that looks like a lizard and lives in damp places.",
+    "example": "A salamander crawled out of the pond."
+  },
+  {
+    "ru": "Кожа головы",
+    "en": "scalp",
+    "unit": "3",
+    "pron": "/skælp/",
+    "desc": "The skin covering the top of the head.",
+    "example": "He had a cut on his scalp."
+  },
+  {
+    "ru": "Стыд",
+    "en": "shame",
+    "unit": "3",
+    "pron": "/ʃeɪm/",
+    "desc": "A painful feeling from guilt or embarrassment.",
+    "example": "He felt deep shame after lying."
+  },
+  {
+    "ru": "Голень",
+    "en": "shin",
+    "unit": "3",
+    "pron": "/ʃɪn/",
+    "desc": "The front part of the leg below the knee.",
+    "example": "She bruised her shin on the table."
+  },
+  {
+    "ru": "Плечо",
+    "en": "shoulder",
+    "unit": "3",
+    "pron": "/ˈʃəʊldə(r)/",
+    "desc": "The joint between the upper arm and torso.",
+    "example": "He carried the bag over his shoulder."
+  },
+  {
+    "ru": "Кожа",
+    "en": "skin",
+    "unit": "3",
+    "pron": "/skɪn/",
+    "desc": "The outer covering of a person's or animal's body.",
+    "example": "Her skin was soft and smooth."
+  },
+  {
+    "ru": "Череп",
+    "en": "skull",
+    "unit": "3",
+    "pron": "/skʌl/",
+    "desc": "The bone structure that forms the head.",
+    "example": "The skull protects the brain."
+  },
+  {
+    "ru": "Космическая капсула",
+    "en": "space capsule",
+    "unit": "3",
+    "pron": "/speɪs ˈkæpsjuːl/",
+    "desc": "A small spacecraft used for transport to and from space.",
+    "example": "The astronauts landed safely in the space capsule."
+  },
+  {
+    "ru": "Позвоночник",
+    "en": "spine",
+    "unit": "3",
+    "pron": "/spaɪn/",
+    "desc": "The column of bones down the back that supports the body.",
+    "example": "Injuries to the spine can be serious."
+  },
+  {
+    "ru": "Растянуть запястье",
+    "en": "sprain your wrist",
+    "unit": "3",
+    "pron": "/spreɪn jɔː rɪst/",
+    "desc": "To injure the wrist by twisting it suddenly.",
+    "example": "I sprained my wrist while playing basketball."
+  },
+  {
+    "ru": "Желудок",
+    "en": "stomach",
+    "unit": "3",
+    "pron": "/ˈstʌmək/",
+    "desc": "An organ in the body where food is digested.",
+    "example": "He had a pain in his stomach."
+  },
+  {
+    "ru": "Борьба / испытывать трудности",
+    "en": "struggle",
+    "unit": "3",
+    "pron": "/ˈstrʌɡl/",
+    "desc": "To try hard to do something difficult.",
+    "example": "She struggled to finish her homework on time."
+  },
+  {
+    "ru": "Итог",
+    "en": "sum",
+    "unit": "3",
+    "pron": "/sʌm/",
+    "desc": "The total amount resulting from addition.",
+    "example": "He paid a large sum of money."
+  },
+  {
+    "ru": "Сюрприз",
+    "en": "surprise",
+    "unit": "3",
+    "pron": "/səˈpraɪz/",
+    "desc": "Something unexpected or unusual.",
+    "example": "The party was a wonderful surprise."
+  },
+  {
+    "ru": "Удивлённый",
+    "en": "surprised",
+    "unit": "3",
+    "pron": "/səˈpraɪzd/",
+    "desc": "Feeling or showing surprise.",
+    "example": "He was surprised by the sudden rain."
+  },
+  {
+    "ru": "Выживать",
+    "en": "survive",
+    "unit": "3",
+    "pron": "/səˈvaɪv/",
+    "desc": "To continue to live or exist after a difficult situation.",
+    "example": "They survived the storm without injury."
+  },
+  {
+    "ru": "Палатка",
+    "en": "tent",
+    "unit": "3",
+    "pron": "/tent/",
+    "desc": "A portable shelter made of fabric supported by poles and ropes.",
+    "example": "We slept in a tent during the camping trip."
+  },
+  {
+    "ru": "Бедро",
+    "en": "thigh",
+    "unit": "3",
+    "pron": "/θaɪ/",
+    "desc": "The part of the leg between the hip and the knee.",
+    "example": "He injured his thigh while running."
+  },
+  {
+    "ru": "Трёхмерный",
+    "en": "three-dimensional",
+    "unit": "3",
+    "pron": "/ˌθriː dɪˈmenʃənl/",
+    "desc": "Having length, width, and depth.",
+    "example": "The model was three-dimensional and very realistic."
+  },
+  {
+    "ru": "Горло",
+    "en": "throat",
+    "unit": "3",
+    "pron": "/θrəʊt/",
+    "desc": "The front part of the neck, or the space inside the neck used for swallowing and breathing.",
+    "example": "She had a sore throat."
+  },
+  {
+    "ru": "Большой палец (руки)",
+    "en": "thumb",
+    "unit": "3",
+    "pron": "/θʌm/",
+    "desc": "The short, thick first finger on the hand.",
+    "example": "He gave a thumbs-up sign."
+  },
+  {
+    "ru": "Палец (ноги)",
+    "en": "toe",
+    "unit": "3",
+    "pron": "/təʊ/",
+    "desc": "One of the five small parts at the end of each foot.",
+    "example": "I stubbed my toe on the chair."
+  },
+  {
+    "ru": "Лечение",
+    "en": "treatment",
+    "unit": "3",
+    "pron": "/ˈtriːtmənt/",
+    "desc": "Medical care for an illness or injury.",
+    "example": "She is receiving treatment for cancer."
+  },
+  {
+    "ru": "Подвернуть лодыжку",
+    "en": "twist your ankle",
+    "unit": "3",
+    "pron": "/twɪst jɔː ˈæŋkl/",
+    "desc": "To injure your ankle by turning it suddenly.",
+    "example": "He twisted his ankle while playing football."
+  },
+  {
+    "ru": "Типичный",
+    "en": "typical",
+    "unit": "3",
+    "pron": "/ˈtɪpɪkl/",
+    "desc": "Having the usual qualities of a particular group or thing.",
+    "example": "It's a typical day in autumn—cool and rainy."
+  },
+  {
+    "ru": "Жизненно важный",
+    "en": "vital",
+    "unit": "3",
+    "pron": "/ˈvaɪtl/",
+    "desc": "Extremely important or necessary for life.",
+    "example": "Drinking water is vital for health."
+  },
+  {
+    "ru": "Талия",
+    "en": "waist",
+    "unit": "3",
+    "pron": "/weɪst/",
+    "desc": "The part of the body between the ribs and hips.",
+    "example": "She tied the belt around her waist."
+  },
+  {
+    "ru": "Широко",
+    "en": "widely",
+    "unit": "3",
+    "pron": "/ˈwaɪdli/",
+    "desc": "Over a large area or among many people.",
+    "example": "This book is widely read around the world."
+  },
+  {
+    "ru": "Червь",
+    "en": "worm",
+    "unit": "3",
+    "pron": "/wɜːm/",
+    "desc": "A small, long, soft-bodied animal with no legs.",
+    "example": "He found a worm in the garden soil."
+  },
+  {
+    "ru": "Запястье",
+    "en": "wrist",
+    "unit": "3",
+    "pron": "/rɪst/",
+    "desc": "The joint connecting the hand with the forearm.",
+    "example": "She wore a watch on her wrist."
+  },
+  {
+    "ru": "Рентген",
+    "en": "X-ray",
+    "unit": "3",
+    "pron": "/ˈeks reɪ/",
+    "desc": "A photographic image of the inside of the body.",
+    "example": "The doctor took an X-ray of her chest."
+  }
+]

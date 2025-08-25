@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "техника",
+    "en": "technology",
+    "unit": 9,
+    "pron": "[tɛkˈnɒlədʒi]",
+    "desc": "The use of scientific knowledge for practical purposes.",
+    "example": "Technology is changing the way we live."
+  },
+  {
+    "ru": "компьютер",
+    "en": "computer",
+    "unit": 9,
+    "pron": "[kəmˈpjuːtə]",
+    "desc": "An electronic device for storing and processing data.",
+    "example": "He works on his computer all day."
+  },
+  {
+    "ru": "программа",
+    "en": "program",
+    "unit": 9,
+    "pron": "[ˈprəʊɡræm]",
+    "desc": "A set of instructions that a computer follows.",
+    "example": "I installed a new program for editing videos."
+  },
+  {
+    "ru": "сайт",
+    "en": "website",
+    "unit": 9,
+    "pron": "[ˈwebsaɪt]",
+    "desc": "A collection of web pages on the internet.",
+    "example": "Their company has a very professional website."
+  },
+  {
+    "ru": "приложение",
+    "en": "app",
+    "unit": 9,
+    "pron": "[æp]",
+    "desc": "A software application for phones or computers.",
+    "example": "She downloaded a fitness app."
+  },
+  {
+    "ru": "робот",
+    "en": "robot",
+    "unit": 9,
+    "pron": "[ˈrəʊbɒt]",
+    "desc": "A machine that can perform tasks automatically.",
+    "example": "The robot cleans the house by itself."
+  },
+  {
+    "ru": "интернет",
+    "en": "internet",
+    "unit": 9,
+    "pron": "[ˈɪntənet]",
+    "desc": "A global system of connected computers.",
+    "example": "I use the internet to find information."
+  },
+  {
+    "ru": "электронный",
+    "en": "electronic",
+    "unit": 9,
+    "pron": "[ˌɪlɛkˈtrɒnɪk]",
+    "desc": "Related to devices that work using electricity.",
+    "example": "He bought an electronic dictionary."
+  },
+  {
+    "ru": "цифровой",
+    "en": "digital",
+    "unit": 9,
+    "pron": "[ˈdɪdʒɪtəl]",
+    "desc": "Involving or relating to computers or technology.",
+    "example": "She prefers digital books over paper ones."
+  },
+  {
+    "ru": "социальный",
+    "en": "social",
+    "unit": 9,
+    "pron": "[ˈsəʊʃəl]",
+    "desc": "Related to society or communication between people.",
+    "example": "Social media has become very popular."
+  }
+]

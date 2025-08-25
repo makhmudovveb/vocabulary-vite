@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "путешествие",
+    "en": "travel",
+    "unit": 8,
+    "pron": "[ˈtrævəl]",
+    "desc": "The act of going from one place to another.",
+    "example": "I love to travel to new countries."
+  },
+  {
+    "ru": "самолёт",
+    "en": "plane",
+    "unit": 8,
+    "pron": "[pleɪn]",
+    "desc": "An aircraft with wings used for flying.",
+    "example": "We took a plane to Paris."
+  },
+  {
+    "ru": "поезд",
+    "en": "train",
+    "unit": 8,
+    "pron": "[treɪn]",
+    "desc": "A form of transportation that runs on tracks.",
+    "example": "He goes to work by train every day."
+  },
+  {
+    "ru": "автобус",
+    "en": "bus",
+    "unit": 8,
+    "pron": "[bʌs]",
+    "desc": "A large vehicle used to carry passengers.",
+    "example": "The school bus arrives at 8 a.m."
+  },
+  {
+    "ru": "отель",
+    "en": "hotel",
+    "unit": 8,
+    "pron": "[həʊˈtel]",
+    "desc": "A place where you can stay overnight when traveling.",
+    "example": "We stayed at a five-star hotel."
+  },
+  {
+    "ru": "багаж",
+    "en": "luggage",
+    "unit": 8,
+    "pron": "[ˈlʌɡɪdʒ]",
+    "desc": "Bags and suitcases used for travel.",
+    "example": "Her luggage was too heavy to carry."
+  },
+  {
+    "ru": "паспорт",
+    "en": "passport",
+    "unit": 8,
+    "pron": "[ˈpɑːspɔːt]",
+    "desc": "An official document for international travel.",
+    "example": "Don't forget your passport before the flight."
+  },
+  {
+    "ru": "бронирование",
+    "en": "booking",
+    "unit": 8,
+    "pron": "[ˈbʊkɪŋ]",
+    "desc": "The act of reserving something in advance.",
+    "example": "We made a booking at a seaside resort."
+  },
+  {
+    "ru": "турист",
+    "en": "tourist",
+    "unit": 8,
+    "pron": "[ˈtʊərɪst]",
+    "desc": "A person who is visiting a place for pleasure.",
+    "example": "The city is full of tourists in summer."
+  },
+  {
+    "ru": "экскурсия",
+    "en": "excursion",
+    "unit": 8,
+    "pron": "[ɪkˈskɜːʃən]",
+    "desc": "A short trip for leisure or education.",
+    "example": "We went on an excursion to the mountains."
+  }
+]

@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "еда",
+      "en": "food",
+      "unit": 4,
+      "pron": "[fuːd]",
+      "desc": "Substance consumed to provide nutritional support.",
+      "example": "The food at the restaurant was delicious."
+    },
+    {
+      "ru": "вода",
+      "en": "water",
+      "unit": 4,
+      "pron": "[ˈwɔː.tər]",
+      "desc": "A clear, colorless liquid essential for life.",
+      "example": "I drank a glass of water."
+    },
+    {
+      "ru": "молоко",
+      "en": "milk",
+      "unit": 4,
+      "pron": "[mɪlk]",
+      "desc": "A white liquid produced by mammals, often used as a drink or in cooking.",
+      "example": "She poured milk into her cereal."
+    },
+    {
+      "ru": "сок",
+      "en": "juice",
+      "unit": 4,
+      "pron": "[dʒuːs]",
+      "desc": "A drink made from the extraction of fruit or vegetable liquids.",
+      "example": "He likes orange juice for breakfast."
+    },
+    {
+      "ru": "фрукты",
+      "en": "fruits",
+      "unit": 4,
+      "pron": "[fruːts]",
+      "desc": "Sweet and fleshy products of a tree or plant that contain seeds.",
+      "example": "Fruits like apples and bananas are healthy snacks."
+    },
+    {
+      "ru": "овощи",
+      "en": "vegetables",
+      "unit": 4,
+      "pron": "[ˈvedʒ.tə.bəlz]",
+      "desc": "Edible plants or parts of plants, often served with meals.",
+      "example": "She bought fresh vegetables from the market."
+    },
+    {
+      "ru": "хлеб",
+      "en": "bread",
+      "unit": 4,
+      "pron": "[bred]",
+      "desc": "A baked food made from flour and water, usually eaten with meals.",
+      "example": "He ate a slice of bread with butter."
+    },
+    {
+      "ru": "рука",
+      "en": "hand",
+      "unit": 4,
+      "pron": "[hænd]",
+      "desc": "The end part of a person’s arm used for holding and touching things.",
+      "example": "She raised her hand to ask a question."
+    },
+    {
+      "ru": "голова",
+      "en": "head",
+      "unit": 4,
+      "pron": "[hed]",
+      "desc": "The upper part of the body that contains the brain, eyes, ears, nose, and mouth.",
+      "example": "He wore a hat on his head."
+    },
+    {
+      "ru": "нога",
+      "en": "leg",
+      "unit": 4,
+      "pron": "[leɡ]",
+      "desc": "One of the limbs on which a person or animal walks.",
+      "example": "She injured her leg while playing soccer."
+    }
+  ]
+  

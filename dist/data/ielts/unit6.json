@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "работа",
+      "en": "work",
+      "unit": 6,
+      "pron": "[wɜːk]",
+      "desc": "Activity involving effort to achieve a purpose or earn money.",
+      "example": "He goes to work every weekday."
+    },
+    {
+      "ru": "карьера",
+      "en": "career",
+      "unit": 6,
+      "pron": "[kəˈrɪər]",
+      "desc": "A profession or occupation pursued over a long period of time.",
+      "example": "She wants a career in medicine."
+    },
+    {
+      "ru": "интервью",
+      "en": "interview",
+      "unit": 6,
+      "pron": "[ˈɪn.tə.vjuː]",
+      "desc": "A formal meeting to assess a person's suitability for a job.",
+      "example": "He had a job interview yesterday."
+    },
+    {
+      "ru": "зарплата",
+      "en": "salary",
+      "unit": 6,
+      "pron": "[ˈsæl.ər.i]",
+      "desc": "A fixed regular payment for work, usually monthly.",
+      "example": "Her salary increased after the promotion."
+    },
+    {
+      "ru": "начальник",
+      "en": "boss",
+      "unit": 6,
+      "pron": "[bɒs]",
+      "desc": "A person in charge of a worker or organization.",
+      "example": "My boss gave me a day off."
+    },
+    {
+      "ru": "коллега",
+      "en": "colleague",
+      "unit": 6,
+      "pron": "[ˈkɒl.iːɡ]",
+      "desc": "A person you work with, especially in a professional job.",
+      "example": "She had lunch with a colleague."
+    },
+    {
+      "ru": "проект",
+      "en": "project",
+      "unit": 6,
+      "pron": "[ˈprɒdʒ.ekt]",
+      "desc": "A planned task or set of tasks with a specific goal.",
+      "example": "They are working on a new project together."
+    },
+    {
+      "ru": "встреча",
+      "en": "meeting",
+      "unit": 6,
+      "pron": "[ˈmiː.tɪŋ]",
+      "desc": "An event where people come together to discuss something.",
+      "example": "The meeting starts at 10 AM."
+    },
+    {
+      "ru": "офис",
+      "en": "office",
+      "unit": 6,
+      "pron": "[ˈɒf.ɪs]",
+      "desc": "A place where people work, usually at desks.",
+      "example": "She works in a large office downtown."
+    },
+    {
+      "ru": "должность",
+      "en": "position",
+      "unit": 6,
+      "pron": "[pəˈzɪʃ.ən]",
+      "desc": "A job or role in a company or organization.",
+      "example": "He applied for the manager position."
+    }
+  ]
+  

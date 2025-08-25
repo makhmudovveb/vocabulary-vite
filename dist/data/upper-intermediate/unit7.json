@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "здоровье",
+    "en": "health",
+    "unit": 7,
+    "pron": "[hɛlθ]",
+    "desc": "The condition of a person's body or mind.",
+    "example": "Regular exercise is important for good health."
+  },
+  {
+    "ru": "диета",
+    "en": "diet",
+    "unit": 7,
+    "pron": "[ˈdaɪət]",
+    "desc": "The food and drink a person usually consumes.",
+    "example": "She follows a vegetarian diet."
+  },
+  {
+    "ru": "фитнес",
+    "en": "fitness",
+    "unit": 7,
+    "pron": "[ˈfɪtnəs]",
+    "desc": "The condition of being physically strong and healthy.",
+    "example": "Fitness improves your energy and mental health."
+  },
+  {
+    "ru": "йога",
+    "en": "yoga",
+    "unit": 7,
+    "pron": "[ˈjəʊɡə]",
+    "desc": "A practice involving physical postures and breathing exercises.",
+    "example": "Yoga helps reduce stress and increase flexibility."
+  },
+  {
+    "ru": "медитация",
+    "en": "meditation",
+    "unit": 7,
+    "pron": "[ˌmɛdɪˈteɪʃən]",
+    "desc": "A practice of focusing the mind to achieve mental clarity and calm.",
+    "example": "Daily meditation improves concentration and mood."
+  },
+  {
+    "ru": "врач",
+    "en": "doctor",
+    "unit": 7,
+    "pron": "[ˈdɒktə]",
+    "desc": "A medical professional who treats people who are sick.",
+    "example": "The doctor examined the patient carefully."
+  },
+  {
+    "ru": "пациент",
+    "en": "patient",
+    "unit": 7,
+    "pron": "[ˈpeɪʃənt]",
+    "desc": "A person receiving medical care.",
+    "example": "The patient is recovering well after the surgery."
+  },
+  {
+    "ru": "лечение",
+    "en": "treatment",
+    "unit": 7,
+    "pron": "[ˈtriːtmənt]",
+    "desc": "Medical care given to a patient for an illness or injury.",
+    "example": "She is undergoing treatment for a skin condition."
+  },
+  {
+    "ru": "симптом",
+    "en": "symptom",
+    "unit": 7,
+    "pron": "[ˈsɪmptəm]",
+    "desc": "A sign of illness or disease.",
+    "example": "Fever and cough are symptoms of the flu."
+  },
+  {
+    "ru": "болезнь",
+    "en": "disease",
+    "unit": 7,
+    "pron": "[dɪˈziːz]",
+    "desc": "An illness that affects people, animals, or plants.",
+    "example": "The disease spread quickly through the population."
+  }
+]

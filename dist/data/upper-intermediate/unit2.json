@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "политика",
+    "en": "politics",
+    "unit": 2,
+    "pron": "[ˈpɒlɪtɪks]",
+    "desc": "The activities, actions, and policies used to gain and hold power in a government.",
+    "example": "He studied politics at university."
+  },
+  {
+    "ru": "правительство",
+    "en": "government",
+    "unit": 2,
+    "pron": "[ˈɡʌvənmənt]",
+    "desc": "The group of people who officially control a country.",
+    "example": "The government announced new reforms today."
+  },
+  {
+    "ru": "законодательство",
+    "en": "legislation",
+    "unit": 2,
+    "pron": "[ˌlɛdʒɪsˈleɪʃən]",
+    "desc": "Laws or a set of laws made by a government.",
+    "example": "The new legislation aims to reduce pollution."
+  },
+  {
+    "ru": "выборы",
+    "en": "elections",
+    "unit": 2,
+    "pron": "[ɪˈlɛkʃənz]",
+    "desc": "The process of voting to choose leaders or representatives.",
+    "example": "Elections will be held next month."
+  },
+  {
+    "ru": "парламент",
+    "en": "parliament",
+    "unit": 2,
+    "pron": "[ˈpɑːləmənt]",
+    "desc": "The highest law-making body in a country.",
+    "example": "The law was passed by the parliament."
+  },
+  {
+    "ru": "партийная система",
+    "en": "party system",
+    "unit": 2,
+    "pron": "[ˈpɑːti ˈsɪstəm]",
+    "desc": "A political system characterized by the presence of political parties.",
+    "example": "The two-party system dominates politics in many countries."
+  },
+  {
+    "ru": "демократия",
+    "en": "democracy",
+    "unit": 2,
+    "pron": "[dɪˈmɒkrəsi]",
+    "desc": "A system of government in which citizens vote to choose leaders or make decisions.",
+    "example": "Democracy allows people to have a voice in government."
+  },
+  {
+    "ru": "диктатура",
+    "en": "dictatorship",
+    "unit": 2,
+    "pron": "[dɪkˈteɪtəʃɪp]",
+    "desc": "A government where one person has total power and authority.",
+    "example": "The country was ruled by a military dictatorship for years."
+  },
+  {
+    "ru": "конституция",
+    "en": "constitution",
+    "unit": 2,
+    "pron": "[ˌkɒnstɪˈtjuːʃən]",
+    "desc": "A set of basic laws and principles that govern a country.",
+    "example": "The constitution guarantees freedom of speech."
+  },
+  {
+    "ru": "право",
+    "en": "law",
+    "unit": 2,
+    "pron": "[lɔː]",
+    "desc": "Rules made by a government to maintain order and protect citizens.",
+    "example": "Everyone must follow the law."
+  }
+]

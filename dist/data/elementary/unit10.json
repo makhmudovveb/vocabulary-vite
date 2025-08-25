@@ -1,0 +1,82 @@
+[
+  {
+    "ru": "домашние животные",
+    "en": "pets",
+    "unit": 10,
+    "pron": "[pets]",
+    "desc": "Animals kept for companionship and enjoyment.",
+    "example": "Many people love having pets at home."
+  },
+  {
+    "ru": "собака",
+    "en": "dog",
+    "unit": 10,
+    "pron": "[dɒɡ]",
+    "desc": "A loyal and friendly animal often kept as a pet.",
+    "example": "The dog barked loudly at the stranger."
+  },
+  {
+    "ru": "кошка",
+    "en": "cat",
+    "unit": 10,
+    "pron": "[kæt]",
+    "desc": "A small domesticated mammal with soft fur and sharp claws.",
+    "example": "The cat slept on the couch."
+  },
+  {
+    "ru": "птица",
+    "en": "bird",
+    "unit": 10,
+    "pron": "[bɜːd]",
+    "desc": "An animal with feathers and wings, usually able to fly.",
+    "example": "A bird was singing in the tree."
+  },
+  {
+    "ru": "рыба",
+    "en": "fish",
+    "unit": 10,
+    "pron": "[fɪʃ]",
+    "desc": "A cold-blooded animal that lives in water and breathes through gills.",
+    "example": "They have a colorful fish in the aquarium."
+  },
+  {
+    "ru": "хомяк",
+    "en": "hamster",
+    "unit": 10,
+    "pron": "[ˈhæm.stər]",
+    "desc": "A small furry rodent often kept as a pet.",
+    "example": "The hamster ran on the wheel all night."
+  },
+  {
+    "ru": "кролик",
+    "en": "rabbit",
+    "unit": 10,
+    "pron": "[ˈræb.ɪt]",
+    "desc": "A small mammal with long ears and a short tail.",
+    "example": "The rabbit hopped across the garden."
+  },
+  {
+    "ru": "змея",
+    "en": "snake",
+    "unit": 10,
+    "pron": "[sneɪk]",
+    "desc": "A long, legless reptile that slithers on the ground.",
+    "example": "He saw a snake in the grass."
+  },
+  {
+    "ru": "черепаха",
+    "en": "turtle",
+    "unit": 10,
+    "pron": "[ˈtɜː.təl]",
+    "desc": "A reptile with a hard shell that lives in or near water.",
+    "example": "The turtle slowly walked to the pond."
+  },
+  {
+    "ru": "лошадь",
+    "en": "horse",
+    "unit": 10,
+    "pron": "[hɔːs]",
+    "desc": "A large strong animal used for riding and carrying loads.",
+    "example": "She rode a horse along the trail."
+  }
+]

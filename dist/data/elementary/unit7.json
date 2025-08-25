@@ -1,0 +1,83 @@
+[
+    {
+      "ru": "время",
+      "en": "time",
+      "unit": 7,
+      "pron": "[taɪm]",
+      "desc": "The indefinite continued progress of existence and events.",
+      "example": "Time passes quickly when you're having fun."
+    },
+    {
+      "ru": "день",
+      "en": "day",
+      "unit": 7,
+      "pron": "[deɪ]",
+      "desc": "A period of 24 hours or the time between sunrise and sunset.",
+      "example": "Today is a beautiful sunny day."
+    },
+    {
+      "ru": "ночь",
+      "en": "night",
+      "unit": 7,
+      "pron": "[naɪt]",
+      "desc": "The period of darkness in each twenty-four hours; the time from sunset to sunrise.",
+      "example": "I like to read at night before bed."
+    },
+    {
+      "ru": "час",
+      "en": "hour",
+      "unit": 7,
+      "pron": "[ˈaʊər]",
+      "desc": "A unit of time equal to 60 minutes.",
+      "example": "The movie lasted for two hours."
+    },
+    {
+      "ru": "минута",
+      "en": "minute",
+      "unit": 7,
+      "pron": "[ˈmɪn.ɪt]",
+      "desc": "A unit of time equal to 60 seconds.",
+      "example": "Wait a minute, please."
+    },
+    {
+      "ru": "секунда",
+      "en": "second",
+      "unit": 7,
+      "pron": "[ˈsek.ənd]",
+      "desc": "The basic unit of time, equal to one sixtieth of a minute.",
+      "example": "It only took a few seconds."
+    },
+    {
+      "ru": "неделя",
+      "en": "week",
+      "unit": 7,
+      "pron": "[wiːk]",
+      "desc": "A period of seven days.",
+      "example": "We will go on vacation next week."
+    },
+    {
+      "ru": "месяц",
+      "en": "month",
+      "unit": 7,
+      "pron": "[mʌnθ]",
+      "desc": "A period of about four weeks or one twelfth of a year.",
+      "example": "My birthday is next month."
+    },
+    {
+      "ru": "год",
+      "en": "year",
+      "unit": 7,
+      "pron": "[jɪər]",
+      "desc": "A period of 12 months or 365 days.",
+      "example": "We lived in that house for one year."
+    },
+    {
+      "ru": "век",
+      "en": "century",
+      "unit": 7,
+      "pron": "[ˈsen.tʃər.i]",
+      "desc": "A period of 100 years.",
+      "example": "This castle was built in the 12th century."
+    }
+  ]
+  
