@@ -10,11 +10,12 @@ import "./AuthModal.css";
 const TEACHER_ACCOUNTS = {
   "bexzod.mahmudov@gmail.com": { fullName: "Bexzod Mahmudov", role: "teacher", password : "beka123"},
   "miss.ziyoda@gmail.com": { fullName: "Miss Ziyoda", role: "teacher", password : "miss_ziyoda"},
-  "miss.ozoda@gmail.com": { fullName: "Miss Ozoda", role: "teacher", password : "miss_ozoda"},
+  "miss.ozoda@gmail.com": { fullName: "Miss Ozoda", role: "teacher", password : "miss_ozoda"}, 
+  "olga.rudolfovna@gmail.com": { fullName: "Olga Rudolfovna", role: "teacher", password : "olga_rudolfovna"},
   "mki.school@gmail.com": { 
     fullName: "Mki School",
     role: "admin",
-    password: "mkischool"
+    password: "mki_school"
   }
 };
 
@@ -105,7 +106,7 @@ export default function AuthModal({ onAuthSuccess }) {
         />
 
         <select
-        disabledvalue={teacherSelect}
+        
           value={teacherSelect}
           onChange={(e) => setTeacherSelect(e.target.value)}
         >
@@ -113,6 +114,7 @@ export default function AuthModal({ onAuthSuccess }) {
           <option value="Bexzod Mahmudov">Bexzod Mahmudov</option>
           <option value="Miss Ozoda">Miss Ozoda</option>
           <option value="Miss Ziyoda">Miss Ziyoda</option>
+          <option value="Olga Rudolfovna">Ольга Рудольфовна</option>
           
         </select>
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { getAuth } from "firebase/auth";
-import { collection, addDoc, serverTimestamp } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp, doc, getDoc } from "firebase/firestore";
 import { db } from "../Firebase/firebaseConfig";
 import "../Styles/Matching.css";
 import BackBtn from "../Components/BackBtn";
@@ -152,11 +152,27 @@ const MatchingPage = () => {
         return;
       }
 
+      // берём пользователя из коллекции users
+      const userRef = doc(db, "users", user.uid);
+      const userSnap = await getDoc(userRef);
+
+      let userName = "Неизвестный";
+      let teacher = "Учитель";
+
+      if (userSnap.exists()) {
+        const userData = userSnap.data();
+        userName = userData.fullName || user.displayName || "Неизвестный";
+        teacher = userData.teacher || "Учитель"; // если пусто, то пишем "Учитель"
+      }
+
       await addDoc(collection(db, "matchingResults"), {
         uid: user.uid,
+        userName,
+        teacher,
         level,
         unit,
-        correctCount,
+        correct: correctCount,
+        incorrect: usedKeys.length - correctCount,
         total: usedKeys.length,
         createdAt: serverTimestamp(),
       });
@@ -225,15 +241,12 @@ const MatchingPage = () => {
                 {ruWords.map((item, idx) => (
                   <div
                     key={item.value + idx}
-                    className={`card ${
-                      selected.ru?.value === item.value ? "selected" : ""
-                    } ${
-                      groups.some((g) => g.ru.value === item.value)
+                    className={`card ${selected.ru?.value === item.value ? "selected" : ""
+                      } ${groups.some((g) => g.ru.value === item.value)
                         ? "used disabled"
                         : ""
-                    } ${
-                      groups.length === DEFAULT_WORD_LIMIT ? "finalized" : ""
-                    }`}
+                      } ${groups.length === DEFAULT_WORD_LIMIT ? "finalized" : ""
+                      }`}
                     onClick={() => handleClick("ru", item)}
                   >
                     {item.value}
@@ -245,15 +258,12 @@ const MatchingPage = () => {
                 {enWords.map((item, idx) => (
                   <div
                     key={item.value + idx}
-                    className={`card ${
-                      selected.en?.value === item.value ? "selected" : ""
-                    } ${
-                      groups.some((g) => g.en.value === item.value)
+                    className={`card ${selected.en?.value === item.value ? "selected" : ""
+                      } ${groups.some((g) => g.en.value === item.value)
                         ? "used"
                         : ""
-                    } ${
-                      groups.length === DEFAULT_WORD_LIMIT ? "finalized" : ""
-                    }`}
+                      } ${groups.length === DEFAULT_WORD_LIMIT ? "finalized" : ""
+                      }`}
                     onClick={() => handleClick("en", item)}
                   >
                     {item.value}
@@ -265,15 +275,12 @@ const MatchingPage = () => {
                 {descWords.map((item, idx) => (
                   <div
                     key={item.value + idx}
-                    className={`card ${
-                      selected.desc?.value === item.value ? "selected" : ""
-                    } ${
-                      groups.some((g) => g.desc.value === item.value)
+                    className={`card ${selected.desc?.value === item.value ? "selected" : ""
+                      } ${groups.some((g) => g.desc.value === item.value)
                         ? "used"
                         : ""
-                    } ${
-                      groups.length === DEFAULT_WORD_LIMIT ? "finalized" : ""
-                    }`}
+                      } ${groups.length === DEFAULT_WORD_LIMIT ? "finalized" : ""
+                      }`}
                     onClick={() => handleClick("desc", item)}
                   >
                     {item.value}
@@ -305,7 +312,7 @@ const MatchingPage = () => {
         )}
       </div>
       <div className="backbtn">
-      <BackBtn />
+        <BackBtn />
       </div>
     </>
   );

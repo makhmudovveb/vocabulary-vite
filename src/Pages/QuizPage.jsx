@@ -27,7 +27,7 @@ const QuizPage = () => {
   const [timer, setTimer] = useState(20);
   const [buttonsDisabled, setButtonsDisabled] = useState(false); // Новое состояние
   const navigate = useNavigate();
-
+  const [isDisabled, setIsDisabled] = useState(false);
   useEffect(() => {
     if (quizStarted && !quizFinished && inputRef.current) {
       inputRef.current.focus();
@@ -142,6 +142,7 @@ const QuizPage = () => {
   };
 
   const handleSaveResult = async () => {
+    setIsDisabled(true);
     if (!currentUser) {
       alert("Пожалуйста, войдите в аккаунт.");
       return;
@@ -154,14 +155,13 @@ const QuizPage = () => {
     try {
       await addDoc(collection(db, "quizResults"), {
         uid: currentUser.uid,
-        email: currentUser.email || "unknown",
-        userName: userData.fullName || "", // <- теперь безопасно
+        userName: userData.fullName || "",
         correct: correctCount,
         incorrect: incorrectCount,
         total: quizWords.length,
         level,
         unit,
-        teacher: userData.teacher || "", // или teacherSelect, как у тебя
+        teacher: userData.teacher || "Не указан", // сохраняем учителя ученика
         createdAt: Timestamp.now(),
       });
 
@@ -170,6 +170,7 @@ const QuizPage = () => {
     } catch (err) {
       console.error("Ошибка сохранения:", err);
       alert("❌ Не удалось сохранить результат.");
+      setIsDisabled(false);
     }
   };
 
@@ -270,7 +271,7 @@ const QuizPage = () => {
               <div className="timer">⏳ {timer}s</div>
             </div>
             <div className="word-display">
-             {" "}
+              {" "}
               <strong className="word_trn">
                 {quizDirection === "ru-to-en" && quizWords[currentIndex].ru}
                 {quizDirection === "en-to-ru" && quizWords[currentIndex].en}
@@ -322,7 +323,7 @@ const QuizPage = () => {
             <p>✅ Correct: {correctCount}</p>
             <p>❌ Incorrect: {incorrectCount}</p>
             <div className="result-actions">
-              <button onClick={handleSaveResult}>Save Result</button>
+              <button onClick={handleSaveResult} disabled={isDisabled}>Save Result</button>
               <button
                 onClick={() => {
                   // Просто перезапуск квиза (уровень и юнит сохраняем)
