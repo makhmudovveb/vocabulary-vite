@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-container">
 
         <div className="footer-column">
-          <h3>О нас</h3>
+          <h3>MKI School</h3>
           <ul>
             <li>
               Your premier destination for private English education. Enhance your language skills with our proven methods and interactive website. Learn effectively, communicate confidently, and achieve your goals.
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-column">
-          <h3>Социальные сети</h3>
+          <h3>Social media</h3>
           <div className="social-links">
             <a href="https://t.me/mkischool" target="_blank" rel="noreferrer"><FaTelegramPlane /></a>
             <a href="https://www.instagram.com/mki_school?igsh=YjFpOHA0NnA2NDRn" target="_blank" rel="noreferrer"><FaInstagram /></a>
@@ -27,8 +27,8 @@ const Footer = () => {
         </div>
 
         <div className="footer-column">
-          <h3>Контакты</h3>
-          <p><FaMapMarkerAlt /> г. Ташкент, ул. Примерная, 123</p>
+          <h3>Contacts</h3>
+          <p><FaMapMarkerAlt /> city Tashkent, street Primernaya, 123</p>
           <p><FaPhoneAlt /> <a href="tel:+998901234567">+998 90 123 45 67</a></p>
           <p><FaEnvelope /> <a href="mailto:info@example.com">info@example.com</a></p>
         </div>

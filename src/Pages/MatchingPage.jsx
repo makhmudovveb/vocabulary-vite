@@ -157,12 +157,12 @@ const MatchingPage = () => {
       const userSnap = await getDoc(userRef);
 
       let userName = "Неизвестный";
-      let teacher = "Учитель";
+      let teacher = "";
 
       if (userSnap.exists()) {
         const userData = userSnap.data();
         userName = userData.fullName || user.displayName || "Неизвестный";
-        teacher = userData.teacher || "Учитель"; // если пусто, то пишем "Учитель"
+        teacher = userData.teacher || ""; // если пусто, то пишем ""
       }
 
       await addDoc(collection(db, "matchingResults"), {

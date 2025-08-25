@@ -354,7 +354,7 @@ const StatsPage = () => {
                       {s.name}
                     </span>
                     <span style={{ marginLeft: 8, color: s.isTeacher ? "#c00" : "#666" }}>
-                      — {s.teacher} {s.isTeacher ? "(Учитель)" : ""}
+                      — {s.teacher} {s.isTeacher ? "(учитель)" : ""}
                     </span>
                     <span className="arrow">▾</span>
                   </button>

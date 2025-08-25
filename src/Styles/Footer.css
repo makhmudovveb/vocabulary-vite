@@ -7,6 +7,7 @@
 
 .footer-container {
   display: flex;
+  flex-wrap: wrap; /* чтобы колонки переносились */
   justify-content: space-between;
   gap: 30px;
   max-width: 1200px;
@@ -14,9 +15,9 @@
 }
 
 .footer-column {
-  flex: 1 1 250px;
+  flex: 1 1 250px; /* гибкая ширина с минимумом 220px */
   min-width: 220px;
-  margin: 25px;
+  margin: 15px 0;
 }
 
 .footer-column h3 {
@@ -75,8 +76,8 @@
 
 /* === Баннер режима теста === */
 .test-mode-banner {
- background: var(--footer-color);
-  color: var(--footer-text);
+  background: var(--footer-color, #1f4a8a);
+  color: var(--footer-text, #fff);
   font-weight: 600;
   text-align: center;
   padding: 10px 0;
@@ -86,5 +87,43 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   letter-spacing: 0.5px;
   border-top-right-radius: 8px;
-  border-top-left-radius:8px ;
+  border-top-left-radius: 8px;
+}
+
+/* === Адаптив === */
+@media (max-width: 1024px) {
+  .footer-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-column {
+    flex: 1 1 45%; /* две колонки в ряд */
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-column {
+    flex: 1 1 100%; /* одна колонка */
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .footer-column p,
+  .footer-column a,
+  .footer-column li {
+    justify-content: center;
+  }
 }
