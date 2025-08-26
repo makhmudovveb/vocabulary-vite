@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { HashRouter  as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Landing from "./Pages/LandingPage";
 import Quiz from "./Pages/QuizPage";
@@ -9,7 +9,26 @@ import Footer from "./Components/Footer";
 import MatchingPage from "./Pages/MatchingPage";
 import IELTSPage from "./Pages/IeltsPage";
 import SpellingGamePage from "./Pages/SpellingGamePage";
+import Ielts_practise from "./Pages/Ielts_practise";
 import './index.css'
+import TestPage from "./Pages/TestPage";
+import Reading from "./Pages/IELTS TEST PART/Reading";
+import WritingTyping from "./Pages/WritingTyping";
+import WritingMock from "./Pages/WritingTyping";
+
+
+function ListeningPage() {
+  return <h2>Listening Mock</h2>;
+}
+
+function WritingPage() {
+  return <h2>Writing Mock</h2>;
+}
+function SpeakingPage() {
+  return <h2>Speaking Mock</h2>;
+}
+
+
 function App() {
   useEffect(() => {
     const disableFeatures = (el) => {
@@ -58,6 +77,17 @@ function App() {
         <Route path="/matching" element={<MatchingPage />} />
         <Route path="/ielts" element={<IELTSPage />} />
         <Route path="/spelling-game" element={<SpellingGamePage />} />
+        <Route path="/ielts/practise" element={<Ielts_practise />} />
+        <Route path="/ielts/practise/:id" element={<TestPage />} />
+        <Route path="/typing" element={<WritingMock />} />
+
+
+
+
+        <Route path="/ielts/practise/:id/listening" element={<ListeningPage />} />
+        <Route path="/ielts/practise/:id/reading" element={<Reading />} />
+        <Route path="/ielts/practise/:id/writing" element={<WritingPage />} />
+        <Route path="/ielts/practise/:id/speaking" element={<SpeakingPage />} />
       </Routes>
     </>
   );

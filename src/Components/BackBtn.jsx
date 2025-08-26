@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import './AuthModal.css'
 
 
 const BackButton = () => {
@@ -8,16 +8,7 @@ const BackButton = () => {
 
   return (
 
-    <div onClick={() => navigate("/")} style={{
-      width: '7%', margin: "1rem", display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: "orange",
-      color: "white",
-      border: "none",
-      padding: "4px 20px",
-      borderRadius: "8px",
-      fontSize: "1rem",
-      cursor: "pointer",
-      fontWeight:"900",
-    }}>
+    <div onClick={() => navigate("/")} className="back_btn">
     ⟵
       Back home
     </div>

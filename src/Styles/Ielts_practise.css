@@ -1,0 +1,47 @@
+/* src/styles/PracticePage.css */
+
+.practice-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.practice-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.practice-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.practice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.practice-item {
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.practice-item:hover {
+  background: #f8f8f8;
+  border-color: #aaa;
+}
+
+
+.coming-soon {
+  opacity: 0.5;
+  pointer-events: none;
+}

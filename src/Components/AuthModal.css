@@ -25,7 +25,7 @@
   min-width: 320px;
   max-width: 420px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
 }
 
@@ -39,8 +39,7 @@
 /* Инпуты и селект */
 .auth-content input[type="text"],
 .auth-content input[type="password"],
-.auth-content input[type="email"]
- {
+.auth-content input[type="email"] {
   width: 92%;
   padding: 0.65rem 1rem;
   margin-bottom: 1.1rem;
@@ -51,7 +50,7 @@
   background-color: #fafafa;
   cursor: pointer;
 }
-.auth-content select{
+.auth-content select {
   width: 100%;
   padding: 0.65rem 1rem;
   margin-bottom: 1.1rem;
@@ -149,7 +148,10 @@
   border-color: #3f83f8;
 }
 
-.auth-content label input[type="checkbox"]:checked + span.checkbox-custom::after {
+.auth-content
+  label
+  input[type="checkbox"]:checked
+  + span.checkbox-custom::after {
   content: "";
   position: absolute;
   left: 5px;
@@ -169,7 +171,66 @@
   }
 }
 
-
 body.modal-open {
   overflow: hidden;
+}
+
+.back_btn {
+  width: 10%;
+  min-width: 80px; /* минимальная ширина для маленьких экранов */
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* для маленьких экранов лучше центрировать */
+  background: orange;
+  color: white;
+  border: none;
+  padding: 8px 16px; /* чуть больше для мобильных */
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 900;
+  transition: all 0.3s ease;
+}
+
+.back_btn:hover {
+  background: darkorange;
+}
+@media (min-width: 1024px) {
+  .back_btn {
+    width: 15%;
+    font-size: 0.95rem;
+    padding: 6px 14px;
+  }
+}
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .back_btn {
+    width: 20%;
+    font-size: 0.95rem;
+    padding: 6px 14px;
+  }
+}
+@media (max-width: 890px) {
+  .back_btn {
+    width: 15%;
+    font-size: 0.8rem;
+    padding: 6px 14px;
+  }
+}
+
+@media (max-width: 770px) {
+  .back_btn {
+    width: 30%;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .back_btn {
+    width: 40%;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+  }
 }

@@ -13,16 +13,15 @@ export default function IELTSPage() {
       <h1 className="landing-title">IELTS Preparation</h1>
 
       <div className="game-card-container">
-        <Link to="/ielts/practise" className="game-card coming-soon">
+        <Link to="/ielts/practise" className="game-card ">
           <FileText size={48} />
-          <h2>Practise Test</h2>
+          <h2>IELTS MOCK</h2>
           <p>Coming soon</p>
         </Link>
         <Link to="/ielts/quiz" className="game-card coming-soon">
           <BookOpenCheck size={48} />
           <h2>Quiz</h2>
           <p>Coming soon</p>
-
         </Link>
       </div>
     <BackBtn/>
