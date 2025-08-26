@@ -191,3 +191,7 @@ body,
   white-space: pre-wrap;
 }
 
+
+img {
+  width: 95%;
+}

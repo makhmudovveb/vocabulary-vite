@@ -12,23 +12,39 @@ On one hand, critics contend that advertising manipulates individuals into purch
 Conversely, advertising provides valuable information about new products and services, enabling consumers to make informed choices. It also supports businesses, particularly small enterprises, by promoting their offerings to a broader audience. Moreover, advertising contributes to economic development by stimulating demand and creating jobs in various sectors.
 
 In conclusion, while advertising can influence consumer behavior, it also plays an essential role in the economy and in keeping the public informed. Therefore, I believe its benefits outweigh the potential drawbacks when approached responsibly.`,
-    words: [
-      "advertising",
-      "consumption",
-      "manipulate",
-      "impulsive buying",
-      "economic growth",
-      "informed choices",
-      "demand",
-      "businesses",
-    ],
+    explanation: "Clear position, well-developed ideas, good range of vocabulary, coherent structure. Minor issues in sentence variety may prevent higher band.",
     band: 7.5,
-    explanation: "Clear position, well-developed ideas, good range of vocabulary, coherent structure. Minor issues in sentence variety may prevent higher band."
+    words: ["advertising", "consumption", "manipulate", "impulsive buying", "economic growth", "informed choices", "demand", "businesses"],
   },
-  // ...добавь остальные эссе здесь
+  {
+    topic: "Some people think that the internet has brought people closer together by making communication easier. Others think that people and communities are becoming more isolated because they are using technology to communicate. Discuss both views and give your opinion",
+    text: `The advent of the internet has revolutionized communication, leading to diverse opinions about its impact on social relationships. While some argue that it fosters closer connections, others believe it contributes to social isolation.
+
+On one hand, the internet facilitates instant communication across the globe, allowing individuals to maintain relationships regardless of geographical barriers. Social media platforms, video calls, and messaging apps enable people to stay connected with family and friends, promoting a sense of community.
+
+On the other hand, excessive reliance on digital communication can lead to physical isolation. Face-to-face interactions, which are crucial for building deep, meaningful relationships, may diminish as online communication becomes more prevalent. This can result in feelings of loneliness and a lack of genuine social bonds.
+
+In my opinion, the internet is a tool that can either connect or isolate individuals, depending on how it is used. When balanced with offline interactions, it can enhance communication and strengthen relationships. However, overuse without real-world engagement may lead to social detachment.`,
+    explanation: "Good task response, balanced discussion, appropriate academic vocabulary, clear conclusion. Could improve cohesion for higher band.",
+    band: 7.5,
+    words: ["internet", "communication", "social media", "messaging apps", "video calls", "social isolation", "face-to-face interactions", "meaningful relationships", "engagement"],
+  },
+  {
+    topic: "Many people believe that environmental protection is the responsibility of governments, while others think that individuals should take responsibility for the environment. Discuss both views and give your opinion.",
+    text: `The debate over who should bear the responsibility for environmental protection is ongoing. Some argue that governments should lead the charge, while others believe individuals play a crucial role.
+
+Proponents of government responsibility contend that large-scale environmental issues require systemic change, which can only be achieved through legislation and policy enforcement. Governments have the authority to implement regulations, fund research, and promote sustainable practices on a national level.
+
+Conversely, advocates for individual responsibility emphasize that collective action begins with personal choices. By adopting sustainable habits, such as reducing waste, conserving energy, and supporting eco-friendly products, individuals can contribute to environmental preservation.
+
+In my view, both parties have vital roles to play. Governments must create and enforce policies that facilitate environmental protection, while individuals should make conscious decisions that align with sustainability. Only through a collaborative effort can meaningful progress be made in safeguarding our planet.`,
+      explanation: "Addresses both views, well-organized, strong vocabulary related to environment, minor grammar or phrasing issues prevent band 8.",
+      band: 7.5,
+      words: ["environmental protection", "sustainability", "legislation", "policy enforcement", "eco-friendly products", "conserve energy", "reduce waste", "collective action"],
+  }
 ];
 
-const WritingMock = () => {
+const Task2 = () => {
   const [selectedEssay, setSelectedEssay] = useState({});
   const [userInput, setUserInput] = useState("");
   const [seconds, setSeconds] = useState(0);
@@ -121,7 +137,6 @@ const WritingMock = () => {
         <span>Errors: {errors}</span>
         <button onClick={handleFinish} className="btn-finish">Finish</button>
         <button onClick={handleReset} className="btn-reset">New Essay</button>
-        <BackButton className="backBtn"/>
       </div>
 
       <div className="writing-container">
@@ -187,6 +202,7 @@ const WritingMock = () => {
                 <p>{selectedEssay.text}</p>
               </div>
             </div>
+        <BackButton />
           </div>
         </div>
       )}
@@ -194,4 +210,4 @@ const WritingMock = () => {
   );
 };
 
-export default WritingMock;
+export default Task2;

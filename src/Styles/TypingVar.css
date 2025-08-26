@@ -1,0 +1,77 @@
+/* Контейнер всего компонента */
+.typingvar {
+  display: flex;
+  justify-content: center; /* центрируем по горизонтали */
+  align-items: center;     /* центрируем по вертикали */
+  min-height: 80vh;        /* высота с учётом navbar */
+  padding: 20px;
+  position: relative;
+}
+
+/* Контейнер карточек */
+.task_game-card-container {
+  display: flex;
+  justify-content: space-between; /* карточки по бокам */
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+  position: relative;
+}
+
+/* Вертикальный разделитель между карточками */
+.task_game-card-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #ddd;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+/* Карточки */
+.task_game-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 30px 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  z-index: 1; /* поверх разделителя */
+  width: 40%; /* чтобы карточки не были слишком большими */
+}
+
+.task_game-card svg {
+  margin-bottom: 15px;
+}
+
+.task_game-card h2 {
+  margin: 10px 0 0;
+  font-size: 1.4rem;
+  color: #16386e;
+}
+
+/* Hover эффект */
+.task_game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Адаптив для маленьких экранов */
+@media (max-width: 768px) {
+  .task_game-card-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .task_game-card-container::before {
+    display: none;
+  }
+  .task_game-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

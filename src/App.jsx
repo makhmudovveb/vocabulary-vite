@@ -13,8 +13,9 @@ import Ielts_practise from "./Pages/Ielts_practise";
 import './index.css'
 import TestPage from "./Pages/TestPage";
 import Reading from "./Pages/IELTS TEST PART/Reading";
-import WritingTyping from "./Pages/WritingTyping";
-import WritingMock from "./Pages/WritingTyping";
+import TypingVar from "./Pages/TypingVar";
+import Task1 from "./Pages/Task1";
+import Task2 from "./Pages/Task2";
 
 
 function ListeningPage() {
@@ -79,7 +80,9 @@ function App() {
         <Route path="/spelling-game" element={<SpellingGamePage />} />
         <Route path="/ielts/practise" element={<Ielts_practise />} />
         <Route path="/ielts/practise/:id" element={<TestPage />} />
-        <Route path="/typing" element={<WritingMock />} />
+        <Route path="/typing" element={<TypingVar />} />
+        <Route path="/typing/task1" element={<Task1 />} />
+        <Route path="/typing/task2" element={<Task2 />} />
 
 
 
