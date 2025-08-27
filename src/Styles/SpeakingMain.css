@@ -1,0 +1,90 @@
+/* Основной контейнер страницы */
+.speaking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+}
+
+/* Заголовок страницы */
+.speaking-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Обертка карточек */
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Карточка */
+.card {
+  background-color: var(--card-color);
+  border-radius: 20px;
+  padding: 50px 20px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Содержимое карточки */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Заголовок карточки */
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* Активная карточка hover */
+.card-active:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Недоступная карточка */
+.card-coming-soon {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Надпись Coming Soon */
+.card-label {
+  display: block;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 600px) {
+  .speaking-title {
+    font-size: 2rem;
+  }
+
+  .card {
+    padding: 35px 15px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+}

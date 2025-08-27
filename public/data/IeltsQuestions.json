@@ -1,0 +1,250 @@
+{
+  "part1": {
+    "topics": [
+      {
+        "title": "Education",
+        "questions": [
+          "Do you work or study?",
+          "What subject are you studying or what is your job?",
+          "Why did you choose this subject or job?",
+          "What do you enjoy most about it?",
+          "Is it difficult or easy for you?"
+        ],
+        "ideas": [
+          "I am currently studying at university",
+          "I chose this subject because it interests me",
+          "I enjoy learning new things and improving my skills",
+          "Some topics are challenging but rewarding",
+          "My teachers and classmates make the experience enjoyable"
+        ],
+        "vocab": [
+          "subject",
+          "course",
+          "study habits",
+          "lectures",
+          "assignments",
+          "exams",
+          "teacher",
+          "classmate",
+          "learning experience",
+          "skills development"
+        ]
+      },
+      {
+        "title": "Hometown",
+        "questions": [
+          "Where is your hometown?",
+          "What do you like about your hometown?",
+          "Has your hometown changed a lot?"
+        ],
+        "ideas": [
+          "It's a small town but very peaceful",
+          "I enjoy the local markets and parks",
+          "There have been a lot of new buildings recently"
+        ],
+        "vocab": [
+          "picturesque",
+          "bustling",
+          "community spirit",
+          "historic center",
+          "modern facilities"
+        ]
+      },
+      {
+        "title": "Work/Study",
+        "questions": [
+          "Do you work or study?",
+          "Why did you choose this subject/job?",
+          "What do you enjoy about it?"
+        ],
+        "ideas": [
+          "I work as a software developer",
+          "I chose this subject because I love problem-solving",
+          "I enjoy interacting with my colleagues"
+        ],
+        "vocab": [
+          "career path",
+          "professional growth",
+          "skill development",
+          "challenging tasks",
+          "team collaboration"
+        ]
+      }
+    ]
+  },
+  "part2": {
+    "topics": [
+      {
+        "title": "Education",
+        "questions": [
+          "What school or university did you attend?",
+          "What subject or course did you enjoy the most?",
+          "Who was your favorite teacher and why?",
+          "Describe an important project or assignment you completed",
+          "How has this education experience influenced your life?"
+        ],
+        "ideas": [
+          "School/university had friendly and supportive environment",
+          "Enjoyed interactive lessons and group projects",
+          "Favorite teacher inspired me to learn more",
+          "Completed a project that improved skills and confidence",
+          "Education helped build critical thinking and career skills"
+        ],
+        "vocab": [
+          "curriculum",
+          "lectures",
+          "seminars",
+          "assignments",
+          "extracurricular activities",
+          "academic performance",
+          "student engagement",
+          "study habits",
+          "educational resources",
+          "career preparation"
+        ]
+      },
+      {
+        "title": "Hometown",
+        "questions": [
+          "Where is your hometown?",
+          "What is it famous for?",
+          "Describe the most interesting places there",
+          "How has your hometown changed over the years?",
+          "Would you like to live there in the future and why?"
+        ],
+        "ideas": [
+          "Hometown has historical landmarks and natural beauty",
+          "Cultural events and local festivals attract visitors",
+          "Parks and community spaces are enjoyable",
+          "Urbanization and modernization changed the city",
+          "Future living depends on career and lifestyle opportunities"
+        ],
+        "vocab": [
+          "landmarks",
+          "heritage",
+          "urbanization",
+          "architecture",
+          "community",
+          "cultural events",
+          "parks and recreation",
+          "local markets",
+          "residential areas",
+          "tourist attractions"
+        ]
+      },
+      {
+        "title": "Work/Study",
+        "questions": [
+          "Do you work or study?",
+          "What do you enjoy most about it?",
+          "What challenges do you face?",
+          "Describe a task or project that was important to you",
+          "How do you plan to develop your skills in the future?"
+        ],
+        "ideas": [
+          "Work/study provides practical experience and learning",
+          "Enjoyable aspects include teamwork and problem solving",
+          "Challenges include deadlines, workload, and pressure",
+          "Important projects improve skills and confidence",
+          "Continuous learning helps future career growth"
+        ],
+        "vocab": [
+          "career development",
+          "professional skills",
+          "time management",
+          "teamwork",
+          "problem solving",
+          "workload",
+          "career goals",
+          "learning opportunities",
+          "mentorship",
+          "internships"
+        ]
+      }
+    ]
+  },
+  "part3": {
+    "topics": [
+      {
+        "title": "Education",
+        "questions": [
+          "What are the advantages of online learning?",
+          "Do you think schools will change in the future?",
+          "How important is education for society?"
+        ],
+        "ideas": [
+          "Online learning allows flexibility",
+          "Schools may adopt more technology-based teaching",
+          "Education is essential for economic and social development"
+        ],
+        "vocab": [
+          "lifelong learning",
+          "digital classrooms",
+          "interactive methods",
+          "accessibility",
+          "educational standards"
+        ]
+      },
+      {
+        "title": "Hometown",
+        "questions": [
+          "How has your hometown changed over the past decade?",
+          "What kind of development would you like to see in your hometown?",
+          "Do young people prefer to live in their hometowns? Why or why not?",
+          "How important is it to preserve the cultural heritage of your hometown?",
+          "What makes a town or city a good place to live?"
+        ],
+        "ideas": [
+          "Urbanization and modernization have changed the landscape",
+          "Young people often move to big cities for opportunities",
+          "Preserving historical buildings is important for culture",
+          "Public parks and transport improve quality of life",
+          "Environmental issues like pollution need attention"
+        ],
+        "vocab": [
+          "infrastructure",
+          "community",
+          "heritage",
+          "landmarks",
+          "sustainable development",
+          "local economy",
+          "tourism",
+          "commuting",
+          "neighborhood",
+          "urban planning"
+        ]
+      },
+      {
+        "title": "Work/Study",
+        "questions": [
+          "What are the advantages and disadvantages of online learning?",
+          "How do people choose their career paths nowadays?",
+          "Is job satisfaction more important than salary? Why?",
+          "How can schools or universities better prepare students for the workplace?",
+          "Do people change their careers more often than in the past?"
+        ],
+        "ideas": [
+          "Online education offers flexibility but may lack interaction",
+          "Career choice depends on interests and opportunities",
+          "Job satisfaction affects motivation and productivity",
+          "Schools can provide internships and career guidance",
+          "Remote work and globalization influence career changes"
+        ],
+        "vocab": [
+          "career path",
+          "professional development",
+          "job market",
+          "skills",
+          "qualifications",
+          "internships",
+          "mentorship",
+          "work-life balance",
+          "productivity",
+          "networking",
+          "entrepreneurship",
+          "lifelong learning"
+        ]
+      }
+    ]
+  }
+}

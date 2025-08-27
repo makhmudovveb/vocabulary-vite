@@ -16,7 +16,7 @@ import Reading from "./Pages/IELTS TEST PART/Reading";
 import TypingVar from "./Pages/TypingVar";
 import Task1 from "./Pages/Task1";
 import Task2 from "./Pages/Task2";
-
+import SpeakingMain from "./Pages/SpeakingMain";
 
 function ListeningPage() {
   return <h2>Listening Mock</h2>;
@@ -25,7 +25,7 @@ function ListeningPage() {
 function WritingPage() {
   return <h2>Writing Mock</h2>;
 }
-function SpeakingPage() {
+function Speaking() {
   return <h2>Speaking Mock</h2>;
 }
 
@@ -83,6 +83,8 @@ function App() {
         <Route path="/typing" element={<TypingVar />} />
         <Route path="/typing/task1" element={<Task1 />} />
         <Route path="/typing/task2" element={<Task2 />} />
+        <Route path="/speaking" element={<SpeakingMain />} />
+        <Route path="/typing/task2" element={<Task2 />} />
 
 
 
@@ -90,7 +92,7 @@ function App() {
         <Route path="/ielts/practise/:id/listening" element={<ListeningPage />} />
         <Route path="/ielts/practise/:id/reading" element={<Reading />} />
         <Route path="/ielts/practise/:id/writing" element={<WritingPage />} />
-        <Route path="/ielts/practise/:id/speaking" element={<SpeakingPage />} />
+        <Route path="/ielts/practise/:id/speaking" element={<Speaking />} />
       </Routes>
     </>
   );
