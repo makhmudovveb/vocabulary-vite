@@ -25,9 +25,9 @@ export default function QuestionSpeak({ topic, goBack }) {
             onClick={() => setActiveSection(sec.key)}
           >
             <div className="sectionHeader">
-              <span className="sectionIcon">{sec.icon}</span>
               <span className="sectionLabel">{sec.label}</span>
             </div>
+              <span className="sectionIcon">{sec.icon}</span>
             {activeSection === sec.key ? (
               <div className="scrollContainer">
                 <ul className="sectionList">
