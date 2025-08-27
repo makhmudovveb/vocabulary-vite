@@ -1,0 +1,144 @@
+/* guide.css */
+.instruction-content {
+  font-family: "Segoe UI", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+}
+
+/* Контейнер кнопки */
+.instruction-container {
+  position: fixed;
+  top: 70px; /* под navbar */
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Кнопка i в кружке */
+.instruction-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.instruction-icon:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Фон модалки */
+.instruction-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 20px;
+  animation: modalFadeIn 0.4s ease forwards;
+}
+
+/* Класс для закрытия с анимацией */
+.instruction-modal.closing {
+  animation: modalFadeOut 0.4s ease forwards;
+}
+
+/* Контент модалки */
+.instruction-content {
+  position: relative;
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  width: 70%;
+  max-width: 900px;
+  max-height: 80%;
+  overflow-y: auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  min-height: 70%;
+  transform-origin: top center;
+}
+
+/* Крестик закрытия */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: none;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.close-btn:hover {
+  color: #ff0000;
+  transform: scale(1.2);
+}
+
+/* Абзацы с отступами */
+.instruction-content p {
+  margin-bottom: 16px;
+}
+
+/* Анимации появления/закрытия */
+@keyframes modalFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) rotateX(-10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+  }
+}
+
+@keyframes modalFadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.7) rotateX(15deg);
+  }
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 768px) {
+  .instruction-content {
+    width: 90%;
+    padding: 30px 20px;
+    font-size: 16px;
+  }
+
+  .instruction-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+
+  .close-btn {
+    font-size: 22px;
+    top: 10px;
+    right: 15px;
+  }
+}

@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 import { BookOpenCheck, FileText } from "lucide-react";
 import "../Styles/Landing.css"; // можно переиспользовать стили
 import BackBtn from '../Components/BackBtn'
-
+import Guide from '../Components/guide'
 export default function IELTSPage() {
   return (
     <>
+    <Guide />
     <div className="landing-page">
       <h1 className="landing-title">IELTS Preparation</h1>
 

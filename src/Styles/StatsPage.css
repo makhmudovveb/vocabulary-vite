@@ -314,3 +314,9 @@ button:hover {
   cursor: pointer;
   margin-bottom: 0.5rem;
 }
+
+
+
+.teacher-grid :last-child {
+  display: none;
+}

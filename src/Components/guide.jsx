@@ -1,43 +1,55 @@
 // src/components/Instructions.jsx
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import instructionsData from "./instructions.json";
-import "../Styles/instructions.css";
+import "./guide.css";
 
 const Instructions = ({ game }) => {
   const [visible, setVisible] = useState(false);
   const [text, setText] = useState("");
-  const timerRef = useRef(null);
 
   useEffect(() => {
     if (game && instructionsData[game]) {
       setText(instructionsData[game]);
     } else {
-      setText("No instructions available.");
+      setText("NO INSTRUCTIONS AVAILABLE.");
     }
   }, [game]);
 
-  const toggleInstructions = () => {
-    setVisible(prev => {
-      const newState = !prev;
-      if (newState) {
-        // Если открыли панель, запускаем таймер на автозакрытие
-        if (timerRef.current) clearTimeout(timerRef.current);
-        timerRef.current = setTimeout(() => {
-          setVisible(false);
-        }, 15000);
-      } else {
-        // Если закрыли вручную — очищаем таймер
-        if (timerRef.current) clearTimeout(timerRef.current);
-      }
-      return newState;
-    });
+  const openModal = () => setVisible(true);
+  const closeModal = () => {
+    const modal = document.querySelector(".instruction-modal");
+    if (modal) {
+      modal.classList.add("closing");
+      setTimeout(() => setVisible(false), 400); // ждем конца анимации
+    } else {
+      setVisible(false);
+    }
   };
 
   return (
     <div className="instruction-container">
-      <div className="instruction-panel">
-        <p>{text}</p>
-      </div>
+      {/* Иконка i в кружке */}
+      <button className="instruction-icon" onClick={openModal}>
+        i
+      </button>
+
+      {/* Модалка */}
+      {visible && (
+        <div className="instruction-modal" onClick={closeModal}>
+          <div
+            className="instruction-content"
+            onClick={(e) => e.stopPropagation()} // чтобы клик по контенту не закрывал модалку
+          >
+            <button className="close-btn" onClick={closeModal}>
+              ✖
+            </button>
+            {/* Разбиваем текст на абзацы по \n\n */}
+            {text.split("\n\n").map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

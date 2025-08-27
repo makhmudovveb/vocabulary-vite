@@ -321,8 +321,8 @@ const StatsPage = () => {
             </div>
           ))}
         </div>
-      ) : (
-        <div className="teacher-grid">
+      ) : ( 
+        <div className="teacher-grid asd">
           {groupedByTeacher.map((group) => (
             <div
               key={group.teacher}
