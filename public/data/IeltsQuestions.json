@@ -77,88 +77,91 @@
       {
         "title": "Education",
         "questions": [
-          "What school or university did you attend?",
-          "What subject or course did you enjoy the most?",
-          "Who was your favorite teacher and why?",
-          "Describe an important project or assignment you completed",
-          "How has this education experience influenced your life?"
+          "Describe a memorable lesson you had at school or university.",
+          "You should say:",
+          "when it was",
+          "what subject it was",
+          "what the teacher did",
+          "and explain why it was memorable for you."
         ],
         "ideas": [
-          "School/university had friendly and supportive environment",
-          "Enjoyed interactive lessons and group projects",
-          "Favorite teacher inspired me to learn more",
-          "Completed a project that improved skills and confidence",
-          "Education helped build critical thinking and career skills"
+          "It was a history lesson where the teacher used real-life stories",
+          "The interactive teaching style made the class exciting",
+          "Learned teamwork through group discussions",
+          "The lesson inspired me to study the subject more deeply",
+          "It boosted my confidence in speaking in front of others"
         ],
         "vocab": [
-          "curriculum",
-          "lectures",
-          "seminars",
-          "assignments",
-          "extracurricular activities",
-          "academic performance",
-          "student engagement",
-          "study habits",
-          "educational resources",
-          "career preparation"
+          "inspiring lecture",
+          "engaging presentation",
+          "interactive discussion",
+          "motivated by the teacher",
+          "knowledge retention",
+          "critical thinking",
+          "public speaking",
+          "group collaboration",
+          "hands-on activity",
+          "memorable experience"
         ]
       },
       {
         "title": "Hometown",
         "questions": [
-          "Where is your hometown?",
-          "What is it famous for?",
-          "Describe the most interesting places there",
-          "How has your hometown changed over the years?",
-          "Would you like to live there in the future and why?"
+          "Describe your hometown.",
+          "You should say:",
+          "where it is located",
+          "what it is famous for",
+          "what people usually do there",
+          "and explain how you feel about your hometown."
         ],
         "ideas": [
-          "Hometown has historical landmarks and natural beauty",
-          "Cultural events and local festivals attract visitors",
-          "Parks and community spaces are enjoyable",
-          "Urbanization and modernization changed the city",
-          "Future living depends on career and lifestyle opportunities"
+          "Located in a peaceful area with beautiful scenery",
+          "Famous for local food and cultural traditions",
+          "People enjoy festivals and community events",
+          "Tourists visit historical landmarks",
+          "I feel proud and connected to my hometown"
         ],
         "vocab": [
-          "landmarks",
-          "heritage",
-          "urbanization",
-          "architecture",
-          "community",
-          "cultural events",
-          "parks and recreation",
-          "local markets",
-          "residential areas",
-          "tourist attractions"
+          "local traditions",
+          "cultural heritage",
+          "scenic landscape",
+          "tourist attraction",
+          "community spirit",
+          "historical monument",
+          "hospitality",
+          "urban development",
+          "public facilities",
+          "sense of belonging"
         ]
       },
       {
         "title": "Work/Study",
         "questions": [
-          "Do you work or study?",
-          "What do you enjoy most about it?",
-          "What challenges do you face?",
-          "Describe a task or project that was important to you",
-          "How do you plan to develop your skills in the future?"
+          "Describe something useful you learned from your studies or work.",
+          "You should say:",
+          "what it was",
+          "how you learned it",
+          "when you learned it",
+          "and explain how it has been useful to you."
         ],
         "ideas": [
-          "Work/study provides practical experience and learning",
-          "Enjoyable aspects include teamwork and problem solving",
-          "Challenges include deadlines, workload, and pressure",
-          "Important projects improve skills and confidence",
-          "Continuous learning helps future career growth"
+          "Learned time management during university projects",
+          "Gained teamwork skills from group assignments",
+          "Learned problem-solving from a challenging task at work",
+          "Improved communication skills through presentations",
+          "This skill helps me in both professional and personal life"
         ],
         "vocab": [
-          "career development",
-          "professional skills",
           "time management",
-          "teamwork",
-          "problem solving",
-          "workload",
-          "career goals",
-          "learning opportunities",
-          "mentorship",
-          "internships"
+          "problem-solving",
+          "professional development",
+          "soft skills",
+          "communication strategies",
+          "project deadlines",
+          "team collaboration",
+          "workplace challenges",
+          "career growth",
+          "transferable skills"
         ]
       }
     ]

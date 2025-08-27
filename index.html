@@ -1,17 +1,71 @@
-<!-- public/index.html или в корне -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light-theme">
   <head>
-
     <meta charset="UTF-8" />
-    <link rel="icon" href="./logoblack-removebg-preview.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Vocabulary | MKI </title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./src/index.css">
-    <html lang="en" class="light-theme">
+
+    <!-- ✅ Title (важно для SEO и вкладки браузера) -->
+    <title>Vocabulary | MKI School</title>
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" href="./logoblack-removebg-preview.png" type="image/png" />
+
+    <!-- ✅ Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ✅ Styles -->
+    <link rel="stylesheet" href="./src/index.css" />
+
+    <!-- ✅ Meta Description (очень важно для SEO сниппета) -->
+    <meta
+      name="description"
+      content="MKI School Vocabulary Trainer – practice English words with quizzes, speaking, and writing tasks. Improve your IELTS & English skills effectively."
+    />
+
+    <!-- ✅ Keywords (сейчас Google учитывает мало, но всё же можно) -->
+    <meta
+      name="keywords"
+      content="English vocabulary, IELTS practice, MKI School, learn English, quizzes, speaking, writing, education"
+    />
+
+    <!-- ✅ Author -->
+    <meta name="author" content="MKI School" />
+
+    <!-- ✅ Open Graph (для соцсетей и мессенджеров) -->
+    <meta property="og:title" content="Vocabulary Trainer | MKI School" />
+    <meta
+      property="og:description"
+      content="Practice English vocabulary with MKI School. Quizzes, speaking, and writing for IELTS preparation."
+    />
+    <meta
+      property="og:image"
+      content="https://your-domain.com/logoblack-removebg-preview.png"
+    />
+    <meta property="og:url" content="https://mkischool.uz" />
+    <meta property="og:type" content="website" />
+
+    <!-- ✅ Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vocabulary Trainer | MKI School" />
+    <meta
+      name="twitter:description"
+      content="Boost your English vocabulary with quizzes and speaking practice at MKI School."
+    />
+    <meta
+      name="twitter:image"
+      content="https://your-domain.com/logoblack-removebg-preview.png"
+    />
+
+    <!-- ✅ Canonical (чтобы избежать дублей страниц) -->
+    <link rel="canonical" href="https://mkischool.uz" />
+
+    <!-- ✅ Robots (разрешаем индексацию) -->
+    <meta name="robots" content="index, follow" />
   </head>
-  
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

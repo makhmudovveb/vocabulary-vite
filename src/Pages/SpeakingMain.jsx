@@ -16,13 +16,13 @@ export default function SpeakingMain() {
       <div className="cards-wrapper">
         <div className="card card-active" onClick={() => setView("ielts")}>
           <div className="card-content">
-            <h2 className="card-title">IELTS</h2>
+            <h2 className="card-title">IELTS practise</h2>
           </div>
         </div>
 
         <div className="card card-coming-soon">
           <div className="card-content">
-            <h2 className="card-title">Own Practice</h2>
+            <h2 className="card-title">General Practise</h2>
             <span className="card-label">Coming Soon</span>
           </div>
         </div>

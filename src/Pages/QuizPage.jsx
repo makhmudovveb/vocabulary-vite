@@ -62,7 +62,7 @@ const QuizPage = () => {
           setWords(res.data);
         })
         .catch((err) => {
-          console.error("Ошибка загрузки слов:", err);
+          console.error("Error loading words:", err);
         });
     }
   }, [level, unit]);
@@ -161,15 +161,15 @@ const QuizPage = () => {
         total: quizWords.length,
         level,
         unit,
-        teacher: userData.teacher || "Не указан", // сохраняем учителя ученика
+        teacher: userData.teacher || "Not specified", // сохраняем учителя ученика
         createdAt: Timestamp.now(),
       });
 
-      alert("📥 Результат сохранён!");
+      alert("📥 Result saved!");
       navigate("/stats");
     } catch (err) {
-      console.error("Ошибка сохранения:", err);
-      alert("❌ Не удалось сохранить результат.");
+      console.error("Error saving:", err);
+      alert("❌ Failed to save result.");
       setIsDisabled(false);
     }
   };

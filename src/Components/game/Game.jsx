@@ -64,7 +64,7 @@ export function Game() {
           <p>Record: {bestScore}</p>
           {isRecord && <p>🎉 New record!</p>}
           <button onClick={reset} className="btn">
-            Сыграть ещё
+           Play again
           </button>
         </div>
         <div className="backbtn">

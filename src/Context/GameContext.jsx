@@ -48,9 +48,9 @@ function reducer(state, action) {
 
     case "SET_DIFFICULTY": {
       let maxTime;
-      if (action.payload === "easy") maxTime = 9;
-      if (action.payload === "medium") maxTime = 7;
-      if (action.payload === "hard") maxTime = 5;
+      if (action.payload === "easy") maxTime = 7;
+      if (action.payload === "medium") maxTime = 4;
+      if (action.payload === "hard") maxTime = 3;
       return { ...state, difficulty: action.payload, maxTime, timer: maxTime };
     }
 

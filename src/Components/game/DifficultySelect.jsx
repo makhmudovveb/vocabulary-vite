@@ -4,9 +4,9 @@ export default function DifficultySelect() {
   const { difficulty, setDifficulty } = useGame();
 
   const levels = [
-    { id: "easy", label: "Easy", time: 10, color: "#34d399" },
-    { id: "medium", label: "Medium", time: 8, color: "#fbbf24" },
-    { id: "hard", label: "Hard", time: 5, color: "#f87171" },
+    { id: "easy", label: "Easy", time: 8, color: "#34d399" },
+    { id: "medium", label: "Medium", time: 5, color: "#fbbf24" },
+    { id: "hard", label: "Hard", time: 3, color: "#f87171" },
   ];
 
   return (

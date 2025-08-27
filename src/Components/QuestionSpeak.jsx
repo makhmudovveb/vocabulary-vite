@@ -4,7 +4,7 @@ import "../Styles/SpeakingIelts.css";
 export default function QuestionSpeak({ topic, goBack }) {
   const [activeSection, setActiveSection] = useState("questions");
 
-  if (!topic) return <p>Выберите тему</p>;
+  if (!topic) return <p>Choose theme</p>;
 
   const sections = [
     { key: "questions", label: "Questions", icon: "❓", data: topic.questions || [] },
@@ -24,10 +24,15 @@ export default function QuestionSpeak({ topic, goBack }) {
             className={`sectionCard ${activeSection === sec.key ? "activeSection" : "inactiveSection"}`}
             onClick={() => setActiveSection(sec.key)}
           >
+            {/* Иконка всегда сверху по центру */}
+            <div className="sectionIcon">{sec.icon}</div>
+
+            {/* Заголовок (под иконкой) */}
             <div className="sectionHeader">
               <span className="sectionLabel">{sec.label}</span>
             </div>
-              <span className="sectionIcon">{sec.icon}</span>
+
+            {/* Контент */}
             {activeSection === sec.key ? (
               <div className="scrollContainer">
                 <ul className="sectionList">
@@ -35,7 +40,7 @@ export default function QuestionSpeak({ topic, goBack }) {
                 </ul>
               </div>
             ) : (
-              <div className="sectionOverlay">Нажми, чтобы открыть</div>
+              <div className="sectionOverlay">Touch, to open</div>
             )}
           </div>
         ))}
@@ -43,4 +48,3 @@ export default function QuestionSpeak({ topic, goBack }) {
     </div>
   );
 }
-  

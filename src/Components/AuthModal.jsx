@@ -56,7 +56,7 @@ export default function AuthModal({ onAuthSuccess }) {
 
       onAuthSuccess();
     } catch (err) {
-      setMessage(err.message);
+      setMessage("Already registered");
     }
   };
 
@@ -82,7 +82,7 @@ export default function AuthModal({ onAuthSuccess }) {
 
       onAuthSuccess();
     } catch (err) {
-      setMessage(err.message);
+      setMessage("Please recheck your details");
     }
   };
 

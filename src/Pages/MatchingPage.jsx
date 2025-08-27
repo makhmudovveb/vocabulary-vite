@@ -72,13 +72,13 @@ const MatchingPage = () => {
       setChecked(false);
       setCorrectCount(0);
     } catch (err) {
-      setError("Не удалось загрузить данные.");
+      setError("Failed to load data.");
     }
   };
   const handleLoadMore = () => {
     const remaining = allWords.filter((w) => !usedKeys.includes(w.en));
     if (remaining.length < DEFAULT_WORD_LIMIT) {
-      setError("Недостаточно новых слов для загрузки.");
+      setError("Not enough new words to load.");
       return;
     }
 
@@ -107,7 +107,7 @@ const MatchingPage = () => {
             g.desc.value === desc.value
         )
       ) {
-        setError("Эти слова уже использованы в другой паре.");
+        setError("These words are already used in another group.");
       } else {
         setGroups((prev) => [...prev, { ru, en, desc }]);
         setSelected({ ru: null, en: null, desc: null });
@@ -127,7 +127,7 @@ const MatchingPage = () => {
   const handleCheck = () => {
     const total = words.length;
     if (groups.length !== total) {
-      setError("Соедините все пары.");
+      setError("Connect all pairs.");
       return;
     }
 
@@ -156,12 +156,12 @@ const MatchingPage = () => {
       const userRef = doc(db, "users", user.uid);
       const userSnap = await getDoc(userRef);
 
-      let userName = "Неизвестный";
+      let userName = "Unknown";
       let teacher = "";
 
       if (userSnap.exists()) {
         const userData = userSnap.data();
-        userName = userData.fullName || user.displayName || "Неизвестный";
+        userName = userData.fullName || user.displayName || "Unknown";
         teacher = userData.teacher || ""; // если пусто, то пишем ""
       }
 
@@ -291,19 +291,19 @@ const MatchingPage = () => {
 
             <div className="control-buttons">
               {!checked && groups.length === DEFAULT_WORD_LIMIT && (
-                <button onClick={handleCheck}>Проверить результат</button>
+                <button onClick={handleCheck}>Check answers</button>
               )}
 
               {checked && (
                 <div className="result-box">
                   <h3>
-                    Правильных ответов: {correctCount} из {DEFAULT_WORD_LIMIT}
+                  Correct answers: {correctCount} out of {DEFAULT_WORD_LIMIT}
                   </h3>
                   <button onClick={saveResult}>
-                    Сохранить ии на главную
+                  Save and go to main page
                   </button>
-                  <button onClick={resetGame}>Не сохранять и на главную</button>
-                  <button onClick={handleLoadMore}>Загрузить ещё слова</button>
+                  <button onClick={resetGame}>Don't save and go to main page</button>
+                  <button onClick={handleLoadMore}>Load more words</button>
                 </div>
               )}
               {error && <p className="error">{error}</p>}

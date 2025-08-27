@@ -2,12 +2,24 @@ import { useEffect, useState } from "react";
 import "../Styles/Navbar.css";
 
 const ThemeToggle = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(() => {
+    // читаем из localStorage при первой загрузке
+    const saved = localStorage.getItem("theme");
+    return saved ? saved === "dark" : false;
+  });
 
   useEffect(() => {
     const classList = document.documentElement.classList;
-    classList.toggle("dark-theme", isDark);
-    classList.toggle("light-theme", !isDark);
+
+    if (isDark) {
+      classList.add("dark-theme");
+      classList.remove("light-theme");
+      localStorage.setItem("theme", "dark");
+    } else {
+      classList.add("light-theme");
+      classList.remove("dark-theme");
+      localStorage.setItem("theme", "light");
+    }
   }, [isDark]);
 
   return (

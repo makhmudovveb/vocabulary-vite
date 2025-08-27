@@ -42,10 +42,10 @@ const CueCard = forwardRef(({ data, index = 1, total = 1 }, ref) => {
           </div>
 
           <div className="back">
-            <p style={{margin :'2'}}> {capitalize(data.ru)}</p>
-            <p style={{margin :'2'}}> {data.pron || "-"}</p>
-            <p style={{margin :'2'}}> {data.desc || "-"}</p>
-            <p style={{margin :'2'}}> <span>{data.example || "-"}</span></p>
+            <p style={{ margin: '2' }}> {capitalize(data.ru)}</p>
+            <p style={{ margin: '2' }}> {data.pron || "-"}</p>
+            <p style={{ margin: '2' }}> {data.desc || "-"}</p>
+            <p style={{ margin: '2' }}> <span>{data.example || "-"}</span></p>
             <button
               className="speak-btn"
               onClick={(e) => {
@@ -53,14 +53,14 @@ const CueCard = forwardRef(({ data, index = 1, total = 1 }, ref) => {
                 speak(data.example);
               }}
             >
-              🔊 Прочитать пример
+              🔊 Read example
             </button>
             <p style={{ fontSize: "15px", color: 'grey' }}>click to flip</p>
           </div>
         </div>
       </div>
       {index > 0 && total > 0 && (
-        <div className="total_words" style={{color :'grey', fontSize: '25px'}}>
+        <div className="total_words" style={{ color: 'grey', fontSize: '25px' }}>
           Word {index} of {total}
         </div>
       )}
