@@ -283,11 +283,6 @@ const QuizPage = () => {
             <input
               ref={inputRef}
               type="text"
-              placeholder={
-                quizDirection === "ru-to-en"
-                  ? "Type the English word..."
-                  : "Напиши по-русски..."
-              }
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               onKeyDown={(e) =>

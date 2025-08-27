@@ -177,7 +177,7 @@ const MatchingPage = () => {
         createdAt: serverTimestamp(),
       });
 
-      navigate("/stats");
+      navigate("/");
     } catch (err) {
       setError("Error during the save: " + err.message);
     }
@@ -300,7 +300,7 @@ const MatchingPage = () => {
                     Правильных ответов: {correctCount} из {DEFAULT_WORD_LIMIT}
                   </h3>
                   <button onClick={saveResult}>
-                    Сохранить и перейти на статистику
+                    Сохранить ии на главную
                   </button>
                   <button onClick={resetGame}>Не сохранять и на главную</button>
                   <button onClick={handleLoadMore}>Загрузить ещё слова</button>
