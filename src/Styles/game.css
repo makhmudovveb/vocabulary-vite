@@ -5,10 +5,9 @@
   padding: 30px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   margin-top: 100px;
-
 }
 .game-container h1 {
   color: var(--navbar-color);
@@ -50,12 +49,11 @@
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Игровое поле */
 .board {
   position: relative;
-  width: 95vw;
-  max-width: 500px;
+  width: 100%;
+  max-width: 530px;
   height: 550px;
   margin: 20px auto;
   border-radius: 20px;
@@ -63,6 +61,7 @@
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border: 2px solid #cce4f6;
+  box-sizing: border-box;
 }
 
 /* Стек платформ */
@@ -128,11 +127,12 @@
   border-radius: 16px;
   font-size: 18px;
   margin-bottom: 12px;
-  width: 95vw;
-  max-width: 480px;
+  width: 100%;
+  max-width: 530px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   color: #1e3a5f;
   border: 1px solid #b3d4fc;
+  box-sizing: border-box;
 }
 
 /* Сердечки для жизней */

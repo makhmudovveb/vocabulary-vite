@@ -7,9 +7,9 @@ export default function QuestionSpeak({ topic, goBack }) {
   if (!topic) return <p>Выберите тему</p>;
 
   const sections = [
-    { key: "questions", label: "Questions", data: topic.questions || [] },
-    { key: "ideas", label: "Ideas", data: topic.ideas || [] },
-    { key: "vocab", label: "Vocabulary", data: topic.vocab || [] },
+    { key: "questions", label: "Questions", icon: "❓", data: topic.questions || [] },
+    { key: "ideas", label: "Ideas", icon: "💡", data: topic.ideas || [] },
+    { key: "vocab", label: "Vocabulary", icon: "📝", data: topic.vocab || [] },
   ];
 
   return (
@@ -24,6 +24,10 @@ export default function QuestionSpeak({ topic, goBack }) {
             className={`sectionCard ${activeSection === sec.key ? "activeSection" : "inactiveSection"}`}
             onClick={() => setActiveSection(sec.key)}
           >
+            <div className="sectionHeader">
+              <span className="sectionIcon">{sec.icon}</span>
+              <span className="sectionLabel">{sec.label}</span>
+            </div>
             {activeSection === sec.key ? (
               <div className="scrollContainer">
                 <ul className="sectionList">
@@ -31,7 +35,7 @@ export default function QuestionSpeak({ topic, goBack }) {
                 </ul>
               </div>
             ) : (
-              <div className="sectionOverlay">{sec.label} — Нажми, чтобы открыть</div>
+              <div className="sectionOverlay">Нажми, чтобы открыть</div>
             )}
           </div>
         ))}
@@ -39,3 +43,4 @@ export default function QuestionSpeak({ topic, goBack }) {
     </div>
   );
 }
+  

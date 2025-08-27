@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
      <div className="test-mode-banner">Web site working in TEST MODE</div>
-    <footer className="footer">
+    <footer className="footer_footer">
       <div className="footer-container">
 
         <div className="footer-column">

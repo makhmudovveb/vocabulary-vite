@@ -1,8 +1,10 @@
-.footer {
+.footer_footer {
   background-color: #16386e;
   color: #f0f0f0;
   font-family: "Segoe UI", sans-serif;
   padding: 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-container {
