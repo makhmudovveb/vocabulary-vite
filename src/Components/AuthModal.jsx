@@ -1,4 +1,4 @@
-import React, { useState, useEffect  } from "react";
+import React, { useState, useEffect } from "react";
 import { auth, db } from "../Firebase/firebaseConfig";
 import {
   createUserWithEmailAndPassword,
@@ -8,11 +8,19 @@ import { doc, setDoc, getDoc } from "firebase/firestore";
 import "./AuthModal.css";
 
 const TEACHER_ACCOUNTS = {
-  "bexzod.mahmudov@gmail.com": { fullName: "Bexzod Mahmudov", role: "teacher", password : "beka123"},
-  "miss.ziyoda@gmail.com": { fullName: "Miss Ziyoda", role: "teacher", password : "miss_ziyoda"},
-  "miss.ozoda@gmail.com": { fullName: "Miss Ozoda", role: "teacher", password : "miss_ozoda"}, 
-  "olga.rudolfovna@gmail.com": { fullName: "Olga Rudolfovna", role: "teacher", password : "olga_rudolfovna"},
-  "mki.school@gmail.com": { 
+  "aziza.ravshanovna@gmail.com": { fullName: "Aziza Ravshanovna", role: "teacher", password: "aziza_ravshanovna" },
+  "bexzod.baxramovich@gmail.com": { fullName: "Bexzod Baxramovich", role: "teacher", password: "bexzod_baxramovich" },
+  "mubina.marufovna@gmail.com": { fullName: "Mubina Marufovna", role: "teacher", password: "mubina_marufovna" },
+  "nilufar.farruxovna@gmail.com": { fullName: "Nilufar Farruxovna", role: "teacher", password: "nilufar_farruxovna" },
+  "olga.rudolfovna@gmail.com": { fullName: "Olga Rudolfovna", role: "teacher", password: "olga_rudolfovna" },
+  "ozoda.baxramovna@gmail.com": { fullName: "Ozoda Baxramovna", role: "teacher", password: "ozoda_baxramovna" },
+  "sevara.ismatillayevna@gmail.com": { fullName: "Sevara Ismatillayevna", role: "teacher", password: "sevara_ismatillayevna" },
+  "sevara.muhitdinovna@gmail.com": { fullName: "Sevara Muhitdinovna", role: "teacher", password: "sevara_muhitdinovna" },
+  "ziyoda.baxramovna@gmail.com": { fullName: "Ziyoda Baxramovna", role: "teacher", password: "ziyoda_baxramovna" },
+
+
+
+  "mki.school@gmail.com": {
     fullName: "Mki School",
     role: "admin",
     password: "mki_school"
@@ -106,16 +114,22 @@ export default function AuthModal({ onAuthSuccess }) {
         />
 
         <select
-        
+
           value={teacherSelect}
           onChange={(e) => setTeacherSelect(e.target.value)}
         >
           <option value="" disabled hidden>-- Select your teacher --</option>
-          <option value="Bexzod Mahmudov">Bexzod Mahmudov</option>
-          <option value="Miss Ozoda">Miss Ozoda</option>
-          <option value="Miss Ziyoda">Miss Ziyoda</option>
-          <option value="Olga Rudolfovna">Ольга Рудольфовна</option>
-          
+          <option value="Aziza Ravshanovna">Aziza Ravshanovna</option>
+          <option value="Bexzod Baxramovich">Bexzod Baxramovich</option>
+          <option value="Mubina Marufovna">Mubina Ma'rufovna</option>
+          <option value="Nilufar Farruxovna">Nilufar Farruxovna</option>
+          <option value="Olga Rudolfovna">Olga Rudolfovna</option>
+          <option value="Ozoda Baxramovna">Ozoda Baxramovna</option>
+          <option value="Sevara Ismatillayevna">Sevara Ismatillayevna</option>
+          <option value="Bexzod Mahmudov">Sevara Muhitdinovna</option>
+          <option value="Bexzod Mahmudov">Ziyoda Baxramovna</option>
+
+
         </select>
 
         <input
