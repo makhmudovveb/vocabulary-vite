@@ -97,7 +97,7 @@ body,
   font-family: inherit;
   resize: none;
   color: transparent;
-  caret-color: transparent;
+  caret-color: black;
   padding: 0 5px;
 }
 

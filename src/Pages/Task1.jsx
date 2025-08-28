@@ -173,6 +173,7 @@ const Task1 = () => {
             })}
           </div>
           <textarea
+            id="typing-area"
             ref={textareaRef}
             value={userInput}
             onChange={handleChange}

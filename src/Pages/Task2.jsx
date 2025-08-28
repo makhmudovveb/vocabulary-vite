@@ -38,9 +38,9 @@ Proponents of government responsibility contend that large-scale environmental i
 Conversely, advocates for individual responsibility emphasize that collective action begins with personal choices. By adopting sustainable habits, such as reducing waste, conserving energy, and supporting eco-friendly products, individuals can contribute to environmental preservation.
 
 In my view, both parties have vital roles to play. Governments must create and enforce policies that facilitate environmental protection, while individuals should make conscious decisions that align with sustainability. Only through a collaborative effort can meaningful progress be made in safeguarding our planet.`,
-      explanation: "Addresses both views, well-organized, strong vocabulary related to environment, minor grammar or phrasing issues prevent band 8.",
-      band: 7.5,
-      words: ["environmental protection", "sustainability", "legislation", "policy enforcement", "eco-friendly products", "conserve energy", "reduce waste", "collective action"],
+    explanation: "Addresses both views, well-organized, strong vocabulary related to environment, minor grammar or phrasing issues prevent band 8.",
+    band: 7.5,
+    words: ["environmental protection", "sustainability", "legislation", "policy enforcement", "eco-friendly products", "conserve energy", "reduce waste", "collective action"],
   }
 ];
 
@@ -164,6 +164,7 @@ const Task2 = () => {
             })}
           </div>
           <textarea
+            id="typing-area"
             ref={textareaRef}
             value={userInput}
             onChange={handleChange}
@@ -202,7 +203,7 @@ const Task2 = () => {
                 <p>{selectedEssay.text}</p>
               </div>
             </div>
-        <BackButton />
+            <BackButton />
           </div>
         </div>
       )}
