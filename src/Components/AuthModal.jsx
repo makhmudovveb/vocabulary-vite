@@ -10,6 +10,7 @@ import "./AuthModal.css";
 const TEACHER_ACCOUNTS = {
   "aziza.ravshanovna@gmail.com": { fullName: "Aziza Ravshanovna", role: "teacher", password: "aziza_ravshanovna" },
   "bexzod.baxramovich@gmail.com": { fullName: "Bexzod Baxramovich", role: "teacher", password: "bexzod_baxramovich" },
+  "feruza.alisherovna@gmail.com": { fullName: "Feruza Alisherovna", role: "teacher", password: "feruza_alisherovna" },
   "mubina.marufovna@gmail.com": { fullName: "Mubina Marufovna", role: "teacher", password: "mubina_marufovna" },
   "nilufar.farruxovna@gmail.com": { fullName: "Nilufar Farruxovna", role: "teacher", password: "nilufar_farruxovna" },
   "olga.rudolfovna@gmail.com": { fullName: "Olga Rudolfovna", role: "teacher", password: "olga_rudolfovna" },
@@ -121,6 +122,7 @@ export default function AuthModal({ onAuthSuccess }) {
           <option value="" disabled hidden>-- Select your teacher --</option>
           <option value="Aziza Ravshanovna">Aziza Ravshanovna</option>
           <option value="Bexzod Baxramovich">Bexzod Baxramovich</option>
+          <option value="Feruza Alisherovna">Feruza Alisherovna</option>
           <option value="Mubina Marufovna">Mubina Ma'rufovna</option>
           <option value="Nilufar Farruxovna">Nilufar Farruxovna</option>
           <option value="Olga Rudolfovna">Olga Rudolfovna</option>
