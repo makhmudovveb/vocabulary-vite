@@ -130,8 +130,8 @@ export default function AuthModal({ onAuthSuccess }) {
           <option value="Olga Rudolfovna">Olga Rudolfovna</option>
           <option value="Ozoda Baxramovna">Ozoda Baxramovna</option>
           <option value="Sevara Ismatillayevna">Sevara Ismatillayevna</option>
-          <option value="Bexzod Mahmudov">Sevara Muhitdinovna</option>
-          <option value="Bexzod Mahmudov">Ziyoda Baxramovna</option>
+          <option value="Sevara Muhitdinovna">Sevara Muhitdinovna</option>
+          <option value="Ziyoda Baxramovna">Ziyoda Baxramovna</option>
 
 
         </select>
