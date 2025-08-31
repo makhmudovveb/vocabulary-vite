@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { auth, db } from "../Firebase/firebaseConfig";
-import {
-  createUserWithEmailAndPassword,
-  signInWithEmailAndPassword
-} from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import "./AuthModal.css";
 
@@ -29,7 +26,7 @@ const TEACHER_ACCOUNTS = {
   }
 };
 
-export default function AuthModal({ onAuthSuccess }) {
+export default function AuthModal({ onClose, onAuthSuccess }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [teacherSelect, setTeacherSelect] = useState("");
@@ -37,26 +34,21 @@ export default function AuthModal({ onAuthSuccess }) {
   const [showPassword, setShowPassword] = useState(false);
   const [message, setMessage] = useState("");
 
-
   useEffect(() => {
     document.body.classList.add("modal-open");
-    return () => {
-      document.body.classList.remove("modal-open");
-    };
+    return () => document.body.classList.remove("modal-open");
   }, []);
-
-
 
   const handleRegister = async () => {
     if (!firstName || !lastName || !password || !teacherSelect) {
       setMessage("Please fill in all fields.");
       return;
     }
+
     const email = `${firstName.toLowerCase()}.${lastName.toLowerCase()}@gmail.com`;
 
     try {
       const { user } = await createUserWithEmailAndPassword(auth, email, password);
-
       await setDoc(doc(db, "users", user.uid), {
         fullName: `${firstName} ${lastName}`,
         role: "student",
@@ -64,8 +56,9 @@ export default function AuthModal({ onAuthSuccess }) {
         createdAt: new Date()
       });
 
+      localStorage.setItem("user", JSON.stringify({ email, firstName, lastName }));
       onAuthSuccess();
-    } catch (err) {
+    } catch {
       setMessage("Already registered");
     }
   };
@@ -78,20 +71,14 @@ export default function AuthModal({ onAuthSuccess }) {
       const docRef = doc(db, "users", user.uid);
       const snap = await getDoc(docRef);
 
-      if (!snap.exists()) {
+      if (!snap.exists() && TEACHER_ACCOUNTS[email]) {
         const account = TEACHER_ACCOUNTS[email];
-        if (account) {
-          await setDoc(docRef, {
-            fullName: account.fullName,
-            role: account.role
-          });
-        } else {
-          throw new Error("Account not found.");
-        }
+        await setDoc(docRef, { fullName: account.fullName, role: account.role });
       }
 
+      localStorage.setItem("user", JSON.stringify({ email, firstName, lastName }));
       onAuthSuccess();
-    } catch (err) {
+    } catch {
       setMessage("Please recheck your details");
     }
   };
@@ -130,8 +117,8 @@ export default function AuthModal({ onAuthSuccess }) {
           <option value="Olga Rudolfovna">Olga Rudolfovna</option>
           <option value="Ozoda Baxramovna">Ozoda Baxramovna</option>
           <option value="Sevara Ismatillayevna">Sevara Ismatillayevna</option>
-          <option value="Sevara Muhitdinovna">Sevara Muhitdinovna</option>
-          <option value="Ziyoda Baxramovna">Ziyoda Baxramovna</option>
+          <option value="Bexzod Mahmudov">Sevara Muhitdinovna</option>
+          <option value="Bexzod Mahmudov">Ziyoda Baxramovna</option>
 
 
         </select>
@@ -149,7 +136,16 @@ export default function AuthModal({ onAuthSuccess }) {
           />
           Show password
         </label>
-
+        <button
+          className="close-btn-auth"
+          onClick={() => {
+            localStorage.setItem("user", JSON.stringify({ email: "guest@example.com", firstName: "Guest", lastName: "User" }));
+            onAuthSuccess();
+            if (onClose) onClose();
+          }}
+        >
+          Guest mode
+        </button>
         <button onClick={handleRegister}>Register</button>
         <button onClick={handleLogin}>Log In</button>
         <p style={{ color: "red", fontSize: "0.9em" }}>{message}</p>

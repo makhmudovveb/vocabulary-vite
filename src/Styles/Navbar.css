@@ -52,11 +52,17 @@
   cursor: pointer;
   font-size: 0.95rem;
   transition: background-color 0.2s ease;
+  height: 32px;
 }
 
 .nav_logout {
   background-color: #f22222;
   color: white;
+}
+.nav_signup {
+  background-color: var(--accent-color);
+  color: white;
+  height: 32px;
 }
 
 /* Гамбургер - по умолчанию скрыт */

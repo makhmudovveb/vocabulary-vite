@@ -5,10 +5,12 @@ import { auth } from "../Firebase/firebaseConfig";
 import "../Styles/Navbar.css";
 import ThemeToggle from "./ThemeToggle";
 
-export default function Navbar() {
+
+export default function Navbar({ setShowModal, user, setUser }) {
   const navigate = useNavigate();
   const [userName, setUserName] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
+
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -29,17 +31,25 @@ export default function Navbar() {
     return () => unsubscribe();
   }, []);
 
+
+
+
   const handleLogout = async () => {
     try {
       await signOut(auth);
+      localStorage.setItem(
+        "user",
+        JSON.stringify({ email: "guest@example.com" })
+      );
+      setUser({ email: "guest@example.com" });
       navigate("/");
     } catch (error) {
       console.error("Logout error:", error);
     }
   };
-
   const toggleSidebar = () => setSidebarOpen((prev) => !prev);
   const closeSidebar = () => setSidebarOpen(false);
+
 
   return (
     <>
@@ -50,21 +60,27 @@ export default function Navbar() {
             alt="Logo"
             className="nav-logo-img"
           />{" "}
-         MKI school
+          MKI school
         </div>
 
         {/* Десктоп меню */}
         <div className="nav-actions">
           <span className="user-name">
-            Hello: <strong className="user-name-bold">{userName}</strong>
+            Hello: <strong>{user?.firstName || "Guest"}</strong>
           </span>
-          <ThemeToggle/>
+          <ThemeToggle />
           <button className="nav-button" onClick={() => navigate("/stats")}>
             📊 Stats
           </button>
-          <button className="nav-button nav_logout" onClick={handleLogout}>
+          {/* <button className="nav-button nav_logout" onClick={handleLogout}>
             🔓 Log Out
-          </button>
+          </button> */}
+          {user?.email === "guest@example.com" ? (
+            <button className="nav-button nav_signup" onClick={() => setShowModal(true)}>Sign up</button>
+          ) : (
+            <button className="nav-button nav_logout" onClick={handleLogout}>Log out</button>
+          )}
+
         </div>
 
         {/* Гамбургер для мобил */}
@@ -83,7 +99,7 @@ export default function Navbar() {
       <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
         {window.innerWidth <= 400 && (
           <div className="sidebar-close-btn" onClick={closeSidebar}>
-          ⟵
+            ⟵
           </div>
         )}
         <span className="user-name" style={{ marginBottom: "1rem" }}>
@@ -98,7 +114,7 @@ export default function Navbar() {
         >
           📊 Stats
         </button>
-        <button
+        {/* <button
           className="nav-button logout"
           onClick={() => {
             handleLogout();
@@ -106,10 +122,27 @@ export default function Navbar() {
           }}
         >
           🔓 Log Out
+        </button> */}
+
+
+        <button
+          className={user?.email === "guest@example.com" ? "nav-button nav_signup" : "nav-button nav_logout"}
+          onClick={() => {
+            if (user?.email === "guest@example.com") {
+              setShowModal(true);
+            } else {
+              handleLogout();
+            }
+            closeSidebar();
+          }}
+        >
+          {user?.email === "guest@example.com" ? "Sign up" : "Log out"}
         </button>
-        
-        <ThemeToggle/>
-        
+
+
+
+        <ThemeToggle />
+
       </div>
 
       {/* Фон-затемнение */}

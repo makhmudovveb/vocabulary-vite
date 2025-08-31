@@ -18,6 +18,7 @@
 }
 
 .auth-content {
+  position: relative;
   background-color: #ffffff;
   padding: 2.5rem 2rem;
   border-radius: 16px;
@@ -162,7 +163,20 @@
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
+.close-btn-auth {
+  background: none;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.2s;
+  width: 10%;
+}
 
+.close-btn:hover {
+  color: red;
+}
 /* Адаптив */
 @media (max-width: 480px) {
   .auth-content {

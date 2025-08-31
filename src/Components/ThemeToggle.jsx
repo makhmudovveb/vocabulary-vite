@@ -33,6 +33,7 @@ const ThemeToggle = () => {
         cursor: "pointer",
         fontSize: "0.95rem",
         transition: "background-color 0.2s ease",
+        height:"32px"
       }}
       onClick={() => setIsDark((prev) => !prev)}
     >

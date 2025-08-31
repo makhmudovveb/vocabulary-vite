@@ -144,11 +144,11 @@ const QuizPage = () => {
   const handleSaveResult = async () => {
     setIsDisabled(true);
     if (!currentUser) {
-      alert("Пожалуйста, войдите в аккаунт.");
+      alert("User is not registered!");
       return;
     }
     if (!userData) {
-      alert("Данные пользователя ещё загружаются. Пожалуйста, подождите.");
+      alert("The user's data is still being uploaded. Please wait.");
       return;
     }
 
