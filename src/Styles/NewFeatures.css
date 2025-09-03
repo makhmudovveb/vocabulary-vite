@@ -47,7 +47,7 @@
 }
 
 /* Синий бейдж "NEW" */
-.status-new-feature::after {
+/* .status-new-feature::after {
   content: "NEW";
   position: absolute;
   top: -5px;
@@ -60,7 +60,7 @@
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(0, 89, 255, 0.5);
   z-index: inherit;
-}
+} */
 
 @keyframes pulseNew {
   0%,

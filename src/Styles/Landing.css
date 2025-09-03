@@ -77,7 +77,8 @@ body::before {
 /* Эффекты при наведении */
 .game-card.active:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);  
+   background: orange;
 }
 
 /* Неактивные карточки */
