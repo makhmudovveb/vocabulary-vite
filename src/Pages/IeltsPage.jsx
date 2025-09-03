@@ -14,7 +14,7 @@ export default function IELTSPage() {
       <h1 className="landing-title">IELTS Preparation</h1>
 
       <div className="game-card-container">
-        <Link to="/ielts/practise" className="game-card ">
+        <Link to="/ielts/practise" className="game-card ielts_card ">
           <FileText size={48} />
           <h2>IELTS MOCK</h2>
           <p>Coming soon</p>

@@ -49,6 +49,11 @@ body::before {
   max-width: 1100px;
   padding: 0 20px;
 }
+.ielts_card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  background: orange;
+}
 
 /* Карточки */
 .game-card {
