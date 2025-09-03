@@ -24,6 +24,8 @@ const StatsPage = () => {
   const [deleting, setDeleting] = useState(false);
   const [selectedTeacher, setSelectedTeacher] = useState(null);
 
+
+  const isGuest = (userData && userData.role === "guest") || !!localStorage.getItem("guestUser");
   // --- утилиты для дат ---
   const toMs = (val) => {
     if (!val) return 0;
@@ -181,6 +183,39 @@ const StatsPage = () => {
   // --- UI ---
   if (loading) return <p>Loading...</p>;
 
+
+
+  if (isGuest) {
+    return (
+      <div className="stats-container">
+        <h1 className="stats-title">📊 Statistics</h1>
+
+        <div className="guest-message" style={{
+          margin: "0 auto",
+          padding: "1rem",
+          border: "1px solid #e0e0e0",
+          borderRadius: 8,
+          maxWidth: 720,
+          background: "#fafafa"
+        }}>
+          <p style={{ margin: 0 }}>
+            You are currently in <strong>Guest Mode</strong>.
+          </p>
+          <p style={{ marginTop: ".5rem" }}>
+            To <strong>save</strong> and <strong>view</strong> your statistics please <strong>register</strong> or <strong>sign in</strong>.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+
+
+
+
+
+
+
   return (
     <div className="stats-container">
       <h1 className="stats-title">📊 Statistics</h1>
@@ -321,7 +356,7 @@ const StatsPage = () => {
             </div>
           ))}
         </div>
-      ) : ( 
+      ) : (
         <div className="teacher-grid asd">
           {groupedByTeacher.map((group) => (
             <div

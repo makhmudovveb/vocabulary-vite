@@ -14,10 +14,23 @@ export default function LandingPage() {
   // 🔁 Следим за авторизацией
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
-      setShowAuthModal(!user);
+      if (user) {
+        // залогинен в Firebase → модалку скрываем
+        setShowAuthModal(false);
+      } else {
+        // нет Firebase-пользователя → проверяем localStorage
+        const guestData = localStorage.getItem("guestUser");
+        if (guestData) {
+          setShowAuthModal(false); // в guest mode тоже не показываем
+        } else {
+          setShowAuthModal(true); // гость не выбран и не залогинен → открываем
+        }
+      }
     });
+
     return () => unsubscribe();
   }, []);
+
 
   return (
     <div className="landing-page">
@@ -100,3 +113,4 @@ export default function LandingPage() {
     </div>
   );
 }
+  

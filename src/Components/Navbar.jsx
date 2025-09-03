@@ -11,6 +11,7 @@ export default function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
+    // проверяем Firebase auth
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         const nameFromDisplay = user.displayName;
@@ -23,6 +24,15 @@ export default function Navbar() {
             .replace(/\b\w/g, (c) => c.toUpperCase());
           setUserName(nameCapitalized);
         }
+      } else {
+        // если нет firebase-пользователя, проверяем localStorage
+        const guestData = localStorage.getItem("guestUser");
+        if (guestData) {
+          const parsed = JSON.parse(guestData);
+          setUserName(parsed.fullName || "Guest Mode");
+        } else {
+          setUserName(""); // вообще никого
+        }
       }
     });
 
@@ -31,11 +41,16 @@ export default function Navbar() {
 
   const handleLogout = async () => {
     try {
+      // чистим firebase
       await signOut(auth);
-      navigate("/");
     } catch (error) {
       console.error("Logout error:", error);
     }
+    // чистим guest mode
+    localStorage.removeItem("guestUser");
+    setUserName("");
+    navigate("/");
+    window.location.reload(); // чтобы Navbar сразу подхватил
   };
 
   const toggleSidebar = () => setSidebarOpen((prev) => !prev);
@@ -46,11 +61,11 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="logo" onClick={() => navigate("/")}>
           <img
-            src="/images/logoblack-removebg-preview.png" // путь к твоему логотипу
+            src="/images/logoblack-removebg-preview.png"
             alt="Logo"
             className="nav-logo-img"
           />{" "}
-         MKI school
+          MKI school
         </div>
 
         {/* Десктоп меню */}
@@ -58,7 +73,7 @@ export default function Navbar() {
           <span className="user-name">
             Hello: <strong className="user-name-bold">{userName}</strong>
           </span>
-          <ThemeToggle/>
+          <ThemeToggle />
           <button className="nav-button" onClick={() => navigate("/stats")}>
             📊 Stats
           </button>
@@ -83,7 +98,7 @@ export default function Navbar() {
       <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
         {window.innerWidth <= 400 && (
           <div className="sidebar-close-btn" onClick={closeSidebar}>
-          ⟵
+            ⟵
           </div>
         )}
         <span className="user-name" style={{ marginBottom: "1rem" }}>
@@ -107,9 +122,7 @@ export default function Navbar() {
         >
           🔓 Log Out
         </button>
-        
-        <ThemeToggle/>
-        
+        <ThemeToggle />
       </div>
 
       {/* Фон-затемнение */}

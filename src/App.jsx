@@ -29,11 +29,8 @@ function App() {
     JSON.parse(localStorage.getItem("user")) || { email: "guest@example.com" }
   );
 
-  const handleAuthSuccess = () => {
-    const storedUser = JSON.parse(localStorage.getItem("user")) || { email: "guest@example.com" };
-    setUser(storedUser);
-    setShowModal(false);
-  };
+  
+
 
   return (
     <>

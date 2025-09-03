@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { auth, db } from "../Firebase/firebaseConfig";
 import {
   createUserWithEmailAndPassword,
-  signInWithEmailAndPassword
+  signInWithEmailAndPassword,
 } from "firebase/auth";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import "./AuthModal.css";
@@ -19,24 +19,16 @@ const TEACHER_ACCOUNTS = {
   "sevara.ismatillayevna@gmail.com": { fullName: "Sevara Ismatillayevna", role: "teacher", password: "sevara_ismatillayevna" },
   "sevara.muhitdinovna@gmail.com": { fullName: "Sevara Muhitdinovna", role: "teacher", password: "sevara_muhitdinovna" },
   "ziyoda.baxramovna@gmail.com": { fullName: "Ziyoda Baxramovna", role: "teacher", password: "ziyoda_baxramovna" },
-
-
-
-  "mki.school@gmail.com": {
-    fullName: "Mki School",
-    role: "admin",
-    password: "mki_school"
-  }
+  "mki.school@gmail.com": { fullName: "Mki School", role: "admin", password: "mki_school" }
 };
 
-export default function AuthModal({ onAuthSuccess }) {
+export default function AuthModal({ onAuthSuccess, initialMessage = "" }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [teacherSelect, setTeacherSelect] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-  const [message, setMessage] = useState("");
-
+  const [message, setMessage] = useState(initialMessage);
 
   useEffect(() => {
     document.body.classList.add("modal-open");
@@ -44,8 +36,6 @@ export default function AuthModal({ onAuthSuccess }) {
       document.body.classList.remove("modal-open");
     };
   }, []);
-
-
 
   const handleRegister = async () => {
     if (!firstName || !lastName || !password || !teacherSelect) {
@@ -61,7 +51,7 @@ export default function AuthModal({ onAuthSuccess }) {
         fullName: `${firstName} ${lastName}`,
         role: "student",
         teacher: teacherSelect,
-        createdAt: new Date()
+        createdAt: new Date(),
       });
 
       onAuthSuccess();
@@ -83,7 +73,7 @@ export default function AuthModal({ onAuthSuccess }) {
         if (account) {
           await setDoc(docRef, {
             fullName: account.fullName,
-            role: account.role
+            role: account.role,
           });
         } else {
           throw new Error("Account not found.");
@@ -95,6 +85,17 @@ export default function AuthModal({ onAuthSuccess }) {
       setMessage("Please recheck your details");
     }
   };
+
+  // 🟢 Guest Mode
+  const handleGuestMode = () => {
+    localStorage.setItem(
+      "guestUser",
+      JSON.stringify({ fullName: "Guest User" })
+    );
+    onAuthSuccess(); // закрываем модалку
+    window.location.reload(); // чтобы Navbar сразу подхватил
+  };
+  
 
   return (
     <div className="modal">
@@ -116,11 +117,12 @@ export default function AuthModal({ onAuthSuccess }) {
         />
 
         <select
-
           value={teacherSelect}
           onChange={(e) => setTeacherSelect(e.target.value)}
         >
-          <option value="" disabled hidden>-- Select your teacher --</option>
+          <option value="" disabled hidden>
+            -- Select your teacher --
+          </option>
           <option value="Aziza Ravshanovna">Aziza Ravshanovna</option>
           <option value="Bexzod Baxramovich">Bexzod Baxramovich</option>
           <option value="Feruza Alisherovna">Feruza Alisherovna</option>
@@ -132,8 +134,6 @@ export default function AuthModal({ onAuthSuccess }) {
           <option value="Sevara Ismatillayevna">Sevara Ismatillayevna</option>
           <option value="Sevara Muhitdinovna">Sevara Muhitdinovna</option>
           <option value="Ziyoda Baxramovna">Ziyoda Baxramovna</option>
-
-
         </select>
 
         <input
@@ -152,9 +152,14 @@ export default function AuthModal({ onAuthSuccess }) {
 
         <button onClick={handleRegister}>Register</button>
         <button onClick={handleLogin}>Log In</button>
+
+        {/* 🟢 Кнопка Guest Mode */}
+        <button className="guest-btn" onClick={handleGuestMode}>
+          Continue as Guest
+        </button>
+
         <p style={{ color: "red", fontSize: "0.9em" }}>{message}</p>
       </div>
     </div>
   );
 }
-
